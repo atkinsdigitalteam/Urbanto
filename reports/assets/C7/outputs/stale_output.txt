@@ -1,0 +1,2 @@
+after writing B2=5000 with the SDK: D2 formula=B2*C2 cached=2505  (true value 12500)
+after clearing <v> and setting fullCalcOnLoad: D2 formula=B2*C2 cached= fullCalcOnLoad=True

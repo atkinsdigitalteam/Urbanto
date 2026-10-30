@@ -1,0 +1,61 @@
+| t (s) | From | Event | To | Next action after |
+|---|---|---|---|---|
+|   0.00 | Disconnected | Link | Discovering | - |
+|   0.00 | Discovering | NotRunning | Discovering | 1000 ms |
+|   1.00 | Discovering | NotRunning | Discovering | 2000 ms |
+|   3.00 | Discovering | NotRunning | Discovering | 4000 ms |
+|   7.00 | Discovering | NotRunning | FileFallback | 5000 ms |
+|  12.00 | FileFallback | FileChanged | FileFallback | 500 ms |
+|  12.50 | FileFallback | FileUnreadable | FileFallback | 250 ms |
+|  12.75 | FileFallback | FileUnreadable | FileFallback | 500 ms |
+|  13.25 | FileFallback | ExcelAppeared | Discovering | - |
+|  13.25 | Discovering | Bound | Linked | - |
+|  13.25 | Linked | Busy | Busy | 268 ms |
+|  13.52 | Busy | Busy | Busy | 408 ms |
+|  13.93 | Busy | Busy | Busy | 1182 ms |
+|  15.11 | Busy | Busy | Busy | 2275 ms |
+|  17.38 | Busy | BusyTooLong | SuspendedByUser | 2000 ms |
+|  19.38 | SuspendedByUser | Busy | SuspendedByUser | 2000 ms |
+|  21.38 | SuspendedByUser | Busy | SuspendedByUser | 2000 ms |
+|  23.38 | SuspendedByUser | Busy | SuspendedByUser | 2000 ms |
+|  25.38 | SuspendedByUser | Busy | SuspendedByUser | 2000 ms |
+|  27.38 | SuspendedByUser | Busy | SuspendedByUser | 2000 ms |
+|  29.38 | SuspendedByUser | Busy | SuspendedByUser | 2000 ms |
+|  31.38 | SuspendedByUser | Busy | SuspendedByUser | 2000 ms |
+|  33.38 | SuspendedByUser | Busy | SuspendedByUser | 2000 ms |
+|  35.38 | SuspendedByUser | Busy | SuspendedByUser | 2000 ms |
+|  37.38 | SuspendedByUser | Busy | SuspendedByUser | 2000 ms |
+|  39.38 | SuspendedByUser | Busy | SuspendedByUser | 2000 ms |
+|  41.38 | SuspendedByUser | Busy | SuspendedByUser | 2000 ms |
+|  43.38 | SuspendedByUser | Busy | SuspendedByUser | 2000 ms |
+busy notice due: True after 34.4 s
+|  45.38 | SuspendedByUser | CallOk | Linked | - |
+|  45.38 | Linked | BeforeSave | Saving | - |
+|  45.38 | Saving | PathChanged | Linked | - |
+|  45.38 | Linked | ServerGone | Lost | 0 ms |
+|  45.38 | Lost | NotRunning | Lost | 1000 ms |
+|  46.38 | Lost | Bound | Linked | - |
+|  46.38 | Linked | WriteBlocked | ReadOnlyLinked | - |
+|  46.38 | ReadOnlyLinked | CallOk | Linked | - |
+|  46.38 | Linked | ConflictFound | Conflict | - |
+|  46.38 | Conflict | ConflictResolved | Linked | - |
+|  46.38 | Linked | ServerGone | Lost | 0 ms |
+|  46.38 | Lost | NotRunning | Lost | 1000 ms |
+|  47.38 | Lost | NotRunning | Lost | 2000 ms |
+|  49.38 | Lost | NotRunning | Lost | 4000 ms |
+|  53.38 | Lost | NotRunning | FileFallback | 5000 ms |
+|  58.38 | FileFallback | ConflictFound | Conflict | - |
+|  58.38 | Conflict | ConflictResolved | FileFallback | - |
+|  58.38 | FileFallback | Unlink | Disconnected | - |
+
+| Base | Studio | Excel | Owner | Decision |
+|---|---|---|---|---|
+| 2.5 | 2.5 | 3 | none | TakeExcel |
+| 2.5 | 3.2 | 2.5 | none | PushStudio |
+| 2.5 | 3.2 | 3.2 | none | NoChange |
+| 2.5 | 3.2 | 3 | none | Conflict |
+| 2.5 | 3.2 | 3 | studio | PushStudio |
+| 2.5 | 3.2 | 3 | excel | TakeExcel |
+
+transition table rows: 35
+states reachable: 10 of 10

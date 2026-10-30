@@ -1,0 +1,10 @@
+-- file truncated to 50 % of 1813 bytes
+  FAIL  OpenXml: FileFormatException HResult=0x80131537: File contains corrupted data.
+  FAIL  ClosedXML: FileFormatException HResult=0x80131537: File contains corrupted data.
+  FAIL  ExcelDataReader: InvalidDataException HResult=0x80131501: End of Central Directory record could not be found.
+  FAIL  MiniExcel: InvalidDataException HResult=0x80131501: End of Central Directory record could not be found.
+-- file truncated to 95 % of 1813 bytes
+  FAIL  OpenXml: FileFormatException HResult=0x80131537: File contains corrupted data.
+  FAIL  ClosedXML: FileFormatException HResult=0x80131537: File contains corrupted data.
+  FAIL  ExcelDataReader: InvalidDataException HResult=0x80131501: End of Central Directory record could not be found.
+  FAIL  MiniExcel: InvalidDataException HResult=0x80131501: End of Central Directory record could not be found.
