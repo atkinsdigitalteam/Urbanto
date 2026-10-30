@@ -1,0 +1,10 @@
+<!-- Build check for CanvasAutomation.cs. On Linux/macOS: dotnet build (needs EnableWindowsTargeting). -->
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <Nullable>enable</Nullable>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+</Project>
