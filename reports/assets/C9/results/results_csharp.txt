@@ -1,0 +1,42 @@
+ 22:41:06 up 24 min,  0 user,  load average: 8.21, 7.06, 4.12
+nodes=111025 arcs=240182 plots=100000 amenities=1000 threads=1
+a1 single-source, whole network            0.126 s  peakWS=42 MB max=10844 m
+a2 all plots -> nearest amenity            0.095 s  peakWS=48 MB median=200 m
+b  reach: plots within 800 m, all plots     9.978 s  peakWS=65 MB median=1156
+d  gravity score, all plots                1.048 s  peakWS=71 MB median=10.643
+c  betweenness global, k=100 sources       1.829 s  peakWS=77 MB per-source=0.0183 s
+c' betweenness local r=800 m, all nodes    15.084 s  peakWS=77 MB 
+ 22:41:34 up 24 min,  0 user,  load average: 7.38, 6.97, 4.19
+nodes=111025 arcs=240182 plots=100000 amenities=1000 threads=4
+a1 single-source, whole network            0.117 s  peakWS=42 MB max=10844 m
+a2 all plots -> nearest amenity            0.135 s  peakWS=48 MB median=200 m
+b  reach: plots within 800 m, all plots     5.712 s  peakWS=63 MB median=1156
+d  gravity score, all plots                0.850 s  peakWS=70 MB median=10.643
+c  betweenness global, k=100 sources       1.370 s  peakWS=107 MB per-source=0.0137 s
+c' betweenness local r=800 m, all nodes     8.610 s  peakWS=116 MB 
+ 22:41:51 up 25 min,  0 user,  load average: 7.67, 7.06, 4.26
+nodes=221902 arcs=480098 plots=200000 amenities=2000 threads=4
+a1 single-source, whole network            0.166 s  peakWS=48 MB max=17570 m
+a2 all plots -> nearest amenity            0.201 s  peakWS=55 MB median=200 m
+b  reach: plots within 800 m, all plots    13.289 s  peakWS=81 MB median=1171
+d  gravity score, all plots                1.921 s  peakWS=116 MB median=10.799
+c  betweenness global, k=100 sources       3.454 s  peakWS=160 MB per-source=0.0345 s
+c' betweenness local r=800 m, all nodes    23.758 s  peakWS=225 MB 
+ 22:42:34 up 25 min,  0 user,  load average: 8.95, 7.50, 4.55
+ 22:47:53 up 31 min,  0 user,  load average: 8.69, 7.39, 5.24
+nodes=111025 arcs=240182 plots=100000 amenities=1000 threads=4
+a1 single-source, whole network            0.097 s  peakWS=42 MB max=10844 m
+a2 all plots -> nearest amenity            0.105 s  peakWS=48 MB median=200 m
+b  reach: plots within 800 m, all plots     6.260 s  peakWS=65 MB median=1156
+d  gravity score, all plots                0.604 s  peakWS=66 MB median=10.643
+c  betweenness global, k=100 sources       1.269 s  peakWS=100 MB per-source=0.0127 s
+c' betweenness local r=800 m, all nodes     8.439 s  peakWS=119 MB 
+ 22:48:10 up 31 min,  0 user,  load average: 9.35, 7.61, 5.36
+nodes=111025 arcs=240182 plots=100000 amenities=1000 threads=1
+a1 single-source, whole network            0.048 s  peakWS=42 MB max=10844 m
+a2 all plots -> nearest amenity            0.099 s  peakWS=48 MB median=200 m
+b  reach: plots within 800 m, all plots    10.037 s  peakWS=62 MB median=1156
+d  gravity score, all plots                1.318 s  peakWS=66 MB median=10.643
+c  betweenness global, k=100 sources       2.035 s  peakWS=66 MB per-source=0.0204 s
+c' betweenness local r=800 m, all nodes    15.953 s  peakWS=79 MB 
+ 22:48:39 up 31 min,  0 user,  load average: 9.79, 7.91, 5.53
