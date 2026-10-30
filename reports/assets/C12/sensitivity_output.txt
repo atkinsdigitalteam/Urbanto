@@ -1,0 +1,5 @@
+DBC: 7 accessible (van 1 ) row width 23.15 m vs 17.5 m -> extra 5.65 m = 2.26 bays
+ADA: 8 bays row width 28.96 vs 20.0 -> extra 8.96 m = 3.59 DBC bays
+KSA: 6 + 4 LM row width 32.7 vs 25.0 -> extra 7.7 m = 3.08 DBC bays (and 6.1 m long, not 5.5 m)
+SUDAS 10 %: 960 m2 -> 69 bays lost = 20.1 %
+Portland 45 ft2/space ( 4.18 m2 ) -> 79 bays lost = 23.0 %
