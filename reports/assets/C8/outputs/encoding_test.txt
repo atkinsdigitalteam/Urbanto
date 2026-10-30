@@ -1,0 +1,36 @@
+pyogrio 0.13.0 GDAL 3.12.4
+
+[1] default write: files ['utf8.cpg', 'utf8.dbf', 'utf8.prj', 'utf8.shp', 'utf8.shx']
+    .cpg = UTF-8 | DBF LDID byte = 0
+    DBF field names: [b'plot_numbe', b'community_', b'communit_1', b'land_use_c', b'land_use_1']
+    read back: {'plot_numbe': '3450123', 'community_': 'Burj Khalifa', 'communit_1': 'برج خليفة', 'land_use_c': 'R', 'land_use_1': 'سكني'}
+
+[2] encoding=cp1256: .cpg = CP1256 | LDID = 0
+    read back with .cpg: {'plot_numbe': '3450123', 'community_': 'Burj Khalifa', 'communit_1': 'برج خليفة', 'land_use_c': 'R', 'land_use_1': 'سكني'}
+
+[3a UTF-8 dbf, .cpg deleted] read: encoding reported=ISO-8859-1 -> {'plot_numbe': '3450123', 'community_': 'Burj Khalifa', 'communit_1': 'Ø¨Ø±Ø¬ Ø®Ù\x84Ù\x8aÙ\x81Ø©', 'land_use_c': 'R', 'land_use_1': 'Ø³Ù\x83Ù\x86Ù\x8a'}
+     read with encoding=cp1256: {'plot_numbe': '3450123', 'community_': 'Burj Khalifa', 'communit_1': 'ط¨ط±ط¬ ط®ظ„ظٹظپط©', 'land_use_c': 'R', 'land_use_1': 'ط³ظƒظ†ظٹ'}
+     read with encoding=utf-8: {'plot_numbe': '3450123', 'community_': 'Burj Khalifa', 'communit_1': 'برج خليفة', 'land_use_c': 'R', 'land_use_1': 'سكني'}
+
+[3b CP1256 dbf, .cpg deleted] read: encoding reported=ISO-8859-1 -> {'plot_numbe': '3450123', 'community_': 'Burj Khalifa', 'communit_1': 'ÈÑÌ ÎáíÝÉ', 'land_use_c': 'R', 'land_use_1': 'Óßäí'}
+     read with encoding=cp1256: {'plot_numbe': '3450123', 'community_': 'Burj Khalifa', 'communit_1': 'برج خليفة', 'land_use_c': 'R', 'land_use_1': 'سكني'}
+     read with encoding=utf-8: ERROR 'utf-8' codec can't decode byte 0xc8 in position 0: invalid continuation byte
+
+[4] .prj deleted: CRS read = None
+    .prj written by GDAL for EPSG:3997:
+     PROJCS["WGS_1984_Dubai_Local_TM",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",55.3333333333333],PARAMETER["Scale_Factor",1.0],PARAMETER["Latitude_Of_Origin",0.0],UNIT["
+    CRS read back from .prj: EPSG:3997
+
+[5a] Arabic field names -> DBF names (raw bytes): [b'\xd8\xa7\xd8\xb3\xd9\x85_\xd8\xa7\xd9', b'\xd9\x85\xd9\x84\xd8\xa7\xd8\xad\xd8\xb8']
+     read back FAILED: UnicodeDecodeError 'utf-8' codec can't decode byte 0xd9 in position 9: unexpected end of data
+[5b] wrote 240 chars / 440 bytes; read back 138 chars / 253 bytes
+
+[6] GPKG: fields kept = ['plot_number', 'community_name_en', 'community_name_ar', 'land_use_code', 'land_use_class', 'ملاحظات_طويلة_جدا']
+    long Arabic note length after round trip = 240 chars; CRS = EPSG:3997
+
+[6] OpenFileGDB: fields kept = ['plot_number', 'community_name_en', 'community_name_ar', 'land_use_code', 'land_use_class', 'ملاحظات_طويلة_جدا']
+    long Arabic note length after round trip = 240 chars; CRS = EPSG:3997
+
+[7] GeoJSON default: crs member present=True; first coords: "coordinates": [ [ [ 494000.0, 2787850.0 ], [ 494060.0, 2787850.0 ], [
+
+[7] GeoJSON {'RFC7946': 'YES'}: crs member present=False; first coords: "coordinates": [ [ [ 55.2738029, 25.1967468 ], [ 55.2743982, 25.196747

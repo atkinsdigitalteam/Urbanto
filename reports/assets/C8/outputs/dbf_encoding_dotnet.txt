@@ -1,0 +1,17 @@
+.cpg says: 'CP1256'
+GetEncoding(1256) without provider: NotSupportedException
+Using windows-1256
+  plot_numbe = 3450123
+  community_ = Burj Khalifa
+  communit_1 = برج خليفة
+  land_use_c = R
+  land_use_1 = سكني
+--- .cpg missing:
+.cpg says: ''
+GetEncoding(1256) without provider: NotSupportedException
+Using iso-8859-1
+  plot_numbe = 3450123
+  community_ = Burj Khalifa
+  communit_1 = ÈÑÌ ÎáíÝÉ
+  land_use_c = R
+  land_use_1 = Óßäí
