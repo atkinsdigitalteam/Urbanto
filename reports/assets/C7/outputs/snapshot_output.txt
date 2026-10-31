@@ -1,0 +1,3 @@
+attempt 0: FileFormatException, sleeping 250 ms
+attempt 1: FileFormatException, sleeping 500 ms
+snapshot ok: 10887 bytes after 882 ms

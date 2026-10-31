@@ -1,0 +1,62 @@
+PART A  Corner: USDM Avenue (City) x Street (City), right turn, RHT
+  Avenue kerb-to-kerb 18.2 m (2 x [1.5+3.3+3.3] + median 2.0)
+  Street kerb-to-kerb at kerb extensions 7.0 m; offsets a=1.5 m, b=0.5 m
+  Footway desire line 2.4 m behind the Avenue kerb
+
+  R kerb    arc   area  cross setback     Re Re(cf)      P (car)     CITY-BUS        SU-30        WB-40
+     0.5   0.79   0.05   7.00    0.00   3.73   3.72         kerb         kerb         kerb         kerb
+     2.0   3.14   0.86   7.00    0.00   5.23   5.22           OK         kerb         kerb         kerb
+     5.0   7.85   5.40   8.47    2.60   8.23   8.22           OK     +2.21/ok         kerb  +3.28/+0.28
+    10.0  15.70  21.59  14.03    7.60  13.23  13.22           OK     +2.21/ok     +1.08/ok  +3.28/+0.28
+    15.0  23.55  48.57  20.76   12.60  18.23  18.22           OK     +2.21/ok     +1.08/ok  +3.28/+0.28
+  arc = kerb return length (m, measured); area = footway lost (m2); cross = crossing length
+  on the desire line (m); setback = distance to move the crossing so it stays kerb-to-kerb;
+  Re = effective inner turning radius (m; shapely bisection / closed form).
+  Vehicle: OK = inner edge clears the kerb and the steady-state swept width fits the 3.0 m
+  receiving lane; 'kerb' = inner edge would cut the kerb; '+x/ok' = x m into the opposing lane
+  but inside both Street lanes (acceptable only for a control vehicle); '+x/+y' = beyond both.
+
+  P (car)  : outer  7.25 m, inner  4.39 m, steady-state swept width 2.87 m
+  CITY-BUS : outer 12.68 m, inner  7.47 m, steady-state swept width 5.21 m
+  SU-30    : outer 12.74 m, inner  8.66 m, steady-state swept width 4.08 m
+  WB-40    : outer 12.16 m, inner  5.88 m, steady-state swept width 6.28 m
+
+  Crossing the Avenue: single stage 18.2 m; with refuge two stages of 8.1 m (USDM max crossing distance 13 m)
+
+PART C  Median U-turn on a USDM Avenue (receiving lanes 2 x 3.3 = 6.6 m, cycle lane excluded)
+   median M    P (car)    CITY-BUS       SU-30       WB-40
+        2.0    6.25 ok    11.68 X     11.74 X     11.16 X 
+        5.0    4.75 ok    10.18 X     10.24 X      9.66 X 
+        6.0    4.25 ok     9.68 X      9.74 X      9.16 X 
+        8.0    3.25 ok     8.68 X      8.74 X      8.16 X 
+       12.0    2.87 ok     6.68 X      6.74 X      6.28 ok
+  value = receiving width needed beyond the median edge (m); X = needs a loon or a wider median
+
+PART B  Compact roundabout to CD 116 (ICD 32 m)
+  ICD 32.0 m, central island 12.0 m, entry width e 4.5 m, circulatory width 5.4 m, overrun ring 4.60 m, kerb radius 15.0 m
+  [PASS] CD 116 3.5: ICD 32.0 >= 28 m
+  [PASS] CD 116 3.5.1: compact ICD 32.0 <= 36 m
+  [PASS] CD 116 3.7: central island 12.0 >= 4 m
+  [PASS] CD 116 3.8/T3.8: ICD 32.0 >= Table 3.8 minimum 32.0 m for a 12.0 m island
+  [PASS] CD 116 3.6: circulatory/entry = 1.20 (1.0 to 1.2)
+  [PASS] CD 116 3.6.7: compact circulatory width 5.4 <= 6 m
+  [PASS] CD 116 3.14: single-lane entry width 4.5 within 3.0 to 4.5 m
+  [PASS] CD 116 3.19.1/.2: entry kerb radius 15.0 within 10 to 100 m
+  [PASS] CD 116 3.24: entry path radius 66.1 m (25 m equivalent arc; 3-point 63.2 m; least-squares on wholly-left windows 60.0 m) <= 70 m
+  fastest path: optimiser success=True, min centreline clearance 1.00 m (target 1.0); smallest entry radius centred 10.5 m before the ICD; radius around the island ~28.4 m
+  [info] FHWA 2000 Exhibit 6-13: max R1 at ICD 32 m ~ 57 m; measured 66 m -> ~44 km/h (FHWA Exhibit 6-4 urban single-lane max entry speed 35 km/h)
+
+PART B  USDM-size one-lane roundabout (ICD 20 m)
+  ICD 20.0 m, central island 10.0 m, entry width e 4.5 m, circulatory width 5.0 m, overrun ring 0.00 m, kerb radius 10.0 m
+  [FAIL] CD 116 3.5: ICD 20.0 >= 28 m
+  [PASS] CD 116 3.5.1: compact ICD 20.0 <= 36 m
+  [PASS] CD 116 3.7: central island 10.0 >= 4 m
+  [FAIL] CD 116 3.8/T3.8: ICD 20.0 >= Table 3.8 minimum 30.8 m for a 10.0 m island
+  [PASS] CD 116 3.6: circulatory/entry = 1.11 (1.0 to 1.2)
+  [PASS] CD 116 3.6.7: compact circulatory width 5.0 <= 6 m
+  [PASS] CD 116 3.14: single-lane entry width 4.5 within 3.0 to 4.5 m
+  [PASS] CD 116 3.19.1/.2: entry kerb radius 10.0 within 10 to 100 m
+  [FAIL] CD 116 3.24: entry path radius 326.7 m (25 m equivalent arc; 3-point 607.3 m; least-squares on wholly-left windows 414.5 m) <= 70 m
+  fastest path: optimiser success=True, min centreline clearance 1.00 m (target 1.0); smallest entry radius centred 4.1 m before the ICD; radius around the island ~100.6 m
+  [info] FHWA 2000 Exhibit 6-13 starts at ICD 30 m; Exhibit 6-19 urban compact range is 25 to 30 m
+

@@ -1,0 +1,38 @@
+00-full-minimum.dxf ezdxf loader log (what ezdxf adds to a bare minimum file):
+    INFO: creating ACAD_COLOR dictionary
+    INFO: creating ACAD_LAYOUT dictionary
+    INFO: creating ACAD_MATERIAL dictionary
+    INFO: creating ACAD_MLEADERSTYLE dictionary
+    INFO: creating ACAD_MLINESTYLE dictionary
+    INFO: creating ACAD_PLOTSETTINGS dictionary
+    INFO: creating ACAD_PLOTSTYLENAME dictionary
+    INFO: creating ACAD_SCALELIST dictionary
+    INFO: creating ACAD_TABLESTYLE dictionary
+    INFO: creating ACAD_VISUALSTYLE dictionary
+01-no-objects-section.dxf: readfile=ok
+    log  : INFO: creating ACAD_GROUP dictionary
+02-no-acad-group-dict.dxf: readfile=ok
+    log  : INFO: creating ACAD_GROUP dictionary
+03-no-classes-section.dxf: readfile=ok
+04-no-blocks-section.dxf: readfile=ok
+05-no-block-record-table.dxf: readfile=ok
+06-no-layer-0.dxf: readfile=ok
+07-no-ltypes.dxf: readfile=ok
+08-no-standard-style.dxf: readfile=ok
+09-no-appid-acad.dxf: readfile=ok
+10-no-standard-dimstyle.dxf: readfile=ok
+11-no-handseed.dxf: readfile=ok
+12-handseed-too-low.dxf: readfile=ok
+13-line-without-handle.dxf: readfile=ok
+14-line-without-owner.dxf: readfile=ok
+15-line-without-subclass-markers.dxf: readfile=ok
+16-line-duplicate-handle.dxf: readfile=ok
+    log  : WARNING: Found non-unique entity handle #1E, data validation is required.
+    fix  : 12: Removed entity LINE(#1E) with a conflicting handle and without a database entry.
+    fix  : recover: 12: Removed entity LINE(#1E) with a conflicting handle and without a database entry.
+17-no-header-section.dxf: readfile=DXFTypeError: name has to be a string, got <class 'NoneType'>
+    fix  : recover: 9: Removed unsupported CLASSES section for DXF R12.
+    fix  : recover: 9: Removed unsupported OBJECTS section for DXF R12.
+    fix  : recover: 10: Removed unsupported BLOCK_RECORD table for DXF R12.
+18-entities-only-ac1015.dxf: readfile=ok
+    log  : INFO: creating ACAD_GROUP dictionary

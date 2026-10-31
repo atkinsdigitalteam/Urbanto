@@ -1,0 +1,64 @@
+
+== EPSG:4270
+ ['DERIVED_FROM(EPSG):1191', 'EPSG:1191'] acc=44.0 | pipeline | area=United Arab Emirates (UAE) - onshore and offshore. Abu Dhabi, Dubai, Sharjah, Umm al Qaywayn, Al Fuj
+      Geocentric translations (geog2D domain) [('X-axis', -249), ('Y-axis', -156), ('Z-axis', 381)]
+ ['DERIVED_FROM(EPSG):6998', 'EPSG:6998'] acc=5.0 | pipeline | area=United Arab Emirates (UAE) - Abu Dhabi onshore and offshore.
+      Coordinate Frame rotation (geog2D domain) [('X-axis', -233.4), ('Y-axis', -160.7), ('Z-axis', 381.5), ('X-axis', 0), ('Y-axis', 0), ('Z-axis', -0.554), ('Scale', 0.2263)]
+ ['DERIVED_FROM(EPSG):6999', 'EPSG:6999'] acc=0.15 | pipeline | area=United Arab Emirates (UAE) - Abu Dhabi onshore.
+      Coordinate Frame rotation (geog2D domain) [('X-axis', -253.4392), ('Y-axis', -148.452), ('Z-axis', 386.5267), ('X-axis', -0.15605), ('Y-axis', -0.43), ('Z-axis', 0.1013), ('Scale', -0.0424)]
+ ['DERIVED_FROM(EPSG):1536', 'EPSG:1536'] acc=1.0 | pipeline | area=Qatar - offshore.
+      Geocentric translations (geog2D domain) [('X-axis', -250.2), ('Y-axis', -153.09), ('Z-axis', 391.7)]
+ ['DERIVED_FROM(EPSG):15937', 'EPSG:15937'] acc=2.0 | pipeline | area=United Arab Emirates (UAE) - Abu Dhabi offshore.
+      Geocentric translations (geog2D domain) [('X-axis', -245.8), ('Y-axis', -152.2), ('Z-axis', 382.9)]
+ ['DERIVED_FROM(EPSG):7004', 'EPSG:7004'] acc=1.0 | pipeline | area=United Arab Emirates (UAE) - Abu Dhabi onshore east of 54°E.
+      Coordinate Frame rotation (geog2D domain) [('X-axis', -246.734), ('Y-axis', -153.4345), ('Z-axis', 382.1477), ('X-axis', 0.116617), ('Y-axis', 0.165167), ('Z-axis', 0.091327), ('Scale', 1.94e-05)]
+ ['DERIVED_FROM(EPSG):7003', 'EPSG:7003'] acc=1.0 | pipeline | area=United Arab Emirates (UAE) - Abu Dhabi onshore west of 54°E.
+      Coordinate Frame rotation (geog2D domain) [('X-axis', -242.8907), ('Y-axis', -149.0671), ('Z-axis', 384.416), ('X-axis', -0.19044), ('Y-axis', -0.24987), ('Z-axis', -0.13925), ('Scale', 0.0001746)]
+ ['DERIVED_FROM(EPSG):15952', 'EPSG:15952'] acc=5.0 | pipeline | area=United Arab Emirates (UAE) - Dubai offshore - Falah, Fateh and Rashid oilfields.
+      Geocentric translations (geog2D domain) [('X-axis', -244.2), ('Y-axis', -149.8), ('Z-axis', 379.3)]
+ ['DERIVED_FROM(EPSG):1190', 'EPSG:1190'] acc=35.0 | pipeline | area=Saudi Arabia - onshore Arabian Gulf coastal area.
+      Geocentric translations (geog2D domain) [('X-axis', -243), ('Y-axis', -192), ('Z-axis', 477)]
+ ['DERIVED_FROM(EPSG):15953', 'EPSG:15953'] acc=5.0 | pipeline | area=United Arab Emirates (UAE) - Dubai municipality.
+      Geocentric translations (geog2D domain) [('X-axis', -250.7), ('Y-axis', -157.9), ('Z-axis', 380.4)]
+ ['DERIVED_FROM(EPSG):7002', 'EPSG:7002'] acc=1.0 | pipeline | area=United Arab Emirates (UAE) - Abu Dhabi island.
+      Coordinate Frame rotation (geog2D domain) [('X-axis', -246.1633), ('Y-axis', -152.9047), ('Z-axis', 382.6047), ('X-axis', -0.0989), ('Y-axis', -0.1382), ('Z-axis', -0.0768), ('Scale', 2.1e-06)]
+ ['DERIVED_FROM(EPSG):1531', 'EPSG:1531'] acc=0.5 | pipeline | area=United Arab Emirates (UAE) - Abu Dhabi offshore - Abu al Bu Khoosh.
+      Geocentric translations (geog2D domain) [('X-axis', -245), ('Y-axis', -153.9), ('Z-axis', 382.8)]
+ [] acc=-1.0 | noop | area=World
+      Geographic2D offsets [('Latitu', 0), ('Longit', 0)]
+
+== EPSG:4204
+ ['DERIVED_FROM(EPSG):1111', 'EPSG:1111'] acc=18.0 | pipeline | area=Saudi Arabia - onshore.
+      Geocentric translations (geog2D domain) [('X-axis', -143), ('Y-axis', -236), ('Z-axis', 7)]
+ ['DERIVED_FROM(EPSG):1056', 'EPSG:1056'] acc=1.0 | pipeline | area=Kuwait - onshore.
+      Coordinate Frame rotation (geog2D domain) [('X-axis', -85.645), ('Y-axis', -273.077), ('Z-axis', -79.708), ('X-axis', -2.289), ('Y-axis', 1.421), ('Z-axis', -2.532), ('Scale', 3.194)]
+ ['DERIVED_FROM(EPSG):1055', 'EPSG:1055'] acc=1.0 | pipeline | area=Kuwait - onshore.
+      Geocentric translations (geog2D domain) [('X-axis', -145.7), ('Y-axis', -249.1), ('Z-axis', 1.5)]
+ ['DERIVED_FROM(EPSG):1057', 'EPSG:1057'] acc=1.0 | pipeline | area=Kuwait - onshore north of a line between Al Jahra' and the Kuwait/Iraq/Saudi Arabia border tripoint.
+      Coordinate Frame rotation (geog2D domain) [('X-axis', -202.234), ('Y-axis', -168.351), ('Z-axis', -63.51), ('X-axis', -3.545), ('Y-axis', -0.659), ('Z-axis', 1.945), ('Scale', 2.1)]
+ ['DERIVED_FROM(EPSG):1058', 'EPSG:1058'] acc=1.0 | pipeline | area=Kuwait - onshore south of a line between Al Jahra' and the Kuwait/Iraq/Saudi Arabia border tripoint.
+      Coordinate Frame rotation (geog2D domain) [('X-axis', -18.944), ('Y-axis', -379.364), ('Z-axis', -24.063), ('X-axis', -0.04), ('Y-axis', 0.764), ('Z-axis', -6.431), ('Scale', 3.657)]
+ ['DERIVED_FROM(EPSG):1110', 'EPSG:1110'] acc=44.0 | pipeline | area=Bahrain - onshore.
+      Geocentric translations (geog2D domain) [('X-axis', -150), ('Y-axis', -250), ('Z-axis', -1)]
+
+== EPSG:4285
+ ['DERIVED_FROM(EPSG):1562', 'EPSG:1562'] acc=1.0 | pipeline | area=Qatar - offshore.
+      Geocentric translations (geog2D domain) [('X-axis', -128.16), ('Y-axis', -282.42), ('Z-axis', 21.93)]
+ ['DERIVED_FROM(EPSG):1563', 'EPSG:1563'] acc=1.0 | pipeline | area=Qatar - onshore.
+      Geocentric translations (geog2D domain) [('X-axis', -128.033), ('Y-axis', -283.697), ('Z-axis', 21.052)]
+ ['DERIVED_FROM(EPSG):1561', 'EPSG:1561'] acc=35.0 | pipeline | area=Qatar - onshore.
+      Geocentric translations (geog2D domain) [('X-axis', -128), ('Y-axis', -283), ('Z-axis', 22)]
+ [] acc=-1.0 | noop | area=World
+      Geographic2D offsets [('Latitu', 0), ('Longit', 0)]
+
+== EPSG:8818
+ ['DERIVED_FROM(EPSG):8822', 'EPSG:8822'] acc=1.0 | noop | area=Saudi Arabia - onshore and offshore.
+      Geocentric translations (geog2D domain) [('X-axis', 0), ('Y-axis', 0), ('Z-axis', 0)]
+
+== EPSG:9333
+ ['DERIVED_FROM(EPSG):9383', 'EPSG:9383'] acc=1.0 | pipeline | area=Saudi Arabia - onshore and offshore.
+      Position Vector transformation (geog2D domain) [('X-axis', 0), ('Y-axis', 0), ('Z-axis', 0), ('X-axis', -8.393), ('Y-axis', 0.749), ('Z-axis', -10.276), ('Scale', 0)]
+
+== EPSG:4614
+ ['DERIVED_FROM(EPSG):1840', 'EPSG:1840'] acc=0.0 | pipeline | area=Qatar - onshore.
+      Position Vector transformation (geog2D domain) [('X-axis', -119.4248), ('Y-axis', -303.65872), ('Z-axis', -11.00061), ('X-axis', 1.164298), ('Y-axis', 0.174458), ('Z-axis', 1.096259), ('Scale', 3.657065)]

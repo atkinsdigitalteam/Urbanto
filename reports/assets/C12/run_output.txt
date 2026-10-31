@@ -1,0 +1,17 @@
+Rectangle 120 x 80 m   0 (parallel), one-way    stalls= 288 m2/stall= 33.33 eff= 45.0% theory= 24.00 circ=1240.0 m walk= 52.7 m acc=6 loop=2256 unused=432 dir=0.0
+Rectangle 120 x 80 m   30, one-way*             stalls= 190 m2/stall= 50.53 eff= 27.2% theory= 32.83 circ= 916.0 m walk= 50.1 m acc=4 loop=2256 unused=2950 dir=0.0
+Rectangle 120 x 80 m   45, one-way              stalls= 261 m2/stall= 36.78 eff= 37.4% theory= 25.83 circ= 916.0 m walk= 51.2 m acc=6 loop=2256 unused=1973 dir=0.0
+Rectangle 120 x 80 m   60, one-way              stalls= 288 m2/stall= 33.33 eff= 41.2% theory= 22.84 circ= 808.0 m walk= 52.3 m acc=6 loop=2256 unused=1742 dir=0.0
+Rectangle 120 x 80 m   75, one-way              stalls= 300 m2/stall= 32.00 eff= 43.0% theory= 22.54 circ= 784.0 m walk= 50.4 m acc=6 loop=2256 unused=975 dir=90.0
+Rectangle 120 x 80 m   90, one-way              stalls= 344 m2/stall= 27.91 eff= 49.3% theory= 20.62 circ= 808.0 m walk= 51.9 m acc=7 loop=2256 unused=238 dir=0.0
+Rectangle 120 x 80 m   90, two-way              stalls= 344 m2/stall= 27.91 eff= 49.3% theory= 21.25 circ= 808.0 m walk= 51.2 m acc=7 loop=2256 unused=22 dir=0.0
+Rectangle 120 x 80 m   90, two-way, US ULI      stalls= 287 m2/stall= 33.45 eff= 42.5% theory= 23.69 circ= 808.0 m walk= 52.6 m acc=6 loop=2256 unused=104 dir=0.0
+Irregular pentagon     0 (parallel), one-way    stalls= 290 m2/stall= 34.41 eff= 43.6% theory= 24.00 circ=1344.0 m walk= 56.3 m acc=6 loop=2206 unused=524 dir=90.0
+Irregular pentagon     30, one-way*             stalls= 202 m2/stall= 49.41 eff= 27.8% theory= 32.83 circ= 955.7 m walk= 55.7 m acc=5 loop=2206 unused=3076 dir=0.0
+Irregular pentagon     45, one-way              stalls= 261 m2/stall= 38.24 eff= 36.0% theory= 25.83 circ= 905.8 m walk= 55.5 m acc=6 loop=2206 unused=2428 dir=83.7
+Irregular pentagon     60, one-way              stalls= 304 m2/stall= 32.83 eff= 41.9% theory= 22.84 circ= 858.9 m walk= 56.8 m acc=7 loop=2206 unused=1750 dir=0.0
+Irregular pentagon     75, one-way              stalls= 302 m2/stall= 33.05 eff= 41.6% theory= 22.54 circ= 808.1 m walk= 55.3 m acc=7 loop=2206 unused=1211 dir=83.7
+Irregular pentagon     90, one-way              stalls= 332 m2/stall= 30.06 eff= 45.7% theory= 20.62 circ= 847.8 m walk= 57.1 m acc=7 loop=2206 unused=612 dir=0.0
+Irregular pentagon     90, two-way              stalls= 319 m2/stall= 31.29 eff= 44.0% theory= 21.25 circ= 811.5 m walk= 55.4 m acc=7 loop=2206 unused=739 dir=82.0
+Irregular pentagon     90, two-way, US ULI      stalls= 286 m2/stall= 34.90 eff= 40.7% theory= 23.69 circ= 789.4 m walk= 55.6 m acc=6 loop=2206 unused=678 dir=90.0
+elapsed 70.6 s

@@ -1,0 +1,18 @@
+shapely 2.2.0 GEOS 3.14.1
+
+Validity:
+  A: valid=True reason=Valid Geometry parts=1 vertices=5 after remove_repeated_points=5
+  B: valid=True reason=Valid Geometry parts=1 vertices=5 after remove_repeated_points=5
+  C: valid=True reason=Valid Geometry parts=1 vertices=5 after remove_repeated_points=5
+  D: valid=False reason=Self-intersection[494030 2787960] parts=1 vertices=5 after remove_repeated_points=5
+  E: valid=False reason=Self-intersection[494090.001 2788010] parts=1 vertices=9 after remove_repeated_points=8
+  F: valid=True reason=Valid Geometry parts=2 vertices=10 after remove_repeated_points=10
+  D make_valid -> MultiPolygon with 2 parts, area 1800.0 m2 (bow-tie 'area' before fix: 0.0)
+
+Gaps and overlaps between neighbours:
+  A-B: overlap 0.000 m2, gap 0.050 m
+  B-C: overlap 21.000 m2, gap 0.000 m
+
+Union of A,B,C: MultiPolygon, parts=2
+set_precision(0.1 m): A-B gap now 0.100 m, B-C overlap now 21.000 m2
+snap(B to A, 0.10 m) + C.difference(B): A-B gap now 0.000 m, B-C overlap now 0.000 m2, union parts=1

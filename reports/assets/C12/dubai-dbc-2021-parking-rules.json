@@ -1,0 +1,48 @@
+{
+  "id": "AE-DU-DBC-2021",
+  "title": "Dubai Building Code 2021, Part B (B.7.2) and Part C (C.6.4)",
+  "source": "https://dmpmedia.dm.gov.ae/uploads/2021/12/Dubai%20Building%20Code_English_2021%20Edition_compressed.pdf",
+  "readOn": "2026-10-30",
+  "units": "m",
+  "bayModel": "rectangle-corner-on-aisle (DBC Figures B.59 to B.63); row depth = L*sin(a) + w*cos(a); pitch = w/sin(a); module width is derived, not stated in DBC",
+  "rows": [
+    { "angleDeg": 0,  "flow": "one-way", "bayWidth": 2.5, "bayLength": 6.0, "aisle": 3.0, "clause": "Table B.11" },
+    { "angleDeg": 45, "flow": "one-way", "bayWidth": 2.5, "bayLength": 5.5, "aisle": 3.3, "clause": "Table B.11" },
+    { "angleDeg": 60, "flow": "one-way", "bayWidth": 2.5, "bayLength": 5.5, "aisle": 3.8, "clause": "Table B.11" },
+    { "angleDeg": 75, "flow": "one-way", "bayWidth": 2.5, "bayLength": 5.5, "aisle": 5.5, "clause": "Table B.11" },
+    { "angleDeg": 90, "flow": "one-way", "bayWidth": 2.5, "bayLength": 5.5, "aisle": 5.5, "clause": "Table B.11" },
+    { "angleDeg": 90, "flow": "two-way", "bayWidth": 2.5, "bayLength": 5.5, "aisle": 6.0, "clause": "Table B.11" }
+  ],
+  "reducedPerpendicularBay": {
+    "bayWidth": 2.5, "bayLength": 5.0,
+    "allowedWhen": "all perpendicular bays on plots < 30 m long; up to 10% of perpendicular bays on plots >= 30 m long",
+    "clause": "Table B.11 note"
+  },
+  "bayNextToStructure": { "minWidth": 2.8, "extraClearance": 0.3, "clause": "B.7.2.4, Figures B.60 and B.63" },
+  "deadEnd": { "avoid": true, "maxBays": 8, "turningBayRequired": true, "clause": "B.7.2.3.3, Figure B.58" },
+  "maxParkingSlope": 0.04,
+  "maxAccessibleSlope": 0.02,
+  "straightApproachBeforeBarrier": 6.0,
+  "wheelStop": { "maxHeight": 0.12, "minWidth": 0.2, "clause": "B.7.2.3.3" },
+  "accessible": {
+    "count": [
+      { "fromTotal": 25, "toTotal": 500, "rule": "2% of total, minimum 1" },
+      { "fromTotal": 501, "toTotal": null, "rule": "plus 1% of the spaces over 500" }
+    ],
+    "hospitalShare": 0.10,
+    "vanShareOfAccessible": 0.10,
+    "minVanPerBuilding": 1,
+    "carBay": { "width": 2.5, "length": 5.5 },
+    "parallelBay": { "width": 2.5, "length": 6.0 },
+    "vanBay": { "width": 3.35, "length": 5.5 },
+    "accessAisleMin": 1.2,
+    "accessAisleMayBeShared": true,
+    "maxDistanceToEntrance": 50.0,
+    "clause": "C.6.4, Tables C.17 and C.18"
+  },
+  "preferredParking": { "appliesAboveBays": 20, "share": 0.05, "evChargingShareInMalls": 0.20, "clause": "B.7.2.6.2, B.7.2.6.3" },
+  "landscape": {
+    "treesPerBays": null,
+    "note": "No trees-per-bay or island rule found in DBC 2021. B.10.5.3: at least 50% of development hardscape must meet one of SRI >= 33, open-grid paving, vegetation shade, shading with SRI per Table B.33, or PV shading."
+  }
+}

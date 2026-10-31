@@ -1,0 +1,41 @@
+1) Spread of every Nahrwan 1967 -> WGS 84 candidate at Sheikh Zayed Grand Mosque (WGS84 -> Nahrwan geographic):
+   Inverse of Nahrwan 1967 to WGS 84 (3)                   acc= 44.0 -> lon 54.4728958 lat 24.4102244  (  0.00 m from first)
+   Inverse of Nahrwan 1967 to WGS 84 (11)                  acc=  5.0 -> lon 54.4728940 lat 24.4102399  (  1.72 m from first)
+   Inverse of Nahrwan 1967 to WGS 84 (12)                  acc= 0.15 -> lon 54.4729002 lat 24.4102265  (  0.51 m from first)
+   Inverse of Nahrwan 1967 to WGS 84 (5)                   acc=  1.0 -> lon 54.4728695 lat 24.4101427  (  9.44 m from first)
+   Inverse of Nahrwan 1967 to WGS 84 (7)                   acc=  2.0 -> lon 54.4728997 lat 24.4102272  (  0.51 m from first)
+   Inverse of Nahrwan 1967 to WGS 84 (15)                  acc=  1.0 -> lon 54.4728993 lat 24.4102274  (  0.49 m from first)
+   Inverse of Nahrwan 1967 to WGS 84 (14)                  acc=  1.0 -> lon 54.4729057 lat 24.4102279  (  1.08 m from first)
+   Inverse of Nahrwan 1967 to WGS 84 (9)                   acc=  5.0 -> lon 54.4728988 lat 24.4102676  (  4.80 m from first)
+   Inverse of Nahrwan 1967 to WGS 84 (2)                   acc= 35.0 -> lon 54.4731502 lat 24.4093388  (101.43 m from first)
+   Inverse of Nahrwan 1967 to WGS 84 (10)                  acc=  5.0 -> lon 54.4728930 lat 24.4102199  (  0.57 m from first)
+   Inverse of Nahrwan 1967 to WGS 84 (13)                  acc=  1.0 -> lon 54.4729007 lat 24.4102267  (  0.57 m from first)
+   Inverse of Nahrwan 1967 to WGS 84 (4)                   acc=  0.5 -> lon 54.4729158 lat 24.4102246  (  2.04 m from first)
+   Ballpark geographic offset from WGS 84 to Nahrwan 1967  acc= -1.0 -> lon 54.4740000 lat 24.4120000  (226.33 m from first)
+
+2) Nahrwan 1967 / UTM 40N labelled as WGS 84 / UTM 40N (Burj Khalifa):
+   lands at 55.273030,25.193405: 436.6 m from the true position
+
+3) DLTM (EPSG:3997) coordinates read as WGS 84 / UTM 40N (Burj Khalifa):
+   DLTM E=494040.0 N=2787900.2 -> read as UTM40N lands at 56.94084,25.20727: 168.0 km away
+   UTM40N read as DLTM:
+   lands at 53.60837,25.18714: 167.9 km away
+
+4) Lat/lon swapped (axis order) for Burj Khalifa:
+   point read as lon=25.1972, lat=55.2742 -> valid; distance: 4142 km
+   EPSG:4326 authority order (lat,lon) input (25.1972,55.2742) -> (326112.131, 2787898.865)
+   same numbers passed as (lon,lat) without always_xy -> (-1479313.134, 6596674.27)
+
+5) Grid scale factor (point scale k) - grid vs ground distance:
+   Burj Khalifa     EPSG:3997   k=1.0000004  ->     0.4 mm per km (longer on grid)
+   Burj Khalifa     EPSG:32640  k=0.9999734  ->    26.6 mm per km (shorter on grid)
+   Burj Khalifa     EPSG:32639  k=1.0018934  ->  1893.4 mm per km (longer on grid)
+   SZ Grand Mosque  EPSG:32640  k=1.0004105  ->   410.5 mm per km (longer on grid)
+   SZ Grand Mosque  EPSG:32639  k=1.0011337  ->  1133.7 mm per km (longer on grid)
+   Kingdom Centre   EPSG:32638  k=0.9999543  ->    45.7 mm per km (shorter on grid)
+   Kingdom Centre   EPSG:9358   k=0.9999543  ->    45.7 mm per km (shorter on grid)
+   Kingdom Centre   EPSG:32637  k=1.0070794  ->  7079.4 mm per km (longer on grid)
+   MIA Doha         EPSG:2932   k=1.0000030  ->     3.0 mm per km (longer on grid)
+   MIA Doha         EPSG:32639  k=0.9996364  ->   363.6 mm per km (shorter on grid)
+
+6) Ground height effect: elevation factor at 300 m above ellipsoid (R=6371 km):  47.1 mm per km

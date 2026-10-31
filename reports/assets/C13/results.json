@@ -1,0 +1,160 @@
+{
+ "results": {
+  "Dubai (DBC)": {
+   "gfa": 40003.83835774282,
+   "far": 8.000767671548564,
+   "eff": 0.8209212252664688,
+   "typ_floor": 1037.867924528302,
+   "typ_eff": 0.8286218117694111,
+   "by_use": {
+    "parking": 0.0,
+    "common": 1818.06082992212,
+    "res": 29201.440685715446,
+    "retail": 2450.273684210527,
+    "office": 6534.063157894737
+   },
+   "balconies": 0.0
+  },
+  "Abu Dhabi (N-25 reading)": {
+   "gfa": 42667.90610136266,
+   "far": 8.533581220272533,
+   "eff": 0.7696651418043503,
+   "typ_floor": 1088.2466037735849,
+   "typ_eff": 0.7902620573479201,
+   "by_use": {
+    "parking": 0.0,
+    "common": 1629.1660832420484,
+    "res": 31441.834754962703,
+    "retail": 2756.5578947368426,
+    "office": 6840.347368421053
+   },
+   "balconies": 1160.0
+  },
+  "Abu Dhabi (A.8 reading)": {
+   "gfa": 52667.053214798434,
+   "far": 10.533410642959687,
+   "eff": 0.6235397273142403,
+   "typ_floor": 1088.2466037735849,
+   "typ_eff": 0.7902620573479201,
+   "by_use": {
+    "parking": 9294.394181104937,
+    "common": 2333.919015572875,
+    "res": 31441.834754962703,
+    "retail": 2756.5578947368426,
+    "office": 6840.347368421053
+   },
+   "balconies": 1160.0
+  },
+  "Saudi (MOMRAH)": {
+   "gfa": 58427.319999999985,
+   "far": 11.685463999999998,
+   "eff": 0.5620658281091792,
+   "typ_floor": 1220.14,
+   "typ_eff": 0.7048371498352648,
+   "by_use": {
+    "parking": 9294.394181104937,
+    "common": 5774.1858007744695,
+    "res": 33761.83475496271,
+    "retail": 2756.5578947368426,
+    "office": 6840.347368421053
+   },
+   "balconies": 3480.0
+  },
+  "London (GEA)": {
+   "gfa": 63934.599999999984,
+   "far": 12.786919999999997,
+   "eff": 0.5136498859772332,
+   "typ_floor": 1100.14,
+   "typ_eff": 0.781718690348501,
+   "by_use": {
+    "parking": 16957.018398792014,
+    "common": 6895.048385808482,
+    "res": 30485.62795224161,
+    "retail": 2756.5578947368426,
+    "office": 6840.347368421053
+   },
+   "balconies": 0.0,
+   "gia": 62080
+  },
+  "Singapore (URA)": {
+   "gfa": 46452.46676689573,
+   "far": 9.290493353379146,
+   "eff": 0.7069592270480535,
+   "typ_floor": 1149.1233018867924,
+   "typ_eff": 0.7483966242681973,
+   "by_use": {
+    "parking": 0.0,
+    "common": 3844.3422644591133,
+    "res": 33412.813976120815,
+    "retail": 2425.136842105263,
+    "office": 6770.1736842105265
+   },
+   "balconies": 3480.0
+  }
+ },
+ "gea": 63934.600000000006,
+ "gia": 62080,
+ "ipms1": 67414.6,
+ "parking": {
+  "Dubai (DBC)": {
+   "kind": "minimum",
+   "res": 348,
+   "office": 114,
+   "retail": 32,
+   "total": 494
+  },
+  "Abu Dhabi (CBD)": {
+   "kind": "rate (DoT)",
+   "res": 353,
+   "office": 168,
+   "retail": 60,
+   "total": 581
+  },
+  "Abu Dhabi (non-CBD)": {
+   "kind": "rate (DoT)",
+   "res": 377,
+   "office": 182,
+   "retail": 60,
+   "total": 619
+  },
+  "Saudi (MOMRAH)": {
+   "kind": "minimum",
+   "res": 479,
+   "office": 127,
+   "retail": 49,
+   "total": 655
+  },
+  "London (CAZ / PTAL 5-6)": {
+   "kind": "maximum",
+   "res": 0,
+   "office": 0,
+   "retail": 0,
+   "note": "disabled bays >= 10 now, +23 later",
+   "total": 0
+  },
+  "London (Outer, PTAL 2-3)": {
+   "kind": "maximum",
+   "res": 246,
+   "office": 68,
+   "retail": 54,
+   "total": 368
+  },
+  "Singapore (Zone 2)": {
+   "kind": "range",
+   "lower": 274,
+   "upper": 352
+  },
+  "Singapore (Zone 3)": {
+   "kind": "range",
+   "lower": 293,
+   "upper": 366
+  }
+ },
+ "bays": 554,
+ "parking_area": 16620,
+ "pop_dbc": 759.8,
+ "bedspaces": 928,
+ "sg_excess_gfa": 6060.0,
+ "sg_balcony_cap": 2095.296978328457,
+ "sg_balcony_in_gpr": 1384.703021671543
+}

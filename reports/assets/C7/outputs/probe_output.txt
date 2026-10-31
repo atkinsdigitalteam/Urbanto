@@ -1,0 +1,48 @@
+### no other process holds the file
+  OK    OpenXml SpreadsheetDocument.Open(path, isEditable:false): D2 formula=B2*C2 cached=2505
+  OK    OpenXml Open(FileStream Read, FileShare.ReadWrite): D2 formula=B2*C2 cached=2505
+  OK    OpenXml Open(FileStream Read, FileShare.ReadWrite|Delete): D2 formula=B2*C2 cached=2505
+  OK    Copy to MemoryStream via FileShare.ReadWrite, then OpenXml: D2 formula=B2*C2 cached=2505 (1814 bytes)
+  OK    File.Copy to temp, then OpenXml: D2 formula=B2*C2 cached=2505
+  OK    OpenXml SpreadsheetDocument.Open(path, isEditable:true) + save: wrote B2=1234
+  OK    ClosedXML new XLWorkbook(path): D2=B2*C2 cachedValue=2505
+  OK    ClosedXML new XLWorkbook(FileStream FileShare.ReadWrite): D2 value=2505
+  OK    ExcelDataReader on File.Open(path, Open, Read) [default share]: D2=2505
+  OK    ExcelDataReader on FileStream FileShare.ReadWrite: D2=2505
+  OK    MiniExcel.Query(path): GFA=2505
+### holder: FileStream(FileAccess.ReadWrite, FileShare.None)
+  FAIL  OpenXml SpreadsheetDocument.Open(path, isEditable:false): IOException HResult=0x0000000B: The process cannot access the file '<tmpdir>/sample.xlsx' because it is being used by another process.
+  FAIL  OpenXml Open(FileStream Read, FileShare.ReadWrite): IOException HResult=0x0000000B: The process cannot access the file '<tmpdir>/sample.xlsx' because it is being used by another process.
+  FAIL  OpenXml Open(FileStream Read, FileShare.ReadWrite|Delete): IOException HResult=0x0000000B: The process cannot access the file '<tmpdir>/sample.xlsx' because it is being used by another process.
+  FAIL  Copy to MemoryStream via FileShare.ReadWrite, then OpenXml: IOException HResult=0x0000000B: The process cannot access the file '<tmpdir>/sample.xlsx' because it is being used by another process.
+  FAIL  File.Copy to temp, then OpenXml: IOException HResult=0x0000000B: The process cannot access the file '<tmpdir>/sample.xlsx' because it is being used by another process.
+  FAIL  OpenXml SpreadsheetDocument.Open(path, isEditable:true) + save: IOException HResult=0x0000000B: The process cannot access the file '<tmpdir>/sample.xlsx' because it is being used by another process.
+  FAIL  ClosedXML new XLWorkbook(path): IOException HResult=0x0000000B: The process cannot access the file '<tmpdir>/sample.xlsx' because it is being used by another process.
+  FAIL  ClosedXML new XLWorkbook(FileStream FileShare.ReadWrite): IOException HResult=0x0000000B: The process cannot access the file '<tmpdir>/sample.xlsx' because it is being used by another process.
+  FAIL  ExcelDataReader on File.Open(path, Open, Read) [default share]: IOException HResult=0x0000000B: The process cannot access the file '<tmpdir>/sample.xlsx' because it is being used by another process.
+  FAIL  ExcelDataReader on FileStream FileShare.ReadWrite: IOException HResult=0x0000000B: The process cannot access the file '<tmpdir>/sample.xlsx' because it is being used by another process.
+  FAIL  MiniExcel.Query(path): IOException HResult=0x0000000B: The process cannot access the file '<tmpdir>/sample.xlsx' because it is being used by another process.
+### holder: FileStream(FileAccess.ReadWrite, FileShare.Read)
+  OK    OpenXml SpreadsheetDocument.Open(path, isEditable:false): D2 formula=B2*C2 cached=2505
+  OK    OpenXml Open(FileStream Read, FileShare.ReadWrite): D2 formula=B2*C2 cached=2505
+  OK    OpenXml Open(FileStream Read, FileShare.ReadWrite|Delete): D2 formula=B2*C2 cached=2505
+  OK    Copy to MemoryStream via FileShare.ReadWrite, then OpenXml: D2 formula=B2*C2 cached=2505 (1814 bytes)
+  OK    File.Copy to temp, then OpenXml: D2 formula=B2*C2 cached=2505
+  FAIL  OpenXml SpreadsheetDocument.Open(path, isEditable:true) + save: IOException HResult=0x0000000B: The process cannot access the file '<tmpdir>/sample.xlsx' because it is being used by another process.
+  OK    ClosedXML new XLWorkbook(path): D2=B2*C2 cachedValue=2505
+  OK    ClosedXML new XLWorkbook(FileStream FileShare.ReadWrite): D2 value=2505
+  FAIL  ExcelDataReader on File.Open(path, Open, Read) [default share]: IOException HResult=0x0000000B: The process cannot access the file '<tmpdir>/sample.xlsx' because it is being used by another process.
+  OK    ExcelDataReader on FileStream FileShare.ReadWrite: D2=2505
+  OK    MiniExcel.Query(path): GFA=2505
+### holder: FileStream(FileAccess.ReadWrite, FileShare.ReadWrite)
+  OK    OpenXml SpreadsheetDocument.Open(path, isEditable:false): D2 formula=B2*C2 cached=2505
+  OK    OpenXml Open(FileStream Read, FileShare.ReadWrite): D2 formula=B2*C2 cached=2505
+  OK    OpenXml Open(FileStream Read, FileShare.ReadWrite|Delete): D2 formula=B2*C2 cached=2505
+  OK    Copy to MemoryStream via FileShare.ReadWrite, then OpenXml: D2 formula=B2*C2 cached=2505 (1814 bytes)
+  OK    File.Copy to temp, then OpenXml: D2 formula=B2*C2 cached=2505
+  FAIL  OpenXml SpreadsheetDocument.Open(path, isEditable:true) + save: IOException HResult=0x0000000B: The process cannot access the file '<tmpdir>/sample.xlsx' because it is being used by another process.
+  OK    ClosedXML new XLWorkbook(path): D2=B2*C2 cachedValue=2505
+  OK    ClosedXML new XLWorkbook(FileStream FileShare.ReadWrite): D2 value=2505
+  FAIL  ExcelDataReader on File.Open(path, Open, Read) [default share]: IOException HResult=0x0000000B: The process cannot access the file '<tmpdir>/sample.xlsx' because it is being used by another process.
+  OK    ExcelDataReader on FileStream FileShare.ReadWrite: D2=2505
+  OK    MiniExcel.Query(path): GFA=2505

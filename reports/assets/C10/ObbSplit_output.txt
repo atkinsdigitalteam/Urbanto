@@ -1,0 +1,7 @@
+# dotnet run -c Release (NetTopologySuite 2.6.0, .NET 8.0.427, Linux x64; times include JIT on first call)
+a_rectangle  plots= 32 noAccess= 0 areaMin= 600.0 areaMax= 600.0 coverage=100.000% ms=88.5
+b_L          plots= 47 noAccess=19 areaMin= 500.0 areaMax= 850.0 coverage=100.000% ms=62.7
+b_U          plots= 62 noAccess=18 areaMin= 500.0 areaMax= 900.0 coverage=100.000% ms=67.1
+c_arc_10deg  plots= 32 noAccess= 0 areaMin= 573.0 areaMax= 795.8 coverage=100.000% ms=25.7
+c_arc_1deg   plots= 32 noAccess= 0 areaMin= 579.4 areaMax= 797.4 coverage=100.000% ms=37.7
+d_thin       plots= 25 noAccess= 0 areaMin= 297.6 areaMax= 834.2 coverage=100.000% ms=19.2
