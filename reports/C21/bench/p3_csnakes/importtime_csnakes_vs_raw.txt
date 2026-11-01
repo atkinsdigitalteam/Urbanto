@@ -1,0 +1,10 @@
+# PYTHONPROFILEIMPORTTIME=1 p3_csnakes <pyhome> startup ; top cumulative imports (us). Columns: self | cumulative | module
+import time:       335 |      66505 | asyncio
+import time:      1406 |      58587 |   asyncio.base_events
+import time:       232 |      17625 |     concurrent.futures
+import time:       753 |      17263 |       concurrent.futures._base
+import time:      2890 |      16510 |         logging
+import time:       324 |      14954 |     asyncio.coroutines
+import time:      3137 |      14631 |       inspect
+import time:       738 |       6958 |           re
+# raw C API host (p1): 'site' is the largest non-numpy import, 5.1 ms cumulative; asyncio is not imported at all.

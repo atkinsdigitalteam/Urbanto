@@ -1,0 +1,9 @@
+# same, binnp with OPENBLAS_NUM_THREADS=1 (no spinning BLAS threads)
+RESULT | p2 [binnp] process start to first reply | n=20 | p50_us=91094.04 | p95_us=118999.52 | min_us=80113.89 | mean_us=93812.16 | python3 -I worker.py
+RESULT | p2 [binnp] empty round trip | n=5000 | p50_us=26.96 | p95_us=40.81 | min_us=16.71 | mean_us=31.27 | payload=5 B out, 5 B back
+RESULT | p2 [binnp] 10000 points round trip | n=300 | p50_us=462.62 | p95_us=646.48 | min_us=338.56 | mean_us=478.24 | payload=160005 B out, 160005 B back
+RESULT | p2 [binnp] 10000 max abs error vs C# | 1.14E-013
+RESULT | p2 [binnp] 10000 host-side encode only | n=50 | p50_us=4.36 | p95_us=4.63 | min_us=4.26 | mean_us=4.40 | 
+RESULT | p2 [binnp] 100000 points round trip | n=50 | p50_us=4406.59 | p95_us=5203.48 | min_us=4038.31 | mean_us=4552.22 | payload=1600005 B out, 1600005 B back
+RESULT | p2 [binnp] 100000 max abs error vs C# | 1.14E-013
+RESULT | p2 [binnp] 100000 host-side encode only | n=50 | p50_us=113.44 | p95_us=152.89 | min_us=103.31 | mean_us=120.52 | 

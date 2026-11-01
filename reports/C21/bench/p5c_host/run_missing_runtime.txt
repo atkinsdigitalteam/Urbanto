@@ -1,0 +1,6 @@
+You must install .NET to run this application.
+
+App: /tmp/claude-0/-home-user/2f91ab73-1b27-5748-9cf8-9bf638e6029b/scratchpad/C2021/R21M/artifacts/publish/p5c_helper/release_linux-x64/p5c_helper
+Architecture: x64
+App host version: 10.0.14
+# exact command: env -u DOTNET_ROOT p5c_host <framework-dependent helper> (no .NET runtime found in default locations)

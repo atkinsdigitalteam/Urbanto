@@ -1,0 +1,8 @@
+RESULT | py_parts N=10000 transform_flat (pure Python list comprehension) | p50_ms=1.27
+RESULT | py_parts N=10000 json.loads + json.dumps | p50_ms=14.40
+RESULT | py_parts N=10000 array('d').frombytes + tolist + array(list).tobytes | p50_ms=0.54
+RESULT | py_parts N=10000 msgpack.unpackb + packb | p50_ms=0.92
+RESULT | py_parts N=100000 transform_flat (pure Python list comprehension) | p50_ms=21.87
+RESULT | py_parts N=100000 json.loads + json.dumps | p50_ms=158.22
+RESULT | py_parts N=100000 array('d').frombytes + tolist + array(list).tobytes | p50_ms=7.16
+RESULT | py_parts N=100000 msgpack.unpackb + packb | p50_ms=12.12

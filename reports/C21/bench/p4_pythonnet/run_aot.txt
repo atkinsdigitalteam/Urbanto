@@ -1,0 +1,6 @@
+Unhandled exception. System.PlatformNotSupportedException: Dynamic code generation is not supported on this platform.
+   at System.Reflection.Emit.ReflectionEmitThrower.ThrowPlatformNotSupportedException() + 0x27
+   at Python.Runtime.CodeGenerator..ctor() + 0x54
+   at Python.Runtime.DelegateManager..ctor() + 0xbb
+   at Python.Runtime.PythonEngine.Initialize(IEnumerable`1, Boolean, Boolean) + 0x5d
+   at Program.<Main>$(String[] args) + 0x83

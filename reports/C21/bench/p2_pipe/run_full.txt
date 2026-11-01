@@ -1,0 +1,32 @@
+RESULT | p2 [json] process start to first reply | n=20 | p50_us=24218.93 | p95_us=33392.28 | min_us=21457.03 | mean_us=26017.19 | python3 -I worker.py
+RESULT | p2 [json] empty round trip | n=5000 | p50_us=31.40 | p95_us=64.80 | min_us=19.63 | mean_us=40.93 | payload=14 B out, 12 B back
+RESULT | p2 [json] 10000 points round trip | n=300 | p50_us=30088.61 | p95_us=43183.22 | min_us=22939.83 | mean_us=31933.48 | payload=378690 B out, 378044 B back
+RESULT | p2 [json] 10000 max abs error vs C# | 0.00E+000
+RESULT | p2 [json] 10000 host-side encode only | n=50 | p50_us=3901.86 | p95_us=4259.51 | min_us=3669.57 | mean_us=3937.18 | 
+RESULT | p2 [json] 100000 points round trip | n=50 | p50_us=270860.74 | p95_us=349686.77 | min_us=245934.45 | mean_us=280340.19 | payload=3787471 B out, 3781395 B back
+RESULT | p2 [json] 100000 max abs error vs C# | 0.00E+000
+RESULT | p2 [json] 100000 host-side encode only | n=50 | p50_us=39665.39 | p95_us=59964.53 | min_us=37655.03 | mean_us=42602.31 | 
+RESULT | p2 [bin] process start to first reply | n=20 | p50_us=18712.38 | p95_us=22225.71 | min_us=16085.86 | mean_us=19311.34 | python3 -I worker.py
+RESULT | p2 [bin] empty round trip | n=5000 | p50_us=27.58 | p95_us=53.26 | min_us=5.25 | mean_us=32.68 | payload=5 B out, 5 B back
+RESULT | p2 [bin] 10000 points round trip | n=300 | p50_us=3147.76 | p95_us=4480.10 | min_us=2127.37 | mean_us=3269.06 | payload=160005 B out, 160005 B back
+RESULT | p2 [bin] 10000 max abs error vs C# | 0.00E+000
+RESULT | p2 [bin] 10000 host-side encode only | n=50 | p50_us=4.14 | p95_us=4.99 | min_us=4.06 | mean_us=5.24 | 
+RESULT | p2 [bin] 100000 points round trip | n=50 | p50_us=37613.30 | p95_us=55286.75 | min_us=30623.83 | mean_us=40378.00 | payload=1600005 B out, 1600005 B back
+RESULT | p2 [bin] 100000 max abs error vs C# | 0.00E+000
+RESULT | p2 [bin] 100000 host-side encode only | n=50 | p50_us=121.63 | p95_us=170.99 | min_us=108.30 | mean_us=131.53 | 
+RESULT | p2 [msgpack] process start to first reply | n=20 | p50_us=18315.84 | p95_us=23820.42 | min_us=16804.09 | mean_us=19086.49 | python3 -I worker.py
+RESULT | p2 [msgpack] empty round trip | n=5000 | p50_us=37.49 | p95_us=63.42 | min_us=6.46 | mean_us=40.90 | payload=13 B out, 9 B back
+RESULT | p2 [msgpack] 10000 points round trip | n=300 | p50_us=2871.06 | p95_us=3434.29 | min_us=2575.07 | mean_us=2966.94 | payload=180019 B out, 180012 B back
+RESULT | p2 [msgpack] 10000 max abs error vs C# | 0.00E+000
+RESULT | p2 [msgpack] 10000 host-side encode only | n=50 | p50_us=23.14 | p95_us=32.05 | min_us=23.11 | mean_us=24.71 | 
+RESULT | p2 [msgpack] 100000 points round trip | n=50 | p50_us=32458.69 | p95_us=37481.73 | min_us=29336.38 | mean_us=33099.13 | payload=1800019 B out, 1800014 B back
+RESULT | p2 [msgpack] 100000 max abs error vs C# | 0.00E+000
+RESULT | p2 [msgpack] 100000 host-side encode only | n=50 | p50_us=492.32 | p95_us=625.42 | min_us=458.31 | mean_us=508.64 | 
+RESULT | p2 [binnp] process start to first reply | n=20 | p50_us=99560.63 | p95_us=131988.47 | min_us=85527.85 | mean_us=102672.97 | python3 -I worker.py
+RESULT | p2 [binnp] empty round trip | n=5000 | p50_us=5.90 | p95_us=9.03 | min_us=5.39 | mean_us=6.57 | payload=5 B out, 5 B back
+RESULT | p2 [binnp] 10000 points round trip | n=300 | p50_us=487.27 | p95_us=768.78 | min_us=237.43 | mean_us=500.33 | payload=160005 B out, 160005 B back
+RESULT | p2 [binnp] 10000 max abs error vs C# | 1.14E-013
+RESULT | p2 [binnp] 10000 host-side encode only | n=50 | p50_us=4.28 | p95_us=4.78 | min_us=4.19 | mean_us=4.88 | 
+RESULT | p2 [binnp] 100000 points round trip | n=50 | p50_us=4419.12 | p95_us=5198.51 | min_us=4073.43 | mean_us=4529.63 | payload=1600005 B out, 1600005 B back
+RESULT | p2 [binnp] 100000 max abs error vs C# | 1.14E-013
+RESULT | p2 [binnp] 100000 host-side encode only | n=50 | p50_us=109.36 | p95_us=157.03 | min_us=103.53 | mean_us=117.03 | 

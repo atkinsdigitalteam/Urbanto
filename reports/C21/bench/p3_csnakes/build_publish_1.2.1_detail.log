@@ -1,0 +1,11 @@
+  Determining projects to restore...
+  Restored /tmp/claude-0/-home-user/2f91ab73-1b27-5748-9cf8-9bf638e6029b/scratchpad/C2021/R21M/bench/p3_csnakes/p3_csnakes.csproj (in 3.12 sec).
+  p3_csnakes -> /tmp/claude-0/-home-user/2f91ab73-1b27-5748-9cf8-9bf638e6029b/scratchpad/C2021/R21M/artifacts/bin/p3_csnakes/release_linux-x64/p3_csnakes.dll
+  Generating native code
+  p3_csnakes -> /tmp/claude-0/-home-user/2f91ab73-1b27-5748-9cf8-9bf638e6029b/scratchpad/C2021/R21M/artifacts/publish/p3_csnakes/release_linux-x64/
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:16.45

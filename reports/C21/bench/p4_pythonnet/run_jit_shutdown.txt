@@ -1,0 +1,12 @@
+RESULT | p4 pythonnet PythonEngine.Initialize | 295340 us
+RESULT | p4 pythonnet empty call (GIL held) | n=100000 | p50_us=0.78 | p95_us=0.96 | min_us=0.45 | mean_us=1.00 | payload=0 B
+RESULT | p4 pythonnet tuples N=10000 round trip | n=100 | p50_us=19261.95 | p95_us=38064.83 | min_us=11899.60 | mean_us=34203.33 | payload=10000 points
+RESULT | p4 tuples N=10000 max abs error vs C# | 0.00E+000
+RESULT | p4 pythonnet tuples N=100000 round trip | n=20 | p50_us=157838.32 | p95_us=788322.18 | min_us=132831.22 | mean_us=324324.51 | payload=100000 points
+RESULT | p4 tuples N=100000 max abs error vs C# | 0.00E+000
+p4 done
+RESULT | p4 PythonEngine.Shutdown | 410858 us
+
+real	0m11.672s
+user	0m12.631s
+sys	0m0.639s

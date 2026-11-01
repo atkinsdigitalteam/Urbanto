@@ -1,0 +1,8 @@
+RESULT | p4 pythonnet PythonEngine.Initialize | 215339 us
+RESULT | p4 pythonnet empty call (GIL held) | n=100000 | p50_us=0.46 | p95_us=0.54 | min_us=0.44 | mean_us=0.59 | payload=0 B
+RESULT | p4 pythonnet tuples N=10000 round trip | n=100 | p50_us=15312.67 | p95_us=75717.89 | min_us=11658.39 | mean_us=30037.34 | payload=10000 points
+RESULT | p4 tuples N=10000 max abs error vs C# | 0.00E+000
+RESULT | p4 pythonnet tuples N=100000 round trip | n=20 | p50_us=144269.55 | p95_us=795190.33 | min_us=125176.11 | mean_us=322880.34 | payload=100000 points
+RESULT | p4 tuples N=100000 max abs error vs C# | 0.00E+000
+p4 done
+# process printed 'p4 done' and then did not exit; killed by 'timeout 600' (exit 143). No PythonEngine.Shutdown() in this version.

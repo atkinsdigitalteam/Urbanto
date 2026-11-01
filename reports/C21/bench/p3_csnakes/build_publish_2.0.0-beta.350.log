@@ -1,0 +1,16 @@
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  p3_csnakes -> /tmp/claude-0/-home-user/2f91ab73-1b27-5748-9cf8-9bf638e6029b/scratchpad/C2021/R21M/artifacts/bin/p3_csnakes/release_linux-x64/p3_csnakes.dll
+  Generating native code
+/tmp/claude-0/-home-user/2f91ab73-1b27-5748-9cf8-9bf638e6029b/scratchpad/C2021/R21M/nuget/csnakes.runtime/2.0.0-beta.350/lib/net10.0/CSnakes.Runtime.dll : warning IL3053: Assembly 'CSnakes.Runtime' produced AOT analysis warnings. [/tmp/claude-0/-home-user/2f91ab73-1b27-5748-9cf8-9bf638e6029b/scratchpad/C2021/R21M/bench/p3_csnakes/p3_csnakes.csproj]
+/tmp/claude-0/-home-user/2f91ab73-1b27-5748-9cf8-9bf638e6029b/scratchpad/C2021/R21M/nuget/csnakes.runtime/2.0.0-beta.350/lib/net10.0/CSnakes.Runtime.dll : warning IL2104: Assembly 'CSnakes.Runtime' produced trim warnings. For more information see https://aka.ms/il2104 [/tmp/claude-0/-home-user/2f91ab73-1b27-5748-9cf8-9bf638e6029b/scratchpad/C2021/R21M/bench/p3_csnakes/p3_csnakes.csproj]
+  p3_csnakes -> /tmp/claude-0/-home-user/2f91ab73-1b27-5748-9cf8-9bf638e6029b/scratchpad/C2021/R21M/artifacts/publish/p3_csnakes/release_linux-x64/
+
+Build succeeded.
+
+/tmp/claude-0/-home-user/2f91ab73-1b27-5748-9cf8-9bf638e6029b/scratchpad/C2021/R21M/nuget/csnakes.runtime/2.0.0-beta.350/lib/net10.0/CSnakes.Runtime.dll : warning IL3053: Assembly 'CSnakes.Runtime' produced AOT analysis warnings. [/tmp/claude-0/-home-user/2f91ab73-1b27-5748-9cf8-9bf638e6029b/scratchpad/C2021/R21M/bench/p3_csnakes/p3_csnakes.csproj]
+/tmp/claude-0/-home-user/2f91ab73-1b27-5748-9cf8-9bf638e6029b/scratchpad/C2021/R21M/nuget/csnakes.runtime/2.0.0-beta.350/lib/net10.0/CSnakes.Runtime.dll : warning IL2104: Assembly 'CSnakes.Runtime' produced trim warnings. For more information see https://aka.ms/il2104 [/tmp/claude-0/-home-user/2f91ab73-1b27-5748-9cf8-9bf638e6029b/scratchpad/C2021/R21M/bench/p3_csnakes/p3_csnakes.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:14.52

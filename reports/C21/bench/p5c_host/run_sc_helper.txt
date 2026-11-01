@@ -1,0 +1,4 @@
+RESULT | p5c [self-contained helper (untrimmed)] helper process start to first ping reply | n=8 | p50_us=68527.99 | p95_us=76550.33 | min_us=65798.98 | mean_us=70180.54 | 
+RESULT | p5c [self-contained helper (untrimmed)] first compile in a fresh helper (round trip) | n=8 | p50_us=1268171.23 | p95_us=1390363.38 | min_us=1218393.20 | mean_us=1292086.85 | small user script
+RESULT | p5c [self-contained helper (untrimmed)] first compile in a fresh helper (inside helper) | n=8 | p50_us=1267963.00 | p95_us=1390135.00 | min_us=1218215.00 | mean_us=1291861.88 | 
+RESULT | p5c [self-contained helper (untrimmed)] next compiles (each a new script, collectible ALC) | n=30 | p50_us=6689.89 | p95_us=11311.83 | min_us=5330.17 | mean_us=7200.85 | 

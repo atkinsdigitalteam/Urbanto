@@ -1,0 +1,11 @@
+RESULT | p5a process start to Main (approx, from OS start time) | 46342 us
+RESULT | p5a CSharpScript first compile (Create + CreateDelegate) | 1595194 us
+RESULT | p5a CSharpScript first run on 10000 points | 7070 us
+RESULT | p5a first script result max abs error | 0.00E+000
+RESULT | p5a memory after first compile | working set 134.0 MB, private 158.7 MB, managed heap 8.2 MB
+RESULT | p5a CSharpScript next compiles (2nd to 31st, each a new script) | n=30 | p50_us=143344.09 | p95_us=440950.82 | min_us=91353.21 | mean_us=206202.27 | small script, 10 lines
+RESULT | p5a run compiled script delegate on 10000 points | n=500 | p50_us=53.05 | p95_us=75.04 | min_us=44.42 | mean_us=57.39 | in-process, no marshalling
+RESULT | p5a empty call of compiled script delegate (empty script) | n=100000 | p50_us=0.29 | p95_us=0.70 | min_us=0.15 | mean_us=0.95 | 
+RESULT | p5a CSharpCompilation.Emit + collectible ALC load (warm, 30 compiles) | n=30 | p50_us=6875.28 | p95_us=10936.12 | min_us=4800.50 | mean_us=13485.65 | 
+RESULT | p5a memory growth after 200 CSharpScript compiles | managed heap +9.9 MB, working set +210.9 MB, loaded assemblies now 262
+RESULT | p5a memory growth after 200 Emit + collectible ALC compiles (unloaded) | managed heap +0.2 MB, working set +-3.4 MB, loaded assemblies now 263

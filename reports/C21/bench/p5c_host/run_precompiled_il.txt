@@ -1,0 +1,8 @@
+RESULT | p5c [release_linux-x64 helper, IL compiled in AOT host] helper start to first ping | n=8 | p50_us=59511.51 | p95_us=63830.69 | min_us=54312.81 | mean_us=60058.70 | 
+RESULT | p5c [release_linux-x64 helper, IL compiled in AOT host] load precompiled IL in fresh helper (round trip) | n=8 | p50_us=12081.33 | p95_us=15906.17 | min_us=10536.33 | mean_us=12475.88 | 2048 B of IL
+RESULT | p5c [release_linux-x64 helper, IL compiled in AOT host] first 10000-point run in fresh helper (includes JIT of user code) | n=8 | p50_us=2613.66 | p95_us=3127.33 | min_us=2264.04 | mean_us=2681.76 | 
+RESULT | p5c [release_linux-x64 helper, IL compiled in AOT host] max abs error | 0.00E+000
+RESULT | p5c [p5c_helper_r2r helper, IL compiled in AOT host] helper start to first ping | n=8 | p50_us=41213.04 | p95_us=45469.68 | min_us=33007.36 | mean_us=39683.37 | 
+RESULT | p5c [p5c_helper_r2r helper, IL compiled in AOT host] load precompiled IL in fresh helper (round trip) | n=8 | p50_us=15391.07 | p95_us=17634.55 | min_us=12331.94 | mean_us=14919.18 | 2048 B of IL
+RESULT | p5c [p5c_helper_r2r helper, IL compiled in AOT host] first 10000-point run in fresh helper (includes JIT of user code) | n=8 | p50_us=2757.68 | p95_us=3336.57 | min_us=2257.33 | mean_us=2742.21 | 
+RESULT | p5c [p5c_helper_r2r helper, IL compiled in AOT host] max abs error | 0.00E+000

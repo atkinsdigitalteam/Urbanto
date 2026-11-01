@@ -1,0 +1,11 @@
+<Project>
+  <!-- Keep bin/obj/publish outside bench/ so bench holds only source and results. -->
+  <PropertyGroup>
+    <UseArtifactsOutput>true</UseArtifactsOutput>
+    <ArtifactsPath>/tmp/claude-0/-home-user/2f91ab73-1b27-5748-9cf8-9bf638e6029b/scratchpad/C2021/R21M/artifacts</ArtifactsPath>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+</Project>

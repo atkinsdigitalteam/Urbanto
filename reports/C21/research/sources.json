@@ -2808,5 +2808,101 @@
    "not verified (HTTP 403)"
   ],
   "read": "2026-11-01"
+ },
+ {
+  "url": "https://learn.microsoft.com/en-us/dotnet/core/deploying/ready-to-run",
+  "title": "ReadyToRun deployment overview",
+  "publisher": "Microsoft Learn",
+  "date": "2026-07-27 (updated_at; ms.date 2021-08-23, older than 5 years)",
+  "flags": "primary; base text from 2021",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://dot.net/v1/dotnet-install.sh",
+  "title": "dotnet-install.sh",
+  "publisher": "Microsoft / .NET Foundation",
+  "date": "fetched 2026-11-01",
+  "flags": "primary; used to install SDK 10.0.403",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.python.org/3/using/windows.html#the-embeddable-package",
+  "title": "Using Python on Windows: The embeddable package (Python 3.15.2 docs)",
+  "publisher": "Python Software Foundation",
+  "date": "3.15 docs",
+  "flags": "primary",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.python.org/downloads/release/python-31317/",
+  "title": "Python 3.13.17 release page (file sizes, SHA-256)",
+  "publisher": "python.org",
+  "date": "2026-10-21",
+  "flags": "primary; page says superseded by 3.13.18",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.python.org/ftp/python/3.13.17/python-3.13.17-embed-amd64.zip",
+  "title": "python-3.13.17-embed-amd64.zip (downloaded and measured, SHA-256 matched)",
+  "publisher": "python.org",
+  "date": "2026-10-21",
+  "flags": "primary; measured",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/tonybaloney/CSnakes/main/docs/advanced/native-aot.md",
+  "title": "CSnakes docs source: native-aot.md",
+  "publisher": "CSnakes project",
+  "date": "main branch, fetched 2026-11-01",
+  "flags": "project docs source",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/tonybaloney/CSnakes/main/src/CSnakes.Runtime/Locators/PythonLocator.cs",
+  "title": "CSnakes PythonLocator.cs",
+  "publisher": "CSnakes project",
+  "date": "main branch, fetched 2026-11-01",
+  "flags": "source code",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/tonybaloney/CSnakes/main/src/CSnakes.Runtime/ServiceCollectionExtensions.cs",
+  "title": "CSnakes ServiceCollectionExtensions.cs (locator signatures)",
+  "publisher": "CSnakes project",
+  "date": "main branch, fetched 2026-11-01",
+  "flags": "source code",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.nuget.org/packages/CSnakes.Runtime",
+  "title": "CSnakes.Runtime on NuGet (1.2.1 stable 2025-08-08, 2.0.0-beta.350 2026-07-15, 527.5K downloads)",
+  "publisher": "nuget.org",
+  "date": "fetched 2026-11-01",
+  "flags": "package registry",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/pythonnet/pythonnet",
+  "title": "pythonnet README",
+  "publisher": "pythonnet project (GitHub)",
+  "date": "fetched 2026-11-01",
+  "flags": "project README; says nothing about Native AOT",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://api.nuget.org/v3-flatcontainer/pythonnet/index.json",
+  "title": "pythonnet versions on NuGet (3.2.1 published 2026-10-08)",
+  "publisher": "nuget.org",
+  "date": "fetched 2026-11-01",
+  "flags": "package registry API",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://api.nuget.org/v3/registration5-gz-semver2/microsoft.codeanalysis.csharp.scripting/page/4.7.0/5.9.0.json",
+  "title": "Microsoft.CodeAnalysis.CSharp.Scripting registration (5.9.0 published 2026-08-17)",
+  "publisher": "nuget.org",
+  "date": "fetched 2026-11-01",
+  "flags": "package registry API",
+  "read": "2026-11-01"
  }
 ]

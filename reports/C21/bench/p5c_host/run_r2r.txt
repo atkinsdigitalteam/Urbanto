@@ -1,0 +1,9 @@
+RESULT | p5c [JIT helper, ReadyToRun] helper process start to first ping reply | n=8 | p50_us=56976.62 | p95_us=72636.30 | min_us=52668.49 | mean_us=59215.20 | 
+RESULT | p5c [JIT helper, ReadyToRun] first compile in a fresh helper (round trip) | n=8 | p50_us=575286.59 | p95_us=647178.11 | min_us=519218.23 | mean_us=572816.74 | small user script
+RESULT | p5c [JIT helper, ReadyToRun] first compile in a fresh helper (inside helper) | n=8 | p50_us=574949.00 | p95_us=646963.00 | min_us=518930.00 | mean_us=572497.62 | 
+RESULT | p5c [JIT helper, ReadyToRun] next compiles (each a new script, collectible ALC) | n=30 | p50_us=4739.19 | p95_us=6232.61 | min_us=4169.95 | mean_us=5124.53 | 
+RESULT | p5c [JIT helper, ReadyToRun] empty round trip | n=5000 | p50_us=30.21 | p95_us=48.38 | min_us=15.49 | mean_us=34.60 | payload=5 B each way
+RESULT | p5c [JIT helper, ReadyToRun] 10000 points round trip | n=300 | p50_us=214.85 | p95_us=331.74 | min_us=203.64 | mean_us=237.73 | payload=160005 B each way
+RESULT | p5c [JIT helper, ReadyToRun] 10000 max abs error vs C# | 0.00E+000
+RESULT | p5c [JIT helper, ReadyToRun] 100000 points round trip | n=50 | p50_us=3424.17 | p95_us=5002.51 | min_us=2773.98 | mean_us=3704.55 | payload=1600005 B each way
+RESULT | p5c [JIT helper, ReadyToRun] 100000 max abs error vs C# | 0.00E+000

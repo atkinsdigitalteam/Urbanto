@@ -1,0 +1,41 @@
+RESULT | size | libpython3.13.so.1.0 | 7400496 B | 7.1 MiB | 
+RESULT | size | stdlib /usr/lib/python3.13 (all, incl. __pycache__ and lib-dynload) | 51497972 B | 49.1 MiB | 
+RESULT | size |   of which __pycache__ dirs | 11532620 B | 11.0 MiB | 
+RESULT | size |   of which lib-dynload (C extension modules) | 3528936 B | 3.4 MiB | 
+RESULT | size |   of which test/ | 1277512 B | 1.2 MiB | 
+RESULT | size |   of which ensurepip/ | 1836609 B | 1.8 MiB | 
+RESULT | size |   of which pydoc_data/ | 1163794 B | 1.1 MiB | 
+RESULT | size |   of which config-3.13-x86_64-linux-gnu/ | 23777083 B | 22.7 MiB | 
+RESULT | size | stdlib trimmed (no tests, idle, tkinter, ensurepip, pydoc_data, config/static lib, __pycache__) | 13228292 B | 12.6 MiB | 
+RESULT | size | libpython + trimmed stdlib (embedding set, Linux) | 20628788 B | 19.7 MiB | 
+RESULT | size | numpy 2.x installed here (/usr/local/lib/python3.13/dist-packages/numpy + numpy.libs) | 59836671 B | 57.1 MiB | 
+RESULT | size | msgpack 1.2.4 (pip --target) | 1666540 B | 1.6 MiB | 
+RESULT | size | python-3.13.17-embed-amd64.zip (download) | 11441267 B | 10.9 MiB | 
+RESULT | size | python-3.13.17-embed-amd64 extracted | 22640861 B | 21.6 MiB | 
+RESULT | size | nupkg microsoft.codeanalysis.common.5.9.0.nupkg | 4530869 B | 4.3 MiB | 
+RESULT | size | nupkg microsoft.codeanalysis.csharp.5.9.0.nupkg | 12210215 B | 11.6 MiB | 
+RESULT | size | nupkg microsoft.codeanalysis.scripting.common.5.9.0.nupkg | 523495 B | 0.5 MiB | 
+RESULT | size | nupkg microsoft.codeanalysis.csharp.scripting.5.9.0.nupkg | 350644 B | 0.3 MiB | 
+RESULT | size | Roslyn scripting DLLs as deployed (4 DLLs, IL only) | 10354376 B | 9.9 MiB | 
+RESULT | size | Roslyn satellite resource folders (13 languages) | 7291552 B | 7.0 MiB | 
+RESULT | size | Roslyn scripting DLLs ReadyToRun (crossgen) as deployed | 28557312 B | 27.2 MiB | 
+RESULT | size | shared .NET runtime Microsoft.NETCore.App 10.0.14 (linux-x64, needed by framework-dependent helper) | 82612136 B | 78.8 MiB | 
+RESULT | size | helper framework-dependent linux-x64 (helper + Roslyn compiler DLLs, en only) | 10288657 B | 9.8 MiB | 
+RESULT | size | helper publish helper_fdd_r2r_win-x64 | 27669025 B | 26.4 MiB | 
+RESULT | size | helper publish helper_fdd_win-x64 | 10372761 B | 9.9 MiB | 
+RESULT | size | helper publish helper_sc_linux-x64 | 92861448 B | 88.6 MiB | 
+RESULT | size | helper publish helper_sc_trimmed_linux-x64 | 35106966 B | 33.5 MiB | 
+RESULT | size | helper publish helper_sc_win-x64 | 90773864 B | 86.6 MiB | 
+RESULT | size | win-x64 runtime pack (NuGet cache folder) 10.0.14 | 138391417 B | 132.0 MiB | includes .nupkg and extracted files
+RESULT | size | Native AOT executable p1_cpython_aot (linux-x64, stripped .dbg kept separately) | 1247240 B | 1.2 MiB | 
+RESULT | size | Native AOT executable p2_pipe (linux-x64, stripped .dbg kept separately) | 2278080 B | 2.2 MiB | 
+RESULT | size | Native AOT executable p3_csnakes (linux-x64, stripped .dbg kept separately) | 4728936 B | 4.5 MiB | 
+RESULT | size | Native AOT executable p4_pythonnet (linux-x64, stripped .dbg kept separately) | 5068408 B | 4.8 MiB | 
+RESULT | size | Native AOT executable p5b_roslyn_aot (linux-x64, stripped .dbg kept separately) | 36281552 B | 34.6 MiB | 
+RESULT | size | Native AOT executable p5c_host (linux-x64, stripped .dbg kept separately) | 2114088 B | 2.0 MiB | 
+RESULT | size | download dotnet-apphost-pack-win-x64.zip (HEAD Content-Length) | 5748032 B | 5.5 MiB | https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.14/dotnet-apphost-pack-10.0.14-win-x64.zip
+RESULT | size | download dotnet-runtime-win-x64.exe (HEAD Content-Length) | 30653360 B | 29.2 MiB | https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.14/dotnet-runtime-10.0.14-win-x64.exe
+RESULT | size | download dotnet-runtime-win-x64.zip (HEAD Content-Length) | 36971047 B | 35.3 MiB | https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.14/dotnet-runtime-10.0.14-win-x64.zip
+RESULT | size | download windowsdesktop-runtime-win-x64.exe (HEAD Content-Length) | 60035296 B | 57.3 MiB | https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/10.0.14/windowsdesktop-runtime-10.0.14-win-x64.exe
+RESULT | size | download windowsdesktop-runtime-win-x64.zip (HEAD Content-Length) | 39169811 B | 37.4 MiB | https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/10.0.14/windowsdesktop-runtime-10.0.14-win-x64.zip
+RESULT | size | win-x64 runtime pack extracted files (runtimes/win-x64) | 80404126 B | | NuGet cache

@@ -1,0 +1,11 @@
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  p2_pipe -> /tmp/claude-0/-home-user/2f91ab73-1b27-5748-9cf8-9bf638e6029b/scratchpad/C2021/R21M/artifacts/bin/p2_pipe/release_linux-x64/p2_pipe.dll
+  Generating native code
+  p2_pipe -> /tmp/claude-0/-home-user/2f91ab73-1b27-5748-9cf8-9bf638e6029b/scratchpad/C2021/R21M/artifacts/publish/p2_pipe/release_linux-x64/
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:06.78

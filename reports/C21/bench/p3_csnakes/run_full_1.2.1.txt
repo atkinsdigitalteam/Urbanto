@@ -1,0 +1,16 @@
+RESULT | p3 startup: generic host build (no Python yet) | 8072 us
+RESULT | p3 startup: Python environment ready (locate + Py_Initialize) | 80299 us
+RESULT | p3 startup: import bench_mod | 1687 us
+RESULT | p3 CSnakes empty call | n=200000 | p50_us=0.24 | p95_us=0.47 | min_us=0.23 | mean_us=0.35 | payload=0 B
+RESULT | p3 CSnakes list[tuple[float,float]] N=10000 round trip | n=300 | p50_us=19134.35 | p95_us=37624.19 | min_us=11774.16 | mean_us=22405.39 | payload=10000 points = 160000 B of float64 each way
+RESULT | p3 tuples N=10000 max abs error vs C# | 0.00E+000
+RESULT | p3 CSnakes list[float] (flat) N=10000 round trip | n=300 | p50_us=17821.34 | p95_us=24301.93 | min_us=11934.78 | mean_us=18285.86 | payload=10000 points = 160000 B of float64 each way
+RESULT | p3 flat N=10000 max abs error vs C# | 0.00E+000
+RESULT | p3 CSnakes bytes in/out (array module, pure Python) N=10000 round trip | n=300 | p50_us=2873.95 | p95_us=4057.97 | min_us=2510.04 | mean_us=3038.94 | payload=160000 B each way
+RESULT | p3 bytes N=10000 max abs error vs C# | 0.00E+000
+RESULT | p3 CSnakes list[tuple[float,float]] N=100000 round trip | n=50 | p50_us=217617.59 | p95_us=417066.36 | min_us=131273.15 | mean_us=234750.21 | payload=100000 points = 1600000 B of float64 each way
+RESULT | p3 tuples N=100000 max abs error vs C# | 0.00E+000
+RESULT | p3 CSnakes list[float] (flat) N=100000 round trip | n=50 | p50_us=173768.90 | p95_us=332841.92 | min_us=130977.55 | mean_us=197416.42 | payload=100000 points = 1600000 B of float64 each way
+RESULT | p3 flat N=100000 max abs error vs C# | 0.00E+000
+RESULT | p3 CSnakes bytes in/out (array module, pure Python) N=100000 round trip | n=50 | p50_us=34138.02 | p95_us=55763.49 | min_us=29155.90 | mean_us=38836.33 | payload=1600000 B each way
+RESULT | p3 bytes N=100000 max abs error vs C# | 0.00E+000

@@ -1,0 +1,18 @@
+RESULT | p3 startup: generic host build (no Python yet) | 8176 us
+RESULT | p3 startup: Python environment ready (locate + Py_Initialize) | 82983 us
+RESULT | p3 startup: import bench_mod | 1916 us
+RESULT | p3 CSnakes empty call | n=200000 | p50_us=0.24 | p95_us=0.27 | min_us=0.23 | mean_us=0.27 | payload=0 B
+RESULT | p3 CSnakes list[tuple[float,float]] N=10000 round trip | n=300 | p50_us=15600.83 | p95_us=36050.98 | min_us=11378.29 | mean_us=20916.64 | payload=10000 points = 160000 B of float64 each way
+RESULT | p3 tuples N=10000 max abs error vs C# | 0.00E+000
+RESULT | p3 CSnakes list[float] (flat) N=10000 round trip | n=300 | p50_us=18124.15 | p95_us=25150.93 | min_us=12094.06 | mean_us=18245.05 | payload=10000 points = 160000 B of float64 each way
+RESULT | p3 flat N=10000 max abs error vs C# | 0.00E+000
+RESULT | p3 CSnakes bytes in/out (array module, pure Python) N=10000 round trip | n=300 | p50_us=2825.68 | p95_us=3763.74 | min_us=2546.03 | mean_us=2950.65 | payload=160000 B each way
+RESULT | p3 bytes N=10000 max abs error vs C# | 0.00E+000
+RESULT | p3 CSnakes numpy N=10000 | FAILED: PythonInvocationException: The Python runtime raised a ModuleNotFoundError exception, see InnerException for details.
+RESULT | p3 CSnakes list[tuple[float,float]] N=100000 round trip | n=50 | p50_us=212650.38 | p95_us=606894.59 | min_us=140962.09 | mean_us=264788.37 | payload=100000 points = 1600000 B of float64 each way
+RESULT | p3 tuples N=100000 max abs error vs C# | 0.00E+000
+RESULT | p3 CSnakes list[float] (flat) N=100000 round trip | n=50 | p50_us=172555.71 | p95_us=275212.80 | min_us=138509.62 | mean_us=187549.48 | payload=100000 points = 1600000 B of float64 each way
+RESULT | p3 flat N=100000 max abs error vs C# | 0.00E+000
+RESULT | p3 CSnakes bytes in/out (array module, pure Python) N=100000 round trip | n=50 | p50_us=38135.04 | p95_us=55830.62 | min_us=31073.65 | mean_us=41600.16 | payload=1600000 B each way
+RESULT | p3 bytes N=100000 max abs error vs C# | 0.00E+000
+RESULT | p3 CSnakes numpy N=100000 | FAILED: PythonInvocationException: The Python runtime raised a ModuleNotFoundError exception, see InnerException for details.

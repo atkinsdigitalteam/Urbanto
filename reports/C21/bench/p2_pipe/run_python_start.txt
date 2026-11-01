@@ -1,0 +1,3 @@
+RESULT | python3 -I -c pass wall clock (process start to exit) | n=30 | p50_ms=16.0 | p95_ms=21.9 | min_ms=14.2 | mean_ms=17.0
+RESULT | python3 -I -S -c pass (no site) wall clock (process start to exit) | n=30 | p50_ms=10.8 | p95_ms=15.3 | min_ms=9.6 | mean_ms=11.6
+RESULT | python3 -I -c 'import numpy' wall clock (process start to exit) | n=30 | p50_ms=100.9 | p95_ms=124.6 | min_ms=97.3 | mean_ms=104.3

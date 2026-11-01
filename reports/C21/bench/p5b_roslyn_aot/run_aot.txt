@@ -1,0 +1,16 @@
+RESULT | p5b step 1 CSharpScript.EvaluateAsync("1 + 2") | FAILED: System.NotSupportedException: Can't create a metadata reference to an assembly without location. | innermost: System.NotSupportedException: Can't create a metadata reference to an assembly without location.
+    at at Microsoft.CodeAnalysis.MetadataReference.GetAssemblyFilePath(Assembly, MetadataReferenceProperties) + 0x9b
+    at at Microsoft.CodeAnalysis.Scripting.Script.GetReferencesForCompilation(CommonMessageProvider, DiagnosticBag, MetadataReference) + 0xef
+    at at Microsoft.CodeAnalysis.CSharp.Scripting.CSharpScriptCompiler.CreateSubmission(Script) + 0x79
+    at at Microsoft.CodeAnalysis.Scripting.Script.GetCompilation() + 0x20
+    at at Microsoft.CodeAnalysis.Scripting.Script`1.GetExecutor(CancellationToken) + 0x31
+    at at Microsoft.CodeAnalysis.Scripting.Script`1.RunAsync(Object, Func`2, CancellationToken) + 0x4c
+RESULT | p5b step 2 typeof(object).Assembly.Location (needed for MetadataReference.CreateFromFile) | OK: ''
+RESULT | p5b step 3 CSharpCompilation.Emit with references from the reference pack on disk | OK: success=True, 2048 bytes IL, 43 ms, refs=167
+RESULT | p5b step 4 Assembly.Load(bytes) of the emitted user assembly | FAILED: System.PlatformNotSupportedException: Operation is not supported on this platform. | innermost: System.PlatformNotSupportedException: Operation is not supported on this platform.
+    at at System.Runtime.Loader.AssemblyLoadContext.InternalLoad(ReadOnlySpan`1, ReadOnlySpan`1) + 0x57
+    at at System.Reflection.Assembly.Load(Byte[], Byte[]) + 0xb9
+    at at Program.<>c.<<Main>$>b__0_3() + 0x2f
+    at at Program.<<Main>$>g__Step|0_5(String, Func`1) + 0x2e
+RESULT | p5b AOT Roslyn next compiles (30 new scripts) | n=30 | p50_us=2214.37 | p95_us=3305.53 | min_us=1747.07 | mean_us=2318.15 | 
+RESULT | p5b step 5 compile timings inside AOT (refs: System.Runtime.dll from the reference pack only) | OK: first compile 19.8 ms

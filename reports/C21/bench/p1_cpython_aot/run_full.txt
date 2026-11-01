@@ -1,0 +1,29 @@
+RESULT | p1 startup: first P/Invoke (dlopen libpython) | 952 us (already=0)
+RESULT | p1 startup: Py_InitializeEx(0) | 16575 us
+RESULT | p1 startup: define module functions | 2498 us
+RESULT | p1 startup: import numpy | 158569 us
+RESULT | p1 startup: total to ready (no numpy) | 20025 us
+RESULT | p1 empty call (GIL held) | n=200000 | p50_us=0.07 | p95_us=0.13 | min_us=0.06 | mean_us=0.08 | payload=0 B
+RESULT | p1 empty call (GIL held), batched mean of 1e6 | 52.1 ns per call
+RESULT | p1 tuples round trip N=10000 (build list + call + read back) | n=500 | p50_us=4323.25 | p95_us=5083.25 | min_us=4110.81 | mean_us=4442.46 | payload=10000 points = 160000 B of float64 each way
+RESULT | p1 tuples N=10000 max abs error vs C# | 0.00E+000
+RESULT | p1 tuples N=10000 part: build Python list only | n=500 | p50_us=1559.33 | p95_us=2088.27 | min_us=1484.62 | mean_us=1668.00 | payload=10000 points = 160000 B of float64 each way
+RESULT | p1 tuples N=10000 part: Python call only (list comprehension) | n=500 | p50_us=1929.22 | p95_us=2726.94 | min_us=1816.24 | mean_us=2012.89 | payload=10000 points = 160000 B of float64 each way
+RESULT | p1 tuples N=10000 part: read result back only | n=500 | p50_us=458.90 | p95_us=526.25 | min_us=427.91 | mean_us=465.70 | payload=10000 points = 160000 B of float64 each way
+RESULT | p1 buffer (memoryview, pure Python) N=10000 | n=500 | p50_us=3174.39 | p95_us=3676.17 | min_us=2921.16 | mean_us=3277.63 | payload=10000 points = 160000 B of float64 each way, zero copy across the boundary
+RESULT | p1 buffer N=10000 max abs error vs C# | 0.00E+000
+RESULT | p1 buffer (memoryview, numpy) N=10000 | n=500 | p50_us=119.72 | p95_us=205.34 | min_us=110.85 | mean_us=135.27 | payload=10000 points = 160000 B of float64 each way, zero copy across the boundary
+RESULT | p1 numpy N=10000 max abs error vs C# | 1.14E-013
+RESULT | p1 tuples round trip N=100000 (build list + call + read back) | n=100 | p50_us=65675.84 | p95_us=80985.64 | min_us=61143.89 | mean_us=67554.96 | payload=100000 points = 1600000 B of float64 each way
+RESULT | p1 tuples N=100000 max abs error vs C# | 0.00E+000
+RESULT | p1 tuples N=100000 part: build Python list only | n=100 | p50_us=23030.13 | p95_us=30047.21 | min_us=21139.17 | mean_us=24120.43 | payload=100000 points = 1600000 B of float64 each way
+RESULT | p1 tuples N=100000 part: Python call only (list comprehension) | n=100 | p50_us=31851.65 | p95_us=41973.44 | min_us=26159.91 | mean_us=33019.17 | payload=100000 points = 1600000 B of float64 each way
+RESULT | p1 tuples N=100000 part: read result back only | n=100 | p50_us=4989.03 | p95_us=6595.40 | min_us=4619.97 | mean_us=5318.06 | payload=100000 points = 1600000 B of float64 each way
+RESULT | p1 buffer (memoryview, pure Python) N=100000 | n=100 | p50_us=41838.53 | p95_us=62399.12 | min_us=36634.14 | mean_us=45292.12 | payload=100000 points = 1600000 B of float64 each way, zero copy across the boundary
+RESULT | p1 buffer N=100000 max abs error vs C# | 0.00E+000
+RESULT | p1 buffer (memoryview, numpy) N=100000 | n=100 | p50_us=2691.06 | p95_us=3503.85 | min_us=2372.08 | mean_us=2837.12 | payload=100000 points = 1600000 B of float64 each way, zero copy across the boundary
+RESULT | p1 numpy N=100000 max abs error vs C# | 1.14E-013
+RESULT | p1 empty call with PyGILState_Ensure/Release each call (same thread) | n=200000 | p50_us=0.16 | p95_us=0.25 | min_us=0.16 | mean_us=0.19 | payload=0 B
+RESULT | p1 empty call with PyGILState_Ensure/Release from a .NET worker thread | n=20000 | p50_us=6.64 | p95_us=11.00 | min_us=6.20 | mean_us=8.07 | payload=0 B
+RESULT | p1 empty call from a .NET worker thread that keeps its PyThreadState (RestoreThread/SaveThread per call) | n=200000 | p50_us=0.18 | p95_us=0.26 | min_us=0.15 | mean_us=0.23 | payload=0 B
+RESULT | p1 Py_FinalizeEx | 19980 us

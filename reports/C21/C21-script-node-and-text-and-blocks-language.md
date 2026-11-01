@@ -15,7 +15,7 @@ Run user scripts outside Studio's process, and make the language text first with
 - pythonnet and IronPython need `Reflection.Emit`.
 - Embedding CPython in-process is possible but gives no crash isolation. It cannot be restarted cleanly after a package change ([interp-lifecycle](https://docs.python.org/3/c-api/interp-lifecycle.html)), and Python has no in-process sandbox ([sys](https://docs.python.org/3/library/sys.html)).
 
-**Cost (measured here).** MEASURED_SUMMARY
+**Cost (measured here).** A worker round trip with 10,000 points takes 0.49 ms for Python (binary columns into numpy) and 0.21 to 0.26 ms for compiled C#. That is well under one 16 ms screen frame, against 0.12 ms for in-process Python. Worker start is 18 to 24 ms for Python (about 100 ms with numpy). For C#, the helper starts in 57 to 71 ms and the first compile takes 0.58 to 1.40 s. These are Linux numbers from a shared VM, so treat them as relative costs.
 
 **Editor.** AvaloniaEdit 12 (MIT) with TextMate highlighting for the two languages only. Completion and errors come from language servers in their own processes: Jedi and ruff for Python, Roslyn in the C# helper. Studio's API completes from generated `.pyi` stubs and reference assemblies.
 
@@ -69,7 +69,32 @@ Native AOT allows "No dynamic loading, for example, Assembly.LoadFile" and "No r
 
 ### 2.3 Measured costs
 
-MEASURED_SECTION
+Measured on 2026-11-01 on this Linux x64 VM (4 shared cores, 16 GB RAM) with .NET 10.0.14 (SDK 10.0.403) and CPython 3.13.17. Windows will differ, so read these as relative costs.
+- **Workload:** rotate and translate N float64 (x, y) points, checked against a C# reference (error 0, or 1.1e-13 with numpy).
+- **Timing:** each call was timed after a warm-up; process starts were repeated 8 to 30 times, discarding the first.
+- **Values:** p50 unless marked.
+- **Files:** the programs, raw outputs and build logs are in [bench/](bench/), and the method and every result are in [research/R21M-measurements.md](research/R21M-measurements.md).
+
+| Option | Builds and runs in the AOT app | Start | Empty call | 10,000 points | 100,000 points |
+|---|---|---|---|---|---|
+| Python via the C API, in-process (`LibraryImport`) | Yes, 0 warnings, 1.2 MiB exe | 16.6 ms, plus 84 ms to import numpy | 0.07 µs | 4.32 ms as Python tuples; 0.12 ms as a zero-copy buffer into numpy | 65.7 ms; 2.69 ms |
+| Python via CSnakes, in-process | Yes: 0 warnings on 1.2.1, 3 warnings on the 2.0 beta | 86 ms (it imports asyncio) | 0.24 µs | 15.6 ms as a list of tuples; 2.83 ms as bytes | not measured |
+| Python via pythonnet | No: 219 warnings, then `PlatformNotSupportedException` at start | n/a | n/a | n/a | n/a |
+| **Python worker process over pipes** | **Yes** | **18 to 24 ms, about 100 ms with numpy** | **27.6 to 37.5 µs round trip** | **JSON 30.1 ms; float64 frames 3.15 ms; msgpack 2.87 ms; float64 frames into numpy 0.49 ms** | **271 ms; 37.6 ms; 32.5 ms; 4.42 ms** |
+| C# Roslyn scripting, in-process in the AOT app | No: `CSharpScript` fails; compiling works, but loading the result throws `PlatformNotSupportedException`. The exe grows to 34.6 MiB with 30 warnings | n/a | n/a | n/a | n/a |
+| C# Roslyn scripting in a JIT process | n/a | First compile 1,567 ms (654 ms with ReadyToRun) | n/a | Later compiles 143 ms each, never freed: 200 compiles added 211 MB | n/a |
+| **C# helper process (`CSharpCompilation`, collectible load context)** | **Yes** | **57 to 71 ms; first compile 0.58 s (ReadyToRun) to 1.40 s; then 4.7 to 6.7 ms per recompile, with no memory growth** | **30 µs round trip** | **0.21 to 0.26 ms** | **3.4 ms** |
+
+**What this shows:**
+- **Format matters more than location.** JSON is about 10 times slower than binary on both sides: Python's `json` alone takes 14.4 ms for 10,000 points. Python tuples are slow even in-process (4.32 ms). Flat float64 columns into numpy are fast through a pipe (0.49 ms) and in-process (0.12 ms) alike.
+- **The worker's overhead is small.** Moving to a worker costs about 0.37 ms more per call for 10,000 points (0.49 ms against 0.12 ms) and 30 µs per empty call. Both are well under one screen frame, and they buy crash isolation, clean restarts and a security boundary.
+- **In-process Python has traps.** Calling `PyGILState_Ensure` and `Release` on every call cost 6.64 µs, against 0.18 µs for one thread state per thread ([Python threads doc](https://docs.python.org/3/c-api/threads.html)). On Linux, numpy also failed until the host loaded libpython with `RTLD_GLOBAL`.
+- **For C#, compile once and recycle.** The Roslyn scripting API leaks: every compile stays in memory ([roslyn #41722](https://github.com/dotnet/roslyn/issues/41722)). `CSharpCompilation` with an unloadable load context does not ([unloadability](https://learn.microsoft.com/en-us/dotnet/standard/assembly/unloadability)). A cached script costs 53 µs to transform 10,000 points.
+- **Sizes:**
+  - The python.org embeddable zip for 3.13.17 is 11,441,267 bytes and extracts to 21.6 MiB (measured).
+  - The Roslyn scripting DLLs are 9.9 MiB (27.2 MiB with ReadyToRun).
+  - The .NET 10.0.14 Windows runtime installer is 29.2 MiB (measured from the size headers of the files listed in [releases.json](https://builds.dotnet.microsoft.com/dotnet/release-metadata/10.0/releases.json)). A self-contained win-x64 helper is 86.6 MiB.
+- **One option not taken.** Compiling C# inside the AOT host and sending only the IL to the helper cut the cold path to 80 to 95 ms. But it puts 34.6 MiB and 30 trim warnings into the main app, so it is left for later.
 
 ### 2.4 Recommendation for Python
 
@@ -78,7 +103,7 @@ MEASURED_SECTION
   - **Limits.** The worker sits in a Windows Job object with kill-on-close, a memory cap and a time limit per run. Cancel kills and restarts it.
   - **Untrusted flows.** An optional AppContainer mode removes network access and file access outside the project.
 - **Data.**
-  - **Format.** Shapes and attributes travel as columns: `kind`, start and end x and y, centre, radius and the two angles for arcs (NaN when unused), a lineage id, then one column per attribute. Columns arrive in Python as numpy arrays.
+  - **Format.** Shapes and attributes travel as columns: `kind`, start and end x and y, centre, radius and the two angles for arcs (NaN when unused), a lineage id, then one column per attribute. Columns arrive in Python as numpy arrays (float64 frames into numpy: 0.49 ms for 10,000 points, measured in 2.3).
   - **Ease of use.** A thin `studio` package wraps them as `Line`, `Arc` and `Shape` objects, so simple scripts stay readable.
   - **Item mode.** Item access is the host looping over rows; the user never writes that loop.
   - **What to avoid.** Never marshal one element at a time; CSnakes copies lists that way ([performance](https://tonybaloney.github.io/CSnakes/v1/advanced/performance/)), and Dynamo had to move away from it ([migration](https://dynamobim.org/dynamo-pythonnet3-upgrade-a-practical-guide-to-migrating-your-dynamo-graphs/)).
@@ -319,3 +344,73 @@ Also considered: parameters created from code with no range (Houdini), and shipp
 - **The example.** The loop example (floors needed to reach a target area) and its numbers are illustrative: a 2,100 m² plot, 3 to 9 floors.
 - **Measurements.** They ran on this Linux x64 VM (4 cores, shared). Windows numbers will differ; section 2.3 says how they were taken.
 - **Research gaps.** Some pages were blocked (food4rhino, the ACM Digital Library, the MPS forum, the Scratch Wiki, parts of Observable's docs). The research notes list them, and no claim here relies on them.
+
+## Sources
+
+Every external page linked in this report (65 pages), in order of first use, read on 2026-11-01. The full list of 327 sources is in [research/sources.json](research/sources.json).
+
+1. Scripting API - Operation is not supported on this platform (when AOT published). dotnet/roslyn GitHub. 2024-05-24. <https://github.com/dotnet/roslyn/issues/73689> (issue thread; no maintainer reply; open)
+2. Interpreter initialization and finalization. Python Software Foundation. Python 3.15.2 docs. <https://docs.python.org/3/c-api/interp-lifecycle.html> (primary; official docs)
+3. sys (addaudithook). Python Software Foundation. Python 3.15.2 docs. <https://docs.python.org/3/library/sys.html> (primary; official docs)
+4. Evaluation of a Frame-based Programming Editor (ICER 2016) PDF. Price, Brown, Lipovac, Barnes, Kolling. 2016. <https://kar.kent.ac.uk/56259/1/icer027-priceA.pdf> (['old', 'paper', 'pdf'])
+5. Script Package References. McNeel. undated (tagged New in 9). <https://developer.rhino3d.com/guides/scripting/advanced-packages/> (primary; vendor docs; may describe Rhino 9 behaviour)
+6. Editor Debugging. McNeel. undated (current). <https://developer.rhino3d.com/guides/scripting/editor-debug/> (primary; vendor docs)
+7. ScriptEditor: Terminal. Robert McNeel & Associates. 2026-09-29. <https://developer.rhino3d.com/guides/scripting/editor-terminal/> (vendor docs)
+8. Python Package Environments. McNeel. undated (current). <https://developer.rhino3d.com/guides/scripting/advanced-pyvenvs/> (primary; vendor docs)
+9. Python 3 about 10x slower than old python component. McNeel forum. 2026-01-27. <https://discourse.mcneel.com/t/python-3-about-10x-slower-than-old-python-component/215094> (third party; user report)
+10. Rhino BETA Feature: Python 3.13. McNeel forum (staff post by eirannejad). 2025-05-29. <https://discourse.mcneel.com/t/rhino-beta-feature-python-3-13/205209> (vendor staff forum post; replies are third party users)
+11. Dynamo Primer: Python Nodes. Autodesk Dynamo Primer. n/a. <https://primer2.dynamobim.org/8_coding_in_dynamo/8-3_python/1-python.md> (vendor docs)
+12. Dynamo Core 4.0 Release (fetched via https://dynamobim.org/?p=56362). Dynamo team (Autodesk). 2025-11-25. <https://dynamobim.org/dynamo-core-4-0-release/> (primary; release notes)
+13. Dynamo PythonNet3 upgrade: a practical guide. Dynamo blog (guest author Cyril Poupin). 2025-12-04. <https://dynamobim.org/dynamo-pythonnet3-upgrade-a-practical-guide-to-migrating-your-dynamo-graphs/> (vendor blog; guest author)
+14. IntelliSense for Python. Dynamo forum. 2023-01-25. <https://forum.dynamobim.com/t/intellisense-for-python/85040> (user forum)
+15. VEX language overview. SideFX. Houdini 22.0 docs. <https://www.sidefx.com/docs/houdini/vex/index.html> (primary; vendor docs)
+16. hou.Geometry. SideFX. Houdini 22.0 docs. <https://www.sidefx.com/docs/houdini/hom/hou/Geometry.html> (primary; vendor docs)
+17. EVE: The Excellent VEX Editor. SideFX forum. 2025-12-13. <https://www.sidefx.com/forum/topic/102715/lofi/> (third-party product post)
+18. bpy_prop_collection. Blender Foundation. Blender 5.2 API. <https://docs.blender.org/api/current/bpy.types.bpy_prop_collection.html> (primary; vendor docs)
+19. How LINQPad Works. LINQPad (Joseph Albahari). undated. <https://www.linqpad.net/HowLINQPadWorks.aspx> (primary; vendor docs)
+20. Every CSharpScript.EvaluateAsync() call generates a new assembly that does not get unloaded. dotnet/roslyn GitHub. 2020-02-15. <https://github.com/dotnet/roslyn/issues/41722> (issue thread; maintainer replies; open; about 6 years old)
+21. Native AOT deployment overview. Microsoft. 2026-07-27 (updated). <https://learn.microsoft.com/en-us/dotnet/core/deploying/native-aot/> (primary; vendor docs)
+22. debugpy.configure(python=) is not properly documented. Microsoft debugpy GitHub. 2022-10-22 (maintainer reply 2022-10-24). <https://github.com/microsoft/debugpy/issues/1097> (issue thread; maintainer reply; open)
+23. CSnakes: Native AOT. CSnakes. v1 docs. <https://tonybaloney.github.io/CSnakes/v1/advanced/native-aot/> (primary; open source docs)
+24. ClassDerived.cs (source). pythonnet project. master branch, read 2026-11-01. <https://github.com/pythonnet/pythonnet/blob/master/src/runtime/Types/ClassDerived.cs> (primary; source code)
+25. Removal of Reflection.Emit. pythonnet GitHub. 2019-11-28. <https://github.com/pythonnet/pythonnet/issues/997> (issue thread; open; about 7 years old)
+26. Code Quality: Justify dynamic code usage. IronLanguages GitHub. 2025-01-31 (closed 2025-03-26). <https://github.com/IronLanguages/ironpython3/issues/1896> (issue thread; contributor comments)
+27. AppContainer isolation. Microsoft. 2025-07-10 (updated). <https://learn.microsoft.com/en-us/windows/win32/secauthz/appcontainer-isolation> (primary; vendor docs)
+28. Thread states and the global interpreter lock. Python Software Foundation. Python 3.15.2 docs. <https://docs.python.org/3/c-api/threads.html> (primary; official docs)
+29. How to use and debug assembly unloadability in .NET. Microsoft. 2026-03-30 (updated). <https://learn.microsoft.com/en-us/dotnet/standard/assembly/unloadability> (primary; vendor docs)
+30. .NET 10 release metadata. Microsoft. 2026-10-25 (latest 10.0.14). <https://builds.dotnet.microsoft.com/dotnet/release-metadata/10.0/releases.json> (primary; used for measured runtime and SDK sizes)
+31. Using Python on Windows (embeddable package). Python Software Foundation. Python 3.15.2 docs. <https://docs.python.org/3/using/windows.html> (primary; official docs)
+32. Running scripts (uv). Astral. current. <https://docs.astral.sh/uv/guides/scripts/> (primary; vendor docs)
+33. CSnakes: Performance. CSnakes. v1 docs. <https://tonybaloney.github.io/CSnakes/v1/advanced/performance/> (primary; open source docs)
+34. Roslyn ISignatureHelpProvider.cs. Microsoft / .NET Foundation (GitHub). main 2026-11-01. <https://raw.githubusercontent.com/dotnet/roslyn/main/src/Features/Core/Portable/SignatureHelp/ISignatureHelpProvider.cs> (vendor source)
+35. Microsoft C# Extension for VS Code licence terms. Microsoft (GitHub). main 2026-11-01. <https://raw.githubusercontent.com/dotnet/vscode-csharp/main/RuntimeLicenses/license.txt> (vendor licence)
+36. How to use Multi Caret (discussion). AvaloniaUI (GitHub). 2022-10-19. <https://github.com/AvaloniaUI/AvaloniaEdit/discussions/279> (discussion)
+37. Trimming and NativeAOT compatible. danipen (GitHub). 2023-02-12. <https://github.com/danipen/TextMateSharp/pull/42> (pull request)
+38. Grasshopper Scripting: Python. McNeel. undated (mentions Rhino 8.14). <https://developer.rhino3d.com/guides/scripting/scripting-gh-python/> (primary; vendor docs)
+39. Ruff: Editor integrations. Astral. n/a. <https://docs.astral.sh/ruff/editors/> (vendor docs)
+40. Jedi features and limitations. Jedi (David Halter). n/a. <https://jedi.readthedocs.io/en/latest/docs/features.html> (project docs)
+41. ty documentation. Astral. n/a. <https://docs.astral.sh/ty/> (vendor docs; vendor speed claims)
+42. mcneel/pythonstubs. Robert McNeel & Associates (GitHub). n/a. <https://github.com/mcneel/pythonstubs> (vendor source)
+43. PEP 561: Distributing and Packaging Type Information. Python Software Foundation. 2017-09-09. <https://peps.python.org/pep-0561/> (spec; old (2017), historical)
+44. Reference assemblies. Microsoft. 2026-03-30. <https://learn.microsoft.com/en-us/dotnet/standard/assembly/reference-assemblies> (vendor docs)
+45. debugpy README. Microsoft. undated (current). <https://github.com/microsoft/debugpy> (primary; open source)
+46. Screen Reader Can't access. AvaloniaUI (GitHub). 2025-10-02. <https://github.com/AvaloniaUI/AvaloniaEdit/issues/541> (issue; open)
+47. Monaco Editor Accessibility Guide. Microsoft (GitHub wiki). 2026-08-04. <https://github.com/microsoft/monaco-editor/wiki/Monaco-Editor-Accessibility-Guide> (vendor docs)
+48. Efficiency of Projectional Editing: A Controlled Experiment (FSE 2016). Berger, Voelter, Jensen, Dangprasert, Siegmund (University of Gothenburg copy). 2016. <https://gup.ub.gu.se/file/206790> (['old', 'paper', 'pdf'])
+49. MPS documentation: Commanding the editor. JetBrains. undated (current docs). <https://www.jetbrains.com/help/mps/commanding-the-editor.html> (['primary', 'vendor docs'])
+50. Darklang is going all-in on AI. Darklang (Paul Biggar). 2023-03-28. <https://blog.darklang.com/gpt/> (['primary'])
+51. Learnable Programming: Blocks and Beyond (CACM June 2017). Bau, Gray, Kelleher, Sheldon, Turbak. 2017-05-26. <https://arxiv.org/abs/1705.09413> (['old', 'paper', 'survey'])
+52. I'm stuck in JavaScript and can't convert back to blocks!. MakeCode forum. 2023-02-26 to 2026-08-12. <https://forum.makecode.com/t/im-stuck-in-javascript-and-cant-convert-back-to-blocks/18177> (['forum', 'third party users'])
+53. MakeCode Arcade: JavaScript Block. Microsoft MakeCode. undated. <https://arcade.makecode.com/blocks/javascript-blocks> (['primary', 'vendor docs'])
+54. Convert from code to blocks (issue #8183). Blockly GitHub. 2024-05-29 (updated 2026-07-08). <https://github.com/RaspberryPiFoundation/blockly/issues/8183> (['primary', 'issue tracker'])
+55. Comments silently dropped on update (issue #6262). Unison GitHub. 2026-08-04. <https://github.com/unisonweb/unison/issues/6262> (['primary', 'issue tracker', 'user complaint'])
+56. Snap! Lisp Syntax. Jens Moenig. 2024-09-12. <https://github.com/jmoenig/Snap/blob/master/docs/Syntax.md> (['primary', 'docs'])
+57. Enso ensoFile.ts (split code, idMap, metadata). Enso. commit 4135f92. <https://github.com/enso-org/enso/blob/4135f929f1046ee4ab62d9d09c155377e8542a1f/app/ydoc-shared/src/ensoFile.ts> (['primary', 'source'])
+58. Hazel project page. Future of Programming Lab, University of Michigan. undated (lists 2026 work). <https://hazel.org/> (['primary'])
+59. <https://arxiv.org/pdf/2508.16848>
+60. ShellVis: Sandboxed Live Programming for Shell Scripts. Horowitz, Heer (University of Washington). 2026-09-10. <https://arxiv.org/pdf/2609.11000> (['paper', 'pdf', 'preprint'])
+61. Houdini: Looping. SideFX. current docs. <https://www.sidefx.com/docs/houdini/model/looping.html> (['primary', 'vendor docs'])
+62. From Blocks to Text and Back: Programming Patterns in a Dual-modality Environment (SIGCSE 2017). Weintrop, Holbert. 2017-03. <https://ccl.netlogo.org/2017/Blocks.pdf> (['old', 'paper', 'pdf'])
+63. A Large-scale Study about Quality and Reproducibility of Jupyter Notebooks (MSR 2019). Pimentel, Murta, Braganholo, Freire. 2019. <http://www.ic.uff.br/~leomurta/papers/pimentel2019a.pdf> (['old', 'paper', 'pdf'])
+64. Houdini: Spare parameters. SideFX. Houdini 21.0 docs. <https://www.sidefx.com/docs/houdini/network/spare.html> (['primary', 'vendor docs'])
+65. I would like to specify the value range of a channel created in the VEX expression. SideFX forum. 2022-08-20. <https://www.sidefx.com/forum/topic/86085> (['forum', 'third party users'])

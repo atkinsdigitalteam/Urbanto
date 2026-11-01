@@ -1,0 +1,9 @@
+RESULT | p5c [JIT helper, IL-only Roslyn] helper process start to first ping reply | n=8 | p50_us=71031.68 | p95_us=89069.96 | min_us=65256.58 | mean_us=73499.45 | 
+RESULT | p5c [JIT helper, IL-only Roslyn] first compile in a fresh helper (round trip) | n=8 | p50_us=1401470.09 | p95_us=1476744.19 | min_us=1296682.90 | mean_us=1393106.33 | small user script
+RESULT | p5c [JIT helper, IL-only Roslyn] first compile in a fresh helper (inside helper) | n=8 | p50_us=1400941.00 | p95_us=1476213.00 | min_us=1296470.00 | mean_us=1392789.62 | 
+RESULT | p5c [JIT helper, IL-only Roslyn] next compiles (each a new script, collectible ALC) | n=30 | p50_us=6680.50 | p95_us=11688.24 | min_us=5487.95 | mean_us=7125.65 | 
+RESULT | p5c [JIT helper, IL-only Roslyn] empty round trip | n=5000 | p50_us=30.50 | p95_us=49.60 | min_us=8.13 | mean_us=39.67 | payload=5 B each way
+RESULT | p5c [JIT helper, IL-only Roslyn] 10000 points round trip | n=300 | p50_us=262.99 | p95_us=431.89 | min_us=209.56 | mean_us=290.89 | payload=160005 B each way
+RESULT | p5c [JIT helper, IL-only Roslyn] 10000 max abs error vs C# | 0.00E+000
+RESULT | p5c [JIT helper, IL-only Roslyn] 100000 points round trip | n=50 | p50_us=3410.77 | p95_us=4620.06 | min_us=2947.65 | mean_us=3612.37 | payload=1600005 B each way
+RESULT | p5c [JIT helper, IL-only Roslyn] 100000 max abs error vs C# | 0.00E+000

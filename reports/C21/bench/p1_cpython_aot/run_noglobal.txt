@@ -1,0 +1,3 @@
+ImportError: /usr/local/lib/python3.13/dist-packages/numpy/_core/_multiarray_umath.cpython-313-x86_64-linux-gnu.so: undefined symbol: PyObject_SelfIter
+Original error was: /usr/local/lib/python3.13/dist-packages/numpy/_core/_multiarray_umath.cpython-313-x86_64-linux-gnu.so: undefined symbol: PyObject_SelfIter
+RESULT | p1 startup: first P/Invoke (dlopen libpython) | 925 us (already=0)

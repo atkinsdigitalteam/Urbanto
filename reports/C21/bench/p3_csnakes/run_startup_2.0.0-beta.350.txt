@@ -1,0 +1,4 @@
+RESULT | p3 CSnakes 2.0.0-beta.350 AOT startup wall clock (process start to exit) | n=20 | p50_ms=112.0 | p95_ms=142.3 | min_ms=87.0 | mean_ms=119.2
+RESULT | p3 CSnakes 2.0.0-beta.350 AOT startup inner: p3 startup: generic host build (no Python yet) | n=20 | p50_ms=8.95 | p95_ms=11.98 | min_ms=7.77
+RESULT | p3 CSnakes 2.0.0-beta.350 AOT startup inner: p3 startup: Python environment ready (locate + Py_Initialize) | n=20 | p50_ms=86.22 | p95_ms=115.73 | min_ms=72.33
+RESULT | p3 CSnakes 2.0.0-beta.350 AOT startup inner: p3 startup: import bench_mod | n=20 | p50_ms=0.44 | p95_ms=0.88 | min_ms=0.28

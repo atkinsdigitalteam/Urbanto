@@ -1,0 +1,8 @@
+RESULT | p5a Roslyn JIT (IL-only NuGet DLLs), one script wall clock (process start to exit) | n=10 | p50_ms=1683.3 | p95_ms=1826.0 | min_ms=1523.7 | mean_ms=1684.7
+RESULT | p5a Roslyn JIT (IL-only NuGet DLLs), one script inner: p5a process start to Main (approx, from OS start time) | n=10 | p50_ms=44.00 | p95_ms=52.75 | min_ms=39.78
+RESULT | p5a Roslyn JIT (IL-only NuGet DLLs), one script inner: p5a CSharpScript first compile (Create + CreateDelegate) | n=10 | p50_ms=1566.97 | p95_ms=1683.79 | min_ms=1406.43
+RESULT | p5a Roslyn JIT (IL-only NuGet DLLs), one script inner: p5a CSharpScript first run on 10000 points | n=10 | p50_ms=7.49 | p95_ms=9.10 | min_ms=6.72
+RESULT | p5a Roslyn JIT (ReadyToRun publish), one script wall clock (process start to exit) | n=10 | p50_ms=747.5 | p95_ms=845.5 | min_ms=699.1 | mean_ms=759.5
+RESULT | p5a Roslyn JIT (ReadyToRun publish), one script inner: p5a process start to Main (approx, from OS start time) | n=10 | p50_ms=40.13 | p95_ms=48.15 | min_ms=33.11
+RESULT | p5a Roslyn JIT (ReadyToRun publish), one script inner: p5a CSharpScript first compile (Create + CreateDelegate) | n=10 | p50_ms=653.86 | p95_ms=757.38 | min_ms=615.19
+RESULT | p5a Roslyn JIT (ReadyToRun publish), one script inner: p5a CSharpScript first run on 10000 points | n=10 | p50_ms=2.90 | p95_ms=3.39 | min_ms=2.80
