@@ -1,0 +1,38 @@
+[
+ {
+  "html": "c20-object-dark.html",
+  "png": "png/c20-object-dark.png",
+  "width": 1440,
+  "height": 900
+ },
+ {
+  "html": "c20-designer-dark.html",
+  "png": "png/c20-designer-dark.png",
+  "width": 1440,
+  "height": 900
+ },
+ {
+  "html": "c20-window-in-use-dark.html",
+  "png": "png/c20-window-in-use-dark.png",
+  "width": 1440,
+  "height": 900
+ },
+ {
+  "html": "c20-object-light.html",
+  "png": "png/c20-object-light.png",
+  "width": 1440,
+  "height": 900
+ },
+ {
+  "html": "c20-designer-light.html",
+  "png": "png/c20-designer-light.png",
+  "width": 1440,
+  "height": 900
+ },
+ {
+  "html": "c20-window-in-use-light.html",
+  "png": "png/c20-window-in-use-light.png",
+  "width": 1440,
+  "height": 900
+ }
+]
