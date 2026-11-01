@@ -1,0 +1,2812 @@
+[
+ {
+  "url": "https://developer.rhino3d.com/guides/scripting/",
+  "title": "Rhino scripting guides index",
+  "publisher": "McNeel",
+  "date": "undated (current, includes Rhino 9 pages)",
+  "flags": "primary; vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://developer.rhino3d.com/guides/scripting/scripting-python/",
+  "title": "Scripting: Python",
+  "publisher": "McNeel",
+  "date": "undated (current)",
+  "flags": "primary; vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://developer.rhino3d.com/guides/scripting/advanced-pyvenvs/",
+  "title": "Python Package Environments",
+  "publisher": "McNeel",
+  "date": "undated (current)",
+  "flags": "primary; vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://developer.rhino3d.com/guides/scripting/scripting-component/",
+  "title": "Grasshopper Script Component",
+  "publisher": "McNeel",
+  "date": "undated (current)",
+  "flags": "primary; vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://developer.rhino3d.com/guides/scripting/scripting-gh-python/",
+  "title": "Grasshopper Scripting: Python",
+  "publisher": "McNeel",
+  "date": "undated (mentions Rhino 8.14)",
+  "flags": "primary; vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://developer.rhino3d.com/guides/scripting/scripting-gh-csharp/",
+  "title": "Grasshopper Scripting: C#",
+  "publisher": "McNeel",
+  "date": "undated (mentions Rhino 9 change)",
+  "flags": "primary; vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://developer.rhino3d.com/guides/scripting/advanced-packages/",
+  "title": "Script Package References",
+  "publisher": "McNeel",
+  "date": "undated (tagged New in 9)",
+  "flags": "primary; vendor docs; may describe Rhino 9 behaviour",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://developer.rhino3d.com/guides/scripting/scripting-csharp/",
+  "title": "Scripting: C#",
+  "publisher": "McNeel",
+  "date": "undated (current)",
+  "flags": "primary; vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://developer.rhino3d.com/guides/scripting/editor-debug/",
+  "title": "Editor Debugging",
+  "publisher": "McNeel",
+  "date": "undated (current)",
+  "flags": "primary; vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://developer.rhino3d.com/guides/compute/hops-component/",
+  "title": "The Hops Component",
+  "publisher": "McNeel",
+  "date": "undated (mentions Rhino 7.13)",
+  "flags": "primary; vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://pypi.org/pypi/ghhops-server/json",
+  "title": "ghhops-server package metadata (PyPI JSON API)",
+  "publisher": "PyPI / McNeel",
+  "date": "2023-04-24 (release 1.5.5)",
+  "flags": "primary; measured via API; package release is about 3.5 years old",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://discourse.mcneel.com/t/rhino-beta-feature-python-3-13/205209",
+  "title": "Rhino BETA Feature: Python 3.13",
+  "publisher": "McNeel forum (staff post by eirannejad)",
+  "date": "2025-05-29",
+  "flags": "vendor staff forum post; replies are third party users",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://discourse.mcneel.com/t/python-3-about-10x-slower-than-old-python-component/215094",
+  "title": "Python 3 about 10x slower than old python component",
+  "publisher": "McNeel forum",
+  "date": "2026-01-27",
+  "flags": "third party; user report",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://discourse.mcneel.com/t/runpythonscript-first-call-is-slow/178716",
+  "title": "RunPythonScript first call is slow",
+  "publisher": "McNeel forum",
+  "date": "2024-03-26",
+  "flags": "third party user report; staff reply 2024-04-15",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://dynamobim.org/pythonnet3-a-new-dynamo-python-to-fix-everything/",
+  "title": "PythonNet3: A New Python to Fix Everything",
+  "publisher": "Dynamo team (Autodesk)",
+  "date": "2025-01-07",
+  "flags": "primary; vendor blog",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://dynamobim.org/dynamo-pythonnet3-upgrade-a-practical-guide-to-migrating-your-dynamo-graphs/",
+  "title": "Dynamo PythonNet3 upgrade: a practical guide",
+  "publisher": "Dynamo blog (guest author Cyril Poupin)",
+  "date": "2025-12-04",
+  "flags": "vendor blog; guest author",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://dynamobim.org/dynamo-core-4-0-release/",
+  "title": "Dynamo Core 4.0 Release (fetched via https://dynamobim.org/?p=56362)",
+  "publisher": "Dynamo team (Autodesk)",
+  "date": "2025-11-25",
+  "flags": "primary; release notes",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/DynamoDS/Dynamo/wiki/Customizing-Dynamo's-Python-3-installation",
+  "title": "Customizing Dynamo's Python 3 installation",
+  "publisher": "DynamoDS wiki",
+  "date": "2024-03-29 (last edit)",
+  "flags": "primary; vendor wiki",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://primer2.dynamobim.org/8_coding_in_dynamo/8-3_python/1-python",
+  "title": "Dynamo Primer: Python Nodes",
+  "publisher": "Autodesk",
+  "date": "undated",
+  "flags": "primary; vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.sidefx.com/docs/houdini/hom/pythonsop.html",
+  "title": "Python SOP",
+  "publisher": "SideFX",
+  "date": "Houdini 22.0 docs",
+  "flags": "primary; vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.sidefx.com/docs/houdini/vex/snippets.html",
+  "title": "VEX snippets",
+  "publisher": "SideFX",
+  "date": "Houdini 22.0 docs",
+  "flags": "primary; vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.sidefx.com/docs/houdini/hom/hou/Geometry.html",
+  "title": "hou.Geometry",
+  "publisher": "SideFX",
+  "date": "Houdini 22.0 docs",
+  "flags": "primary; vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.sidefx.com/docs/houdini/vex/index.html",
+  "title": "VEX language overview",
+  "publisher": "SideFX",
+  "date": "Houdini 22.0 docs",
+  "flags": "primary; vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.blender.org/manual/en/latest/advanced/scripting/security.html",
+  "title": "Scripting & Security",
+  "publisher": "Blender Foundation",
+  "date": "Blender 5.2 LTS manual",
+  "flags": "primary; vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.blender.org/api/current/info_best_practice.html",
+  "title": "Best Practice (Python API)",
+  "publisher": "Blender Foundation",
+  "date": "Blender 5.2 API",
+  "flags": "primary; vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.blender.org/api/current/bpy.types.bpy_prop_collection.html",
+  "title": "bpy_prop_collection",
+  "publisher": "Blender Foundation",
+  "date": "Blender 5.2 API",
+  "flags": "primary; vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/nortikin/sverchok/blob/master/docs/nodes/script/script1_lite.rst",
+  "title": "Sverchok Script Node Lite docs",
+  "publisher": "Sverchok project",
+  "date": "undated (master)",
+  "flags": "primary; open source docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/pyrevitlabs/pyRevit",
+  "title": "pyRevit README",
+  "publisher": "pyRevit Labs",
+  "date": "undated (current)",
+  "flags": "primary; open source",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/pyrevitlabs/pyRevit/releases",
+  "title": "pyRevit releases",
+  "publisher": "pyRevit Labs",
+  "date": "v7.0.0 (06 Oct)",
+  "flags": "primary; release notes",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/pyrevitlabs/pyRevit/issues/1937",
+  "title": "To get CPython for a higher version #1937",
+  "publisher": "pyRevit GitHub issues",
+  "date": "2023-10-09",
+  "flags": "issue thread; maintainer reply",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/pyrevitlabs/pyRevit/issues/2124",
+  "title": "Modernizing Python Runtimes #2124",
+  "publisher": "pyRevit GitHub issues",
+  "date": "2024-03-03 (last maintainer note 2024-10-19)",
+  "flags": "issue thread; includes third party user comments",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://pyrevitlabs.notion.site/Create-Your-First-CPython-Command-b8a7718c554645d1a18454c0b363e3c9",
+  "title": "Create Your First CPython Command",
+  "publisher": "pyRevit Labs (Notion)",
+  "date": "unknown",
+  "flags": "not verified; page needs JavaScript",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.derivative.ca/Python",
+  "title": "Python (TouchDesigner docs)",
+  "publisher": "Derivative",
+  "date": "undated (current)",
+  "flags": "primary; vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.derivative.ca/Script_SOP",
+  "title": "Script SOP",
+  "publisher": "Derivative",
+  "date": "2021-11-16 (last edit)",
+  "flags": "primary; about 5 years old",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/scripting-the-unreal-editor-using-python",
+  "title": "Scripting the Unreal Editor Using Python",
+  "publisher": "Epic Games",
+  "date": "UE 5.8 docs",
+  "flags": "primary; vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://learn.microsoft.com/en-us/dotnet/core/deploying/native-aot/",
+  "title": "Native AOT deployment overview",
+  "publisher": "Microsoft",
+  "date": "2026-07-27 (updated)",
+  "flags": "primary; vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://learn.microsoft.com/en-us/dotnet/standard/native-interop/pinvoke-source-generation",
+  "title": "P/Invoke source generation",
+  "publisher": "Microsoft",
+  "date": "2025-12-04 (updated)",
+  "flags": "primary; vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://learn.microsoft.com/en-us/dotnet/standard/native-interop/best-practices",
+  "title": "Native interoperability best practices",
+  "publisher": "Microsoft",
+  "date": "2026-07-12 (updated)",
+  "flags": "primary; vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://learn.microsoft.com/en-us/dotnet/core/tutorials/netcore-hosting",
+  "title": "Write a custom .NET runtime host",
+  "publisher": "Microsoft",
+  "date": "2026-08-10 (updated)",
+  "flags": "primary; vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://learn.microsoft.com/en-us/dotnet/standard/assembly/unloadability",
+  "title": "How to use and debug assembly unloadability in .NET",
+  "publisher": "Microsoft",
+  "date": "2026-03-30 (updated)",
+  "flags": "primary; vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/syslib-diagnostics/syslib0003",
+  "title": "SYSLIB0003 warning (Code access security)",
+  "publisher": "Microsoft",
+  "date": "2026-03-30 (updated)",
+  "flags": "primary; vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://learn.microsoft.com/en-us/windows/win32/procthread/job-objects",
+  "title": "Job Objects",
+  "publisher": "Microsoft",
+  "date": "2025-07-16 (updated)",
+  "flags": "primary; vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://learn.microsoft.com/en-us/windows/win32/secauthz/appcontainer-isolation",
+  "title": "AppContainer isolation",
+  "publisher": "Microsoft",
+  "date": "2025-07-10 (updated)",
+  "flags": "primary; vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://learn.microsoft.com/en-us/aspnet/core/grpc/native-aot",
+  "title": "gRPC and Native AOT",
+  "publisher": "Microsoft",
+  "date": "2026-10-31 (updated; ms.date 2023-04-06)",
+  "flags": "primary; vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/dotnet/core/blob/main/release-notes/11.0/preview/preview1/runtime.md",
+  "title": ".NET 11 Preview 1 runtime release notes",
+  "publisher": "Microsoft (.NET team)",
+  "date": "2026-02",
+  "flags": "primary; release notes; preview",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://devblogs.microsoft.com/dotnet/dotnet-11-preview-1/",
+  "title": ".NET 11 Preview 1 is now available",
+  "publisher": "Microsoft .NET Blog",
+  "date": "2026-02-10",
+  "flags": "primary; vendor blog",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/dotnet/roslyn/blob/main/docs/wiki/Scripting-API-Samples.md",
+  "title": "Roslyn Scripting API Samples",
+  "publisher": "Microsoft (Roslyn team)",
+  "date": "undated wiki (mentions .NET Core 1.1, likely old)",
+  "flags": "primary; probably older than 5 years",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/dotnet/roslyn/issues/73689",
+  "title": "Scripting API - Operation is not supported on this platform (when AOT published)",
+  "publisher": "dotnet/roslyn GitHub",
+  "date": "2024-05-24",
+  "flags": "issue thread; no maintainer reply; open",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/dotnet/roslyn/issues/41722",
+  "title": "Every CSharpScript.EvaluateAsync() call generates a new assembly that does not get unloaded",
+  "publisher": "dotnet/roslyn GitHub",
+  "date": "2020-02-15",
+  "flags": "issue thread; maintainer replies; open; about 6 years old",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/dynamicexpresso/DynamicExpresso",
+  "title": "DynamicExpresso README",
+  "publisher": "DynamicExpresso project",
+  "date": "undated (current)",
+  "flags": "primary; open source",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/dotnet-script/dotnet-script",
+  "title": "dotnet-script README",
+  "publisher": "dotnet-script project",
+  "date": "undated (current)",
+  "flags": "primary; open source",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/oleg-shilo/cs-script",
+  "title": "CS-Script README",
+  "publisher": "Oleg Shilo",
+  "date": "undated (current)",
+  "flags": "primary; open source",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/oleg-shilo/cs-script/wiki/Choosing-Compiler-Engine",
+  "title": "CS-Script: Choosing Compiler Engine",
+  "publisher": "Oleg Shilo",
+  "date": "undated wiki",
+  "flags": "primary; open source docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.cs-script.net/cs-script.core/help/html/bd7ee734-896b-4281-ce08-71d867253ae4.htm",
+  "title": "RoslynEvaluator.LoadCompilers Method",
+  "publisher": "CS-Script",
+  "date": "undated",
+  "flags": "third party relative to Roslyn",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.linqpad.net/HowLINQPadWorks.aspx",
+  "title": "How LINQPad Works",
+  "publisher": "LINQPad (Joseph Albahari)",
+  "date": "undated",
+  "flags": "primary; vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.linqpad.net/FAQ.aspx",
+  "title": "LINQPad FAQ",
+  "publisher": "LINQPad",
+  "date": "undated",
+  "flags": "primary; vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/tonybaloney/CSnakes",
+  "title": "CSnakes README",
+  "publisher": "CSnakes (Anthony Shaw, Aaron Powell)",
+  "date": "undated (current)",
+  "flags": "primary; open source",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://tonybaloney.github.io/CSnakes/v1/",
+  "title": "CSnakes documentation index",
+  "publisher": "CSnakes",
+  "date": "v1 docs",
+  "flags": "primary; open source docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://tonybaloney.github.io/CSnakes/v1/advanced/native-aot/",
+  "title": "CSnakes: Native AOT",
+  "publisher": "CSnakes",
+  "date": "v1 docs",
+  "flags": "primary; open source docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://tonybaloney.github.io/CSnakes/v1/advanced/performance/",
+  "title": "CSnakes: Performance",
+  "publisher": "CSnakes",
+  "date": "v1 docs",
+  "flags": "primary; open source docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://tonybaloney.github.io/CSnakes/v1/user-guide/environments/",
+  "title": "CSnakes: Environment Management",
+  "publisher": "CSnakes",
+  "date": "v1 docs",
+  "flags": "primary; open source docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://tonybaloney.github.io/CSnakes/v1/user-guide/buffers/",
+  "title": "CSnakes: Buffers & NumPy",
+  "publisher": "CSnakes",
+  "date": "v1 docs",
+  "flags": "primary; open source docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://tonybaloney.github.io/CSnakes/v1/getting-started/installation/",
+  "title": "CSnakes: Installation",
+  "publisher": "CSnakes",
+  "date": "v1 docs",
+  "flags": "primary; open source docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://tonybaloney.github.io/CSnakes/v1/community/limitations/",
+  "title": "CSnakes: Limitations",
+  "publisher": "CSnakes",
+  "date": "v1 docs",
+  "flags": "primary; open source docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://learn.microsoft.com/en-us/shows/on-dotnet/a-sneak-peek-at-csnakes-embed-python-code-in-dotnet-apps",
+  "title": "A Sneak Peek at CSnakes (On .NET)",
+  "publisher": "Microsoft Learn Shows",
+  "date": "2024-11-26",
+  "flags": "primary for affiliation; video page",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/rkttu/dotnetpy/blob/main/docs/COMPARISON.md",
+  "title": "DotNetPy comparison table",
+  "publisher": "DotNetPy project (third party)",
+  "date": "undated",
+  "flags": "third party; competitor claims; conflicts with CSnakes docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://pythonnet.github.io/pythonnet/",
+  "title": "Python.NET documentation",
+  "publisher": "pythonnet project",
+  "date": "current",
+  "flags": "primary; open source docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/pythonnet/pythonnet/issues/997",
+  "title": "Removal of Reflection.Emit",
+  "publisher": "pythonnet GitHub",
+  "date": "2019-11-28",
+  "flags": "issue thread; open; about 7 years old",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/pythonnet/pythonnet/blob/master/src/runtime/Types/ClassDerived.cs",
+  "title": "ClassDerived.cs (source)",
+  "publisher": "pythonnet project",
+  "date": "master branch, read 2026-11-01",
+  "flags": "primary; source code",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/henon/Python.Included",
+  "title": "Python.Included README",
+  "publisher": "Meinrad Recheis (henon)",
+  "date": "undated",
+  "flags": "primary; open source; licence statement conflicts",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/IronLanguages/ironpython3",
+  "title": "IronPython 3 README",
+  "publisher": "IronLanguages",
+  "date": "undated (current)",
+  "flags": "primary; open source",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/IronLanguages/ironpython3/issues/1896",
+  "title": "Code Quality: Justify dynamic code usage",
+  "publisher": "IronLanguages GitHub",
+  "date": "2025-01-31 (closed 2025-03-26)",
+  "flags": "issue thread; contributor comments",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/IronLanguages/ironpython3/wiki/Package-compatibility",
+  "title": "IronPython Package compatibility",
+  "publisher": "IronLanguages wiki",
+  "date": "2025-04-05 (last edit)",
+  "flags": "primary; project wiki",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.python.org/3/extending/embedding.html",
+  "title": "Embedding Python in Another Application",
+  "publisher": "Python Software Foundation",
+  "date": "Python 3.15.2 docs",
+  "flags": "primary; official docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.python.org/3/c-api/stable.html",
+  "title": "C API and ABI Stability",
+  "publisher": "Python Software Foundation",
+  "date": "Python 3.15.2 docs",
+  "flags": "primary; official docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.python.org/3/c-api/interp-lifecycle.html",
+  "title": "Interpreter initialization and finalization",
+  "publisher": "Python Software Foundation",
+  "date": "Python 3.15.2 docs",
+  "flags": "primary; official docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.python.org/3/c-api/threads.html",
+  "title": "Thread states and the global interpreter lock",
+  "publisher": "Python Software Foundation",
+  "date": "Python 3.15.2 docs",
+  "flags": "primary; official docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.python.org/3/library/sys.html",
+  "title": "sys (addaudithook)",
+  "publisher": "Python Software Foundation",
+  "date": "Python 3.15.2 docs",
+  "flags": "primary; official docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.python.org/3/library/concurrent.interpreters.html",
+  "title": "concurrent.interpreters",
+  "publisher": "Python Software Foundation",
+  "date": "Python 3.15.2 docs",
+  "flags": "primary; official docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.python.org/3/using/windows.html",
+  "title": "Using Python on Windows (embeddable package)",
+  "publisher": "Python Software Foundation",
+  "date": "Python 3.15.2 docs",
+  "flags": "primary; official docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.python.org/3/license.html",
+  "title": "History and License",
+  "publisher": "Python Software Foundation",
+  "date": "Python 3.15.2 docs, updated 2026-11-01",
+  "flags": "primary; official docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.python.org/downloads/windows/",
+  "title": "Python Releases for Windows",
+  "publisher": "Python Software Foundation",
+  "date": "2026-10-25 (latest 3.14.10)",
+  "flags": "primary",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.python.org/ftp/python/3.15.2/",
+  "title": "Python 3.15.2 FTP directory",
+  "publisher": "Python Software Foundation",
+  "date": "2026-10-26 (file Last-Modified)",
+  "flags": "primary; measured sizes",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/microsoft/debugpy",
+  "title": "debugpy README",
+  "publisher": "Microsoft",
+  "date": "undated (current)",
+  "flags": "primary; open source",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/microsoft/debugpy/issues/1097",
+  "title": "debugpy.configure(python=) is not properly documented",
+  "publisher": "Microsoft debugpy GitHub",
+  "date": "2022-10-22 (maintainer reply 2022-10-24)",
+  "flags": "issue thread; maintainer reply; open",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/microsoft/debugpy/wiki/API-Reference",
+  "title": "debugpy API Reference",
+  "publisher": "Microsoft",
+  "date": "undated wiki",
+  "flags": "primary; open source docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/MessagePack-CSharp/MessagePack-CSharp",
+  "title": "MessagePack for C# README",
+  "publisher": "MessagePack-CSharp project",
+  "date": "undated (v3 stable, v4 preview)",
+  "flags": "primary; open source; benchmark numbers are the project's own",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/apache/arrow-dotnet",
+  "title": "Apache Arrow .NET README",
+  "publisher": "Apache Software Foundation",
+  "date": "undated (current)",
+  "flags": "primary; open source",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://arrow.apache.org/docs/format/CDataInterface.html",
+  "title": "The Arrow C data interface",
+  "publisher": "Apache Software Foundation",
+  "date": "current",
+  "flags": "primary; spec",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://grpc.io/docs/guides/benchmarking/",
+  "title": "gRPC Benchmarking",
+  "publisher": "gRPC Authors",
+  "date": "2022-01-24 (last modified)",
+  "flags": "primary; no numbers on page",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/goldsborough/ipc-bench",
+  "title": "ipc-bench",
+  "publisher": "Peter Goldsborough (third party)",
+  "date": "undated; measured on Ubuntu 20.04, i5-4590S",
+  "flags": "third party; Linux not Windows; older hardware",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.astral.sh/uv/",
+  "title": "uv documentation",
+  "publisher": "Astral",
+  "date": "2026-03-13 (page date)",
+  "flags": "primary; vendor docs; speed claim is vendor's",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.astral.sh/uv/guides/scripts/",
+  "title": "Running scripts (uv)",
+  "publisher": "Astral",
+  "date": "current",
+  "flags": "primary; vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/astral-sh/uv",
+  "title": "uv README",
+  "publisher": "Astral",
+  "date": "current",
+  "flags": "primary; open source",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/astral-sh/python-build-standalone",
+  "title": "python-build-standalone README",
+  "publisher": "Astral",
+  "date": "current",
+  "flags": "primary; open source",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://azuresearch-usnc.nuget.org/query?q=packageid:csnakes.runtime&prerelease=true&semVerLevel=2.0.0",
+  "title": "NuGet search API (CSnakes.Runtime, pythonnet, Microsoft.CodeAnalysis.CSharp.Scripting, CS-Script, IronPython, Python.Included queried the same way)",
+  "publisher": "NuGet.org",
+  "date": "2026-11-01",
+  "flags": "primary; measured via API",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://api.nuget.org/v3/registration5-gz-semver2/csnakes.runtime/index.json",
+  "title": "NuGet registration API (versions and dates; same endpoint used for other packages)",
+  "publisher": "NuGet.org",
+  "date": "2026-11-01",
+  "flags": "primary; measured via API",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/10.0/releases.json",
+  "title": ".NET 10 release metadata",
+  "publisher": "Microsoft",
+  "date": "2026-10-25 (latest 10.0.14)",
+  "flags": "primary; used for measured runtime and SDK sizes",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://pypi.org/pypi/numpy/json",
+  "title": "PyPI JSON API (numpy, debugpy, pyarrow, shapely queried the same way)",
+  "publisher": "PyPI",
+  "date": "2026-11-01",
+  "flags": "primary; measured wheel sizes",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://developer.rhino3d.com/guides/scripting/editor-editing/",
+  "title": "ScriptEditor: Editing Features",
+  "publisher": "Robert McNeel & Associates",
+  "date": "2024-12-11",
+  "flags": "vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://developer.rhino3d.com/guides/scripting/editor-problems/",
+  "title": "ScriptEditor: Problems",
+  "publisher": "Robert McNeel & Associates",
+  "date": "n/a",
+  "flags": "vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://developer.rhino3d.com/guides/scripting/editor-terminal/",
+  "title": "ScriptEditor: Terminal",
+  "publisher": "Robert McNeel & Associates",
+  "date": "2026-09-29",
+  "flags": "vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://developer.rhino3d.com/guides/scripting/scripting-gh-python",
+  "title": "Grasshopper Scripting: Python",
+  "publisher": "Robert McNeel & Associates",
+  "date": "2026-09-29",
+  "flags": "vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://discourse.mcneel.com/t/bug-script-editor-autocomplete-woes/192771",
+  "title": "Bug: Script Editor Autocomplete Woes",
+  "publisher": "McNeel forum",
+  "date": "2024-10-10",
+  "flags": "user forum; staff replies",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://discourse.mcneel.com/t/rhino-8-grasshopper-script-editor-design-feedback/163513/113",
+  "title": "Rhino 8 Grasshopper Script Editor - Design Feedback (post 113)",
+  "publisher": "McNeel forum",
+  "date": "2024-01-11",
+  "flags": "user forum",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://discourse.mcneel.com/t/c-auto-complete-in-grasshopper-rhino-8/170455",
+  "title": "C# Auto complete in Grasshopper/Rhino 8?",
+  "publisher": "McNeel forum",
+  "date": "2023-12-02",
+  "flags": "user forum; staff replies",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/mcneel/pythonstubs",
+  "title": "mcneel/pythonstubs",
+  "publisher": "Robert McNeel & Associates (GitHub)",
+  "date": "n/a",
+  "flags": "vendor source",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://pypi.org/pypi/Rhino-stubs/json",
+  "title": "Rhino-stubs on PyPI (JSON API)",
+  "publisher": "PyPI",
+  "date": "2021-05-24",
+  "flags": "old (2021); measured",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/DynamoDS/Dynamo/master/src/Libraries/PythonNodeModelsWpf/ScriptEditorWindow.xaml",
+  "title": "Dynamo ScriptEditorWindow.xaml",
+  "publisher": "Autodesk / DynamoDS (GitHub)",
+  "date": "master 2026-11-01",
+  "flags": "vendor source",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/DynamoDS/Dynamo/master/src/Libraries/PythonNodeModelsWpf/ScriptEditorWindow.xaml.cs",
+  "title": "Dynamo ScriptEditorWindow.xaml.cs",
+  "publisher": "Autodesk / DynamoDS (GitHub)",
+  "date": "master 2026-11-01",
+  "flags": "vendor source",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/DynamoDS/Dynamo/master/src/Libraries/PythonNodeModelsWpf/SharedCompletionProvider.cs",
+  "title": "Dynamo SharedCompletionProvider.cs",
+  "publisher": "Autodesk / DynamoDS (GitHub)",
+  "date": "master 2026-11-01",
+  "flags": "vendor source",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/DynamoDS/Dynamo/master/src/Libraries/PythonNodeModelsWpf/PythonNodeModelsWpf.csproj",
+  "title": "Dynamo PythonNodeModelsWpf.csproj",
+  "publisher": "Autodesk / DynamoDS (GitHub)",
+  "date": "master 2026-11-01",
+  "flags": "vendor source",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://primer2.dynamobim.org/8_coding_in_dynamo/8-3_python/1-python.md",
+  "title": "Dynamo Primer: Python Nodes",
+  "publisher": "Autodesk Dynamo Primer",
+  "date": "n/a",
+  "flags": "vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://primer2.dynamobim.org/8_coding_in_dynamo/8-3_python",
+  "title": "Dynamo Primer: Python (intro)",
+  "publisher": "Autodesk Dynamo Primer",
+  "date": "n/a",
+  "flags": "vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://primer2.dynamobim.org/1_developer_primer_intro/0-introduction/4-obstacles-and-workaround.md",
+  "title": "Obstacles encountered with PythonNet3 and workarounds",
+  "publisher": "Autodesk Dynamo Primer",
+  "date": "n/a",
+  "flags": "vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://primer2.dynamobim.org/llms.txt",
+  "title": "Dynamo Primer index (llms.txt)",
+  "publisher": "Autodesk Dynamo Primer",
+  "date": "n/a",
+  "flags": "index only",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://forum.dynamobim.com/t/intellisense-for-python/85040",
+  "title": "IntelliSense for Python",
+  "publisher": "Dynamo forum",
+  "date": "2023-01-25",
+  "flags": "user forum",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://forum.dynamobim.com/t/simplify-debugging-python-nodes-in-dynamo/110955",
+  "title": "Simplify Debugging Python Nodes in Dynamo",
+  "publisher": "Dynamo forum",
+  "date": "2025-06-26",
+  "flags": "user forum; third-party tool",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://forum.dynamobim.com/t/coding-python-nodes-for-dynamo-for-civil-3d-in-an-external-ide/77337",
+  "title": "Coding Python Nodes for Dynamo for Civil 3D in an External IDE",
+  "publisher": "Dynamo forum",
+  "date": "2022-06-06",
+  "flags": "user forum",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.sidefx.com/docs/houdini/network/parms.html",
+  "title": "Parameters (expressions, external editor)",
+  "publisher": "SideFX",
+  "date": "n/a",
+  "flags": "vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.sidefx.com/docs/houdini/nodes/sop/attribwrangle.html",
+  "title": "Attribute Wrangle SOP",
+  "publisher": "SideFX",
+  "date": "n/a",
+  "flags": "vendor docs; first 100k chars read",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.sidefx.com/forum/topic/78429/",
+  "title": "Artists' Guide for External Editor for Scripting in Houdini",
+  "publisher": "SideFX forum",
+  "date": "2021-03-19",
+  "flags": "user forum; old-ish (2021)",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.sidefx.com/forum/topic/102715/lofi/",
+  "title": "EVE: The Excellent VEX Editor",
+  "publisher": "SideFX forum",
+  "date": "2025-12-13",
+  "flags": "third-party product post",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://code.visualstudio.com/docs/configure/accessibility/accessibility",
+  "title": "Accessibility in VS Code",
+  "publisher": "Microsoft",
+  "date": "n/a",
+  "flags": "vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://code.visualstudio.com/docs/editing/codebasics",
+  "title": "Basic Editing",
+  "publisher": "Microsoft",
+  "date": "n/a",
+  "flags": "vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://code.visualstudio.com/api/language-extensions/embedded-languages",
+  "title": "Embedded Programming Languages",
+  "publisher": "Microsoft",
+  "date": "n/a",
+  "flags": "vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/microsoft/monaco-editor",
+  "title": "monaco-editor",
+  "publisher": "Microsoft (GitHub)",
+  "date": "n/a",
+  "flags": "vendor source",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/microsoft/monaco-editor/wiki/Monaco-Editor-Accessibility-Guide",
+  "title": "Monaco Editor Accessibility Guide",
+  "publisher": "Microsoft (GitHub wiki)",
+  "date": "2026-08-04",
+  "flags": "vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://registry.npmjs.org/monaco-editor/latest",
+  "title": "monaco-editor npm metadata",
+  "publisher": "npm",
+  "date": "2026-09-24",
+  "flags": "measured",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://registry.npmjs.org/monaco-editor/-/monaco-editor-0.57.0.tgz",
+  "title": "monaco-editor 0.57.0 tarball",
+  "publisher": "npm",
+  "date": "2026-09-24",
+  "flags": "measured (du -sh)",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://api.npmjs.org/downloads/point/last-week/monaco-editor",
+  "title": "monaco-editor weekly downloads",
+  "publisher": "npm",
+  "date": "2026-10-29",
+  "flags": "measured",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://jupyter-client.readthedocs.io/en/latest/messaging.html",
+  "title": "Messaging in Jupyter",
+  "publisher": "Project Jupyter",
+  "date": "n/a",
+  "flags": "project docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://ipython.readthedocs.io/en/stable/api/generated/IPython.core.completer.html",
+  "title": "IPython.core.completer",
+  "publisher": "IPython",
+  "date": "n/a",
+  "flags": "project docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/AvaloniaUI/AvaloniaEdit",
+  "title": "AvaloniaEdit",
+  "publisher": "AvaloniaUI (GitHub)",
+  "date": "n/a",
+  "flags": "vendor source",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/AvaloniaUI/AvaloniaEdit/master/README.md",
+  "title": "AvaloniaEdit README",
+  "publisher": "AvaloniaUI (GitHub)",
+  "date": "master 2026-11-01",
+  "flags": "vendor source",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/AvaloniaUI/AvaloniaEdit/master/src/AvaloniaEdit/AvaloniaEdit.csproj",
+  "title": "AvaloniaEdit.csproj",
+  "publisher": "AvaloniaUI (GitHub)",
+  "date": "master 2026-11-01",
+  "flags": "vendor source",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/AvaloniaUI/AvaloniaEdit/master/src/Directory.Build.props",
+  "title": "AvaloniaEdit src/Directory.Build.props",
+  "publisher": "AvaloniaUI (GitHub)",
+  "date": "master 2026-11-01",
+  "flags": "vendor source",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/AvaloniaUI/AvaloniaEdit/master/src/AvaloniaEdit.Demo/AvaloniaEdit.Demo.csproj",
+  "title": "AvaloniaEdit.Demo.csproj",
+  "publisher": "AvaloniaUI (GitHub)",
+  "date": "master 2026-11-01",
+  "flags": "vendor source",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/AvaloniaUI/AvaloniaEdit/issues?q=AOT",
+  "title": "AvaloniaEdit issues: AOT",
+  "publisher": "AvaloniaUI (GitHub)",
+  "date": "2026-11-01",
+  "flags": "search page",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/AvaloniaUI/AvaloniaEdit/issues?q=trim+OR+trimming+OR+NativeAOT+OR+PublishAot",
+  "title": "AvaloniaEdit issues: trimming",
+  "publisher": "AvaloniaUI (GitHub)",
+  "date": "2026-11-01",
+  "flags": "search page",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/AvaloniaUI/AvaloniaEdit/issues?q=multi+caret+OR+multiple+cursors+OR+multicursor",
+  "title": "AvaloniaEdit issues: multi caret",
+  "publisher": "AvaloniaUI (GitHub)",
+  "date": "2026-11-01",
+  "flags": "search page",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/AvaloniaUI/AvaloniaEdit/issues?q=screen+reader+OR+accessibility+OR+automation",
+  "title": "AvaloniaEdit issues: accessibility",
+  "publisher": "AvaloniaUI (GitHub)",
+  "date": "2026-11-01",
+  "flags": "search page",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/AvaloniaUI/AvaloniaEdit/issues/404",
+  "title": "Warnings about Avalonia.Data.Binding.Binding in AOT builds",
+  "publisher": "AvaloniaUI (GitHub)",
+  "date": "2024-03-13",
+  "flags": "issue",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/AvaloniaUI/AvaloniaEdit/issues/278",
+  "title": "[Ask] How to use Multi Caret feature?",
+  "publisher": "AvaloniaUI (GitHub)",
+  "date": "2022-10-19",
+  "flags": "issue",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/AvaloniaUI/AvaloniaEdit/discussions/279",
+  "title": "How to use Multi Caret (discussion)",
+  "publisher": "AvaloniaUI (GitHub)",
+  "date": "2022-10-19",
+  "flags": "discussion",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/AvaloniaUI/AvaloniaEdit/issues/541",
+  "title": "Screen Reader Can't access",
+  "publisher": "AvaloniaUI (GitHub)",
+  "date": "2025-10-02",
+  "flags": "issue; open",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/AvaloniaUI/AvaloniaEdit/issues/588",
+  "title": "Avalonia.AvaloniaEdit 11.3.0 Error",
+  "publisher": "AvaloniaUI (GitHub)",
+  "date": "2026-05-12",
+  "flags": "issue; open",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/AvaloniaUI/AvaloniaEdit/pull/321",
+  "title": "Enable compiled bindings",
+  "publisher": "AvaloniaUI (GitHub)",
+  "date": "2023-04-06",
+  "flags": "pull request",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://azuresearch-usnc.nuget.org/query?q=packageid:Avalonia.AvaloniaEdit&prerelease=true",
+  "title": "NuGet search API (used for all packages listed in notes, method M1)",
+  "publisher": "NuGet",
+  "date": "2026-11-01",
+  "flags": "measured",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://api.nuget.org/v3/registration5-gz-semver2/avalonia.avaloniaedit/index.json",
+  "title": "NuGet registration API (used for all packages, method M2)",
+  "publisher": "NuGet",
+  "date": "2026-11-01",
+  "flags": "measured",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://api.nuget.org/v3-flatcontainer/avalonia.avaloniaedit/12.0.0/avalonia.avaloniaedit.12.0.0.nupkg",
+  "title": "Avalonia.AvaloniaEdit 12.0.0 nupkg",
+  "publisher": "NuGet",
+  "date": "2026-04-08",
+  "flags": "measured (byte search)",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://api.nuget.org/v3-flatcontainer/avaloniaedit.textmate/12.0.0/avaloniaedit.textmate.12.0.0.nupkg",
+  "title": "AvaloniaEdit.TextMate 12.0.0 nupkg",
+  "publisher": "NuGet",
+  "date": "2026-04-08",
+  "flags": "measured",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://api.nuget.org/v3-flatcontainer/textmatesharp.grammars/2.0.4/textmatesharp.grammars.2.0.4.nupkg",
+  "title": "TextMateSharp.Grammars 2.0.4 nupkg",
+  "publisher": "NuGet",
+  "date": "2026-06-04",
+  "flags": "measured",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://api.nuget.org/v3-flatcontainer/onigwrap/1.0.11/onigwrap.1.0.11.nupkg",
+  "title": "Onigwrap 1.0.11 nupkg",
+  "publisher": "NuGet",
+  "date": "2026-03-28",
+  "flags": "measured",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/danipen/TextMateSharp",
+  "title": "TextMateSharp",
+  "publisher": "danipen (GitHub)",
+  "date": "n/a",
+  "flags": "author source",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/danipen/TextMateSharp/issues?q=AOT+OR+trim",
+  "title": "TextMateSharp PRs: AOT and trimming",
+  "publisher": "danipen (GitHub)",
+  "date": "2026-11-01",
+  "flags": "search page",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/danipen/TextMateSharp/pull/42",
+  "title": "Trimming and NativeAOT compatible",
+  "publisher": "danipen (GitHub)",
+  "date": "2023-02-12",
+  "flags": "pull request",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/roslynpad/roslynpad",
+  "title": "RoslynPad",
+  "publisher": "Eli Arbel (GitHub)",
+  "date": "n/a",
+  "flags": "author source",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/roslynpad/roslynpad/main/README.md",
+  "title": "RoslynPad README",
+  "publisher": "Eli Arbel (GitHub)",
+  "date": "main 2026-11-01",
+  "flags": "author source",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/roslynpad/roslynpad/main/docs/packages/README.md",
+  "title": "RoslynPad Packages",
+  "publisher": "Eli Arbel (GitHub)",
+  "date": "main 2026-11-01",
+  "flags": "author source",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/roslynpad/roslynpad/tree/main/src",
+  "title": "RoslynPad src folder",
+  "publisher": "Eli Arbel (GitHub)",
+  "date": "main 2026-11-01",
+  "flags": "author source",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://api.nuget.org/v3-flatcontainer/roslynpad.editor.avalonia/5.0.0/roslynpad.editor.avalonia.5.0.0.nupkg",
+  "title": "RoslynPad.Editor.Avalonia 5.0.0 nupkg (README inside)",
+  "publisher": "NuGet",
+  "date": "2026-05-21",
+  "flags": "measured",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://api.nuget.org/v3-flatcontainer/roslynpad.roslyn/5.0.0/roslynpad.roslyn.5.0.0.nupkg",
+  "title": "RoslynPad.Roslyn 5.0.0 nupkg",
+  "publisher": "NuGet",
+  "date": "2026-05-21",
+  "flags": "measured (byte search)",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/AvaloniaUI/Avalonia.Controls.WebView",
+  "title": "Avalonia.Controls.WebView",
+  "publisher": "AvaloniaUI (GitHub)",
+  "date": "n/a",
+  "flags": "vendor source",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://api.nuget.org/v3-flatcontainer/avalonia.controls.webview/12.1.1/avalonia.controls.webview.12.1.1.nupkg",
+  "title": "Avalonia.Controls.WebView 12.1.1 nupkg (nuspec, README)",
+  "publisher": "NuGet",
+  "date": "2026-10-12",
+  "flags": "measured",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://avaloniaui.net/blog/the-avalonia-webview-is-going-open-source",
+  "title": "The Avalonia WebView Is Going Open-Source",
+  "publisher": "AvaloniaUI",
+  "date": "2026-03-11",
+  "flags": "vendor blog",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.avaloniaui.net/accelerate/components/webview/nativewebview",
+  "title": "NativeWebView",
+  "publisher": "AvaloniaUI",
+  "date": "n/a",
+  "flags": "vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.avaloniaui.net/accelerate/components/webview/quickstart",
+  "title": "Embedding web content (quickstart)",
+  "publisher": "AvaloniaUI",
+  "date": "2026-08-15",
+  "flags": "vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.avaloniaui.net/docs/guides/platforms/android/embed-native-views",
+  "title": "Embed native views (Android)",
+  "publisher": "AvaloniaUI",
+  "date": "2026-09-18",
+  "flags": "vendor docs; Android scope",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.avaloniaui.net/docs/deployment/native-aot",
+  "title": "Native AOT (Avalonia)",
+  "publisher": "AvaloniaUI",
+  "date": "2026-05-07",
+  "flags": "vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.avaloniaui.net/docs/app-development/accessibility",
+  "title": "Accessibility (Avalonia)",
+  "publisher": "AvaloniaUI",
+  "date": "2026-04-02",
+  "flags": "vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/AvaloniaUI/Avalonia/issues?q=ITextRangeProvider+OR+%22text+pattern%22+automation",
+  "title": "Avalonia issues: text pattern",
+  "publisher": "AvaloniaUI (GitHub)",
+  "date": "2026-11-01",
+  "flags": "search page",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/AvaloniaUI/Avalonia/pull/21988",
+  "title": "Implement UIA TextPattern for TextBox on Windows",
+  "publisher": "AvaloniaUI (GitHub)",
+  "date": "2026-08-19",
+  "flags": "pull request; closed unmerged",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/AvaloniaUI/Avalonia/issues/22168",
+  "title": "Structured text input: a shared text contract for IME and accessibility",
+  "publisher": "AvaloniaUI (GitHub)",
+  "date": "2026-09-07",
+  "flags": "issue; open",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://learn.microsoft.com/en-us/microsoft-edge/webview2/concepts/distribution",
+  "title": "Distribute your app and the WebView2 Runtime",
+  "publisher": "Microsoft",
+  "date": "2026-10-02",
+  "flags": "vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://learn.microsoft.com/en-us/microsoft-edge/webview2/concepts/process-model",
+  "title": "Process model for WebView2 apps",
+  "publisher": "Microsoft",
+  "date": "2026-06-12",
+  "flags": "vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://azuresearch-usnc.nuget.org/query?q=scintilla&take=12&prerelease=true",
+  "title": "NuGet search: scintilla",
+  "publisher": "NuGet",
+  "date": "2026-11-01",
+  "flags": "measured",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://azuresearch-usnc.nuget.org/query?q=avalonia%20code%20editor&take=12&prerelease=true",
+  "title": "NuGet search: avalonia code editor",
+  "publisher": "NuGet",
+  "date": "2026-11-01",
+  "flags": "measured",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://learn.microsoft.com/en-us/dotnet/core/deploying/native-aot/diagnostics",
+  "title": "Native AOT diagnostics and instrumentation",
+  "publisher": "Microsoft",
+  "date": "2025-04-04",
+  "flags": "vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://jedi.readthedocs.io/en/latest/",
+  "title": "Jedi documentation",
+  "publisher": "Jedi (David Halter)",
+  "date": "n/a",
+  "flags": "project docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://jedi.readthedocs.io/en/latest/docs/api.html",
+  "title": "Jedi API overview",
+  "publisher": "Jedi (David Halter)",
+  "date": "n/a",
+  "flags": "project docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://jedi.readthedocs.io/en/latest/docs/features.html",
+  "title": "Jedi features and limitations",
+  "publisher": "Jedi (David Halter)",
+  "date": "n/a",
+  "flags": "project docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/python-lsp/python-lsp-server",
+  "title": "python-lsp-server",
+  "publisher": "python-lsp (GitHub)",
+  "date": "n/a",
+  "flags": "project source",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://pypi.org/pypi/jedi/json",
+  "title": "PyPI JSON API (used for jedi, python-lsp-server, jedi-language-server, ruff, ty, basedpyright, pyright, debugpy, nodejs-wheel-binaries; method M4)",
+  "publisher": "PyPI",
+  "date": "2026-11-01",
+  "flags": "measured",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://pypistats.org/api/packages/jedi/recent",
+  "title": "pypistats recent downloads (used for all Python tools; method M5)",
+  "publisher": "pypistats.org",
+  "date": "2026-11-01",
+  "flags": "third party; measured",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/microsoft/pyright/main/README.md",
+  "title": "Pyright README",
+  "publisher": "Microsoft (GitHub)",
+  "date": "main 2026-11-01",
+  "flags": "vendor source",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/microsoft/pyright/main/docs/installation.md",
+  "title": "Pyright installation",
+  "publisher": "Microsoft (GitHub)",
+  "date": "main 2026-11-01",
+  "flags": "vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/microsoft/pyright/main/docs/configuration.md",
+  "title": "Pyright configuration",
+  "publisher": "Microsoft (GitHub)",
+  "date": "main 2026-11-01",
+  "flags": "vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/microsoft/pyright/main/docs/type-stubs.md",
+  "title": "Pyright type stub files",
+  "publisher": "Microsoft (GitHub)",
+  "date": "main 2026-11-01",
+  "flags": "vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://registry.npmjs.org/pyright",
+  "title": "pyright npm metadata",
+  "publisher": "npm",
+  "date": "2026-09-09",
+  "flags": "measured",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/microsoft/pylance-release",
+  "title": "pylance-release",
+  "publisher": "Microsoft (GitHub)",
+  "date": "n/a",
+  "flags": "vendor; licence text not verified",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://marketplace.visualstudio.com/items/ms-python.vscode-pylance/license",
+  "title": "Pylance licence page",
+  "publisher": "Microsoft",
+  "date": "n/a",
+  "flags": "not verified (needs browser/login)",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.basedpyright.com/latest/",
+  "title": "basedpyright docs",
+  "publisher": "basedpyright (DetachHead)",
+  "date": "n/a",
+  "flags": "project docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.basedpyright.com/latest/benefits-over-pyright/pylance-features/",
+  "title": "basedpyright: Pylance features",
+  "publisher": "basedpyright (DetachHead)",
+  "date": "n/a",
+  "flags": "project docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/DetachHead/basedpyright/main/docs/installation/command-line-and-language-server.md",
+  "title": "basedpyright: command-line and language server",
+  "publisher": "basedpyright (DetachHead)",
+  "date": "main 2026-11-01",
+  "flags": "project docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.astral.sh/ruff/editors/",
+  "title": "Ruff: Editor integrations",
+  "publisher": "Astral",
+  "date": "n/a",
+  "flags": "vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.astral.sh/ruff/formatter/",
+  "title": "Ruff: The Ruff Formatter",
+  "publisher": "Astral",
+  "date": "n/a",
+  "flags": "vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.astral.sh/ty/",
+  "title": "ty documentation",
+  "publisher": "Astral",
+  "date": "n/a",
+  "flags": "vendor docs; vendor speed claims",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/",
+  "title": "Language Server Protocol 3.17",
+  "publisher": "Microsoft",
+  "date": "n/a",
+  "flags": "spec; first 100k chars read",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://peps.python.org/pep-0561/",
+  "title": "PEP 561: Distributing and Packaging Type Information",
+  "publisher": "Python Software Foundation",
+  "date": "2017-09-09",
+  "flags": "spec; old (2017), historical",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://typing.python.org/en/latest/guides/writing_stubs.html",
+  "title": "Writing and Maintaining Stub Files",
+  "publisher": "Python typing docs",
+  "date": "n/a",
+  "flags": "project docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/dotnet/roslyn/main/src/Features/Core/Portable/SignatureHelp/ISignatureHelpProvider.cs",
+  "title": "Roslyn ISignatureHelpProvider.cs",
+  "publisher": "Microsoft / .NET Foundation (GitHub)",
+  "date": "main 2026-11-01",
+  "flags": "vendor source",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/dotnet/roslyn/main/src/Features/Core/Portable/PublicAPI.Shipped.txt",
+  "title": "Roslyn Features PublicAPI.Shipped.txt",
+  "publisher": "Microsoft / .NET Foundation (GitHub)",
+  "date": "main 2026-11-01",
+  "flags": "vendor source; measured",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/dotnet/roslyn/main/src/Workspaces/Core/Portable/PublicAPI.Shipped.txt",
+  "title": "Roslyn Workspaces PublicAPI.Shipped.txt",
+  "publisher": "Microsoft / .NET Foundation (GitHub)",
+  "date": "main 2026-11-01",
+  "flags": "vendor source; measured",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.features/5.9.0/microsoft.codeanalysis.features.5.9.0.nupkg",
+  "title": "Microsoft.CodeAnalysis.Features 5.9.0 nupkg (and the five sibling packages)",
+  "publisher": "NuGet",
+  "date": "2026-08-17",
+  "flags": "measured (byte search, sizes)",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/dotnet/roslyn/issues?q=is%3Aissue+native+AOT+trimming+compiler",
+  "title": "Roslyn issues search: native AOT trimming",
+  "publisher": "Microsoft (GitHub)",
+  "date": "2026-11-01",
+  "flags": "search page; no relevant result",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://learn.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.metadatareference.createfromfile",
+  "title": "MetadataReference.CreateFromFile",
+  "publisher": "Microsoft",
+  "date": "2026-08-28",
+  "flags": "vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://learn.microsoft.com/en-us/dotnet/standard/assembly/reference-assemblies",
+  "title": "Reference assemblies",
+  "publisher": "Microsoft",
+  "date": "2026-03-30",
+  "flags": "vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/OmniSharp/omnisharp-roslyn",
+  "title": "omnisharp-roslyn",
+  "publisher": "OmniSharp (GitHub)",
+  "date": "n/a",
+  "flags": "project source",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/OmniSharp/omnisharp-roslyn/releases",
+  "title": "omnisharp-roslyn releases",
+  "publisher": "OmniSharp (GitHub)",
+  "date": "2026-10-23",
+  "flags": "project releases",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://api.nuget.org/v3/registration5-gz-semver2/microsoft.codeanalysis.languageserver.win-x64/index.json",
+  "title": "Microsoft.CodeAnalysis.LanguageServer.win-x64 registration",
+  "publisher": "NuGet",
+  "date": "2025-06-06",
+  "flags": "measured",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/dotnet/vscode-csharp/main/README.md",
+  "title": "vscode-csharp README",
+  "publisher": "Microsoft (GitHub)",
+  "date": "main 2026-11-01",
+  "flags": "vendor source",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/dotnet/vscode-csharp/main/RuntimeLicenses/license.txt",
+  "title": "Microsoft C# Extension for VS Code licence terms",
+  "publisher": "Microsoft (GitHub)",
+  "date": "main 2026-11-01",
+  "flags": "vendor licence",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://code.visualstudio.com/docs/csharp/cs-dev-kit-faq",
+  "title": "C# Dev Kit FAQ",
+  "publisher": "Microsoft",
+  "date": "2024-05-03",
+  "flags": "vendor docs",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/VSCodium/vscodium/issues/82",
+  "title": "vsdbg licence message in VSCodium",
+  "publisher": "VSCodium (GitHub)",
+  "date": "2019-02-13",
+  "flags": "third party; old (2019)",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://microsoft.github.io/debug-adapter-protocol/overview",
+  "title": "Debug Adapter Protocol overview",
+  "publisher": "Microsoft",
+  "date": "n/a",
+  "flags": "spec",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/Samsung/netcoredbg",
+  "title": "netcoredbg",
+  "publisher": "Samsung (GitHub)",
+  "date": "n/a",
+  "flags": "vendor source",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/Samsung/netcoredbg/releases",
+  "title": "netcoredbg releases",
+  "publisher": "Samsung (GitHub)",
+  "date": "n/a",
+  "flags": "year of latest not shown",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/Samsung/netcoredbg/releases/tag/3.2.0-1092",
+  "title": "netcoredbg 3.2.0-1092",
+  "publisher": "Samsung (GitHub)",
+  "date": "25 Jun (year not shown)",
+  "flags": "release page",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://martinfowler.com/bliki/ProjectionalEditing.html",
+  "title": "ProjectionalEditing",
+  "publisher": "Martin Fowler",
+  "date": "2008-01-14",
+  "flags": [
+   "old",
+   "third party"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.jetbrains.com/help/mps/editor.html",
+  "title": "MPS documentation: Editor",
+  "publisher": "JetBrains",
+  "date": "undated (current docs)",
+  "flags": [
+   "primary",
+   "vendor docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.jetbrains.com/help/mps/commanding-the-editor.html",
+  "title": "MPS documentation: Commanding the editor",
+  "publisher": "JetBrains",
+  "date": "undated (current docs)",
+  "flags": [
+   "primary",
+   "vendor docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.jetbrains.com/help/mps/editor-actions.html",
+  "title": "MPS documentation: Editor actions",
+  "publisher": "JetBrains",
+  "date": "undated (current docs)",
+  "flags": [
+   "primary",
+   "vendor docs",
+   "little used"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://gup.ub.gu.se/file/206790",
+  "title": "Efficiency of Projectional Editing: A Controlled Experiment (FSE 2016)",
+  "publisher": "Berger, Voelter, Jensen, Dangprasert, Siegmund (University of Gothenburg copy)",
+  "date": "2016",
+  "flags": [
+   "old",
+   "paper",
+   "pdf"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.pl.informatik.uni-mainz.de/files/2019/04/grammar-cells.pdf",
+  "title": "Efficient Development of Consistent Projectional Editors using Grammar Cells (SLE 2016)",
+  "publisher": "Voelter, Szabo, Lisson, Kolb, Erdweg, Berger",
+  "date": "2016",
+  "flags": [
+   "old",
+   "paper",
+   "pdf"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://mbeddr.com/2014/05/28/betterUsablity.html",
+  "title": "Usability Improvements in MPS 3.1",
+  "publisher": "mbeddr team (itemis)",
+  "date": "2014-05-28 (from URL)",
+  "flags": [
+   "old",
+   "third party (MPS partner, not vendor)"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://arxiv.org/abs/1705.09413",
+  "title": "Learnable Programming: Blocks and Beyond (CACM June 2017)",
+  "publisher": "Bau, Gray, Kelleher, Sheldon, Turbak",
+  "date": "2017-05-26",
+  "flags": [
+   "old",
+   "paper",
+   "survey"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.blockly.com/guides/create-custom-blocks/code-generation/overview",
+  "title": "Blockly: Code generation overview",
+  "publisher": "Blockly (Raspberry Pi Foundation)",
+  "date": "undated (current docs)",
+  "flags": [
+   "primary",
+   "vendor docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.blockly.com/guides/create-custom-blocks/code-generation/operator-precedence",
+  "title": "Blockly: Operator precedence",
+  "publisher": "Blockly (Raspberry Pi Foundation)",
+  "date": "undated (current docs)",
+  "flags": [
+   "primary",
+   "vendor docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.blockly.com/guides/create-custom-blocks/inputs/connection-checks",
+  "title": "Blockly: Connection checks",
+  "publisher": "Blockly (Raspberry Pi Foundation)",
+  "date": "undated (current docs)",
+  "flags": [
+   "primary",
+   "vendor docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/RaspberryPiFoundation/blockly/issues/8183",
+  "title": "Convert from code to blocks (issue #8183)",
+  "publisher": "Blockly GitHub",
+  "date": "2024-05-29 (updated 2026-07-08)",
+  "flags": [
+   "primary",
+   "issue tracker"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/RaspberryPiFoundation/blockly/issues/10468",
+  "title": "Allow disabled blocks to generate commented-out code (issue #10468)",
+  "publisher": "Blockly GitHub",
+  "date": "2021-08-14 (updated 2026-09-11)",
+  "flags": [
+   "primary",
+   "issue tracker"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/jmoenig/Snap/blob/master/HISTORY.md",
+  "title": "Snap! (BYOB) History",
+  "publisher": "Jens Moenig / Snap! team",
+  "date": "v10.0.0 2024-07-24; newest entry 12.3.9",
+  "flags": [
+   "primary",
+   "release notes"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/jmoenig/Snap/blob/master/docs/Syntax.md",
+  "title": "Snap! Lisp Syntax",
+  "publisher": "Jens Moenig",
+  "date": "2024-09-12",
+  "flags": [
+   "primary",
+   "docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://hazel.org/",
+  "title": "Hazel project page",
+  "publisher": "Future of Programming Lab, University of Michigan",
+  "date": "undated (lists 2026 work)",
+  "flags": [
+   "primary"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://arxiv.org/abs/1805.00155",
+  "title": "Live Functional Programming with Typed Holes (POPL 2019)",
+  "publisher": "Omar, Voysey, Chugh, Hammer",
+  "date": "2018-05-01 (rev. 2018-11-20)",
+  "flags": [
+   "old",
+   "paper"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://pldi21.sigplan.org/details/pldi-2021-papers/34/Filling-Typed-Holes-with-Live-GUIs",
+  "title": "Filling Typed Holes with Live GUIs (PLDI 2021)",
+  "publisher": "Omar, Moon, Blinn, Voysey, Collins, Chugh",
+  "date": "2021-06",
+  "flags": [
+   "old (about 5.4 years)",
+   "paper abstract page"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://arxiv.org/abs/2508.16848",
+  "title": "Syntactic Completions with Material Obligations (tall tylr)",
+  "publisher": "Moon, Blinn, Porter, Omar",
+  "date": "2025-08-23",
+  "flags": [
+   "paper",
+   "pdf read"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://arxiv.org/abs/2411.16571",
+  "title": "Pantograph: A Fluid and Typed Structure Editor (POPL 2025)",
+  "publisher": "Prinz, Blanchette, Lampropoulos",
+  "date": "2024-11-25",
+  "flags": [
+   "paper",
+   "pdf read"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.lamdu.org/",
+  "title": "Lamdu",
+  "publisher": "Lamdu project",
+  "date": "undated (v0.8.1)",
+  "flags": [
+   "primary"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/lamdu/lamdu",
+  "title": "lamdu/lamdu README",
+  "publisher": "Lamdu project",
+  "date": "undated",
+  "flags": [
+   "primary",
+   "source"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.unison-lang.org/docs/the-big-idea/",
+  "title": "Unison: The big idea",
+  "publisher": "Unison Computing",
+  "date": "undated (current docs)",
+  "flags": [
+   "primary",
+   "vendor docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.unison-lang.org/docs/usage-topics/general-faqs/",
+  "title": "Unison: General FAQs",
+  "publisher": "Unison Computing",
+  "date": "undated (current docs)",
+  "flags": [
+   "primary",
+   "vendor docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.unison-lang.org/docs/tooling/project-workflows/",
+  "title": "Unison: Project workflows",
+  "publisher": "Unison Computing",
+  "date": "undated (current docs)",
+  "flags": [
+   "primary",
+   "little used"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/unisonweb/unison/issues/6262",
+  "title": "Comments silently dropped on update (issue #6262)",
+  "publisher": "Unison GitHub",
+  "date": "2026-08-04",
+  "flags": [
+   "primary",
+   "issue tracker",
+   "user complaint"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/unisonweb/unison/issues/443",
+  "title": "Needs design: how do you document and attach comments to Unison code? (issue #443)",
+  "publisher": "Unison GitHub",
+  "date": "2019-04-08",
+  "flags": [
+   "old",
+   "issue tracker"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/enso-org/enso/blob/4135f929f1046ee4ab62d9d09c155377e8542a1f/docs/syntax/README.md",
+  "title": "Enso syntax README",
+  "publisher": "Enso",
+  "date": "commit 4135f92 (read 2026-11-01)",
+  "flags": [
+   "primary",
+   "source docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/enso-org/enso/blob/4135f929f1046ee4ab62d9d09c155377e8542a1f/docs/enso-philosophy.md",
+  "title": "Enso philosophy",
+  "publisher": "Enso",
+  "date": "commit 4135f92",
+  "flags": [
+   "primary",
+   "source docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/enso-org/enso/blob/4135f929f1046ee4ab62d9d09c155377e8542a1f/lib/scala/pkg/src/main/resources/default/src/Main.enso",
+  "title": "Enso default project Main.enso (with METADATA trailer)",
+  "publisher": "Enso",
+  "date": "commit 4135f92",
+  "flags": [
+   "primary",
+   "source"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/enso-org/enso/blob/4135f929f1046ee4ab62d9d09c155377e8542a1f/app/ydoc-shared/src/ensoFile.ts",
+  "title": "Enso ensoFile.ts (split code, idMap, metadata)",
+  "publisher": "Enso",
+  "date": "commit 4135f92",
+  "flags": [
+   "primary",
+   "source"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/enso-org/enso/blob/4135f929f1046ee4ab62d9d09c155377e8542a1f/docs/language-server/protocol-language-server.md",
+  "title": "Enso language server protocol",
+  "publisher": "Enso",
+  "date": "commit 4135f92",
+  "flags": [
+   "primary",
+   "source docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/enso-org/enso/blob/4135f929f1046ee4ab62d9d09c155377e8542a1f/app/gui/integration-test/mock/project/src/Main.enso",
+  "title": "Enso mock project Main.enso",
+  "publisher": "Enso",
+  "date": "commit 4135f92",
+  "flags": [
+   "primary",
+   "source",
+   "little used"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/enso-org/enso",
+  "title": "enso-org/enso README",
+  "publisher": "Enso",
+  "date": "undated",
+  "flags": [
+   "primary",
+   "little used"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://help.enso.org/",
+  "title": "Enso help home",
+  "publisher": "Enso",
+  "date": "undated",
+  "flags": [
+   "primary",
+   "little used"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://blog.darklang.com/",
+  "title": "Darklang blog index",
+  "publisher": "Darklang",
+  "date": "latest 2025-06-16",
+  "flags": [
+   "primary"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://blog.darklang.com/gpt/",
+  "title": "Darklang is going all-in on AI",
+  "publisher": "Darklang (Paul Biggar)",
+  "date": "2023-03-28",
+  "flags": [
+   "primary"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://blog.darklang.com/an-overdue-status-update/",
+  "title": "An overdue status update on Darklang",
+  "publisher": "Darklang (Stachu Korick)",
+  "date": "2024-03-12",
+  "flags": [
+   "primary"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://blog.darklang.com/goodbye-dark-inc-welcome-darklang-inc/",
+  "title": "Goodbye Dark Inc. - Hello Darklang Inc.",
+  "publisher": "Darklang (Paul Biggar)",
+  "date": "2025-06-16",
+  "flags": [
+   "primary"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "http://www.ic.uff.br/~leomurta/papers/pimentel2019a.pdf",
+  "title": "A Large-scale Study about Quality and Reproducibility of Jupyter Notebooks (MSR 2019)",
+  "publisher": "Pimentel, Murta, Braganholo, Freire",
+  "date": "2019",
+  "flags": [
+   "old",
+   "paper",
+   "pdf"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://2019.msrconf.org/details/msr-2019-papers/36/A-Large-scale-Study-about-Quality-and-Reproducibility-of-Jupyter-Notebooks",
+  "title": "MSR 2019 paper page",
+  "publisher": "MSR 2019",
+  "date": "2019",
+  "flags": [
+   "old"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/observablehq/runtime",
+  "title": "observablehq/runtime README",
+  "publisher": "Observable",
+  "date": "undated",
+  "flags": [
+   "primary",
+   "source"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/observablehq/framework/blob/main/docs/reactivity.md",
+  "title": "Observable Framework: Reactivity",
+  "publisher": "Observable",
+  "date": "undated",
+  "flags": [
+   "primary",
+   "docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://support.microsoft.com/en-us/office/let-function-34842dd8-b92b-4d3f-b325-b8b8f9908999",
+  "title": "LET function",
+  "publisher": "Microsoft",
+  "date": "undated (current docs)",
+  "flags": [
+   "primary",
+   "vendor docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://support.microsoft.com/en-us/office/lambda-function-bd212d27-1cd1-4321-a34a-ccbf254b8b67",
+  "title": "LAMBDA function",
+  "publisher": "Microsoft",
+  "date": "undated (current docs)",
+  "flags": [
+   "primary",
+   "vendor docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.microsoft.com/en-us/research/blog/lambda-the-ultimatae-excel-worksheet-function/",
+  "title": "LAMBDA: The ultimate Excel worksheet function",
+  "publisher": "Microsoft Research (Gordon, Peyton Jones)",
+  "date": "2021-01-25",
+  "flags": [
+   "old (about 5.8 years)",
+   "primary"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/microsoft/Excel-Labs",
+  "title": "Excel Labs README (Advanced formula environment)",
+  "publisher": "Microsoft",
+  "date": "undated",
+  "flags": [
+   "primary"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.sidefx.com/docs/houdini/network/spare.html",
+  "title": "Houdini: Spare parameters",
+  "publisher": "SideFX",
+  "date": "Houdini 21.0 docs",
+  "flags": [
+   "primary",
+   "vendor docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.sidefx.com/docs/houdini/model/looping.html",
+  "title": "Houdini: Looping",
+  "publisher": "SideFX",
+  "date": "current docs",
+  "flags": [
+   "primary",
+   "vendor docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.sidefx.com/docs/houdini/nodes/sop/block_begin.html",
+  "title": "Houdini: Block Begin SOP",
+  "publisher": "SideFX",
+  "date": "current docs",
+  "flags": [
+   "primary",
+   "vendor docs",
+   "first 100k chars read"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.sidefx.com/forum/topic/86085",
+  "title": "I would like to specify the value range of a channel created in the VEX expression",
+  "publisher": "SideFX forum",
+  "date": "2022-08-20",
+  "flags": [
+   "forum",
+   "third party users"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.grasshopper3d.com/group/anemone",
+  "title": "Anemone group page",
+  "publisher": "grasshopper3d.com (Mateusz Zwierzycki)",
+  "date": "latest activity 2025-11-19",
+  "flags": [
+   "primary (author group)"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://discourse.mcneel.com/t/anemones-fast-loop-end-is-slow/63573",
+  "title": "Anemone's Fast loop end is... slow",
+  "publisher": "McNeel forum",
+  "date": "2018-05-24",
+  "flags": [
+   "old",
+   "forum",
+   "third party users"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.grasshopper3d.com/forum/topics/loop-component",
+  "title": "Loop component (David Rutten replies)",
+  "publisher": "grasshopper3d.com forum",
+  "date": "2010-01-03 and 2011-07-09",
+  "flags": [
+   "old",
+   "forum",
+   "vendor staff"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://discourse.mcneel.com/t/elefront-for-grasshopper/1026",
+  "title": "EleFront for Grasshopper",
+  "publisher": "McNeel forum (Bob McNeel)",
+  "date": "2013-07-18",
+  "flags": [
+   "old",
+   "forum"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://developer.rhino3d.com/guides/scripting/scripting-command/",
+  "title": "Rhino ScriptEditor guide",
+  "publisher": "McNeel",
+  "date": "Rhino 8 docs",
+  "flags": [
+   "primary",
+   "vendor docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://developer.rhino3d.com/api/rhinocommon/rhino.nodeincode.components",
+  "title": "RhinoCommon API: Rhino.NodeInCode.Components",
+  "publisher": "McNeel",
+  "date": "since v6.0",
+  "flags": [
+   "primary",
+   "API reference"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://discourse.mcneel.com/t/rhino-nodeincode/103190",
+  "title": "Rhino.NodeInCode",
+  "publisher": "McNeel forum",
+  "date": "2020-05-30",
+  "flags": [
+   "old",
+   "forum",
+   "includes vendor staff reply"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.notion.com/help/writing-and-editing-basics",
+  "title": "Writing and editing basics",
+  "publisher": "Notion",
+  "date": "undated (current help)",
+  "flags": [
+   "primary",
+   "vendor docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.notion.com/blog/data-model-behind-notion",
+  "title": "The data model behind Notion's flexibility",
+  "publisher": "Notion (Jake Teton-Landis)",
+  "date": "2021-05-18",
+  "flags": [
+   "about 5.5 years old",
+   "primary"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/droplet-editor/droplet",
+  "title": "droplet-editor/droplet README",
+  "publisher": "Droplet project (Anthony Bau)",
+  "date": "undated",
+  "flags": [
+   "primary",
+   "source"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://ccl.netlogo.org/2017/Blocks.pdf",
+  "title": "From Blocks to Text and Back: Programming Patterns in a Dual-modality Environment (SIGCSE 2017)",
+  "publisher": "Weintrop, Holbert",
+  "date": "2017-03",
+  "flags": [
+   "old",
+   "paper",
+   "pdf"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://ccl.northwestern.edu/2017/HolbertWeintrop.pdf",
+  "title": "Exploring why novice programmers switch between text and blocks in a dual-modality coding environment",
+  "publisher": "Holbert, Weintrop",
+  "date": "2017",
+  "flags": [
+   "old",
+   "paper",
+   "pdf",
+   "same data as SIGCSE 2017"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://ccl.northwestern.edu/2017/Weintrop_Wilensky_IDC_2017.pdf",
+  "title": "Between a Block and a Typeface: Designing and Evaluating Hybrid Programming Environments (IDC 2017)",
+  "publisher": "Weintrop, Wilensky",
+  "date": "2017-06",
+  "flags": [
+   "old",
+   "paper",
+   "pdf"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://arxiv.org/abs/1906.03060",
+  "title": "Comparison of block-based and hybrid-based environments in transferring programming skills to text-based environments",
+  "publisher": "Alrubaye, Ludi, Mkaouer",
+  "date": "2019-06-02",
+  "flags": [
+   "old",
+   "paper abstract only",
+   "not used in notes"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://microsoft.github.io/pxt-sample/docs/blocks/javascript-blocks.html",
+  "title": "PXT: JavaScript Block",
+  "publisher": "Microsoft MakeCode",
+  "date": "undated",
+  "flags": [
+   "primary",
+   "vendor docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://arcade.makecode.com/blocks/javascript-blocks",
+  "title": "MakeCode Arcade: JavaScript Block",
+  "publisher": "Microsoft MakeCode",
+  "date": "undated",
+  "flags": [
+   "primary",
+   "vendor docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://makecode.com/defining-blocks",
+  "title": "MakeCode: Defining blocks",
+  "publisher": "Microsoft MakeCode",
+  "date": "undated",
+  "flags": [
+   "primary",
+   "vendor docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://makecode.com/language",
+  "title": "MakeCode Languages: Blocks, Static TypeScript and Static Python",
+  "publisher": "Microsoft MakeCode",
+  "date": "undated",
+  "flags": [
+   "primary",
+   "vendor docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://makecode.microbit.org/blocks/comments",
+  "title": "MakeCode micro:bit: Comments",
+  "publisher": "Microsoft MakeCode",
+  "date": "undated",
+  "flags": [
+   "primary",
+   "vendor docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.microsoft.com/en-us/research/uploads/prod/2019/09/static-typescript-draft2.pdf",
+  "title": "Static TypeScript (MPLR 2019 draft)",
+  "publisher": "Ball, de Halleux, Moskal (Microsoft Research)",
+  "date": "2019-09",
+  "flags": [
+   "old",
+   "paper",
+   "pdf",
+   "little used"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://forum.makecode.com/t/javascript-wont-translate-back-to-blocks/11786",
+  "title": "JavaScript won't translate back to blocks",
+  "publisher": "MakeCode forum",
+  "date": "2022-01-19",
+  "flags": [
+   "forum",
+   "third party user",
+   "vendor staff reply"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://forum.makecode.com/t/im-stuck-in-javascript-and-cant-convert-back-to-blocks/18177",
+  "title": "I'm stuck in JavaScript and can't convert back to blocks!",
+  "publisher": "MakeCode forum",
+  "date": "2023-02-26 to 2026-08-12",
+  "flags": [
+   "forum",
+   "third party users"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://kar.kent.ac.uk/56259/",
+  "title": "Evaluation of a Frame-based Programming Editor (ICER 2016) record",
+  "publisher": "Price, Brown, Lipovac, Barnes, Kolling",
+  "date": "2016",
+  "flags": [
+   "old",
+   "paper"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://kar.kent.ac.uk/56259/1/icer027-priceA.pdf",
+  "title": "Evaluation of a Frame-based Programming Editor (ICER 2016) PDF",
+  "publisher": "Price, Brown, Lipovac, Barnes, Kolling",
+  "date": "2016",
+  "flags": [
+   "old",
+   "paper",
+   "pdf"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://kar.kent.ac.uk/54394/",
+  "title": "Frame-Based Editing: Combining the Best of Blocks and Text Programming (LaTiCE 2016) record",
+  "publisher": "Brown, Altadmri, Kolling",
+  "date": "2016",
+  "flags": [
+   "old",
+   "paper"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://kar.kent.ac.uk/54394/1/frames.pdf",
+  "title": "Frame-Based Editing (LaTiCE 2016) PDF",
+  "publisher": "Brown, Altadmri, Kolling",
+  "date": "2016",
+  "flags": [
+   "old",
+   "paper",
+   "pdf",
+   "timing table is CogTool model, not users"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Frame-based_editor",
+  "title": "Frame-based editor",
+  "publisher": "Wikipedia",
+  "date": "undated",
+  "flags": [
+   "third party",
+   "little used"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/k-pet-group/Strype",
+  "title": "k-pet-group/Strype README",
+  "publisher": "King's College London K-PET group",
+  "date": "roadmap to Q3 2026",
+  "flags": [
+   "primary",
+   "source"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://microbit.org/news/2022-02-24/introducing-strype-a-framebased-editor/",
+  "title": "Introducing Strype, a frame-based editor",
+  "publisher": "Micro:bit Educational Foundation",
+  "date": "2022-02-24",
+  "flags": [
+   "third party"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://pretalx.com/pyconuk-2025/talk/GD9PX7/",
+  "title": "PyCon UK 2025 talk on Strype (Pierre Weill-Tessier)",
+  "publisher": "PyCon UK",
+  "date": "2025-09-19",
+  "flags": [
+   "talk abstract"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://gpblocks.org/",
+  "title": "GP Blocks",
+  "publisher": "GP project",
+  "date": "undated",
+  "flags": [
+   "primary",
+   "thin content"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "http://worrydream.com/LearnableProgramming/",
+  "title": "Learnable Programming",
+  "publisher": "Bret Victor",
+  "date": "2012-09",
+  "flags": [
+   "old",
+   "essay"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://arxiv.org/pdf/2609.11000",
+  "title": "ShellVis: Sandboxed Live Programming for Shell Scripts",
+  "publisher": "Horowitz, Heer (University of Washington)",
+  "date": "2026-09-10",
+  "flags": [
+   "paper",
+   "pdf",
+   "preprint"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.food4rhino.com/en/app/anemone",
+  "title": "Anemone on food4rhino",
+  "publisher": "food4rhino",
+  "date": "unknown",
+  "flags": [
+   "not verified (HTTP 405)"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.food4rhino.com/en/app/elefront",
+  "title": "EleFront on food4rhino",
+  "publisher": "food4rhino",
+  "date": "unknown",
+  "flags": [
+   "not verified (HTTP 405)"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.elefront.io/",
+  "title": "EleFront docs domain",
+  "publisher": "unknown",
+  "date": "read 2026-11-01",
+  "flags": [
+   "not verified (placeholder page)"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://en.scratch-wiki.info/wiki/Blocks",
+  "title": "Scratch Wiki: Blocks",
+  "publisher": "Scratch Wiki",
+  "date": "unknown",
+  "flags": [
+   "not verified (HTTP 403)"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.media.mit.edu/publications/the-scratch-programming-language-and-environment/",
+  "title": "The Scratch Programming Language and Environment (2010)",
+  "publisher": "MIT Media Lab",
+  "date": "2010",
+  "flags": [
+   "not verified (HTTP 503)",
+   "old"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://cseweb.ucsd.edu/~lerner/pb/",
+  "title": "Projection Boxes",
+  "publisher": "Sorin Lerner",
+  "date": "2020",
+  "flags": [
+   "not verified (HTTP 503 and TLS chain error)"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://dl.acm.org/doi/10.1145/2950290.2950315",
+  "title": "ACM DL page for Berger et al. 2016",
+  "publisher": "ACM",
+  "date": "2016",
+  "flags": [
+   "not verified (HTTP 403); PDF read from gup.ub.gu.se instead"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://mps-support.jetbrains.com/hc/en-us/community/posts/205825609/comments/205719855",
+  "title": "Most major usability problem with the current editor",
+  "publisher": "MPS support forum",
+  "date": "unknown",
+  "flags": [
+   "not verified (HTTP 403)"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://blog.jetbrains.com/mps/2014/04/parentheses-projectional-editing/",
+  "title": "Parentheses in projectional editing",
+  "publisher": "JetBrains MPS blog",
+  "date": "2014-04",
+  "flags": [
+   "not verified (HTTP 403)",
+   "old"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://observablehq.com/@observablehq/how-observable-runs",
+  "title": "How Observable Runs",
+  "publisher": "Observable",
+  "date": "unknown",
+  "flags": [
+   "not verified (HTTP 429)"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.microsoft.com/en-us/garage/profiles/excel-labs/",
+  "title": "Excel Labs (Microsoft Garage)",
+  "publisher": "Microsoft",
+  "date": "unknown",
+  "flags": [
+   "not verified (HTTP 403); GitHub README used instead"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://blogs.kcl.ac.uk/proged/2024/09/",
+  "title": "Announcement: Strype, a frame-based Python system",
+  "publisher": "KCL Programming Education blog",
+  "date": "2024-09",
+  "flags": [
+   "not verified (HTTP 403)"
+  ],
+  "read": "2026-11-01"
+ }
+]

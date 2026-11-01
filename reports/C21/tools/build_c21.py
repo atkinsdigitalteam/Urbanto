@@ -230,8 +230,9 @@ TEXT = [
 
 def blocks_pane(c):
     gfas = [6300, 8400, 10500, 12600, 14700, 16800, 18900]
-    passes = "".join(f'<div class="pass{" on" if i == 7 else ""}"><div class="pv"><i style="height:{g / 18900 * 28:.0f}px"></i><span style="position:absolute;left:0;right:0;bottom:{6 + 18000 / 18900 * 28:.0f}px;height:0;border-top:1px dashed {c["text-subtle"]}"></span></div>{i}</div>' for i, g in enumerate(gfas, 1))
+    spark = "".join(f'<i class="{"on" if i == 7 else ""}" style="height:{g / 18900 * 16:.0f}px"></i>' for i, g in enumerate(gfas, 1))
     hl = lambda s: f'<div class="bline">{highlight(s, "urb")}</div>'
+    hint = lambda s, v: f'<div class="bline">{highlight(s, "urb")}<span class="hint">pass 7 <b>{v}</b></span></div>'
     return f"""<div class="blocks">
   {hl("# Find the number of floors that reaches the target area")}
   {hl('let plot = pick("Plot A3")')}
@@ -239,19 +240,20 @@ def blocks_pane(c):
   <div class="container loop">
     <div class="chead">{ic('repeat', 15, c['cat-flow'])}<span class="kwd">repeat</span><span class="lab">until</span><span class="fieldbox expr">gfa &gt;= target</span>
       <span class="lab">max</span><span class="fieldbox">50 <span class="u">passes</span></span><span class="lab">time</span><span class="fieldbox">5 <span class="u">s</span></span>
-      <span class="spacer"></span><span class="lab" style="display:inline-flex;gap:6px;align-items:center"><span class="toggle"></span>Preview passes</span></div>
+      <span class="spacer"></span><span class="lab" style="display:inline-flex;gap:6px;align-items:center"><span class="toggle"></span>Show values</span></div>
     <div class="cbody">
-      <div class="bline"><span class="kw">state</span> <span class="nm">floors</span> <span class="op">=</span> <span class="num">3</span>   <span class="com"># value on the first pass</span></div>
-      {hl("let block = extrude(plot, floors * 3.2 m)")}
-      {hl("let gfa = area(plot) * floors")}
-      <div class="bline"><span class="kw">next</span> <span class="nm">floors</span> <span class="op">=</span> <span class="nm">floors</span> <span class="op">+</span> <span class="num">1</span></div>
+      <div class="bline"><span class="kw">state</span> <span class="nm">floors</span> <span class="op">=</span> <span class="num">3</span><span class="hint">pass 7 <b>9</b></span></div>
+      {hint("let block = extrude(plot, floors * 3.2 m)", "1 solid, 28.8 m")}
+      {hint("let gfa = area(plot) * floors", "18,900 m²")}
+      <div class="bline"><span class="kw">next</span> <span class="nm">floors</span> <span class="op">=</span> <span class="nm">floors</span> <span class="op">+</span> <span class="num">1</span><span class="hint">pass 7 <b>10</b></span></div>
     </div>
-    <div class="passes">{passes}<div class="stopmsg"><b>Stopped at pass 7</b>gfa 18,900 m² ≥ target 18,000 m²<span>floors = 9 · 2.1 ms</span></div></div>
+    <div class="scrub"><span>Pass</span><div class="bar"><div class="spark">{spark}</div><span class="tgt" style="top:{16 - 18000 / 18900 * 16:.0f}px"></span><span class="rail"></span><span class="fill" style="width:100%"></span><span class="knob" style="left:100%"></span></div>
+      <span><b>7 of 7</b> · stopped: gfa 18,900 m² ≥ target · 2.1 ms</span></div>
   </div>
   {hl('report("Floors needed", floors)')}
   <div class="container" style="margin-top:8px">
     <div class="chead"><span class="kwd">if</span><span class="fieldbox expr">floors &gt; <span class="caret"></span></span><span class="lab">typed as text, shown as a container</span></div>
-    <div class="cbody" style="border-left-color:var(--border-strong)"><span class="hole">then: type or drop a statement</span></div>
+    <div class="cbody" style="border-left-color:var(--border-strong)"><span class="hole">then: type a statement</span></div>
   </div>
 </div>"""
 
