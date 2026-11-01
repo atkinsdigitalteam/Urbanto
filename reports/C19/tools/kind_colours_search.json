@@ -1,0 +1,18 @@
+{
+ "dark": {
+  "colours": {
+   "shapes": "#6AF0CB",
+   "number": "#5F9BF1",
+   "text": "#8D46D5"
+  },
+  "min_distance_all_conditions": 16.8
+ },
+ "light": {
+  "colours": {
+   "shapes": "#18A174",
+   "number": "#1735DB",
+   "text": "#48256F"
+  },
+  "min_distance_all_conditions": 17.1
+ }
+}

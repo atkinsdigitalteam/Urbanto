@@ -1,0 +1,1562 @@
+[
+ {
+  "url": "https://blog.comfy.org/p/comfyui-node-2-0",
+  "title": "ComfyUI Nodes 2.0",
+  "publisher": "Comfy Org",
+  "date": "2025-12-05",
+  "flags": "reader comments quoted are third party",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://docs.comfy.org/interface/nodes-2",
+  "title": "Nodes 2.0",
+  "publisher": "Comfy Org docs",
+  "date": "undated",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://docs.comfy.org/interface/canvas-controls",
+  "title": "Canvas controls",
+  "publisher": "Comfy Org docs",
+  "date": "undated",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://docs.comfy.org/interface/overview",
+  "title": "Interface overview",
+  "publisher": "Comfy Org docs",
+  "date": "undated",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://github.com/Comfy-Org/ComfyUI_frontend/blob/834cce976e330fedaa7f85f5aab930d7b8a205e8/src/renderer/extensions/vueNodes/components/LGraphNode.vue",
+  "title": "LGraphNode.vue (Vue node)",
+  "publisher": "Comfy-Org/ComfyUI_frontend",
+  "date": "2026-10-31 (commit 834cce9, v1.60.0)",
+  "flags": "read via git clone of that commit",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://github.com/Comfy-Org/ComfyUI_frontend/blob/834cce976e330fedaa7f85f5aab930d7b8a205e8/src/renderer/extensions/vueNodes/components/SlotConnectionDot.vue",
+  "title": "SlotConnectionDot.vue",
+  "publisher": "Comfy-Org/ComfyUI_frontend",
+  "date": "2026-10-31",
+  "flags": "read via git clone",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://github.com/Comfy-Org/ComfyUI_frontend/blob/834cce976e330fedaa7f85f5aab930d7b8a205e8/src/renderer/extensions/vueNodes/components/NodeHeader.vue",
+  "title": "NodeHeader.vue",
+  "publisher": "Comfy-Org/ComfyUI_frontend",
+  "date": "2026-10-31",
+  "flags": "read via git clone",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://github.com/Comfy-Org/ComfyUI_frontend/blob/834cce976e330fedaa7f85f5aab930d7b8a205e8/src/renderer/extensions/vueNodes/components/InputSlot.vue",
+  "title": "InputSlot.vue",
+  "publisher": "Comfy-Org/ComfyUI_frontend",
+  "date": "2026-10-31",
+  "flags": "read via git clone",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://github.com/Comfy-Org/ComfyUI_frontend/blob/834cce976e330fedaa7f85f5aab930d7b8a205e8/packages/design-system/src/css/theme.css",
+  "title": "design-system theme.css",
+  "publisher": "Comfy-Org/ComfyUI_frontend",
+  "date": "2026-10-31",
+  "flags": "read via git clone",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://github.com/Comfy-Org/ComfyUI_frontend/blob/834cce976e330fedaa7f85f5aab930d7b8a205e8/packages/design-system/src/css/_palette.css",
+  "title": "design-system _palette.css",
+  "publisher": "Comfy-Org/ComfyUI_frontend",
+  "date": "2026-10-31",
+  "flags": "read via git clone",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://github.com/Comfy-Org/ComfyUI_frontend/blob/834cce976e330fedaa7f85f5aab930d7b8a205e8/src/assets/palettes/dark.json",
+  "title": "Dark palette",
+  "publisher": "Comfy-Org/ComfyUI_frontend",
+  "date": "2026-10-31",
+  "flags": "read via git clone",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://github.com/Comfy-Org/ComfyUI_frontend/blob/834cce976e330fedaa7f85f5aab930d7b8a205e8/src/assets/palettes/light.json",
+  "title": "Light palette",
+  "publisher": "Comfy-Org/ComfyUI_frontend",
+  "date": "2026-10-31",
+  "flags": "read via git clone",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://github.com/Comfy-Org/ComfyUI_frontend/blob/834cce976e330fedaa7f85f5aab930d7b8a205e8/src/lib/litegraph/src/LiteGraphGlobal.ts",
+  "title": "LiteGraphGlobal.ts",
+  "publisher": "Comfy-Org/ComfyUI_frontend",
+  "date": "2026-10-31",
+  "flags": "read via git clone",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://github.com/Comfy-Org/ComfyUI_frontend/blob/834cce976e330fedaa7f85f5aab930d7b8a205e8/src/lib/litegraph/src/LGraphCanvas.ts",
+  "title": "LGraphCanvas.ts",
+  "publisher": "Comfy-Org/ComfyUI_frontend",
+  "date": "2026-10-31",
+  "flags": "read via git clone",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://github.com/Comfy-Org/ComfyUI_frontend/blob/834cce976e330fedaa7f85f5aab930d7b8a205e8/src/lib/litegraph/src/LGraphGroup.ts",
+  "title": "LGraphGroup.ts",
+  "publisher": "Comfy-Org/ComfyUI_frontend",
+  "date": "2026-10-31",
+  "flags": "read via git clone",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://github.com/Comfy-Org/ComfyUI_frontend/blob/834cce976e330fedaa7f85f5aab930d7b8a205e8/src/platform/settings/constants/coreSettings.ts",
+  "title": "coreSettings.ts",
+  "publisher": "Comfy-Org/ComfyUI_frontend",
+  "date": "2026-10-31",
+  "flags": "read via git clone",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://github.com/Comfy-Org/ComfyUI_frontend/blob/834cce976e330fedaa7f85f5aab930d7b8a205e8/src/renderer/extensions/minimap/composables/useMinimapSettings.ts",
+  "title": "useMinimapSettings.ts",
+  "publisher": "Comfy-Org/ComfyUI_frontend",
+  "date": "2026-10-31",
+  "flags": "read via git clone",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://github.com/Comfy-Org/ComfyUI_frontend/blob/834cce976e330fedaa7f85f5aab930d7b8a205e8/src/renderer/extensions/minimap/minimapCanvasRenderer.ts",
+  "title": "minimapCanvasRenderer.ts",
+  "publisher": "Comfy-Org/ComfyUI_frontend",
+  "date": "2026-10-31",
+  "flags": "read via git clone",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://github.com/Comfy-Org/ComfyUI_frontend/blob/834cce976e330fedaa7f85f5aab930d7b8a205e8/src/renderer/core/layout/transform/graphRenderTransform.ts",
+  "title": "graphRenderTransform.ts",
+  "publisher": "Comfy-Org/ComfyUI_frontend",
+  "date": "2026-10-31",
+  "flags": "read via git clone",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://github.com/Comfy-Org/ComfyUI_frontend/blob/834cce976e330fedaa7f85f5aab930d7b8a205e8/src/constants/slotColors.ts",
+  "title": "slotColors.ts",
+  "publisher": "Comfy-Org/ComfyUI_frontend",
+  "date": "2026-10-31",
+  "flags": "read via git clone",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://unpkg.com/tailwindcss@4.3.2/theme.css",
+  "title": "Tailwind CSS 4.3.2 default theme",
+  "publisher": "Tailwind Labs (via unpkg)",
+  "date": "4.3.2",
+  "flags": "used to convert class names to px",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://projects.blender.org/blender/blender/src/branch/blender-v5.2-release/release/datafiles/userdef/userdef_default_theme.c",
+  "title": "Default theme (5.2 LTS branch)",
+  "publisher": "Blender Foundation",
+  "date": "branch read 2026-10-31",
+  "flags": "fetched as raw file",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://projects.blender.org/blender/blender/src/branch/blender-v4.5-release/release/datafiles/userdef/userdef_default_theme.c",
+  "title": "Default theme (4.5 branch)",
+  "publisher": "Blender Foundation",
+  "date": "branch read 2026-10-31",
+  "flags": "for before/after comparison",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://projects.blender.org/blender/blender/src/branch/blender-v5.2-release/source/blender/makesrna/intern/rna_userdef.cc",
+  "title": "rna_userdef.cc (theme field names)",
+  "publisher": "Blender Foundation",
+  "date": "branch read 2026-10-31",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://projects.blender.org/blender/blender/src/branch/main/source/blender/makesrna/intern/rna_userdef.cc",
+  "title": "rna_userdef.cc (main)",
+  "publisher": "Blender Foundation",
+  "date": "main read 2026-10-31",
+  "flags": "main is 5.4 alpha",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://projects.blender.org/blender/blender/src/branch/blender-v5.2-release/source/blender/editors/space_node/node_intern.hh",
+  "title": "node_intern.hh",
+  "publisher": "Blender Foundation",
+  "date": "branch read 2026-10-31",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://projects.blender.org/blender/blender/src/branch/blender-v5.2-release/source/blender/editors/space_node/node_draw.cc",
+  "title": "node_draw.cc",
+  "publisher": "Blender Foundation",
+  "date": "branch read 2026-10-31",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://projects.blender.org/blender/blender/src/branch/blender-v5.2-release/source/blender/editors/space_node/drawnode.cc",
+  "title": "drawnode.cc",
+  "publisher": "Blender Foundation",
+  "date": "branch read 2026-10-31",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://projects.blender.org/blender/blender/src/branch/blender-v5.2-release/source/blender/editors/space_node/node_edit.cc",
+  "title": "node_edit.cc",
+  "publisher": "Blender Foundation",
+  "date": "branch read 2026-10-31",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://projects.blender.org/blender/blender/src/branch/blender-v5.2-release/source/blender/blenkernel/intern/node_tree_update.cc",
+  "title": "node_tree_update.cc",
+  "publisher": "Blender Foundation",
+  "date": "branch read 2026-10-31",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://projects.blender.org/blender/blender/src/branch/blender-v5.2-release/source/blender/windowmanager/intern/wm_window.cc",
+  "title": "wm_window.cc",
+  "publisher": "Blender Foundation",
+  "date": "branch read 2026-10-31",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://projects.blender.org/blender/blender/src/branch/blender-v5.2-release/source/blender/editors/include/ED_node_c.hh",
+  "title": "ED_node_c.hh",
+  "publisher": "Blender Foundation",
+  "date": "branch read 2026-10-31",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://projects.blender.org/blender/blender/src/branch/blender-v5.2-release/source/blender/editors/include/UI_interface_c.hh",
+  "title": "UI_interface_c.hh",
+  "publisher": "Blender Foundation",
+  "date": "branch read 2026-10-31",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://projects.blender.org/blender/blender/src/branch/blender-v5.2-release/source/blender/nodes/intern/node_common.cc",
+  "title": "node_common.cc",
+  "publisher": "Blender Foundation",
+  "date": "branch read 2026-10-31",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://projects.blender.org/api/v1/repos/blender/blender/contents/release/datafiles/fonts?ref=blender-v5.2-release",
+  "title": "Bundled fonts listing",
+  "publisher": "Blender Foundation",
+  "date": "branch read 2026-10-31",
+  "flags": "API listing",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://developer.blender.org/docs/release_notes/5.0/user_interface/",
+  "title": "Blender 5.0 User Interface release notes",
+  "publisher": "Blender Foundation",
+  "date": "2025",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://code.blender.org/2025/08/new-socket-shapes/",
+  "title": "New Socket Shapes",
+  "publisher": "Blender Developers Blog (Jacques Lucke)",
+  "date": "2025-08-08",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://docs.blender.org/manual/en/latest/interface/controls/nodes/parts.html",
+  "title": "Node Parts",
+  "publisher": "Blender Manual 5.2 LTS",
+  "date": "undated",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://dev.epicgames.com/documentation/unreal-engine/API/Editor/GraphEditor/UGraphEditorSettings",
+  "title": "UGraphEditorSettings API",
+  "publisher": "Epic Games",
+  "date": "UE 5.8 docs",
+  "flags": "colour defaults not published",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/nodes-in-unreal-engine",
+  "title": "Nodes in Unreal Engine",
+  "publisher": "Epic Games",
+  "date": "UE 5.8 docs",
+  "flags": "images partly from UE4",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/blueprint-variables-in-unreal-engine",
+  "title": "Blueprint Variables",
+  "publisher": "Epic Games",
+  "date": "UE 5.8 docs",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/comments-in-unreal-engine",
+  "title": "Comments",
+  "publisher": "Epic Games",
+  "date": "UE 5.8 docs",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://dev.epicgames.com/documentation/unreal-engine/previewing-and-applying-your-materials-in-unreal-engine",
+  "title": "Previewing and applying materials",
+  "publisher": "Epic Games",
+  "date": "UE 5.8 docs",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-material-editor-ui",
+  "title": "Material Editor UI",
+  "publisher": "Epic Games",
+  "date": "UE 5.8 docs",
+  "flags": "no visual detail",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/graph-editor-for-the-blueprints-visual-scripting-editor-in-unreal-engine",
+  "title": "Graph Editor",
+  "publisher": "Epic Games",
+  "date": "UE 5.8 docs",
+  "flags": "no visual detail",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://www.sidefx.com/docs/houdini/network/options.html",
+  "title": "Network editor display options",
+  "publisher": "SideFX",
+  "date": "Houdini 22.0 docs",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://www.sidefx.com/docs/houdini/network/organize.html",
+  "title": "Organizing, customizing, and annotating",
+  "publisher": "SideFX",
+  "date": "Houdini 22.0 docs",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://www.sidefx.com/docs/houdini/network/flags.html",
+  "title": "Network types and node flags",
+  "publisher": "SideFX",
+  "date": "Houdini 22.0 docs",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://www.sidefx.com/docs/houdini/network/wire.html",
+  "title": "Connecting (wiring) nodes",
+  "publisher": "SideFX",
+  "date": "Houdini 22.0 docs",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://www.sidefx.com/docs/houdini/network/nodes.html",
+  "title": "Network editor",
+  "publisher": "SideFX",
+  "date": "Houdini 22.0 docs",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://www.sidefx.com/docs/houdini/network/navigate.html",
+  "title": "Network navigation",
+  "publisher": "SideFX",
+  "date": "Houdini 22.0 docs",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://www.sidefx.com/docs/houdini/news/22/viewport.html",
+  "title": "Houdini 22 viewport and user interface",
+  "publisher": "SideFX",
+  "date": "Houdini 22.0",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://www.sidefx.com/docs/houdini/ref/windows/theme_editor.html",
+  "title": "Theme Editor",
+  "publisher": "SideFX",
+  "date": "Houdini 22.0 docs",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://discourse.mcneel.com/t/rhino-beta-feature-grasshopper-2-beta/221336",
+  "title": "Rhino Beta Feature: Grasshopper 2 (Beta)",
+  "publisher": "McNeel Forum (Japhy, McNeel)",
+  "date": "2026-07-30",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://discourse.mcneel.com/t/rhino-beta-feature-grasshopper-2-beta/221336/10",
+  "title": "Beta thread post #10",
+  "publisher": "McNeel Forum (user ShynnSup)",
+  "date": "2026-08-04",
+  "flags": "third party opinion",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://developer.rhino3d.com/guides/grasshopper2/getting-started/",
+  "title": "Grasshopper 2 components, getting started",
+  "publisher": "McNeel developer docs",
+  "date": "2026-10-06",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://www.rhino3d.com/docs/grasshopper2/",
+  "title": "Grasshopper 2 Documentation",
+  "publisher": "McNeel",
+  "date": "undated",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://www.rhino3d.com/docs/grasshopper2/terms/wire.html",
+  "title": "Glossary: Wire",
+  "publisher": "McNeel",
+  "date": "undated",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://www.rhino3d.com/docs/grasshopper2/terms/errors.html",
+  "title": "Glossary: Errors",
+  "publisher": "McNeel",
+  "date": "undated",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://www.rhino3d.com/docs/grasshopper2/terms/warnings.html",
+  "title": "Glossary: Warnings",
+  "publisher": "McNeel",
+  "date": "undated",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://www.rhino3d.com/docs/grasshopper2/terms/canvas.html",
+  "title": "Glossary: Canvas",
+  "publisher": "McNeel",
+  "date": "undated",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://www.rhino3d.com/docs/grasshopper2/topics/DataModifiers.html",
+  "title": "Data Modifiers",
+  "publisher": "McNeel",
+  "date": "undated",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://www.rhino3d.com/stories/grasshopper-2/",
+  "title": "About Grasshopper 2",
+  "publisher": "McNeel",
+  "date": "undated",
+  "flags": "no visual detail",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://www.rhino3d.com/9/new/",
+  "title": "Rhino 9 What's New",
+  "publisher": "McNeel",
+  "date": "undated",
+  "flags": "no visual detail",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://docs.derivative.ca/Wire",
+  "title": "Wire",
+  "publisher": "Derivative wiki",
+  "date": "2022-08-06",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://docs.derivative.ca/Node_Viewer",
+  "title": "Node Viewer",
+  "publisher": "Derivative wiki",
+  "date": "2022-02-23",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://docs.derivative.ca/Network_Editor",
+  "title": "Network Editor",
+  "publisher": "Derivative wiki",
+  "date": "2023-04-04",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://docs.derivative.ca/Operator_Family",
+  "title": "Operator Family",
+  "publisher": "Derivative wiki",
+  "date": "2026-04-27",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://docs.derivative.ca/OP_Create_Dialog",
+  "title": "OP Create Dialog",
+  "publisher": "Derivative wiki",
+  "date": "undated",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://docs.derivative.ca/Annotate_COMP",
+  "title": "Annotate COMP",
+  "publisher": "Derivative wiki",
+  "date": "undated",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://docs.derivative.ca/Preferences",
+  "title": "Preferences",
+  "publisher": "Derivative wiki",
+  "date": "undated",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://docs.derivative.ca/Release_Notes/2025.30000",
+  "title": "Release Notes 2025 (build 2025.33230)",
+  "publisher": "Derivative",
+  "date": "2026-09-01",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://docs.derivative.ca/Node",
+  "title": "Node",
+  "publisher": "Derivative wiki",
+  "date": "2021-06-21",
+  "flags": "about 5 years old",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://docs.derivative.ca/Colors_Class",
+  "title": "Colors Class",
+  "publisher": "Derivative wiki",
+  "date": "2022-06-02",
+  "flags": "lists no colour values",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://learn.derivative.ca/courses/100-fundamentals/lessons/101-navigating-the-environment/topic/reading-operator-anatomy/",
+  "title": "Reading Operator Anatomy",
+  "publisher": "Derivative Learn",
+  "date": "undated",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://learn.derivative.ca/courses/100-fundamentals/lessons/101-navigating-the-environment/topic/reading-network-anatomy/",
+  "title": "Reading Network Anatomy",
+  "publisher": "Derivative Learn",
+  "date": "undated",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://github.com/DynamoDS/Dynamo/blob/1a3eec9d69211fbc038cab531a6dcce211cb70c5/src/DynamoCoreWpf/Views/Core/NodeView.xaml.cs",
+  "title": "NodeView.xaml.cs",
+  "publisher": "DynamoDS/Dynamo",
+  "date": "2026-10-27 (commit 1a3eec9)",
+  "flags": "read via git clone of that commit",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://github.com/DynamoDS/Dynamo/blob/1a3eec9d69211fbc038cab531a6dcce211cb70c5/src/DynamoCoreWpf/ViewModels/Core/NodeViewModel.cs",
+  "title": "NodeViewModel.cs",
+  "publisher": "DynamoDS/Dynamo",
+  "date": "2026-10-27 (commit 1a3eec9)",
+  "flags": "read via git clone of that commit",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://github.com/DynamoDS/Dynamo/blob/1a3eec9d69211fbc038cab531a6dcce211cb70c5/src/DynamoCore/Configuration/Configurations.cs",
+  "title": "Configurations.cs",
+  "publisher": "DynamoDS/Dynamo",
+  "date": "2026-10-27 (commit 1a3eec9)",
+  "flags": "read via git clone of that commit",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://github.com/DynamoDS/Dynamo/blob/1a3eec9d69211fbc038cab531a6dcce211cb70c5/src/DynamoCoreWpf/UI/Themes/Modern/Ports.xaml",
+  "title": "Ports.xaml",
+  "publisher": "DynamoDS/Dynamo",
+  "date": "2026-10-27 (commit 1a3eec9)",
+  "flags": "read via git clone of that commit",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://github.com/DynamoDS/Dynamo/blob/1a3eec9d69211fbc038cab531a6dcce211cb70c5/src/DynamoCoreWpf/ViewModels/Core/PortViewModel.cs",
+  "title": "PortViewModel.cs",
+  "publisher": "DynamoDS/Dynamo",
+  "date": "2026-10-27 (commit 1a3eec9)",
+  "flags": "read via git clone of that commit",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://github.com/DynamoDS/Dynamo/blob/1a3eec9d69211fbc038cab531a6dcce211cb70c5/src/DynamoCoreWpf/ViewModels/Core/InPortViewModel.cs",
+  "title": "InPortViewModel.cs",
+  "publisher": "DynamoDS/Dynamo",
+  "date": "2026-10-27 (commit 1a3eec9)",
+  "flags": "read via git clone of that commit",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://github.com/DynamoDS/Dynamo/blob/1a3eec9d69211fbc038cab531a6dcce211cb70c5/src/DynamoCoreWpf/UI/Themes/Modern/DynamoColorsAndBrushes.xaml",
+  "title": "DynamoColorsAndBrushes.xaml",
+  "publisher": "DynamoDS/Dynamo",
+  "date": "2026-10-27 (commit 1a3eec9)",
+  "flags": "read via git clone of that commit",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://github.com/DynamoDS/Dynamo/blob/1a3eec9d69211fbc038cab531a6dcce211cb70c5/src/DynamoCoreWpf/UI/Themes/Modern/DynamoConverters.xaml",
+  "title": "DynamoConverters.xaml",
+  "publisher": "DynamoDS/Dynamo",
+  "date": "2026-10-27 (commit 1a3eec9)",
+  "flags": "read via git clone of that commit",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://github.com/DynamoDS/Dynamo/blob/1a3eec9d69211fbc038cab531a6dcce211cb70c5/src/DynamoCoreWpf/UI/Themes/Modern/Connectors.xaml",
+  "title": "Connectors.xaml",
+  "publisher": "DynamoDS/Dynamo",
+  "date": "2026-10-27 (commit 1a3eec9)",
+  "flags": "read via git clone of that commit",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://github.com/DynamoDS/Dynamo/blob/1a3eec9d69211fbc038cab531a6dcce211cb70c5/src/DynamoCoreWpf/Views/Core/DynamoView.xaml",
+  "title": "DynamoView.xaml",
+  "publisher": "DynamoDS/Dynamo",
+  "date": "2026-10-27 (commit 1a3eec9)",
+  "flags": "read via git clone of that commit",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://github.com/DynamoDS/Dynamo/blob/1a3eec9d69211fbc038cab531a6dcce211cb70c5/src/DynamoCoreWpf/Controls/InfiniteGridView.xaml.cs",
+  "title": "InfiniteGridView.xaml.cs",
+  "publisher": "DynamoDS/Dynamo",
+  "date": "2026-10-27 (commit 1a3eec9)",
+  "flags": "read via git clone of that commit",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://github.com/DynamoDS/Dynamo/blob/1a3eec9d69211fbc038cab531a6dcce211cb70c5/src/DynamoCore/Graph/Annotations/AnnotationModel.cs",
+  "title": "AnnotationModel.cs",
+  "publisher": "DynamoDS/Dynamo",
+  "date": "2026-10-27 (commit 1a3eec9)",
+  "flags": "read via git clone of that commit",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://github.com/DynamoDS/Dynamo/blob/1a3eec9d69211fbc038cab531a6dcce211cb70c5/src/DynamoCoreWpf/Views/Core/AnnotationView.xaml.cs",
+  "title": "AnnotationView.xaml.cs",
+  "publisher": "DynamoDS/Dynamo",
+  "date": "2026-10-27 (commit 1a3eec9)",
+  "flags": "read via git clone of that commit",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://github.com/DynamoDS/Dynamo/blob/1a3eec9d69211fbc038cab531a6dcce211cb70c5/src/DynamoCore/Configuration/GroupStyleItem.cs",
+  "title": "GroupStyleItem.cs",
+  "publisher": "DynamoDS/Dynamo",
+  "date": "2026-10-27 (commit 1a3eec9)",
+  "flags": "read via git clone of that commit",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://github.com/DynamoDS/Dynamo/blob/1a3eec9d69211fbc038cab531a6dcce211cb70c5/src/DynamoCore/Configuration/PreferenceSettings.cs",
+  "title": "PreferenceSettings.cs",
+  "publisher": "DynamoDS/Dynamo",
+  "date": "2026-10-27 (commit 1a3eec9)",
+  "flags": "read via git clone of that commit",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://github.com/DynamoDS/Dynamo/blob/1a3eec9d69211fbc038cab531a6dcce211cb70c5/src/DynamoCore/Properties/Resources.resx",
+  "title": "Resources.resx",
+  "publisher": "DynamoDS/Dynamo",
+  "date": "2026-10-27 (commit 1a3eec9)",
+  "flags": "read via git clone of that commit",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://github.com/DynamoDS/Dynamo/blob/1a3eec9d69211fbc038cab531a6dcce211cb70c5/src/DynamoCoreWpf/Views/Preview/PreviewControl.xaml",
+  "title": "PreviewControl.xaml",
+  "publisher": "DynamoDS/Dynamo",
+  "date": "2026-10-27 (commit 1a3eec9)",
+  "flags": "read via git clone of that commit",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://github.com/DynamoDS/Dynamo/blob/1a3eec9d69211fbc038cab531a6dcce211cb70c5/src/DynamoCoreWpf/Views/Preview/PreviewCompactView.xaml",
+  "title": "PreviewCompactView.xaml",
+  "publisher": "DynamoDS/Dynamo",
+  "date": "2026-10-27 (commit 1a3eec9)",
+  "flags": "read via git clone of that commit",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://github.com/DynamoDS/Dynamo/blob/1a3eec9d69211fbc038cab531a6dcce211cb70c5/src/AssemblySharedInfoGenerator/AssemblySharedInfo.cs",
+  "title": "AssemblySharedInfo.cs (version 4.4.0)",
+  "publisher": "DynamoDS/Dynamo",
+  "date": "2026-10-27 (commit 1a3eec9)",
+  "flags": "read via git clone of that commit",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://dynamobim.org/dynamo-core-2-13-release-part-1-3",
+  "title": "Dynamo Core 2.13 Release, Part 1/3 (Visual Refresh)",
+  "publisher": "Dynamo team blog",
+  "date": "2021-12-17",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://dynamobim.org/?p=53338",
+  "title": "Dynamo Core 2.14 Release (Zoom States, Group Styles)",
+  "publisher": "Dynamo team blog",
+  "date": "2022-04-25",
+  "flags": "",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/n8n-io/n8n/master/packages/frontend/editor-ui/src/features/workflows/canvas/components/elements/nodes/render-types/CanvasNodeDefault.vue",
+  "title": "n8n editor-ui source: CanvasNodeDefault.vue",
+  "publisher": "n8n GmbH (GitHub, master branch)",
+  "date": "master as of 2026-10-31",
+  "flags": "primary; source code",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/n8n-io/n8n/master/packages/frontend/editor-ui/src/features/workflows/canvas/components/elements/nodes/render-types/_canvasNodeStyles.scss",
+  "title": "n8n editor-ui source: _canvasNodeStyles.scss",
+  "publisher": "n8n GmbH (GitHub, master branch)",
+  "date": "master as of 2026-10-31",
+  "flags": "primary; source code",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/n8n-io/n8n/master/packages/frontend/editor-ui/src/features/workflows/canvas/components/elements/nodes/render-types/parts/CanvasNodeDisabledStrikeThrough.vue",
+  "title": "n8n editor-ui source: CanvasNodeDisabledStrikeThrough.vue",
+  "publisher": "n8n GmbH (GitHub, master branch)",
+  "date": "master as of 2026-10-31",
+  "flags": "primary; source code",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/n8n-io/n8n/master/packages/frontend/editor-ui/src/features/workflows/canvas/components/elements/edges/CanvasEdge.vue",
+  "title": "n8n editor-ui source: CanvasEdge.vue",
+  "publisher": "n8n GmbH (GitHub, master branch)",
+  "date": "master as of 2026-10-31",
+  "flags": "primary; source code",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/n8n-io/n8n/master/packages/frontend/editor-ui/src/features/workflows/canvas/components/elements/edges/utils/getEdgeRenderData.ts",
+  "title": "n8n editor-ui source: getEdgeRenderData.ts",
+  "publisher": "n8n GmbH (GitHub, master branch)",
+  "date": "master as of 2026-10-31",
+  "flags": "primary; source code",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/n8n-io/n8n/master/packages/frontend/editor-ui/src/features/workflows/canvas/components/elements/handles/_canvasHandleStyles.scss",
+  "title": "n8n editor-ui source: _canvasHandleStyles.scss",
+  "publisher": "n8n GmbH (GitHub, master branch)",
+  "date": "master as of 2026-10-31",
+  "flags": "primary; source code",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/n8n-io/n8n/master/packages/frontend/editor-ui/src/features/workflows/canvas/components/elements/handles/render-types/parts/CanvasHandleDot.vue",
+  "title": "n8n editor-ui source: CanvasHandleDot.vue",
+  "publisher": "n8n GmbH (GitHub, master branch)",
+  "date": "master as of 2026-10-31",
+  "flags": "primary; source code",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/n8n-io/n8n/master/packages/frontend/editor-ui/src/features/workflows/canvas/components/elements/handles/render-types/parts/CanvasHandleDiamond.vue",
+  "title": "n8n editor-ui source: CanvasHandleDiamond.vue",
+  "publisher": "n8n GmbH (GitHub, master branch)",
+  "date": "master as of 2026-10-31",
+  "flags": "primary; source code",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/n8n-io/n8n/master/packages/frontend/editor-ui/src/features/workflows/canvas/components/elements/handles/render-types/CanvasHandleMainOutput.vue",
+  "title": "n8n editor-ui source: CanvasHandleMainOutput.vue",
+  "publisher": "n8n GmbH (GitHub, master branch)",
+  "date": "master as of 2026-10-31",
+  "flags": "primary; source code",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/n8n-io/n8n/master/packages/frontend/editor-ui/src/features/workflows/canvas/components/elements/background/CanvasBackground.vue",
+  "title": "n8n editor-ui source: CanvasBackground.vue",
+  "publisher": "n8n GmbH (GitHub, master branch)",
+  "date": "master as of 2026-10-31",
+  "flags": "primary; source code",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/n8n-io/n8n/master/packages/frontend/editor-ui/src/features/workflows/canvas/components/Canvas.vue",
+  "title": "n8n editor-ui source: Canvas.vue",
+  "publisher": "n8n GmbH (GitHub, master branch)",
+  "date": "master as of 2026-10-31",
+  "flags": "primary; source code",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/n8n-io/n8n/master/packages/frontend/editor-ui/src/features/workflows/canvas/composables/useZoomAdjustedValues.ts",
+  "title": "n8n editor-ui source: useZoomAdjustedValues.ts",
+  "publisher": "n8n GmbH (GitHub, master branch)",
+  "date": "master as of 2026-10-31",
+  "flags": "primary; source code",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/n8n-io/n8n/master/packages/frontend/editor-ui/src/app/utils/nodeViewUtils.ts",
+  "title": "n8n editor-ui source: nodeViewUtils.ts",
+  "publisher": "n8n GmbH (GitHub, master branch)",
+  "date": "master as of 2026-10-31",
+  "flags": "primary; source code",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://cdn.jsdelivr.net/npm/@n8n/design-system@2.44.7/dist/css/_tokens.scss",
+  "title": "@n8n/design-system 2.44.7 _tokens.scss",
+  "publisher": "n8n GmbH (npm)",
+  "date": "2026-10-30",
+  "flags": "primary; source code",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://cdn.jsdelivr.net/npm/@n8n/design-system@2.44.7/dist/css/_primitives.scss",
+  "title": "@n8n/design-system 2.44.7 _primitives.scss",
+  "publisher": "n8n GmbH (npm)",
+  "date": "2026-10-30",
+  "flags": "primary; source code",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://cdn.jsdelivr.net/npm/@n8n/design-system@2.44.7/dist/css/_tokens.legacy.scss",
+  "title": "@n8n/design-system 2.44.7 _tokens.legacy.scss",
+  "publisher": "n8n GmbH (npm)",
+  "date": "2026-10-30",
+  "flags": "primary; source code",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://community.n8n.io/t/help-us-test-the-new-n8n-canvas-beta/60070",
+  "title": "Help Us Test the New n8n Canvas (Beta)",
+  "publisher": "n8n community forum (staff post)",
+  "date": "2024-10-29",
+  "flags": "primary; staff forum post",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://docs.n8n.io/release-notes/",
+  "title": "n8n release notes",
+  "publisher": "n8n docs",
+  "date": "2026-10-27 (latest entry)",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/node-red/node-red/master/packages/node_modules/@node-red/editor-client/src/js/ui/view.js",
+  "title": "Node-RED editor-client source: view.js",
+  "publisher": "OpenJS Foundation (GitHub, master = 5.0.9)",
+  "date": "master as of 2026-10-31",
+  "flags": "primary; source code",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/node-red/node-red/master/packages/node_modules/@node-red/editor-client/src/sass/flow.scss",
+  "title": "Node-RED editor-client source: flow.scss",
+  "publisher": "OpenJS Foundation (GitHub, master = 5.0.9)",
+  "date": "master as of 2026-10-31",
+  "flags": "primary; source code",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/node-red/node-red/master/packages/node_modules/@node-red/editor-client/src/sass/colors.scss",
+  "title": "Node-RED editor-client source: colors.scss",
+  "publisher": "OpenJS Foundation (GitHub, master = 5.0.9)",
+  "date": "master as of 2026-10-31",
+  "flags": "primary; source code",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/node-red/node-red/master/packages/node_modules/@node-red/editor-client/src/sass/workspace.scss",
+  "title": "Node-RED editor-client source: workspace.scss",
+  "publisher": "OpenJS Foundation (GitHub, master = 5.0.9)",
+  "date": "master as of 2026-10-31",
+  "flags": "primary; source code",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/node-red/node-red/master/packages/node_modules/@node-red/editor-client/src/sass/variables.scss",
+  "title": "Node-RED editor-client source: variables.scss",
+  "publisher": "OpenJS Foundation (GitHub, master = 5.0.9)",
+  "date": "master as of 2026-10-31",
+  "flags": "primary; source code",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://cdn.jsdelivr.net/npm/@node-red/editor-client@5.0.9/public/red/style.min.css",
+  "title": "@node-red/editor-client 5.0.9 compiled style.min.css (light and dark variables)",
+  "publisher": "OpenJS Foundation (npm)",
+  "date": "2026-10-21",
+  "flags": "primary; compiled CSS",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://nodered.org/blog/2026/06/09/version-5-0-released",
+  "title": "Version 5.0 released",
+  "publisher": "Node-RED blog (Nick O'Leary)",
+  "date": "2026-06-09",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://cdn.jsdelivr.net/npm/@xyflow/react@12.12.0/dist/style.css",
+  "title": "@xyflow/react 12.12.0 dist/style.css",
+  "publisher": "xyflow (npm)",
+  "date": "2026-09-24",
+  "flags": "primary; source code",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://cdn.jsdelivr.net/npm/@xyflow/react@12.12.0/dist/esm/index.mjs",
+  "title": "@xyflow/react 12.12.0 dist/esm/index.mjs",
+  "publisher": "xyflow (npm)",
+  "date": "2026-09-24",
+  "flags": "primary; source code",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://cdn.jsdelivr.net/npm/@xyflow/system@0.0.83/dist/esm/index.mjs",
+  "title": "@xyflow/system 0.0.83 dist/esm/index.mjs",
+  "publisher": "xyflow (npm)",
+  "date": "undated (dependency of 12.12.0)",
+  "flags": "primary; source code",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://reactflow.dev/learn/customization/theming",
+  "title": "Theming",
+  "publisher": "React Flow docs",
+  "date": "undated",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://reactflow.dev/examples/overview",
+  "title": "Overview example",
+  "publisher": "React Flow docs",
+  "date": "undated",
+  "flags": "primary; measured with Playwright 2026-10-31 (iframe https://example-apps.xyflow.com/react/examples/misc/overview/index.html)",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://example-apps.xyflow.com/assets/261-MDCXNnzL.css",
+  "title": "Overview example stylesheet (xy-theme overrides)",
+  "publisher": "xyflow",
+  "date": "undated",
+  "flags": "primary; compiled CSS",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://reactflow.dev/examples/interaction/contextual-zoom",
+  "title": "Contextual zoom example",
+  "publisher": "React Flow docs",
+  "date": "undated",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://reactflow.dev/ui/components/base-node",
+  "title": "Base Node (React Flow UI)",
+  "publisher": "React Flow docs",
+  "date": "undated",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://reactflow.dev/ui/components/labeled-handle",
+  "title": "Labeled Handle (React Flow UI)",
+  "publisher": "React Flow docs",
+  "date": "undated",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://reactflow.dev/ui/components/base-handle",
+  "title": "Base Handle (React Flow UI)",
+  "publisher": "React Flow docs",
+  "date": "undated",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://reactflow.dev/ui/components/node-status-indicator",
+  "title": "Node Status Indicator (React Flow UI)",
+  "publisher": "React Flow docs",
+  "date": "undated",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://ui.reactflow.dev/base-node",
+  "title": "React Flow UI registry JSON: base-node",
+  "publisher": "xyflow",
+  "date": "undated",
+  "flags": "primary; source code",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://ui.reactflow.dev/base-handle",
+  "title": "React Flow UI registry JSON: base-handle",
+  "publisher": "xyflow",
+  "date": "undated",
+  "flags": "primary; source code",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://ui.reactflow.dev/labeled-handle",
+  "title": "React Flow UI registry JSON: labeled-handle",
+  "publisher": "xyflow",
+  "date": "undated",
+  "flags": "primary; source code",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://ui.reactflow.dev/node-status-indicator",
+  "title": "React Flow UI registry JSON: node-status-indicator",
+  "publisher": "xyflow",
+  "date": "undated",
+  "flags": "primary; source code",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/retejs/react-plugin/main/src/presets/classic/vars.ts",
+  "title": "rete-react-plugin source: classic/vars.ts",
+  "publisher": "Rete.js (GitHub, main = 2.1.2)",
+  "date": "main as of 2026-10-31 (2.1.2 published 2026-07-10)",
+  "flags": "primary; source code",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/retejs/react-plugin/main/src/presets/classic/components/Node.tsx",
+  "title": "rete-react-plugin source: classic/components/Node.tsx",
+  "publisher": "Rete.js (GitHub, main = 2.1.2)",
+  "date": "main as of 2026-10-31 (2.1.2 published 2026-07-10)",
+  "flags": "primary; source code",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/retejs/react-plugin/main/src/presets/classic/components/Socket.tsx",
+  "title": "rete-react-plugin source: classic/components/Socket.tsx",
+  "publisher": "Rete.js (GitHub, main = 2.1.2)",
+  "date": "main as of 2026-10-31 (2.1.2 published 2026-07-10)",
+  "flags": "primary; source code",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/retejs/react-plugin/main/src/presets/classic/components/Connection.tsx",
+  "title": "rete-react-plugin source: classic/components/Connection.tsx",
+  "publisher": "Rete.js (GitHub, main = 2.1.2)",
+  "date": "main as of 2026-10-31 (2.1.2 published 2026-07-10)",
+  "flags": "primary; source code",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/retejs/react-plugin/main/src/presets/minimap/components/Minimap.tsx",
+  "title": "rete-react-plugin source: minimap/components/Minimap.tsx",
+  "publisher": "Rete.js (GitHub, main = 2.1.2)",
+  "date": "main as of 2026-10-31 (2.1.2 published 2026-07-10)",
+  "flags": "primary; source code",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/retejs/react-plugin/main/src/presets/minimap/components/MiniNode.tsx",
+  "title": "rete-react-plugin source: minimap/components/MiniNode.tsx",
+  "publisher": "Rete.js (GitHub, main = 2.1.2)",
+  "date": "main as of 2026-10-31 (2.1.2 published 2026-07-10)",
+  "flags": "primary; source code",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/retejs/react-plugin/main/src/presets/minimap/components/MiniViewport.tsx",
+  "title": "rete-react-plugin source: minimap/components/MiniViewport.tsx",
+  "publisher": "Rete.js (GitHub, main = 2.1.2)",
+  "date": "main as of 2026-10-31 (2.1.2 published 2026-07-10)",
+  "flags": "primary; source code",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://retejs.org/examples/basic/react",
+  "title": "Basic example (React)",
+  "publisher": "Rete.js docs",
+  "date": "undated",
+  "flags": "primary; measured with Playwright 2026-10-31 via its CodeSandbox preview https://yrzxe5.csb.app/",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://retejs.org/docs/guides/renderers/react",
+  "title": "React renderer guide",
+  "publisher": "Rete.js docs",
+  "date": "undated",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://help.make.com/step-5-test-your-scenario.md",
+  "title": "Step 5. Test your scenario",
+  "publisher": "Make help center",
+  "date": "2025-03-26",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://help.make.com/filtering.md",
+  "title": "Filtering",
+  "publisher": "Make help center",
+  "date": "2025-02-03 (page); screenshot from 2021",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://help.make.com/router.md",
+  "title": "Router",
+  "publisher": "Make help center",
+  "date": "2025-02-03",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://help.make.com/scenario-notes.md",
+  "title": "Scenario notes",
+  "publisher": "Make help center",
+  "date": "2025-05-01",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://help.make.com/dark-mode-in-make-is-here.md",
+  "title": "Dark mode in Make is here",
+  "publisher": "Make help center",
+  "date": "2026-07-30",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://help.make.com/improved-scenario-toolbar-and-version-control.md",
+  "title": "Improved scenario toolbar and version control",
+  "publisher": "Make help center",
+  "date": "2026-10-07",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://help.make.com/editor-revamp-and-subscenarios-launch.md",
+  "title": "Editor revamp and subscenarios launch",
+  "publisher": "Make help center",
+  "date": "2025-03-13",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://help.make.com/canvas-interaction-model.md",
+  "title": "Canvas interaction model",
+  "publisher": "Make help center",
+  "date": "2026-04-20",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://help.make.com/unified-canvas-navigation.md",
+  "title": "Unified canvas navigation",
+  "publisher": "Make help center",
+  "date": "2026-06-03",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://academy-content.make.com/courses/make-foundation-scenarios/01-scenario-ui",
+  "title": "Make Foundation: Scenarios, Unit 1 scenario UI",
+  "publisher": "Make Academy",
+  "date": "2026-05-21",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://www.make.com/en/templates/2952-controlled-distribution-of-data-flow",
+  "title": "Make template page (attempted render)",
+  "publisher": "Make",
+  "date": "n/a",
+  "flags": "not verified; blocked by Cloudflare bot check (HTTP 403)",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://docs.retool.com/workflows/concepts/ide",
+  "title": "Workflow IDE",
+  "publisher": "Retool docs",
+  "date": "2026 (copyright)",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://docs.retool.com/workflows/concepts/blocks",
+  "title": "Workflow blocks (concept)",
+  "publisher": "Retool docs",
+  "date": "undated",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://docs.retool.com/workflows/guides/blocks",
+  "title": "Assemble workflow blocks",
+  "publisher": "Retool docs",
+  "date": "undated",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://docs.retool.com/workflows/guides/error-handlers",
+  "title": "Configure workflow error handlers",
+  "publisher": "Retool docs",
+  "date": "undated",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://docs.retool.com/changelog/workflow-run-panel-improvements",
+  "title": "Workflow logging and debugging improvements",
+  "publisher": "Retool changelog",
+  "date": "2025-04-24",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://retool.com/blog/reimagining-the-retool-ide",
+  "title": "Reimagining the Retool IDE",
+  "publisher": "Retool blog (Maya Gao)",
+  "date": "2023-08-17",
+  "flags": "primary; about 3 years old",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://community.retool.com/t/developer-dark-mode/6935",
+  "title": "Developer Dark Mode (feature request thread)",
+  "publisher": "Retool community forum",
+  "date": "2021-10-21 to 2026-03-12",
+  "flags": "third party; user forum",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://community.retool.com/t/soothing-workflow-editor/59148",
+  "title": "Soothing Workflow Editor (user CSS)",
+  "publisher": "Retool community forum (user khill-fbmc)",
+  "date": "2025-06-13",
+  "flags": "third party; user forum",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://linear.app/now/how-we-redesigned-the-linear-ui",
+  "title": "How we redesigned the Linear UI (part II)",
+  "publisher": "Linear",
+  "date": "2024-03-28",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://linear.app/now/behind-the-latest-design-refresh",
+  "title": "A calmer interface for a product in motion",
+  "publisher": "Linear (Charlie Aufmann, Maxime Heckel)",
+  "date": "2026-03-12",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://linear.app/changelog/2026-03-12-ui-refresh",
+  "title": "UI refresh (changelog)",
+  "publisher": "Linear",
+  "date": "2026-03-12",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://linear.app/now/linear-liquid-glass",
+  "title": "A Linear spin on Liquid Glass",
+  "publisher": "Linear (Robb B\u00f6hnke)",
+  "date": "2025-10-21",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://linear.app/",
+  "title": "linear.app home page (root CSS variables)",
+  "publisher": "Linear",
+  "date": "live 2026-10-31",
+  "flags": "primary; measured with Playwright; marketing site, may differ from the app",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/raycast/ray-so/main/app/%28navigation%29/themes/lib/theme.ts",
+  "title": "ray-so theme.ts (theme schema)",
+  "publisher": "Raycast (GitHub)",
+  "date": "main as of 2026-10-31",
+  "flags": "primary; source code",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://ray.so/themes",
+  "title": "Raycast themes gallery",
+  "publisher": "Raycast",
+  "date": "live 2026-10-31",
+  "flags": "primary; community themes (no default theme values found)",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://developers.raycast.com/api-reference/user-interface/colors.md",
+  "title": "Colors",
+  "publisher": "Raycast developer docs",
+  "date": "undated",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://developers.raycast.com/api-reference/user-interface/icons-and-images.md",
+  "title": "Icons & Images",
+  "publisher": "Raycast developer docs",
+  "date": "undated",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://developers.raycast.com/basics/prepare-an-extension-for-store",
+  "title": "Prepare an Extension for Store",
+  "publisher": "Raycast developer docs",
+  "date": "undated",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://www.raycast.com/blog/a-fresh-look-and-feel",
+  "title": "A fresh look and feel",
+  "publisher": "Raycast blog (Thomas Paul Mann)",
+  "date": "2022-07-19",
+  "flags": "primary; about 4 years old",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://raycast.com/blog/the-new-raycast",
+  "title": "The New Raycast",
+  "publisher": "Raycast blog (Thomas Paul Mann)",
+  "date": "2026-05-14",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://raycast.com/blog/a-technical-deep-dive-into-the-new-raycast",
+  "title": "A Technical Deep Dive Into the New Raycast",
+  "publisher": "Raycast blog",
+  "date": "2026-05-14",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://raycast.com/blog/raycast-for-windows",
+  "title": "Raycast for Windows",
+  "publisher": "Raycast blog",
+  "date": "2025-11-20",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://raycast.com/blog",
+  "title": "Raycast blog index",
+  "publisher": "Raycast",
+  "date": "live 2026-10-31",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://developers.figma.com/docs/plugins/css-variables/",
+  "title": "CSS Variables and Theming",
+  "publisher": "Figma developer docs",
+  "date": "undated",
+  "flags": "primary; token table measured with Playwright (Light and Dark tabs)",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://www.figma.com/blog/our-approach-to-designing-ui3/",
+  "title": "Figma on Figma: Our approach to designing UI3",
+  "publisher": "Figma blog (Jenny Xie)",
+  "date": "2024-10-01",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://www.figma.com/blog/figma-2024-we-shipped-it-you-shaped-it/",
+  "title": "Figma 2024: We shipped it, you shaped it",
+  "publisher": "Figma blog",
+  "date": "2024-12-04",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://help.figma.com/hc/en-us/articles/15297425105303-Explore-design-files",
+  "title": "Explore design files",
+  "publisher": "Figma help center",
+  "date": "undated",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://help.figma.com/hc/en-us/articles/360041064174-Access-design-tools-from-the-toolbar",
+  "title": "Access design tools from the toolbar",
+  "publisher": "Figma help center",
+  "date": "undated",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://forum.figma.com/share-your-feedback-26/ui3-figma-s-menu-corner-radius-is-too-big-14px-40094",
+  "title": "UI3: Figma's menu corner radius is too big (14px)",
+  "publisher": "Figma community forum (user)",
+  "date": "2025-05-01",
+  "flags": "third party; user claim, not verified",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://developers.figma.com/docs/widgets/api/component-AutoLayout/",
+  "title": "AutoLayout (Widget API)",
+  "publisher": "Figma developer docs",
+  "date": "undated",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://developers.figma.com/docs/widgets/api/component-Text/",
+  "title": "Text (Widget API)",
+  "publisher": "Figma developer docs",
+  "date": "undated",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://developers.figma.com/docs/widgets/api/type-Effect/",
+  "title": "Effect (Widget API)",
+  "publisher": "Figma developer docs",
+  "date": "undated",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://developers.figma.com/docs/widgets/best-practices/",
+  "title": "Best Practices (widgets)",
+  "publisher": "Figma developer docs",
+  "date": "undated",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://developers.figma.com/docs/widgets/figma-figjam-widgets/",
+  "title": "Figma and FigJam Widgets",
+  "publisher": "Figma developer docs",
+  "date": "undated",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/figma/widget-samples/main/WidgetCounter/widget-src/code.tsx",
+  "title": "widget-samples: WidgetCounter code.tsx",
+  "publisher": "Figma (GitHub)",
+  "date": "main as of 2026-10-31 (sample from about 2021)",
+  "flags": "primary; source code; older sample",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/figma/widget-samples/main/WidgetNotepad/widget-src/code.tsx",
+  "title": "widget-samples: WidgetNotepad code.tsx",
+  "publisher": "Figma (GitHub)",
+  "date": "main as of 2026-10-31 (sample from about 2022)",
+  "flags": "primary; source code; older sample",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://raw.githubusercontent.com/figma/widget-samples/main/README.md",
+  "title": "widget-samples README",
+  "publisher": "Figma (GitHub)",
+  "date": "main as of 2026-10-31",
+  "flags": "primary",
+  "read": "2026-10-31"
+ },
+ {
+  "url": "https://cdn.jsdelivr.net/npm/@tabler/icons@3.50.0/icons/outline/circle.svg",
+  "title": "@tabler/icons 3.50.0 outline circle.svg",
+  "publisher": "Tabler (npm)",
+  "date": "2026-10-27",
+  "flags": "primary; source file",
+  "read": "2026-10-31"
+ }
+]

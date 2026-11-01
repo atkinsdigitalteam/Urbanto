@@ -1,0 +1,2414 @@
+[
+ {
+  "tool": "ComfyUI frontend 1.60.0",
+  "property": "Vue node corner radius",
+  "value": "12",
+  "unit": "px",
+  "source_url": "https://github.com/Comfy-Org/ComfyUI_frontend/blob/834cce976e330fedaa7f85f5aab930d7b8a205e8/src/renderer/extensions/vueNodes/components/LGraphNode.vue#L510-L516",
+  "how": "quoted",
+  "note": "class rounded-xl; Tailwind 4.3.2 --radius-xl 0.75rem (https://unpkg.com/tailwindcss@4.3.2/theme.css)"
+ },
+ {
+  "tool": "ComfyUI frontend 1.60.0",
+  "property": "Vue node min width",
+  "value": "225",
+  "unit": "px",
+  "source_url": "https://github.com/Comfy-Org/ComfyUI_frontend/blob/834cce976e330fedaa7f85f5aab930d7b8a205e8/src/renderer/core/layout/transform/graphRenderTransform.ts#L10",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "ComfyUI frontend 1.60.0",
+  "property": "header padding",
+  "value": "4",
+  "unit": "px",
+  "source_url": "https://github.com/Comfy-Org/ComfyUI_frontend/blob/834cce976e330fedaa7f85f5aab930d7b8a205e8/src/renderer/extensions/vueNodes/components/NodeHeader.vue#L7",
+  "how": "quoted",
+  "note": "class p-1, spacing 0.25rem"
+ },
+ {
+  "tool": "ComfyUI frontend 1.60.0",
+  "property": "node title font size",
+  "value": "12",
+  "unit": "px",
+  "source_url": "https://github.com/Comfy-Org/ComfyUI_frontend/blob/834cce976e330fedaa7f85f5aab930d7b8a205e8/src/renderer/extensions/vueNodes/components/NodeHeader.vue#L7",
+  "how": "quoted",
+  "note": "class text-xs = 0.75rem, line height 16 px"
+ },
+ {
+  "tool": "ComfyUI frontend 1.60.0",
+  "property": "port row height",
+  "value": "20",
+  "unit": "px",
+  "source_url": "https://github.com/Comfy-Org/ComfyUI_frontend/blob/834cce976e330fedaa7f85f5aab930d7b8a205e8/src/renderer/extensions/vueNodes/components/InputSlot.vue#L13",
+  "how": "quoted",
+  "note": "class h-5"
+ },
+ {
+  "tool": "ComfyUI frontend 1.60.0",
+  "property": "slot dot diameter",
+  "value": "8",
+  "unit": "px",
+  "source_url": "https://github.com/Comfy-Org/ComfyUI_frontend/blob/834cce976e330fedaa7f85f5aab930d7b8a205e8/src/renderer/extensions/vueNodes/components/SlotConnectionDot.vue#L44-L62",
+  "how": "quoted",
+  "note": "size-2, rounded-full, 1 px border foreground/10, hover scale 1.25, hit area 24 px; list slots square with 1 px radius"
+ },
+ {
+  "tool": "ComfyUI frontend 1.60.0",
+  "property": "multi-type slot slices",
+  "value": "3",
+  "unit": "count",
+  "source_url": "https://github.com/Comfy-Org/ComfyUI_frontend/blob/834cce976e330fedaa7f85f5aab930d7b8a205e8/src/constants/slotColors.ts#L1-L7",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "ComfyUI frontend 1.60.0",
+  "property": "body padding top / bottom",
+  "value": "4 / 12",
+  "unit": "px",
+  "source_url": "https://github.com/Comfy-Org/ComfyUI_frontend/blob/834cce976e330fedaa7f85f5aab930d7b8a205e8/src/renderer/extensions/vueNodes/components/LGraphNode.vue#L159-L164",
+  "how": "quoted",
+  "note": "pt-1 pb-3; row gap 4 px"
+ },
+ {
+  "tool": "ComfyUI frontend 1.60.0",
+  "property": "node drop shadow",
+  "value": "0 9px 7px rgb(0 0 0 / 0.4)",
+  "unit": "css",
+  "source_url": "https://github.com/Comfy-Org/ComfyUI_frontend/blob/834cce976e330fedaa7f85f5aab930d7b8a205e8/packages/design-system/src/css/theme.css#L54-L107",
+  "how": "quoted",
+  "note": "--drop-shadow-lg with --shadow-color"
+ },
+ {
+  "tool": "ComfyUI frontend 1.60.0",
+  "property": "selection outline",
+  "value": "3 px white, 3 px outside, radius 15",
+  "unit": "px",
+  "source_url": "https://github.com/Comfy-Org/ComfyUI_frontend/blob/834cce976e330fedaa7f85f5aab930d7b8a205e8/src/renderer/extensions/vueNodes/components/LGraphNode.vue#L66-L77",
+  "how": "quoted",
+  "note": "border-3, -inset-0.75; radius 19 px when an error ring is also shown"
+ },
+ {
+  "tool": "ComfyUI frontend 1.60.0",
+  "property": "error ring",
+  "value": "4 px #b33a3a",
+  "unit": "px / hex",
+  "source_url": "https://github.com/Comfy-Org/ComfyUI_frontend/blob/834cce976e330fedaa7f85f5aab930d7b8a205e8/src/renderer/extensions/vueNodes/components/LGraphNode.vue#L80-L93",
+  "how": "quoted",
+  "note": "missing-input ring uses warning #fd9903"
+ },
+ {
+  "tool": "ComfyUI frontend 1.60.0",
+  "property": "running indicator",
+  "value": "outline #0b8ce9 + 8 px progress bar",
+  "unit": "px / hex",
+  "source_url": "https://github.com/Comfy-Org/ComfyUI_frontend/blob/834cce976e330fedaa7f85f5aab930d7b8a205e8/src/renderer/extensions/vueNodes/components/LGraphNode.vue#L486",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "ComfyUI frontend 1.60.0",
+  "property": "bypass overlay",
+  "value": "#6a246a at 60%, node opacity x0.5",
+  "unit": "hex / ratio",
+  "source_url": "https://github.com/Comfy-Org/ComfyUI_frontend/blob/834cce976e330fedaa7f85f5aab930d7b8a205e8/src/renderer/extensions/vueNodes/components/LGraphNode.vue#L386-L396",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "ComfyUI frontend 1.60.0",
+  "property": "canvas background (dark)",
+  "value": "#141414",
+  "unit": "hex",
+  "source_url": "https://github.com/Comfy-Org/ComfyUI_frontend/blob/834cce976e330fedaa7f85f5aab930d7b8a205e8/src/assets/palettes/dark.json#L25",
+  "how": "quoted",
+  "note": "plus a 100 x 100 px PNG grid tile (BACKGROUND_IMAGE, L24)"
+ },
+ {
+  "tool": "ComfyUI frontend 1.60.0",
+  "property": "app background / node header / node body (dark)",
+  "value": "#171718 / #202121 / #262729",
+  "unit": "hex",
+  "source_url": "https://github.com/Comfy-Org/ComfyUI_frontend/blob/834cce976e330fedaa7f85f5aab930d7b8a205e8/src/assets/palettes/dark.json#L66-L83",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "ComfyUI frontend 1.60.0",
+  "property": "node text / primary / destructive / warning",
+  "value": "#a0a0a0 / #0b8ce9 / #b33a3a / #fd9903",
+  "unit": "hex",
+  "source_url": "https://github.com/Comfy-Org/ComfyUI_frontend/blob/834cce976e330fedaa7f85f5aab930d7b8a205e8/src/assets/palettes/dark.json#L66-L83",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "ComfyUI frontend 1.60.0",
+  "property": "light theme canvas / node / link",
+  "value": "lightgray / #F5F5F5 / #4CAF50",
+  "unit": "css colour",
+  "source_url": "https://github.com/Comfy-Org/ComfyUI_frontend/blob/834cce976e330fedaa7f85f5aab930d7b8a205e8/src/assets/palettes/light.json#L26-L44",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "ComfyUI frontend 1.60.0",
+  "property": "font family",
+  "value": "Inter",
+  "unit": "",
+  "source_url": "https://github.com/Comfy-Org/ComfyUI_frontend/blob/834cce976e330fedaa7f85f5aab930d7b8a205e8/packages/design-system/src/css/_palette.css#L3",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "ComfyUI frontend 1.60.0",
+  "property": "wire width (classic)",
+  "value": "3",
+  "unit": "px",
+  "source_url": "https://github.com/Comfy-Org/ComfyUI_frontend/blob/834cce976e330fedaa7f85f5aab930d7b8a205e8/src/lib/litegraph/src/LGraphCanvas.ts#L1383-L1400",
+  "how": "quoted",
+  "note": "links_render_mode SPLINE by default"
+ },
+ {
+  "tool": "ComfyUI frontend 1.60.0",
+  "property": "wire midpoint marker",
+  "value": "Circle",
+  "unit": "enum",
+  "source_url": "https://github.com/Comfy-Org/ComfyUI_frontend/blob/834cce976e330fedaa7f85f5aab930d7b8a205e8/src/platform/settings/constants/coreSettings.ts#L762-L773",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "ComfyUI frontend 1.60.0",
+  "property": "classic node title height / slot height / radius",
+  "value": "30 / 20 / 8",
+  "unit": "px",
+  "source_url": "https://github.com/Comfy-Org/ComfyUI_frontend/blob/834cce976e330fedaa7f85f5aab930d7b8a205e8/src/lib/litegraph/src/LiteGraphGlobal.ts#L83-L135",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "ComfyUI frontend 1.60.0",
+  "property": "classic node shadow",
+  "value": "offset 2,2 blur 3, rgba(0,0,0,0.5)",
+  "unit": "px",
+  "source_url": "https://github.com/Comfy-Org/ComfyUI_frontend/blob/834cce976e330fedaa7f85f5aab930d7b8a205e8/src/lib/litegraph/src/LGraphCanvas.ts#L5775-L5782",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "ComfyUI frontend 1.60.0",
+  "property": "LOD min readable font",
+  "value": "8",
+  "unit": "px",
+  "source_url": "https://github.com/Comfy-Org/ComfyUI_frontend/blob/834cce976e330fedaa7f85f5aab930d7b8a205e8/src/lib/litegraph/src/LGraphCanvas.ts#L783-L801",
+  "how": "quoted",
+  "note": "threshold zoom = 8 / (14 x sqrt(dpr)), about 0.57 at dpr 1 (computed)"
+ },
+ {
+  "tool": "ComfyUI frontend 1.60.0",
+  "property": "group title height / title font / fill alpha",
+  "value": "30 / 20 / 0.25",
+  "unit": "px / px / ratio",
+  "source_url": "https://github.com/Comfy-Org/ComfyUI_frontend/blob/834cce976e330fedaa7f85f5aab930d7b8a205e8/src/lib/litegraph/src/LGraphGroup.ts#L336-L353",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "ComfyUI frontend 1.60.0",
+  "property": "minimap size",
+  "value": "253 x 200, radius 8, 1 px border",
+  "unit": "px",
+  "source_url": "https://github.com/Comfy-Org/ComfyUI_frontend/blob/834cce976e330fedaa7f85f5aab930d7b8a205e8/src/renderer/extensions/minimap/composables/useMinimapSettings.ts#L26-L41",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "ComfyUI frontend 1.60.0",
+  "property": "minimap status colours",
+  "value": "error #FF0000, running #00FF00, bypass #6a246a, nodes primary 60%",
+  "unit": "hex",
+  "source_url": "https://github.com/Comfy-Org/ComfyUI_frontend/blob/834cce976e330fedaa7f85f5aab930d7b8a205e8/src/renderer/extensions/minimap/minimapCanvasRenderer.ts#L16-L46",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Blender 5.2 LTS node editor",
+  "property": "widget unit",
+  "value": "20",
+  "unit": "px",
+  "source_url": "https://projects.blender.org/blender/blender/src/branch/blender-v5.2-release/source/blender/windowmanager/intern/wm_window.cc#L778-L780",
+  "how": "quoted",
+  "note": "18 x scale + 2 x pixelsize"
+ },
+ {
+  "tool": "Blender 5.2 LTS node editor",
+  "property": "node corner radius",
+  "value": "4",
+  "unit": "px",
+  "source_url": "https://projects.blender.org/blender/blender/src/branch/blender-v5.2-release/source/blender/editors/space_node/node_intern.hh#L333-L342",
+  "how": "quoted",
+  "note": "BASIS_RAD = 0.2 x widget unit (computed)"
+ },
+ {
+  "tool": "Blender 5.2 LTS node editor",
+  "property": "header height / row height",
+  "value": "20",
+  "unit": "px",
+  "source_url": "https://projects.blender.org/blender/blender/src/branch/blender-v5.2-release/source/blender/editors/space_node/node_intern.hh#L333-L342",
+  "how": "quoted",
+  "note": "NODE_DY = widget unit"
+ },
+ {
+  "tool": "Blender 5.2 LTS node editor",
+  "property": "item spacing",
+  "value": "2",
+  "unit": "px",
+  "source_url": "https://projects.blender.org/blender/blender/src/branch/blender-v5.2-release/source/blender/editors/space_node/node_intern.hh#L333-L342",
+  "how": "quoted",
+  "note": "0.1 x unit"
+ },
+ {
+  "tool": "Blender 5.2 LTS node editor",
+  "property": "horizontal margin",
+  "value": "24",
+  "unit": "px",
+  "source_url": "https://projects.blender.org/blender/blender/src/branch/blender-v5.2-release/source/blender/editors/space_node/node_intern.hh#L333-L342",
+  "how": "quoted",
+  "note": "1.2 x unit"
+ },
+ {
+  "tool": "Blender 5.2 LTS node editor",
+  "property": "socket diameter",
+  "value": "10",
+  "unit": "px",
+  "source_url": "https://projects.blender.org/blender/blender/src/branch/blender-v5.2-release/source/blender/editors/space_node/node_intern.hh#L333-L342",
+  "how": "quoted",
+  "note": "NODE_SOCKSIZE 0.25 x unit used as radius; 1 px outline (node_draw.cc L1570)"
+ },
+ {
+  "tool": "Blender 5.2 LTS node editor",
+  "property": "node outline",
+  "value": "1 px #FFFFFF26",
+  "unit": "px / hex",
+  "source_url": "https://projects.blender.org/blender/blender/src/branch/blender-v5.2-release/release/datafiles/userdef/userdef_default_theme.c#L652-L698",
+  "how": "quoted",
+  "note": "theme node_outline, 15% white"
+ },
+ {
+  "tool": "Blender 5.2 LTS node editor",
+  "property": "selected / active outline colour",
+  "value": "#ED5700 / #FFFFFF",
+  "unit": "hex",
+  "source_url": "https://projects.blender.org/blender/blender/src/branch/blender-v5.2-release/release/datafiles/userdef/userdef_default_theme.c#L652-L698",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Blender 5.2 LTS node editor",
+  "property": "node shadow",
+  "value": "width 8 px, alpha 0.2; inner ring black 0.4",
+  "unit": "px / ratio",
+  "source_url": "https://projects.blender.org/blender/blender/src/branch/blender-v5.2-release/source/blender/editors/space_node/node_draw.cc#L1694-L1715",
+  "how": "quoted",
+  "note": "0.4 x unit"
+ },
+ {
+  "tool": "Blender 5.2 LTS node editor",
+  "property": "node backdrop",
+  "value": "#303030",
+  "unit": "hex",
+  "source_url": "https://projects.blender.org/blender/blender/src/branch/blender-v5.2-release/release/datafiles/userdef/userdef_default_theme.c#L652-L698",
+  "how": "quoted",
+  "note": "syntaxl maps to node_backdrop (rna_userdef.cc L3613)"
+ },
+ {
+  "tool": "Blender 5.2 LTS node editor",
+  "property": "canvas background",
+  "value": "#1A1A1A",
+  "unit": "hex",
+  "source_url": "https://projects.blender.org/blender/blender/src/branch/blender-v5.2-release/release/datafiles/userdef/userdef_default_theme.c#L652-L698",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Blender 5.2 LTS node editor",
+  "property": "grid",
+  "value": "dots #303030, 20 px step, 3 levels",
+  "unit": "px",
+  "source_url": "https://projects.blender.org/blender/blender/src/branch/blender-v5.2-release/source/blender/editors/include/ED_node_c.hh#L31-L32",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Blender 5.2 LTS node editor",
+  "property": "header colour Geometry (5.2 vs 4.5)",
+  "value": "#1D725E vs #00D6A3",
+  "unit": "hex",
+  "source_url": "https://projects.blender.org/blender/blender/src/branch/blender-v5.2-release/release/datafiles/userdef/userdef_default_theme.c#L652-L698",
+  "how": "quoted",
+  "note": "4.5: https://projects.blender.org/blender/blender/src/branch/blender-v4.5-release/release/datafiles/userdef/userdef_default_theme.c#L843-L909"
+ },
+ {
+  "tool": "Blender 5.2 LTS node editor",
+  "property": "header colour Input / Converter / Vector / Output",
+  "value": "#82354C / #246283 / #3C3C83 / #3E232A",
+  "unit": "hex",
+  "source_url": "https://projects.blender.org/blender/blender/src/branch/blender-v5.2-release/release/datafiles/userdef/userdef_default_theme.c#L652-L698",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Blender 5.2 LTS node editor",
+  "property": "header colour Group / Attribute / Texture / Shader / Color",
+  "value": "#374725 / #1D2546 / #79461D / #2B652B / #6E6E23",
+  "unit": "hex",
+  "source_url": "https://projects.blender.org/blender/blender/src/branch/blender-v5.2-release/release/datafiles/userdef/userdef_default_theme.c#L652-L698",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Blender 5.2 LTS node editor",
+  "property": "header alpha",
+  "value": "0.55 + backdrop alpha x 0.45; selected 1.0",
+  "unit": "ratio",
+  "source_url": "https://projects.blender.org/blender/blender/src/branch/blender-v5.2-release/source/blender/editors/space_node/node_draw.cc#L2778-L2815",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Blender 5.2 LTS node editor",
+  "property": "muted node blend",
+  "value": "header 0.6, body 0.8 toward canvas, alpha -0.2",
+  "unit": "ratio",
+  "source_url": "https://projects.blender.org/blender/blender/src/branch/blender-v5.2-release/source/blender/editors/space_node/node_draw.cc#L3134-L3165",
+  "how": "quoted",
+  "note": "plus pass-through wire drawn across the node"
+ },
+ {
+  "tool": "Blender 5.2 LTS node editor",
+  "property": "wire width",
+  "value": "2.5",
+  "unit": "px",
+  "source_url": "https://projects.blender.org/blender/blender/src/branch/blender-v5.2-release/source/blender/editors/space_node/drawnode.cc#L2285-L2302",
+  "how": "quoted",
+  "note": "LINK_WIDTH, scaled up when zoomed in"
+ },
+ {
+  "tool": "Blender 5.2 LTS node editor",
+  "property": "field wire",
+  "value": "x0.7 width, dash 10 px, dash factor 0.75, dash alpha 0.5",
+  "unit": "px / ratio",
+  "source_url": "https://projects.blender.org/blender/blender/src/branch/blender-v5.2-release/source/blender/editors/space_node/drawnode.cc#L2285-L2302",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Blender 5.2 LTS node editor",
+  "property": "wire colours",
+  "value": "outline #1A1A1A, inner #8D8D8D, selected mix #FFFFFFB3",
+  "unit": "hex",
+  "source_url": "https://projects.blender.org/blender/blender/src/branch/blender-v5.2-release/release/datafiles/userdef/userdef_default_theme.c#L652-L698",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Blender 5.2 LTS node editor",
+  "property": "off-screen wire fade minimum",
+  "value": "0.05",
+  "unit": "alpha",
+  "source_url": "https://projects.blender.org/blender/blender/src/branch/blender-v5.2-release/source/blender/editors/space_node/node_edit.cc#L889-L910",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Blender 5.2 LTS node editor",
+  "property": "noodle curving",
+  "value": "4",
+  "unit": "0..10",
+  "source_url": "https://projects.blender.org/blender/blender/src/branch/blender-v5.2-release/release/datafiles/userdef/userdef_default_theme.c#L652-L698",
+  "how": "quoted",
+  "note": "moved to Preferences in main: https://projects.blender.org/blender/blender/src/branch/main/source/blender/makesrna/intern/rna_userdef.cc#L6237-L6241"
+ },
+ {
+  "tool": "Blender 5.2 LTS node editor",
+  "property": "socket colour Float / Vector / Int",
+  "value": "0.63 grey / 0.39,0.39,0.78 / 0.35,0.55,0.36",
+  "unit": "float RGB",
+  "source_url": "https://projects.blender.org/blender/blender/src/branch/blender-v5.2-release/source/blender/editors/space_node/drawnode.cc#L987-L1013",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Blender 5.2 LTS node editor",
+  "property": "socket colour Bool / String / Geometry",
+  "value": "0.80,0.65,0.84 / 0.44,0.70,1.00 / 0.00,0.84,0.64",
+  "unit": "float RGB",
+  "source_url": "https://projects.blender.org/blender/blender/src/branch/blender-v5.2-release/source/blender/editors/space_node/drawnode.cc#L987-L1013",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Blender 5.2 LTS node editor",
+  "property": "socket shapes",
+  "value": "Single bar, Dynamic circle, Field diamond, Grid four squares, List three lines",
+  "unit": "shape",
+  "source_url": "https://projects.blender.org/blender/blender/src/branch/blender-v5.2-release/source/blender/blenkernel/intern/node_tree_update.cc#L1005-L1025",
+  "how": "quoted",
+  "note": "manual: https://docs.blender.org/manual/en/latest/interface/controls/nodes/parts.html"
+ },
+ {
+  "tool": "Blender 5.2 LTS node editor",
+  "property": "zone tints",
+  "value": "Simulation #664162, Repeat #76512F, For-each #33527F, Closure #7D7D3A, alpha 0x33",
+  "unit": "hex",
+  "source_url": "https://projects.blender.org/blender/blender/src/branch/blender-v5.2-release/release/datafiles/userdef/userdef_default_theme.c#L652-L698",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Blender 5.2 LTS node editor",
+  "property": "frame",
+  "value": "#0F0F0F at 0xcc; margin 30 px; label 20",
+  "unit": "hex / px",
+  "source_url": "https://projects.blender.org/blender/blender/src/branch/blender-v5.2-release/source/blender/editors/space_node/node_draw.cc#L3472",
+  "how": "quoted",
+  "note": "label_size default in node_common.cc L567"
+ },
+ {
+  "tool": "Blender 5.2 LTS node editor",
+  "property": "group stack offset",
+  "value": "3.6 x, 2.4 y",
+  "unit": "px",
+  "source_url": "https://projects.blender.org/blender/blender/src/branch/blender-v5.2-release/source/blender/editors/space_node/node_draw.cc#L1717-L1732",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Blender 5.2 LTS node editor",
+  "property": "LOD scale",
+  "value": "0.2",
+  "unit": "view scale",
+  "source_url": "https://projects.blender.org/blender/blender/src/branch/blender-v5.2-release/source/blender/editors/space_node/node_draw.cc#L1595-L1611",
+  "how": "quoted",
+  "note": "sockets and group stack skipped at or below"
+ },
+ {
+  "tool": "Blender 5.2 LTS node editor",
+  "property": "header icon size",
+  "value": "16",
+  "unit": "px",
+  "source_url": "https://projects.blender.org/blender/blender/src/branch/blender-v5.2-release/source/blender/editors/space_node/node_draw.cc#L2143",
+  "how": "quoted",
+  "note": "0.8 x unit"
+ },
+ {
+  "tool": "Blender 5.2 LTS node editor",
+  "property": "UI font / size",
+  "value": "Inter / 11",
+  "unit": "pt",
+  "source_url": "https://projects.blender.org/blender/blender/src/branch/blender-v5.2-release/source/blender/editors/include/UI_interface_c.hh#L425-L428",
+  "how": "quoted",
+  "note": "font list: https://projects.blender.org/api/v1/repos/blender/blender/contents/release/datafiles/fonts?ref=blender-v5.2-release"
+ },
+ {
+  "tool": "Unreal Engine 5.8 Blueprints",
+  "property": "padding above / below pin",
+  "value": "4 / 4",
+  "unit": "units",
+  "source_url": "https://dev.epicgames.com/documentation/unreal-engine/API/Editor/GraphEditor/UGraphEditorSettings",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Unreal Engine 5.8 Blueprints",
+  "property": "padding right of input / left of output",
+  "value": "10 / 10",
+  "unit": "units",
+  "source_url": "https://dev.epicgames.com/documentation/unreal-engine/API/Editor/GraphEditor/UGraphEditorSettings",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Unreal Engine 5.8 Blueprints",
+  "property": "padding towards node edge",
+  "value": "10",
+  "unit": "units",
+  "source_url": "https://dev.epicgames.com/documentation/unreal-engine/API/Editor/GraphEditor/UGraphEditorSettings",
+  "how": "quoted",
+  "note": "can be negative so pins stick out"
+ },
+ {
+  "tool": "Unreal Engine 5.8 Blueprints",
+  "property": "auto-collate padding",
+  "value": "20",
+  "unit": "units",
+  "source_url": "https://dev.epicgames.com/documentation/unreal-engine/API/Editor/GraphEditor/UGraphEditorSettings",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Unreal Engine 5.8 Blueprints",
+  "property": "pin fill rule",
+  "value": "outline unwired, solid wired",
+  "unit": "rule",
+  "source_url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/nodes-in-unreal-engine",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Unreal Engine 5.8 Blueprints",
+  "property": "pin colour names",
+  "value": "Boolean maroon, Integer sea green, Float yellow green, String magenta, Vector gold, Rotator cornflower blue, Transform orange, Object blue",
+  "unit": "name",
+  "source_url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/blueprint-variables-in-unreal-engine",
+  "how": "quoted",
+  "note": "no hex published"
+ },
+ {
+  "tool": "Unreal Engine 5.8 Blueprints",
+  "property": "exec wire colour",
+  "value": "white",
+  "unit": "name",
+  "source_url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/nodes-in-unreal-engine",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Houdini 22.0 network editor",
+  "property": "wire styles",
+  "value": "Straight (default), Rounded, Metro",
+  "unit": "enum",
+  "source_url": "https://www.sidefx.com/docs/houdini/network/options.html",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Houdini 22.0 network editor",
+  "property": "grid spacing unit",
+  "value": "about one node width (X) / node height (Y)",
+  "unit": "network unit",
+  "source_url": "https://www.sidefx.com/docs/houdini/network/options.html",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Houdini 22.0 network editor",
+  "property": "flag colours SOP",
+  "value": "bypass yellow, lock red, template maroon, display blue, render purple",
+  "unit": "name",
+  "source_url": "https://www.sidefx.com/docs/houdini/network/flags.html",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Houdini 22.0 network editor",
+  "property": "theme secondary chroma default",
+  "value": "0.2",
+  "unit": "ratio",
+  "source_url": "https://www.sidefx.com/docs/houdini/ref/windows/theme_editor.html",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Houdini 22.0 network editor",
+  "property": "light theme experimental from lightness",
+  "value": "60",
+  "unit": "OkLCH L",
+  "source_url": "https://www.sidefx.com/docs/houdini/ref/windows/theme_editor.html",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Houdini 22.0 network editor",
+  "property": "overview visibility default",
+  "value": "when needed (bottom left)",
+  "unit": "enum",
+  "source_url": "https://www.sidefx.com/docs/houdini/network/navigate.html",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Grasshopper 2 (Rhino 9 BETA)",
+  "property": "wire: no data",
+  "value": "dashed single line",
+  "unit": "stroke",
+  "source_url": "https://www.rhino3d.com/docs/grasshopper2/terms/wire.html",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Grasshopper 2 (Rhino 9 BETA)",
+  "property": "wire: single item",
+  "value": "single solid line",
+  "unit": "stroke",
+  "source_url": "https://www.rhino3d.com/docs/grasshopper2/terms/wire.html",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Grasshopper 2 (Rhino 9 BETA)",
+  "property": "wire: list",
+  "value": "double solid line",
+  "unit": "stroke",
+  "source_url": "https://www.rhino3d.com/docs/grasshopper2/terms/wire.html",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Grasshopper 2 (Rhino 9 BETA)",
+  "property": "wire: list of lists",
+  "value": "double dashed line",
+  "unit": "stroke",
+  "source_url": "https://www.rhino3d.com/docs/grasshopper2/terms/wire.html",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Grasshopper 2 (Rhino 9 BETA)",
+  "property": "error / warning marker",
+  "value": "colour along top edge",
+  "unit": "placement",
+  "source_url": "https://www.rhino3d.com/docs/grasshopper2/terms/errors.html",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Grasshopper 2 (Rhino 9 BETA)",
+  "property": "modifiers per parameter",
+  "value": "13",
+  "unit": "count",
+  "source_url": "https://www.rhino3d.com/docs/grasshopper2/topics/DataModifiers.html",
+  "how": "quoted",
+  "note": "each active modifier shows a small circular icon next to the parameter name"
+ },
+ {
+  "tool": "TouchDesigner 2025.33230",
+  "property": "wire modes",
+  "value": "spline or straight (toggle s)",
+  "unit": "enum",
+  "source_url": "https://docs.derivative.ca/Wire",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "TouchDesigner 2025.33230",
+  "property": "cooking indicator",
+  "value": "animated dashed wire",
+  "unit": "style",
+  "source_url": "https://docs.derivative.ca/Wire",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "TouchDesigner 2025.33230",
+  "property": "wire hover",
+  "value": "yellow highlight",
+  "unit": "colour name",
+  "source_url": "https://docs.derivative.ca/Wire",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "TouchDesigner 2025.33230",
+  "property": "generator vs filter shade",
+  "value": "darker vs lighter shade of family colour",
+  "unit": "rule",
+  "source_url": "https://docs.derivative.ca/OP_Create_Dialog",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "TouchDesigner 2025.33230",
+  "property": "grid snap options",
+  "value": "Off / Coarse / Fine",
+  "unit": "enum",
+  "source_url": "https://docs.derivative.ca/Preferences",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Dynamo 4.4 dev",
+  "property": "header height",
+  "value": "46",
+  "unit": "px",
+  "source_url": "https://github.com/DynamoDS/Dynamo/blob/1a3eec9d69211fbc038cab531a6dcce211cb70c5/src/DynamoCoreWpf/Views/Core/NodeView.xaml.cs#L265-L273",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Dynamo 4.4 dev",
+  "property": "header top corner radius",
+  "value": "8",
+  "unit": "px",
+  "source_url": "https://github.com/DynamoDS/Dynamo/blob/1a3eec9d69211fbc038cab531a6dcce211cb70c5/src/DynamoCoreWpf/Views/Core/NodeView.xaml.cs#L291-L297",
+  "how": "quoted",
+  "note": "bottom corners square"
+ },
+ {
+  "tool": "Dynamo 4.4 dev",
+  "property": "header icon",
+  "value": "34 x 34",
+  "unit": "px",
+  "source_url": "https://github.com/DynamoDS/Dynamo/blob/1a3eec9d69211fbc038cab531a6dcce211cb70c5/src/DynamoCoreWpf/Views/Core/NodeView.xaml.cs#L356-L371",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Dynamo 4.4 dev",
+  "property": "title font",
+  "value": "Artifakt Element 16 px Medium #DCDCDC",
+  "unit": "px",
+  "source_url": "https://github.com/DynamoDS/Dynamo/blob/1a3eec9d69211fbc038cab531a6dcce211cb70c5/src/DynamoCoreWpf/Views/Core/NodeView.xaml.cs#L367-L387",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Dynamo 4.4 dev",
+  "property": "header / body / canvas",
+  "value": "#535353 / #3C3C3C / #F9F9F9",
+  "unit": "hex",
+  "source_url": "https://github.com/DynamoDS/Dynamo/blob/1a3eec9d69211fbc038cab531a6dcce211cb70c5/src/DynamoCoreWpf/UI/Themes/Modern/DynamoColorsAndBrushes.xaml#L10-L76",
+  "how": "quoted",
+  "note": "custom node canvas #FFFFDC; app frame #232323 (DynamoView.xaml L806)"
+ },
+ {
+  "tool": "Dynamo 4.4 dev",
+  "property": "port height",
+  "value": "34",
+  "unit": "px",
+  "source_url": "https://github.com/DynamoDS/Dynamo/blob/1a3eec9d69211fbc038cab531a6dcce211cb70c5/src/DynamoCore/Configuration/Configurations.cs#L142-L152",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Dynamo 4.4 dev",
+  "property": "port pill",
+  "value": "29 px tall, inner radius 11, 1 px border #A1A1A1, fill #3C3C3C",
+  "unit": "px / hex",
+  "source_url": "https://github.com/DynamoDS/Dynamo/blob/1a3eec9d69211fbc038cab531a6dcce211cb70c5/src/DynamoCoreWpf/UI/Themes/Modern/Ports.xaml#L148-L158",
+  "how": "quoted",
+  "note": "colours in PortViewModel.cs L35-L37"
+ },
+ {
+  "tool": "Dynamo 4.4 dev",
+  "property": "input value marker",
+  "value": "6 x 29",
+  "unit": "px",
+  "source_url": "https://github.com/DynamoDS/Dynamo/blob/1a3eec9d69211fbc038cab531a6dcce211cb70c5/src/DynamoCoreWpf/UI/Themes/Modern/Ports.xaml#L180-L187",
+  "how": "quoted",
+  "note": "blue #6AC0E7, red #EB5555, grey #999999 (InPortViewModel.cs L30-L32)"
+ },
+ {
+  "tool": "Dynamo 4.4 dev",
+  "property": "selection border",
+  "value": "4 px #6AC0E7, 3 px outside, radius 10",
+  "unit": "px / hex",
+  "source_url": "https://github.com/DynamoDS/Dynamo/blob/1a3eec9d69211fbc038cab531a6dcce211cb70c5/src/DynamoCoreWpf/Views/Core/NodeView.xaml.cs#L751-L777",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Dynamo 4.4 dev",
+  "property": "status colours",
+  "value": "error #EB5555, warning #FAA21B, info #6AC0E7, frozen #BCD3EE, transient #D5BCF7",
+  "unit": "hex",
+  "source_url": "https://github.com/DynamoDS/Dynamo/blob/1a3eec9d69211fbc038cab531a6dcce211cb70c5/src/DynamoCoreWpf/ViewModels/Core/NodeViewModel.cs#L1407-L1416",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Dynamo 4.4 dev",
+  "property": "status bar height",
+  "value": "12",
+  "unit": "px",
+  "source_url": "https://github.com/DynamoDS/Dynamo/blob/1a3eec9d69211fbc038cab531a6dcce211cb70c5/src/DynamoCoreWpf/Views/Core/NodeView.xaml.cs#L1031-L1038",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Dynamo 4.4 dev",
+  "property": "zoom-state threshold",
+  "value": "0.4",
+  "unit": "zoom",
+  "source_url": "https://github.com/DynamoDS/Dynamo/blob/1a3eec9d69211fbc038cab531a6dcce211cb70c5/src/DynamoCore/Configuration/Configurations.cs#L142-L152",
+  "how": "quoted",
+  "note": "overlay opacity 0.5, glyph 64 px; a code comment says 60%"
+ },
+ {
+  "tool": "Dynamo 4.4 dev",
+  "property": "wire width",
+  "value": "3, grows when zoomed out: max(3, 3 x (1/zoom) x 2)",
+  "unit": "px",
+  "source_url": "https://github.com/DynamoDS/Dynamo/blob/1a3eec9d69211fbc038cab531a6dcce211cb70c5/src/DynamoCore/Configuration/Configurations.cs#L74-L79",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Dynamo 4.4 dev",
+  "property": "wire colours",
+  "value": "normal #444, hover #808080, selected #6AC0E7, executing #F2930C",
+  "unit": "hex",
+  "source_url": "https://github.com/DynamoDS/Dynamo/blob/1a3eec9d69211fbc038cab531a6dcce211cb70c5/src/DynamoCoreWpf/UI/Themes/Modern/DynamoConverters.xaml#L34-L39",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Dynamo 4.4 dev",
+  "property": "wire end dots",
+  "value": "11",
+  "unit": "px",
+  "source_url": "https://github.com/DynamoDS/Dynamo/blob/1a3eec9d69211fbc038cab531a6dcce211cb70c5/src/DynamoCoreWpf/UI/Themes/Modern/Connectors.xaml#L118-L131",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Dynamo 4.4 dev",
+  "property": "grid",
+  "value": "major every 100, 5 minor, #7F7F7F / #C3C3C3, 1 px",
+  "unit": "units / hex",
+  "source_url": "https://github.com/DynamoDS/Dynamo/blob/1a3eec9d69211fbc038cab531a6dcce211cb70c5/src/DynamoCoreWpf/Controls/InfiniteGridView.xaml.cs#L15-L34",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Dynamo 4.4 dev",
+  "property": "group style colours",
+  "value": "Actions #B9F9E1, Inputs #FFB8D8, Outputs #FFC999, Review #A4E1FF",
+  "unit": "hex",
+  "source_url": "https://github.com/DynamoDS/Dynamo/blob/1a3eec9d69211fbc038cab531a6dcce211cb70c5/src/DynamoCore/Properties/Resources.resx#L848-L868",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Dynamo 4.4 dev",
+  "property": "group title font default",
+  "value": "36",
+  "unit": "px",
+  "source_url": "https://github.com/DynamoDS/Dynamo/blob/1a3eec9d69211fbc038cab531a6dcce211cb70c5/src/DynamoCore/Graph/Annotations/AnnotationModel.cs#L284",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Dynamo 4.4 dev",
+  "property": "group top corner radius",
+  "value": "10",
+  "unit": "px",
+  "source_url": "https://github.com/DynamoDS/Dynamo/blob/1a3eec9d69211fbc038cab531a6dcce211cb70c5/src/DynamoCoreWpf/Views/Core/AnnotationView.xaml.cs#L108",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "n8n",
+  "property": "canvas grid spacing",
+  "value": "16",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/n8n-io/n8n/master/packages/frontend/editor-ui/src/app/utils/nodeViewUtils.ts",
+  "how": "quoted",
+  "note": "GRID_SIZE = 16 (L36); background dot gap = GRID_SIZE in CanvasBackground.vue"
+ },
+ {
+  "tool": "n8n",
+  "property": "default node size",
+  "value": "96 x 96",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/n8n-io/n8n/master/packages/frontend/editor-ui/src/app/utils/nodeViewUtils.ts",
+  "how": "quoted",
+  "note": "DEFAULT_NODE_SIZE = [GRID_SIZE * 6, GRID_SIZE * 6] (L38)"
+ },
+ {
+  "tool": "n8n",
+  "property": "configuration (AI sub-node) size",
+  "value": "80 diameter circle",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/n8n-io/n8n/master/packages/frontend/editor-ui/src/app/utils/nodeViewUtils.ts",
+  "how": "quoted",
+  "note": "CONFIGURATION_NODE_RADIUS = (GRID_SIZE * 5) / 2 (L39)"
+ },
+ {
+  "tool": "n8n",
+  "property": "configurable node size",
+  "value": "256 x 96",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/n8n-io/n8n/master/packages/frontend/editor-ui/src/app/utils/nodeViewUtils.ts",
+  "how": "quoted",
+  "note": "CONFIGURABLE_NODE_SIZE (L44)"
+ },
+ {
+  "tool": "n8n",
+  "property": "horizontal node spacing",
+  "value": "128",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/n8n-io/n8n/master/packages/frontend/editor-ui/src/app/utils/nodeViewUtils.ts",
+  "how": "quoted",
+  "note": "NODE_X_SPACING = GRID_SIZE * 8 (L51)"
+ },
+ {
+  "tool": "n8n",
+  "property": "node corner radius",
+  "value": "16",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/n8n-io/n8n/master/packages/frontend/editor-ui/src/features/workflows/canvas/components/elements/nodes/render-types/CanvasNodeDefault.vue",
+  "how": "quoted",
+  "note": "border-radius: var(--radius--lg); --radius--lg: 1rem in _primitives.scss L273"
+ },
+ {
+  "tool": "n8n",
+  "property": "trigger node left corner radius",
+  "value": "36",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/n8n-io/n8n/master/packages/frontend/editor-ui/src/features/workflows/canvas/components/elements/nodes/render-types/CanvasNodeDefault.vue",
+  "how": "quoted",
+  "note": "--trigger-node--radius: 36px (L272), right corners stay 16"
+ },
+ {
+  "tool": "n8n",
+  "property": "node border width at rest",
+  "value": "1.5",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/n8n-io/n8n/master/packages/frontend/editor-ui/src/features/workflows/canvas/components/elements/nodes/render-types/_canvasNodeStyles.scss",
+  "how": "quoted",
+  "note": "--canvas-node--border-width: 1.5px (L4)"
+ },
+ {
+  "tool": "n8n",
+  "property": "node border colour light",
+  "value": "black at 0.1 alpha (zoom 1) to 0.7 (zoom 0.2)",
+  "unit": "alpha",
+  "source_url": "https://raw.githubusercontent.com/n8n-io/n8n/master/packages/frontend/editor-ui/src/features/workflows/canvas/composables/useZoomAdjustedValues.ts",
+  "how": "quoted",
+  "note": "calculateZoomAdjustedValue(zoom, 0.1, 0.7), gamma 2.2 (L79)"
+ },
+ {
+  "tool": "n8n",
+  "property": "node border colour dark",
+  "value": "white at 0.2 alpha (zoom 1) to 0.7 (zoom 0.2)",
+  "unit": "alpha",
+  "source_url": "https://raw.githubusercontent.com/n8n-io/n8n/master/packages/frontend/editor-ui/src/features/workflows/canvas/composables/useZoomAdjustedValues.ts",
+  "how": "quoted",
+  "note": "L80; scss fallback is 0.15 in _canvasNodeStyles.scss"
+ },
+ {
+  "tool": "n8n",
+  "property": "state border width (success, warning, error)",
+  "value": "2",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/n8n-io/n8n/master/packages/frontend/editor-ui/src/features/workflows/canvas/components/elements/nodes/render-types/_canvasNodeStyles.scss",
+  "how": "quoted",
+  "note": "--spacing--5xs (0.125rem); colours --color--success green-600, --color--warning gold-600, --color--danger red-600 (red-400 in dark)"
+ },
+ {
+  "tool": "n8n",
+  "property": "success colour",
+  "value": "oklch(63.2% 0.186 147.37)",
+  "unit": "oklch",
+  "source_url": "https://cdn.jsdelivr.net/npm/@n8n/design-system@2.44.7/dist/css/_primitives.scss",
+  "how": "quoted",
+  "note": "green-600, used via --color--success (_tokens.legacy.scss L51)"
+ },
+ {
+  "tool": "n8n",
+  "property": "warning colour",
+  "value": "oklch(61.78% 0.1267 70.31)",
+  "unit": "oklch",
+  "source_url": "https://cdn.jsdelivr.net/npm/@n8n/design-system@2.44.7/dist/css/_primitives.scss",
+  "how": "quoted",
+  "note": "gold-600, used via --color--warning (_tokens.legacy.scss L59)"
+ },
+ {
+  "tool": "n8n",
+  "property": "error colour light / dark",
+  "value": "oklch(58.3% 0.2387 28.48) / oklch(70.22% 0.1892 22.23)",
+  "unit": "oklch",
+  "source_url": "https://cdn.jsdelivr.net/npm/@n8n/design-system@2.44.7/dist/css/_primitives.scss",
+  "how": "quoted",
+  "note": "red-600 light, red-400 dark (_tokens.legacy.scss L65, L120)"
+ },
+ {
+  "tool": "n8n",
+  "property": "selected ring",
+  "value": "0 0 0 6px hsla(220, 47%, 30%, 0.1)",
+  "unit": "box-shadow",
+  "source_url": "https://raw.githubusercontent.com/n8n-io/n8n/master/packages/frontend/editor-ui/src/features/workflows/canvas/components/elements/nodes/render-types/_canvasNodeStyles.scss",
+  "how": "quoted",
+  "note": "light theme; dark uses white-alpha-400 (_tokens.scss L768). Scaled by --canvas-zoom-compensation-factor"
+ },
+ {
+  "tool": "n8n",
+  "property": "running indicator",
+  "value": "conic gradient ring rgba(255,109,90), inset -3px, 1.5 s per turn",
+  "unit": "css",
+  "source_url": "https://raw.githubusercontent.com/n8n-io/n8n/master/packages/frontend/editor-ui/src/features/workflows/canvas/components/elements/nodes/render-types/_canvasNodeStyles.scss",
+  "how": "quoted",
+  "note": "waiting state uses 4.5 s per turn (L79)"
+ },
+ {
+  "tool": "n8n",
+  "property": "disabled indicator",
+  "value": "1 px strike-through line across node centre, extends 4 px left and 8 px right",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/n8n-io/n8n/master/packages/frontend/editor-ui/src/features/workflows/canvas/components/elements/nodes/render-types/parts/CanvasNodeDisabledStrikeThrough.vue",
+  "how": "quoted",
+  "note": "top: calc(height / 2 - 1px); left -4px; width calc(100% + 12px)"
+ },
+ {
+  "tool": "n8n",
+  "property": "handle hit area",
+  "value": "16 x 16",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/n8n-io/n8n/master/packages/frontend/editor-ui/src/features/workflows/canvas/components/elements/handles/_canvasHandleStyles.scss",
+  "how": "quoted",
+  "note": "--handle--indicator--width/height: calc(16px * zoom-compensation)"
+ },
+ {
+  "tool": "n8n",
+  "property": "main handle shape",
+  "value": "circle, 1 px border, hover scale 1.5",
+  "unit": "shape",
+  "source_url": "https://raw.githubusercontent.com/n8n-io/n8n/master/packages/frontend/editor-ui/src/features/workflows/canvas/components/elements/handles/render-types/parts/CanvasHandleDot.vue",
+  "how": "quoted",
+  "note": "fill white light / neutral-850 dark"
+ },
+ {
+  "tool": "n8n",
+  "property": "non-main handle shape",
+  "value": "diamond: square rotated 45 deg, scale 0.8 (1.2 on hover)",
+  "unit": "shape",
+  "source_url": "https://raw.githubusercontent.com/n8n-io/n8n/master/packages/frontend/editor-ui/src/features/workflows/canvas/components/elements/handles/render-types/parts/CanvasHandleDiamond.vue",
+  "how": "quoted",
+  "note": "used for AI sub-connections"
+ },
+ {
+  "tool": "n8n",
+  "property": "wire width",
+  "value": "2",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/n8n-io/n8n/master/packages/frontend/editor-ui/src/features/workflows/canvas/components/elements/edges/CanvasEdge.vue",
+  "how": "quoted",
+  "note": "stroke-width: calc(2 * zoom-compensation-factor); stroke-linecap: square (L212-213)"
+ },
+ {
+  "tool": "n8n",
+  "property": "wire colour light",
+  "value": "oklch(L 0 0), L = 0.84 at zoom 1 to 0.60 at zoom 0.2; hover L - 0.3",
+  "unit": "oklch lightness",
+  "source_url": "https://raw.githubusercontent.com/n8n-io/n8n/master/packages/frontend/editor-ui/src/features/workflows/canvas/composables/useZoomAdjustedValues.ts",
+  "how": "quoted",
+  "note": "gamma 2.2 interpolation (L16-47)"
+ },
+ {
+  "tool": "n8n",
+  "property": "wire colour dark",
+  "value": "oklch(L 0 0), L = 0.42 at zoom 1 to 0.66 at zoom 0.2; hover L + 0.2",
+  "unit": "oklch lightness",
+  "source_url": "https://raw.githubusercontent.com/n8n-io/n8n/master/packages/frontend/editor-ui/src/features/workflows/canvas/composables/useZoomAdjustedValues.ts",
+  "how": "quoted",
+  "note": "L43, L47"
+ },
+ {
+  "tool": "n8n",
+  "property": "non-main wire dash",
+  "value": "5,6",
+  "unit": "px dash,gap",
+  "source_url": "https://raw.githubusercontent.com/n8n-io/n8n/master/packages/frontend/editor-ui/src/features/workflows/canvas/components/elements/edges/CanvasEdge.vue",
+  "how": "quoted",
+  "note": "strokeDasharray: '5,6' (L69)"
+ },
+ {
+  "tool": "n8n",
+  "property": "backward wire routing",
+  "value": "smooth step, corner radius 16, 130 below source, 40 side offset",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/n8n-io/n8n/master/packages/frontend/editor-ui/src/features/workflows/canvas/components/elements/edges/utils/getEdgeRenderData.ts",
+  "how": "quoted",
+  "note": "EDGE_BORDER_RADIUS 16, EDGE_PADDING_BOTTOM 130, EDGE_PADDING_X 40 (L6-8)"
+ },
+ {
+  "tool": "n8n",
+  "property": "success / pinned wire colour",
+  "value": "--color--success / --color--secondary (purple)",
+  "unit": "token",
+  "source_url": "https://raw.githubusercontent.com/n8n-io/n8n/master/packages/frontend/editor-ui/src/features/workflows/canvas/components/elements/edges/CanvasEdge.vue",
+  "how": "quoted",
+  "note": "edgeColor computed L110-116"
+ },
+ {
+  "tool": "n8n",
+  "property": "node title",
+  "value": "16 px, weight 500, line-height 1.25, max 2 lines, placed below node",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/n8n-io/n8n/master/packages/frontend/editor-ui/src/features/workflows/canvas/components/elements/nodes/render-types/CanvasNodeDefault.vue",
+  "how": "quoted",
+  "note": ".label L449-461; --font-weight--medium 500"
+ },
+ {
+  "tool": "n8n",
+  "property": "node subtitle",
+  "value": "13 px, weight 450",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/n8n-io/n8n/master/packages/frontend/editor-ui/src/features/workflows/canvas/components/elements/nodes/render-types/CanvasNodeDefault.vue",
+  "how": "quoted",
+  "note": ".subtitle L463-473; --font-size--xs 0.8125rem"
+ },
+ {
+  "tool": "n8n",
+  "property": "output port label",
+  "value": "12",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/n8n-io/n8n/master/packages/frontend/editor-ui/src/features/workflows/canvas/components/elements/handles/render-types/CanvasHandleMainOutput.vue",
+  "how": "quoted",
+  "note": "--font-size--2xs 0.75rem (L141)"
+ },
+ {
+  "tool": "n8n",
+  "property": "font family",
+  "value": "Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+  "unit": "font",
+  "source_url": "https://cdn.jsdelivr.net/npm/@n8n/design-system@2.44.7/dist/css/_primitives.scss",
+  "how": "quoted",
+  "note": "L235; weights regular 450, medium 500, bold 600 (L249-251)"
+ },
+ {
+  "tool": "n8n",
+  "property": "radius scale",
+  "value": "2, 4, 6, 8, 12, 14, 16, 18, 20; default 8",
+  "unit": "px",
+  "source_url": "https://cdn.jsdelivr.net/npm/@n8n/design-system@2.44.7/dist/css/_primitives.scss",
+  "how": "quoted",
+  "note": "L267-277"
+ },
+ {
+  "tool": "n8n",
+  "property": "spacing scale",
+  "value": "2, 4, 6, 8, 12, 16, 20, 24, 32, 48, 64",
+  "unit": "px",
+  "source_url": "https://cdn.jsdelivr.net/npm/@n8n/design-system@2.44.7/dist/css/_primitives.scss",
+  "how": "quoted",
+  "note": "L221-231"
+ },
+ {
+  "tool": "n8n",
+  "property": "canvas background light",
+  "value": "hsl(0, 0%, 96%)",
+  "unit": "hsl",
+  "source_url": "https://cdn.jsdelivr.net/npm/@n8n/design-system@2.44.7/dist/css/_tokens.scss",
+  "how": "quoted",
+  "note": "--canvas--color--background: neutral-125 (L78; value in _primitives.scss L214)"
+ },
+ {
+  "tool": "n8n",
+  "property": "canvas dot colour light",
+  "value": "oklch(68.3% 0 89.88)",
+  "unit": "oklch",
+  "source_url": "https://cdn.jsdelivr.net/npm/@n8n/design-system@2.44.7/dist/css/_tokens.scss",
+  "how": "quoted",
+  "note": "neutral-500 (L79)"
+ },
+ {
+  "tool": "n8n",
+  "property": "canvas background dark",
+  "value": "oklch(20.46% 0 89.88)",
+  "unit": "oklch",
+  "source_url": "https://cdn.jsdelivr.net/npm/@n8n/design-system@2.44.7/dist/css/_tokens.scss",
+  "how": "quoted",
+  "note": "neutral-950 (L765)"
+ },
+ {
+  "tool": "n8n",
+  "property": "canvas dot colour dark",
+  "value": "oklch(38.67% 0 89.88)",
+  "unit": "oklch",
+  "source_url": "https://cdn.jsdelivr.net/npm/@n8n/design-system@2.44.7/dist/css/_tokens.scss",
+  "how": "quoted",
+  "note": "neutral-700 (L766)"
+ },
+ {
+  "tool": "n8n",
+  "property": "node fill light / dark",
+  "value": "white / hsl(0, 0%, 17%)",
+  "unit": "colour",
+  "source_url": "https://cdn.jsdelivr.net/npm/@n8n/design-system@2.44.7/dist/css/_tokens.scss",
+  "how": "quoted",
+  "note": "--node--color--background (L87, L774); neutral-850 in _primitives.scss L216"
+ },
+ {
+  "tool": "n8n",
+  "property": "shadow sm",
+  "value": "0 4px 6px -1px, 0 2px 4px -2px; colour black 0.1 alpha (dark 0.25)",
+  "unit": "box-shadow",
+  "source_url": "https://cdn.jsdelivr.net/npm/@n8n/design-system@2.44.7/dist/css/_primitives.scss",
+  "how": "quoted",
+  "note": "L312-333"
+ },
+ {
+  "tool": "n8n",
+  "property": "minimap",
+  "value": "200 x 120, bottom left, node radius 16",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/n8n-io/n8n/master/packages/frontend/editor-ui/src/features/workflows/canvas/components/Canvas.vue",
+  "how": "quoted",
+  "note": "L2197-2207"
+ },
+ {
+  "tool": "n8n",
+  "property": "zoom range",
+  "value": "0 to 4",
+  "unit": "scale",
+  "source_url": "https://raw.githubusercontent.com/n8n-io/n8n/master/packages/frontend/editor-ui/src/features/workflows/canvas/components/Canvas.vue",
+  "how": "quoted",
+  "note": "L2076-2077"
+ },
+ {
+  "tool": "Node-RED",
+  "property": "node size",
+  "value": "100 x 30",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/node-red/node-red/master/packages/node_modules/@node-red/editor-client/src/js/ui/view.js",
+  "how": "quoted",
+  "note": "node_width / node_height (L37-38)"
+ },
+ {
+  "tool": "Node-RED",
+  "property": "grid",
+  "value": "20 px lines, 1 px, crispEdges",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/node-red/node-red/master/packages/node_modules/@node-red/editor-client/src/js/ui/view.js",
+  "how": "quoted",
+  "note": "gridSize = 20 (L70); .red-ui-workspace-chart-grid-line in workspace.scss L76-81"
+ },
+ {
+  "tool": "Node-RED",
+  "property": "grid colour light / dark",
+  "value": "#eee / #282828",
+  "unit": "hex",
+  "source_url": "https://cdn.jsdelivr.net/npm/@node-red/editor-client@5.0.9/public/red/style.min.css",
+  "how": "quoted",
+  "note": "--red-ui-view-grid-color in :root and html.nr-theme-dark"
+ },
+ {
+  "tool": "Node-RED",
+  "property": "node corner radius",
+  "value": "5",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/node-red/node-red/master/packages/node_modules/@node-red/editor-client/src/js/ui/view.js",
+  "how": "quoted",
+  "note": "mainRect rx 5 (L5704)"
+ },
+ {
+  "tool": "Node-RED",
+  "property": "node border",
+  "value": "1 px #999 light / #888888 dark",
+  "unit": "px, hex",
+  "source_url": "https://cdn.jsdelivr.net/npm/@node-red/editor-client@5.0.9/public/red/style.min.css",
+  "how": "quoted",
+  "note": "--red-ui-node-border; stroke-width 1 in flow.scss L69-72"
+ },
+ {
+  "tool": "Node-RED",
+  "property": "icon slot",
+  "value": "30 px wide, 1 px divider, fill black at 0.05",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/node-red/node-red/master/packages/node_modules/@node-red/editor-client/src/js/ui/view.js",
+  "how": "quoted",
+  "note": "divider path M 30 1 (L5745); colors.scss L222-224"
+ },
+ {
+  "tool": "Node-RED",
+  "property": "label x offset",
+  "value": "38",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/node-red/node-red/master/packages/node_modules/@node-red/editor-client/src/js/ui/view.js",
+  "how": "quoted",
+  "note": "translate(38,0) (L5754)"
+ },
+ {
+  "tool": "Node-RED",
+  "property": "port",
+  "value": "10 x 10 square, rx 3",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/node-red/node-red/master/packages/node_modules/@node-red/editor-client/src/js/ui/view.js",
+  "how": "quoted",
+  "note": "L5962"
+ },
+ {
+  "tool": "Node-RED",
+  "property": "port fill light / dark",
+  "value": "#d9d9d9 / #b8b8b8",
+  "unit": "hex",
+  "source_url": "https://cdn.jsdelivr.net/npm/@node-red/editor-client@5.0.9/public/red/style.min.css",
+  "how": "quoted",
+  "note": "--red-ui-node-port-background"
+ },
+ {
+  "tool": "Node-RED",
+  "property": "wire width",
+  "value": "3",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/node-red/node-red/master/packages/node_modules/@node-red/editor-client/src/sass/flow.scss",
+  "how": "quoted",
+  "note": ".red-ui-flow-link-line stroke-width 3 (L525-530)"
+ },
+ {
+  "tool": "Node-RED",
+  "property": "wire colour light / dark",
+  "value": "#999 / #888888",
+  "unit": "hex",
+  "source_url": "https://cdn.jsdelivr.net/npm/@node-red/editor-client@5.0.9/public/red/style.min.css",
+  "how": "quoted",
+  "note": "--red-ui-link-color"
+ },
+ {
+  "tool": "Node-RED",
+  "property": "wire curve",
+  "value": "cubic bezier, control offset 0.75 x node width (100)",
+  "unit": "ratio",
+  "source_url": "https://raw.githubusercontent.com/node-red/node-red/master/packages/node_modules/@node-red/editor-client/src/js/ui/view.js",
+  "how": "quoted",
+  "note": "lineCurveScale = 0.75 (L35), generateLinkPath L1531"
+ },
+ {
+  "tool": "Node-RED",
+  "property": "wire hit outline",
+  "value": "20 px invisible stroke",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/node-red/node-red/master/packages/node_modules/@node-red/editor-client/src/sass/flow.scss",
+  "how": "quoted",
+  "note": ".red-ui-flow-link-background stroke-width 20 (L561-567)"
+ },
+ {
+  "tool": "Node-RED",
+  "property": "selection halo",
+  "value": "rect 3 px outside node, rx 8, stroke 2 (4 at zoom <= 0.5)",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/node-red/node-red/master/packages/node_modules/@node-red/editor-client/src/js/ui/view.js",
+  "how": "quoted",
+  "note": "L5762-5765; flow.scss L366-380"
+ },
+ {
+  "tool": "Node-RED",
+  "property": "selection colour light / dark",
+  "value": "#0090ff / #e84a4a",
+  "unit": "hex",
+  "source_url": "https://cdn.jsdelivr.net/npm/@node-red/editor-client@5.0.9/public/red/style.min.css",
+  "how": "quoted",
+  "note": "--red-ui-node-selected-color"
+ },
+ {
+  "tool": "Node-RED",
+  "property": "LOD zoom bands",
+  "value": "zoom-level-1 at <= 0.75, zoom-level-2 at <= 0.5",
+  "unit": "scale",
+  "source_url": "https://raw.githubusercontent.com/node-red/node-red/master/packages/node_modules/@node-red/editor-client/src/js/ui/view.js",
+  "how": "quoted",
+  "note": "setScaleFactor L7764-7776"
+ },
+ {
+  "tool": "Node-RED",
+  "property": "disabled node",
+  "value": "outline dash 8,3, fill-opacity 0.5",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/node-red/node-red/master/packages/node_modules/@node-red/editor-client/src/sass/flow.scss",
+  "how": "quoted",
+  "note": "L465-472"
+ },
+ {
+  "tool": "Node-RED",
+  "property": "disabled wire",
+  "value": "dash 10,8, 2 px, #ccc",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/node-red/node-red/master/packages/node_modules/@node-red/editor-client/src/sass/flow.scss",
+  "how": "quoted",
+  "note": "L473-476; colors.scss L252"
+ },
+ {
+  "tool": "Node-RED",
+  "property": "link (virtual) wire",
+  "value": "2 px, dash 25,4, #aaa",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/node-red/node-red/master/packages/node_modules/@node-red/editor-client/src/sass/flow.scss",
+  "how": "quoted",
+  "note": "L531-536"
+ },
+ {
+  "tool": "Node-RED",
+  "property": "status indicator",
+  "value": "9 x 9 rect rx 2 plus 9 pt label",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/node-red/node-red/master/packages/node_modules/@node-red/editor-client/src/js/ui/view.js",
+  "how": "quoted",
+  "note": "L5781-5797; flow.scss L502"
+ },
+ {
+  "tool": "Node-RED",
+  "property": "status colours",
+  "value": "red #dc3e42, green #30a46c, yellow #F9DF31, blue #53A3F3, grey #d3d3d3",
+  "unit": "hex",
+  "source_url": "https://raw.githubusercontent.com/node-red/node-red/master/packages/node_modules/@node-red/editor-client/src/sass/colors.scss",
+  "how": "quoted",
+  "note": "L238-244"
+ },
+ {
+  "tool": "Node-RED",
+  "property": "error badge fill / border",
+  "value": "rgb(255,102,0) / rgb(145,16,2)",
+  "unit": "rgb",
+  "source_url": "https://raw.githubusercontent.com/node-red/node-red/master/packages/node_modules/@node-red/editor-client/src/sass/colors.scss",
+  "how": "quoted",
+  "note": "L233-234; dark error background #641723"
+ },
+ {
+  "tool": "Node-RED",
+  "property": "canvas background light / dark",
+  "value": "#fff / #0e0e12",
+  "unit": "hex",
+  "source_url": "https://cdn.jsdelivr.net/npm/@node-red/editor-client@5.0.9/public/red/style.min.css",
+  "how": "quoted",
+  "note": "--red-ui-view-background"
+ },
+ {
+  "tool": "Node-RED",
+  "property": "panel backgrounds dark",
+  "value": "primary #15151a, secondary #1b1b23",
+  "unit": "hex",
+  "source_url": "https://cdn.jsdelivr.net/npm/@node-red/editor-client@5.0.9/public/red/style.min.css",
+  "how": "quoted",
+  "note": "html.nr-theme-dark block"
+ },
+ {
+  "tool": "Node-RED",
+  "property": "text colours dark",
+  "value": "primary #f0f0f0, secondary #aaaaaa",
+  "unit": "hex",
+  "source_url": "https://cdn.jsdelivr.net/npm/@node-red/editor-client@5.0.9/public/red/style.min.css",
+  "how": "quoted",
+  "note": "html.nr-theme-dark block"
+ },
+ {
+  "tool": "Node-RED",
+  "property": "node label colour light / dark",
+  "value": "#333 / #191919",
+  "unit": "hex",
+  "source_url": "https://cdn.jsdelivr.net/npm/@node-red/editor-client@5.0.9/public/red/style.min.css",
+  "how": "quoted",
+  "note": "dark text stays on coloured node fills in dark theme"
+ },
+ {
+  "tool": "Node-RED",
+  "property": "font",
+  "value": "'Helvetica Neue', Arial, Helvetica, sans-serif, 14 px",
+  "unit": "font",
+  "source_url": "https://raw.githubusercontent.com/node-red/node-red/master/packages/node_modules/@node-red/editor-client/src/sass/colors.scss",
+  "how": "quoted",
+  "note": "L17-18; node label 14 px flow.scss L43"
+ },
+ {
+  "tool": "Node-RED",
+  "property": "group",
+  "value": "corner 4, outline corner 6, stroke 2 #999",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/node-red/node-red/master/packages/node_modules/@node-red/editor-client/src/js/ui/view.js",
+  "how": "quoted",
+  "note": "L6541-6542; flow.scss L178-185"
+ },
+ {
+  "tool": "React Flow",
+  "property": "default node width",
+  "value": "150",
+  "unit": "px",
+  "source_url": "https://cdn.jsdelivr.net/npm/@xyflow/react@12.12.0/dist/style.css",
+  "how": "quoted",
+  "note": "L460"
+ },
+ {
+  "tool": "React Flow",
+  "property": "default node padding",
+  "value": "10",
+  "unit": "px",
+  "source_url": "https://cdn.jsdelivr.net/npm/@xyflow/react@12.12.0/dist/style.css",
+  "how": "quoted",
+  "note": "L458"
+ },
+ {
+  "tool": "React Flow",
+  "property": "default node font size",
+  "value": "12",
+  "unit": "px",
+  "source_url": "https://cdn.jsdelivr.net/npm/@xyflow/react@12.12.0/dist/style.css",
+  "how": "quoted",
+  "note": "L461"
+ },
+ {
+  "tool": "React Flow",
+  "property": "default node radius",
+  "value": "3",
+  "unit": "px",
+  "source_url": "https://cdn.jsdelivr.net/npm/@xyflow/react@12.12.0/dist/style.css",
+  "how": "quoted",
+  "note": "--xy-node-border-radius-default (L34)"
+ },
+ {
+  "tool": "React Flow",
+  "property": "default node border light / dark",
+  "value": "1px solid #1a192b / 1px solid #3c3c3c",
+  "unit": "css",
+  "source_url": "https://cdn.jsdelivr.net/npm/@xyflow/react@12.12.0/dist/style.css",
+  "how": "quoted",
+  "note": "L29, L76"
+ },
+ {
+  "tool": "React Flow",
+  "property": "default node fill light / dark",
+  "value": "#fff / #1e1e1e",
+  "unit": "hex",
+  "source_url": "https://cdn.jsdelivr.net/npm/@xyflow/react@12.12.0/dist/style.css",
+  "how": "quoted",
+  "note": "L30, L77"
+ },
+ {
+  "tool": "React Flow",
+  "property": "node hover shadow",
+  "value": "0 1px 4px 1px rgba(0,0,0,0.08)",
+  "unit": "box-shadow",
+  "source_url": "https://cdn.jsdelivr.net/npm/@xyflow/react@12.12.0/dist/style.css",
+  "how": "quoted",
+  "note": "L32"
+ },
+ {
+  "tool": "React Flow",
+  "property": "node selected outline",
+  "value": "0 0 0 0.5px #1a192b (dark #999)",
+  "unit": "box-shadow",
+  "source_url": "https://cdn.jsdelivr.net/npm/@xyflow/react@12.12.0/dist/style.css",
+  "how": "quoted",
+  "note": "L33, L80"
+ },
+ {
+  "tool": "React Flow",
+  "property": "handle size",
+  "value": "6 x 6 (min 5), radius 100%, 1 px border",
+  "unit": "px",
+  "source_url": "https://cdn.jsdelivr.net/npm/@xyflow/react@12.12.0/dist/style.css",
+  "how": "quoted",
+  "note": "L245-255"
+ },
+ {
+  "tool": "React Flow",
+  "property": "handle colours light / dark",
+  "value": "fill #1a192b border #fff / fill #bebebe border #1e1e1e",
+  "unit": "hex",
+  "source_url": "https://cdn.jsdelivr.net/npm/@xyflow/react@12.12.0/dist/style.css",
+  "how": "quoted",
+  "note": "L36-37, L82-83"
+ },
+ {
+  "tool": "React Flow",
+  "property": "edge stroke light",
+  "value": "1 px #b1b1b7, selected #555",
+  "unit": "px, hex",
+  "source_url": "https://cdn.jsdelivr.net/npm/@xyflow/react@12.12.0/dist/style.css",
+  "how": "quoted",
+  "note": "L6-8"
+ },
+ {
+  "tool": "React Flow",
+  "property": "edge stroke dark",
+  "value": "1 px #3e3e3e, selected #727272",
+  "unit": "px, hex",
+  "source_url": "https://cdn.jsdelivr.net/npm/@xyflow/react@12.12.0/dist/style.css",
+  "how": "quoted",
+  "note": "L54-56"
+ },
+ {
+  "tool": "React Flow",
+  "property": "animated edge",
+  "value": "stroke-dasharray 5, 0.5 s linear loop",
+  "unit": "px, s",
+  "source_url": "https://cdn.jsdelivr.net/npm/@xyflow/react@12.12.0/dist/style.css",
+  "how": "quoted",
+  "note": "L162-165"
+ },
+ {
+  "tool": "React Flow",
+  "property": "bezier curvature",
+  "value": "0.25",
+  "unit": "ratio",
+  "source_url": "https://cdn.jsdelivr.net/npm/@xyflow/system@0.0.83/dist/esm/index.mjs",
+  "how": "quoted",
+  "note": "getBezierPath default (L1018)"
+ },
+ {
+  "tool": "React Flow",
+  "property": "smooth step edge",
+  "value": "borderRadius 5, offset 20",
+  "unit": "px",
+  "source_url": "https://cdn.jsdelivr.net/npm/@xyflow/system@0.0.83/dist/esm/index.mjs",
+  "how": "quoted",
+  "note": "getSmoothStepPath defaults (L1411)"
+ },
+ {
+  "tool": "React Flow",
+  "property": "background pattern",
+  "value": "gap 20; dot size 1; cross size 6; line width 1",
+  "unit": "px",
+  "source_url": "https://cdn.jsdelivr.net/npm/@xyflow/react@12.12.0/dist/esm/index.mjs",
+  "how": "quoted",
+  "note": "L4455-4465"
+ },
+ {
+  "tool": "React Flow",
+  "property": "background colours",
+  "value": "dots #91919a, lines #eee, cross #e2e2e2; dark canvas #141414, dots #555, lines #333",
+  "unit": "hex",
+  "source_url": "https://cdn.jsdelivr.net/npm/@xyflow/react@12.12.0/dist/style.css",
+  "how": "quoted",
+  "note": "L24-26, L71-74"
+ },
+ {
+  "tool": "React Flow",
+  "property": "selection rectangle",
+  "value": "fill rgba(0,89,220,0.08), border 1px dotted rgba(0,89,220,0.8)",
+  "unit": "css",
+  "source_url": "https://cdn.jsdelivr.net/npm/@xyflow/react@12.12.0/dist/style.css",
+  "how": "quoted",
+  "note": "L39-40"
+ },
+ {
+  "tool": "React Flow",
+  "property": "minimap",
+  "value": "200 x 150, node radius 5, mask rgba(240,240,240,0.6), node fill #e2e2e2",
+  "unit": "px",
+  "source_url": "https://cdn.jsdelivr.net/npm/@xyflow/react@12.12.0/dist/esm/index.mjs",
+  "how": "quoted",
+  "note": "index.mjs L4707-4708, L4754; style.css L15-21"
+ },
+ {
+  "tool": "React Flow",
+  "property": "controls button",
+  "value": "26 x 26, padding 4, icon max 12",
+  "unit": "px",
+  "source_url": "https://cdn.jsdelivr.net/npm/@xyflow/react@12.12.0/dist/style.css",
+  "how": "quoted",
+  "note": "L415-443"
+ },
+ {
+  "tool": "React Flow",
+  "property": "panel margin",
+  "value": "15",
+  "unit": "px",
+  "source_url": "https://cdn.jsdelivr.net/npm/@xyflow/react@12.12.0/dist/style.css",
+  "how": "quoted",
+  "note": ".react-flow__panel margin (L291-295)"
+ },
+ {
+  "tool": "React Flow",
+  "property": "edge label font",
+  "value": "10",
+  "unit": "px",
+  "source_url": "https://cdn.jsdelivr.net/npm/@xyflow/react@12.12.0/dist/style.css",
+  "how": "quoted",
+  "note": "L447-449"
+ },
+ {
+  "tool": "React Flow",
+  "property": "zoom range",
+  "value": "0.5 to 2",
+  "unit": "scale",
+  "source_url": "https://cdn.jsdelivr.net/npm/@xyflow/react@12.12.0/dist/esm/index.mjs",
+  "how": "quoted",
+  "note": "ReactFlow minZoom/maxZoom defaults (L3767)"
+ },
+ {
+  "tool": "React Flow",
+  "property": "example theme node radius",
+  "value": "8",
+  "unit": "px",
+  "source_url": "https://reactflow.dev/examples/overview",
+  "how": "measured",
+  "note": "computed border-radius on .react-flow__node-default, 2026-10-31; CSS var --xy-node-border-radius-default:8px in https://example-apps.xyflow.com/assets/261-MDCXNnzL.css"
+ },
+ {
+  "tool": "React Flow",
+  "property": "example theme node border",
+  "value": "1px solid rgb(237, 237, 237)",
+  "unit": "css",
+  "source_url": "https://reactflow.dev/examples/overview",
+  "how": "measured",
+  "note": "2026-10-31"
+ },
+ {
+  "tool": "React Flow",
+  "property": "example theme node shadow",
+  "value": "0 3.54px 4.55px rgba(0,0,0,0.02), 0 3.54px 4.55px rgba(0,0,0,0.05), 0 0.51px 1.01px rgba(0,0,0,0.1)",
+  "unit": "box-shadow",
+  "source_url": "https://reactflow.dev/examples/overview",
+  "how": "measured",
+  "note": "2026-10-31; same value in --xy-node-boxshadow-default of the example CSS"
+ },
+ {
+  "tool": "React Flow",
+  "property": "example theme handle",
+  "value": "fill #fff, border 1px #aaa",
+  "unit": "css",
+  "source_url": "https://example-apps.xyflow.com/assets/261-MDCXNnzL.css",
+  "how": "quoted",
+  "note": "--xy-handle-background-color-default / --xy-handle-border-color-default; measured border 1px solid rgb(170,170,170)"
+ },
+ {
+  "tool": "React Flow",
+  "property": "example theme canvas / selected accent",
+  "value": "#f7f9fb / #f57dbd",
+  "unit": "hex",
+  "source_url": "https://example-apps.xyflow.com/assets/261-MDCXNnzL.css",
+  "how": "quoted",
+  "note": "--xy-background-color, --xy-theme-selected"
+ },
+ {
+  "tool": "React Flow",
+  "property": "UI kit handle",
+  "value": "11 x 11 circle, 1 px border",
+  "unit": "px",
+  "source_url": "https://ui.reactflow.dev/base-handle",
+  "how": "quoted",
+  "note": "h-[11px] w-[11px] rounded-full border"
+ },
+ {
+  "tool": "React Flow",
+  "property": "UI kit node header padding",
+  "value": "py-2 px-3 (8 x 12 on Tailwind default 4 px scale)",
+  "unit": "px",
+  "source_url": "https://ui.reactflow.dev/base-node",
+  "how": "quoted",
+  "note": "BaseNodeHeader classes"
+ },
+ {
+  "tool": "React Flow",
+  "property": "UI kit node content padding / gap",
+  "value": "p-3 / gap-y-2 (12 / 8 on Tailwind default scale)",
+  "unit": "px",
+  "source_url": "https://ui.reactflow.dev/base-node",
+  "how": "quoted",
+  "note": "BaseNodeContent classes"
+ },
+ {
+  "tool": "React Flow",
+  "property": "UI kit status border",
+  "value": "2 px border, radius 9 px; loading = conic gradient border spinning 2 s",
+  "unit": "px, s",
+  "source_url": "https://ui.reactflow.dev/node-status-indicator",
+  "how": "quoted",
+  "note": "StatusBorder and BorderLoadingIndicator"
+ },
+ {
+  "tool": "Rete.js v2",
+  "property": "node width",
+  "value": "180",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/retejs/react-plugin/main/src/presets/classic/vars.ts",
+  "how": "quoted",
+  "note": "$nodewidth; measured 180 x 122 on https://retejs.org/examples/basic/react (2026-10-31)"
+ },
+ {
+  "tool": "Rete.js v2",
+  "property": "node corner radius",
+  "value": "10",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/retejs/react-plugin/main/src/presets/classic/components/Node.tsx",
+  "how": "quoted",
+  "note": "measured 10px"
+ },
+ {
+  "tool": "Rete.js v2",
+  "property": "node border",
+  "value": "2px solid #4e58bf",
+  "unit": "css",
+  "source_url": "https://raw.githubusercontent.com/retejs/react-plugin/main/src/presets/classic/components/Node.tsx",
+  "how": "quoted",
+  "note": "measured"
+ },
+ {
+  "tool": "Rete.js v2",
+  "property": "node fill",
+  "value": "rgba(110,136,255,0.8)",
+  "unit": "rgba",
+  "source_url": "https://raw.githubusercontent.com/retejs/react-plugin/main/src/presets/classic/vars.ts",
+  "how": "quoted",
+  "note": "measured"
+ },
+ {
+  "tool": "Rete.js v2",
+  "property": "selected node",
+  "value": "fill #ffd92c, border #e3c000",
+  "unit": "hex",
+  "source_url": "https://raw.githubusercontent.com/retejs/react-plugin/main/src/presets/classic/components/Node.tsx",
+  "how": "quoted",
+  "note": "whole node turns yellow"
+ },
+ {
+  "tool": "Rete.js v2",
+  "property": "title",
+  "value": "18 px white, padding 8",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/retejs/react-plugin/main/src/presets/classic/components/Node.tsx",
+  "how": "quoted",
+  "note": "measured height 37 px"
+ },
+ {
+  "tool": "Rete.js v2",
+  "property": "port label",
+  "value": "14 px, margin 6, line-height 24",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/retejs/react-plugin/main/src/presets/classic/components/Node.tsx",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Rete.js v2",
+  "property": "socket",
+  "value": "24 x 24 circle, #96b38a, 1 px white border (4 px hover)",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/retejs/react-plugin/main/src/presets/classic/components/Socket.tsx",
+  "how": "quoted",
+  "note": "measured 24 x 24, radius 12px on https://retejs.org/examples/basic/react"
+ },
+ {
+  "tool": "Rete.js v2",
+  "property": "socket margin",
+  "value": "6",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/retejs/react-plugin/main/src/presets/classic/vars.ts",
+  "how": "quoted",
+  "note": "$socketmargin"
+ },
+ {
+  "tool": "Rete.js v2",
+  "property": "connection",
+  "value": "5 px steelblue",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/retejs/react-plugin/main/src/presets/classic/components/Connection.tsx",
+  "how": "quoted",
+  "note": "measured stroke rgb(70,130,180), 5px"
+ },
+ {
+  "tool": "Rete.js v2",
+  "property": "minimap",
+  "value": "fill rgba(229,234,239,0.65), border 1px #b1b7ff, radius 8",
+  "unit": "css",
+  "source_url": "https://raw.githubusercontent.com/retejs/react-plugin/main/src/presets/minimap/components/Minimap.tsx",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Rete.js v2",
+  "property": "minimap viewport",
+  "value": "fill rgba(255,251,128,0.32), border 1px #ffe52b",
+  "unit": "css",
+  "source_url": "https://raw.githubusercontent.com/retejs/react-plugin/main/src/presets/minimap/components/MiniViewport.tsx",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Linear",
+  "property": "dark background levels 0 to 3",
+  "value": "#08090a, #0f1011, #141516, #191a1b",
+  "unit": "hex",
+  "source_url": "https://linear.app/",
+  "how": "measured",
+  "note": "[data-theme=dark] --color-bg-level-0..3, linear.app marketing site, 2026-10-31"
+ },
+ {
+  "tool": "Linear",
+  "property": "dark bg primary / secondary / tertiary / quaternary",
+  "value": "#08090a / #1c1c1f / #232326 / #28282c",
+  "unit": "hex",
+  "source_url": "https://linear.app/",
+  "how": "measured",
+  "note": "2026-10-31"
+ },
+ {
+  "tool": "Linear",
+  "property": "dark panel bg",
+  "value": "#0f1011",
+  "unit": "hex",
+  "source_url": "https://linear.app/",
+  "how": "measured",
+  "note": "--color-bg-panel"
+ },
+ {
+  "tool": "Linear",
+  "property": "dark borders primary / secondary / tertiary",
+  "value": "#23252a / #34343a / #3e3e44",
+  "unit": "hex",
+  "source_url": "https://linear.app/",
+  "how": "measured",
+  "note": "translucent border #ffffff0d"
+ },
+ {
+  "tool": "Linear",
+  "property": "dark lines primary to quaternary",
+  "value": "#37393a, #202122, #18191a, #141515",
+  "unit": "hex",
+  "source_url": "https://linear.app/",
+  "how": "measured",
+  "note": "--color-line-*"
+ },
+ {
+  "tool": "Linear",
+  "property": "dark text primary to quaternary",
+  "value": "#f7f8f8, #d0d6e0, #8a8f98, #62666d",
+  "unit": "hex",
+  "source_url": "https://linear.app/",
+  "how": "measured",
+  "note": ""
+ },
+ {
+  "tool": "Linear",
+  "property": "light bg levels 0 to 3",
+  "value": "#fff, #f8f8f8, #f4f4f4, #f0f0f0",
+  "unit": "hex",
+  "source_url": "https://linear.app/",
+  "how": "measured",
+  "note": ""
+ },
+ {
+  "tool": "Linear",
+  "property": "light text primary to quaternary",
+  "value": "#282a30, #3c4149, #6f6e77, #86848d",
+  "unit": "hex",
+  "source_url": "https://linear.app/",
+  "how": "measured",
+  "note": ""
+ },
+ {
+  "tool": "Linear",
+  "property": "light borders primary / secondary / tertiary",
+  "value": "#e9e8ea / #e4e2e4 / #dcdbdd",
+  "unit": "hex",
+  "source_url": "https://linear.app/",
+  "how": "measured",
+  "note": ""
+ },
+ {
+  "tool": "Linear",
+  "property": "font sizes",
+  "value": "11, 12, 13, 15, 18 (titles 20, 24, 36)",
+  "unit": "px",
+  "source_url": "https://linear.app/",
+  "how": "measured",
+  "note": "--font-size-micro .6875rem ... --font-size-title1 2.25rem"
+ },
+ {
+  "tool": "Linear",
+  "property": "font weights",
+  "value": "300, 400, 510, 590, 680",
+  "unit": "weight",
+  "source_url": "https://linear.app/",
+  "how": "measured",
+  "note": "Inter Variable"
+ },
+ {
+  "tool": "Linear",
+  "property": "font family",
+  "value": "Inter Variable, SF Pro Display, -apple-system, Segoe UI, ...",
+  "unit": "font",
+  "source_url": "https://linear.app/",
+  "how": "measured",
+  "note": "font-feature-settings cv01, ss03"
+ },
+ {
+  "tool": "Linear",
+  "property": "radius scale",
+  "value": "4, 6, 8, 12, 16, 24, 32, 9999",
+  "unit": "px",
+  "source_url": "https://linear.app/",
+  "how": "measured",
+  "note": ""
+ },
+ {
+  "tool": "Linear",
+  "property": "accent and status colours",
+  "value": "indigo #5e6ad2, blue #4ea7fc, red #eb5757, green #27a644, orange #fc7840, yellow #f0bf00, teal #00b8cc",
+  "unit": "hex",
+  "source_url": "https://linear.app/",
+  "how": "measured",
+  "note": ""
+ },
+ {
+  "tool": "Linear",
+  "property": "theme inputs",
+  "value": "3 (base colour, accent colour, contrast), replacing 98 variables per theme",
+  "unit": "count",
+  "source_url": "https://linear.app/now/how-we-redesigned-the-linear-ui",
+  "how": "quoted",
+  "note": "LCH colour space"
+ },
+ {
+  "tool": "Figma UI3",
+  "property": "--figma-color-bg light / dark",
+  "value": "#ffffff / #2c2c2c",
+  "unit": "hex",
+  "source_url": "https://developers.figma.com/docs/plugins/css-variables/",
+  "how": "measured",
+  "note": "token table, Figma Design Light and Dark tabs, read with Playwright 2026-10-31"
+ },
+ {
+  "tool": "Figma UI3",
+  "property": "--figma-color-bg-secondary light / dark",
+  "value": "#f5f5f5 / #383838",
+  "unit": "hex",
+  "source_url": "https://developers.figma.com/docs/plugins/css-variables/",
+  "how": "measured",
+  "note": "token table, Figma Design Light and Dark tabs, read with Playwright 2026-10-31"
+ },
+ {
+  "tool": "Figma UI3",
+  "property": "--figma-color-bg-tertiary light / dark",
+  "value": "#e6e6e6 / #444444",
+  "unit": "hex",
+  "source_url": "https://developers.figma.com/docs/plugins/css-variables/",
+  "how": "measured",
+  "note": "token table, Figma Design Light and Dark tabs, read with Playwright 2026-10-31"
+ },
+ {
+  "tool": "Figma UI3",
+  "property": "--figma-color-bg-hover light / dark",
+  "value": "#f5f5f5 / #383838",
+  "unit": "hex",
+  "source_url": "https://developers.figma.com/docs/plugins/css-variables/",
+  "how": "measured",
+  "note": "token table, Figma Design Light and Dark tabs, read with Playwright 2026-10-31"
+ },
+ {
+  "tool": "Figma UI3",
+  "property": "--figma-color-bg-brand light / dark",
+  "value": "#0d99ff / #0c8ce9",
+  "unit": "hex",
+  "source_url": "https://developers.figma.com/docs/plugins/css-variables/",
+  "how": "measured",
+  "note": "token table, Figma Design Light and Dark tabs, read with Playwright 2026-10-31"
+ },
+ {
+  "tool": "Figma UI3",
+  "property": "--figma-color-bg-selected light / dark",
+  "value": "#e5f4ff / #4a5878",
+  "unit": "hex",
+  "source_url": "https://developers.figma.com/docs/plugins/css-variables/",
+  "how": "measured",
+  "note": "token table, Figma Design Light and Dark tabs, read with Playwright 2026-10-31"
+ },
+ {
+  "tool": "Figma UI3",
+  "property": "--figma-color-bg-danger light / dark",
+  "value": "#f24822 / #e03e1a",
+  "unit": "hex",
+  "source_url": "https://developers.figma.com/docs/plugins/css-variables/",
+  "how": "measured",
+  "note": "token table, Figma Design Light and Dark tabs, read with Playwright 2026-10-31"
+ },
+ {
+  "tool": "Figma UI3",
+  "property": "--figma-color-bg-warning light / dark",
+  "value": "#ffcd29 / #f3c11b",
+  "unit": "hex",
+  "source_url": "https://developers.figma.com/docs/plugins/css-variables/",
+  "how": "measured",
+  "note": "token table, Figma Design Light and Dark tabs, read with Playwright 2026-10-31"
+ },
+ {
+  "tool": "Figma UI3",
+  "property": "--figma-color-bg-success light / dark",
+  "value": "#14ae5c / #198f51",
+  "unit": "hex",
+  "source_url": "https://developers.figma.com/docs/plugins/css-variables/",
+  "how": "measured",
+  "note": "token table, Figma Design Light and Dark tabs, read with Playwright 2026-10-31"
+ },
+ {
+  "tool": "Figma UI3",
+  "property": "--figma-color-bg-component light / dark",
+  "value": "#9747ff / #8a38f5",
+  "unit": "hex",
+  "source_url": "https://developers.figma.com/docs/plugins/css-variables/",
+  "how": "measured",
+  "note": "token table, Figma Design Light and Dark tabs, read with Playwright 2026-10-31"
+ },
+ {
+  "tool": "Figma UI3",
+  "property": "--figma-color-text light / dark",
+  "value": "#000000e5 / #ffffff",
+  "unit": "hex",
+  "source_url": "https://developers.figma.com/docs/plugins/css-variables/",
+  "how": "measured",
+  "note": "token table, Figma Design Light and Dark tabs, read with Playwright 2026-10-31"
+ },
+ {
+  "tool": "Figma UI3",
+  "property": "--figma-color-text-secondary light / dark",
+  "value": "#00000080 / #ffffffb2",
+  "unit": "hex",
+  "source_url": "https://developers.figma.com/docs/plugins/css-variables/",
+  "how": "measured",
+  "note": "token table, Figma Design Light and Dark tabs, read with Playwright 2026-10-31"
+ },
+ {
+  "tool": "Figma UI3",
+  "property": "--figma-color-text-tertiary light / dark",
+  "value": "#0000004d / #ffffff66",
+  "unit": "hex",
+  "source_url": "https://developers.figma.com/docs/plugins/css-variables/",
+  "how": "measured",
+  "note": "token table, Figma Design Light and Dark tabs, read with Playwright 2026-10-31"
+ },
+ {
+  "tool": "Figma UI3",
+  "property": "--figma-color-border light / dark",
+  "value": "#e6e6e6 / #444444",
+  "unit": "hex",
+  "source_url": "https://developers.figma.com/docs/plugins/css-variables/",
+  "how": "measured",
+  "note": "token table, Figma Design Light and Dark tabs, read with Playwright 2026-10-31"
+ },
+ {
+  "tool": "Figma UI3",
+  "property": "--figma-color-border-strong light / dark",
+  "value": "#2c2c2c / #ffffffe5",
+  "unit": "hex",
+  "source_url": "https://developers.figma.com/docs/plugins/css-variables/",
+  "how": "measured",
+  "note": "token table, Figma Design Light and Dark tabs, read with Playwright 2026-10-31"
+ },
+ {
+  "tool": "Figma UI3",
+  "property": "--figma-color-border-selected light / dark",
+  "value": "#0d99ff / #0c8ce9",
+  "unit": "hex",
+  "source_url": "https://developers.figma.com/docs/plugins/css-variables/",
+  "how": "measured",
+  "note": "token table, Figma Design Light and Dark tabs, read with Playwright 2026-10-31"
+ },
+ {
+  "tool": "Figma UI3",
+  "property": "--figma-color-icon-secondary light / dark",
+  "value": "#00000080 / #ffffffb2",
+  "unit": "hex",
+  "source_url": "https://developers.figma.com/docs/plugins/css-variables/",
+  "how": "measured",
+  "note": "token table, Figma Design Light and Dark tabs, read with Playwright 2026-10-31"
+ },
+ {
+  "tool": "Figma UI3",
+  "property": "menu corner radius",
+  "value": "14",
+  "unit": "px",
+  "source_url": "https://forum.figma.com/share-your-feedback-26/ui3-figma-s-menu-corner-radius-is-too-big-14px-40094",
+  "how": "quoted",
+  "note": "user claim on community forum (2025-05-01), not verified; same post says Windows default menu radius 8 px"
+ },
+ {
+  "tool": "Figma/FigJam widgets",
+  "property": "AutoLayout default cornerRadius",
+  "value": "0",
+  "unit": "px",
+  "source_url": "https://developers.figma.com/docs/widgets/api/component-AutoLayout/",
+  "how": "quoted",
+  "note": "Default Props table"
+ },
+ {
+  "tool": "Figma/FigJam widgets",
+  "property": "AutoLayout default padding / spacing",
+  "value": "0 / 0",
+  "unit": "px",
+  "source_url": "https://developers.figma.com/docs/widgets/api/component-AutoLayout/",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Figma/FigJam widgets",
+  "property": "AutoLayout default stroke",
+  "value": "strokeWidth 1, strokeAlign inside, stroke []",
+  "unit": "px",
+  "source_url": "https://developers.figma.com/docs/widgets/api/component-AutoLayout/",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Figma/FigJam widgets",
+  "property": "AutoLayout default fill / overflow / direction",
+  "value": "[] / hidden / horizontal",
+  "unit": "enum",
+  "source_url": "https://developers.figma.com/docs/widgets/api/component-AutoLayout/",
+  "how": "quoted",
+  "note": "width and height default hug-contents"
+ },
+ {
+  "tool": "Figma/FigJam widgets",
+  "property": "Text defaults",
+  "value": "Inter, fontSize 16, fontWeight 400, fill #000000, lineHeight auto, letterSpacing 0",
+  "unit": "px",
+  "source_url": "https://developers.figma.com/docs/widgets/api/component-Text/",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Figma/FigJam widgets",
+  "property": "doc drop shadow example",
+  "value": "#00000040, offset 4,4, blur 4",
+  "unit": "px",
+  "source_url": "https://developers.figma.com/docs/widgets/api/type-Effect/",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Figma/FigJam widgets",
+  "property": "sample card radius",
+  "value": "8",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/figma/widget-samples/main/WidgetCounter/widget-src/code.tsx",
+  "how": "quoted",
+  "note": "WidgetCounter"
+ },
+ {
+  "tool": "Figma/FigJam widgets",
+  "property": "sample card padding",
+  "value": "left 16, right 8, top 8, bottom 8",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/figma/widget-samples/main/WidgetCounter/widget-src/code.tsx",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Figma/FigJam widgets",
+  "property": "sample card spacing",
+  "value": "12",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/figma/widget-samples/main/WidgetCounter/widget-src/code.tsx",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Figma/FigJam widgets",
+  "property": "sample card shadow",
+  "value": "black 0.2 alpha, offset 0,0, blur 2, spread 2",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/figma/widget-samples/main/WidgetCounter/widget-src/code.tsx",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Figma/FigJam widgets",
+  "property": "sample value chip",
+  "value": "fill #E6E6E6, radius 8, padding 24 x 12, text 32",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/figma/widget-samples/main/WidgetCounter/widget-src/code.tsx",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Figma/FigJam widgets",
+  "property": "sample round button",
+  "value": "32 x 32 circle, stroke black 10%, glyph black 80%",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/figma/widget-samples/main/WidgetCounter/widget-src/code.tsx",
+  "how": "quoted",
+  "note": "inline SVG"
+ },
+ {
+  "tool": "Figma/FigJam widgets",
+  "property": "notepad sample",
+  "value": "padding 8, text 12, width 100",
+  "unit": "px",
+  "source_url": "https://raw.githubusercontent.com/figma/widget-samples/main/WidgetNotepad/widget-src/code.tsx",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Figma/FigJam widgets",
+  "property": "property menu icon",
+  "value": "40 x 40",
+  "unit": "px",
+  "source_url": "https://developers.figma.com/docs/widgets/best-practices/",
+  "how": "quoted",
+  "note": "'40x40 icons look best in the property menu'"
+ },
+ {
+  "tool": "Raycast",
+  "property": "theme colour count",
+  "value": "12 (background, backgroundSecondary, text, selection, loader, red, orange, yellow, green, blue, purple, magenta)",
+  "unit": "count",
+  "source_url": "https://raw.githubusercontent.com/raycast/ray-so/main/app/%28navigation%29/themes/lib/theme.ts",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Raycast",
+  "property": "built-in icon size",
+  "value": "16, light and dark SVG variants",
+  "unit": "px",
+  "source_url": "https://developers.raycast.com/api-reference/user-interface/icons-and-images.md",
+  "how": "quoted",
+  "note": "from asset file names such as icon-anchor-16@dark.svg; size inferred"
+ },
+ {
+  "tool": "Raycast",
+  "property": "store screenshot size",
+  "value": "2000 x 1250 (16:10)",
+  "unit": "px",
+  "source_url": "https://developers.raycast.com/basics/prepare-an-extension-for-store",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Make.com",
+  "property": "notes per module or route",
+  "value": "200, each up to 10,000 characters",
+  "unit": "count",
+  "source_url": "https://help.make.com/scenario-notes.md",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Make.com",
+  "property": "active toggle colour",
+  "value": "green when active",
+  "unit": "colour name",
+  "source_url": "https://help.make.com/improved-scenario-toolbar-and-version-control.md",
+  "how": "quoted",
+  "note": "no hex published"
+ },
+ {
+  "tool": "Make.com",
+  "property": "module diameter / icon size / connector dash",
+  "value": "not verified",
+  "unit": "",
+  "source_url": "https://www.make.com/en/templates/2952-controlled-distribution-of-data-flow",
+  "how": "quoted",
+  "note": "blocked by Cloudflare bot check (HTTP 403) from this machine on 2026-10-31; help docs give no sizes"
+ },
+ {
+  "tool": "Retool Workflows",
+  "property": "On Error connector colour",
+  "value": "red (no hex published)",
+  "unit": "colour name",
+  "source_url": "https://docs.retool.com/workflows/guides/error-handlers",
+  "how": "quoted",
+  "note": ""
+ },
+ {
+  "tool": "Retool Workflows",
+  "property": "block and wire sizes",
+  "value": "not verified",
+  "unit": "",
+  "source_url": "https://docs.retool.com/workflows/concepts/ide",
+  "how": "quoted",
+  "note": "editor needs login; docs give no sizes"
+ },
+ {
+  "tool": "Tabler icons (Studio icon set)",
+  "property": "outline icon grid",
+  "value": "24 x 24 viewBox, stroke-width 2, round caps and joins",
+  "unit": "px",
+  "source_url": "https://cdn.jsdelivr.net/npm/@tabler/icons@3.50.0/icons/outline/circle.svg",
+  "how": "quoted",
+  "note": "@tabler/icons 3.50.0; at 16 px render the stroke is 1.33 px"
+ }
+]
