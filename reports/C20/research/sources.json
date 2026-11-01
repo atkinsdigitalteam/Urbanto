@@ -1,0 +1,1756 @@
+[
+ {
+  "url": "https://github.com/andrewheumann/humanui",
+  "title": "Human UI README",
+  "publisher": "Andrew Heumann (GitHub)",
+  "date": "2016-2026",
+  "flags": [
+   "author",
+   "source-code"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/andrewheumann/humanui/commits/master",
+  "title": "Human UI commit history",
+  "publisher": "Andrew Heumann (GitHub)",
+  "date": "2026-06-09",
+  "flags": [
+   "author",
+   "source-code"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/andrewheumann/humanui/issues",
+  "title": "Human UI issues",
+  "publisher": "GitHub",
+  "date": "2024-04-10",
+  "flags": [
+   "author"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/andrewheumann/humanui/pull/9",
+  "title": "PR #9 Modernize HumanUI for Rhino 8 / .NET 7 + add test suite",
+  "publisher": "andylebihan / Andrew Heumann (GitHub)",
+  "date": "2026-06-09",
+  "flags": [
+   "source-code",
+   "contributor"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://data.jsdelivr.com/v1/package/gh/andrewheumann/humanui@master/flat",
+  "title": "Human UI repo file listing (used for measured component count)",
+  "publisher": "jsDelivr",
+  "date": "2026-11-01",
+  "flags": [
+   "measurement-input"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.grasshopper3d.com/group/human-ui",
+  "title": "Human UI group page",
+  "publisher": "grasshopper3d.com",
+  "date": "2023-09-07",
+  "flags": [
+   "community",
+   "old-site"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://yak.rhino3d.com/packages/human-ui",
+  "title": "human-ui package",
+  "publisher": "McNeel Yak package server",
+  "date": "2026-06-09",
+  "flags": [
+   "vendor-registry"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://yak.rhino3d.com/packages/synapse",
+  "title": "Synapse package",
+  "publisher": "McNeel Yak package server",
+  "date": "2026-01-07",
+  "flags": [
+   "vendor-registry"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://discourse.mcneel.com/t/wish-human-ui-update-for-rhino-8/198576",
+  "title": "Wish Human UI update for Rhino 8",
+  "publisher": "McNeel Forum",
+  "date": "2025-01-29",
+  "flags": [
+   "forum"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://discourse.mcneel.com/c/grasshopper/human-ui/81",
+  "title": "Human UI forum category",
+  "publisher": "McNeel Forum",
+  "date": "2026-08-18",
+  "flags": [
+   "forum"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://discourse.mcneel.com/t/rhino-8-compatibility-with-humanui-human-ui/188304",
+  "title": "Rhino 8 compatibility with Humanui",
+  "publisher": "McNeel Forum",
+  "date": "2024-07-19",
+  "flags": [
+   "forum"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://discourse.mcneel.com/t/human-ui-vs-ui-your-thoughts-and-experiences-on-which-to-use/",
+  "title": "Human UI vs UI+, your thoughts and experiences",
+  "publisher": "McNeel Forum",
+  "date": "2023-01-13 to 2025-11-06",
+  "flags": [
+   "forum",
+   "third-party"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://discourse.mcneel.com/t/un-used-windows-slow-the-definition-down/",
+  "title": "Un-used windows slow the definition down",
+  "publisher": "McNeel Forum",
+  "date": "2021-04-01 to 2024-11-26",
+  "flags": [
+   "forum",
+   "third-party"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://discourse.mcneel.com/t/new-humanui-for-rhino-8-wip-for-testing/219339",
+  "title": "New HumanUI for Rhino 8/WIP for testing",
+  "publisher": "McNeel Forum",
+  "date": "2026-05-25 to 2026-08-18",
+  "flags": [
+   "forum"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://discourse.mcneel.com/t/grashopper-player-human-ui-not-working-rhino-8/",
+  "title": "Grashopper player Human UI not working Rhino 8",
+  "publisher": "McNeel Forum",
+  "date": "2024-05-21 to 2025-01-15",
+  "flags": [
+   "forum",
+   "third-party"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://discourse.mcneel.com/t/how-efficient-is-human-ui/",
+  "title": "How efficient is Human UI?",
+  "publisher": "McNeel Forum",
+  "date": "2023-10-02 to 2023-11-09",
+  "flags": [
+   "forum"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://discourse.mcneel.com/t/human-ui-value-listener-live-update/",
+  "title": "Human UI Value Listener live update",
+  "publisher": "McNeel Forum",
+  "date": "2018-11-20 to 2024-10-24",
+  "flags": [
+   "forum",
+   "partly-old:2018"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://discourse.mcneel.com/t/does-human-ui-work-for-rhino-8-perhaps-an-alternative-if-not/",
+  "title": "Does Human UI work for Rhino 8?",
+  "publisher": "McNeel Forum",
+  "date": "2024-04-13 to 2025-10-23",
+  "flags": [
+   "forum",
+   "third-party"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://discourse.mcneel.com/t/the-future-of-grasshopper-user-interfaces/204466",
+  "title": "The future of Grasshopper User Interfaces?",
+  "publisher": "McNeel Forum",
+  "date": "2025-05-14 to 2025-05-28",
+  "flags": [
+   "forum",
+   "third-party"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://discourse.mcneel.com/t/custom-components-gui-easier-in-gh2/211958",
+  "title": "Custom Components GUI - easier in GH2?",
+  "publisher": "McNeel Forum",
+  "date": "2025-11-04 to 2025-12-11",
+  "flags": [
+   "forum",
+   "third-party"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://discourse.mcneel.com/t/future-plans-for-a-more-robust-remote-control-panel-in-grasshopper-2/220904",
+  "title": "Future plans for a more robust Remote Control Panel in Grasshopper 2?",
+  "publisher": "McNeel Forum",
+  "date": "2026-07-16 to 2026-09-09",
+  "flags": [
+   "forum"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://discourse.mcneel.com/t/remote-control-panel-rcp-wishes-and-feedback/51545",
+  "title": "Remote Control Panel (RCP) - Wishes and Feedback (page 1)",
+  "publisher": "McNeel Forum",
+  "date": "2017-12-14 to 2023-08",
+  "flags": [
+   "forum",
+   "partly-old:2017"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://discourse.mcneel.com/t/new-ui-grasshopper-remote-control-panel-issues/165026",
+  "title": "New UI: Grasshopper remote control panel issues",
+  "publisher": "McNeel Forum",
+  "date": "2023-09-04",
+  "flags": [
+   "forum",
+   "third-party"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.mcneel.com/rhino/8/help/en-us/commands/grasshopper.htm",
+  "title": "Grasshopper / GrasshopperPlayer command (Rhino 8 help)",
+  "publisher": "Robert McNeel & Associates",
+  "date": "n/a",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.rhino3d.com/features/grasshopper/player/",
+  "title": "Grasshopper Player feature page",
+  "publisher": "Robert McNeel & Associates",
+  "date": "n/a (mentions Rhino 9 Evaluation)",
+  "flags": [
+   "vendor-marketing"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://discourse.mcneel.com/t/grasshopper-player-custom-tools-wish-list/114844",
+  "title": "Grasshopper Player (custom tools & wish list), page 1",
+  "publisher": "McNeel Forum",
+  "date": "2020-12-19 to 2021-02",
+  "flags": [
+   "forum",
+   "third-party"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://discourse.mcneel.com/t/grasshopper-definition-to-toolbar-button/135082/2",
+  "title": "Grasshopper definition to toolbar button (reply 2)",
+  "publisher": "McNeel Forum",
+  "date": "2021-12-16",
+  "flags": [
+   "forum"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://discourse.mcneel.com/t/bake-with-attributes-via-gh-player/135996",
+  "title": "Bake with attributes via GH player?",
+  "publisher": "McNeel Forum",
+  "date": "2022-01-08 to 2022-01-11",
+  "flags": [
+   "forum"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.rhino3d.com/8/new/",
+  "title": "New in Rhino 8",
+  "publisher": "Robert McNeel & Associates",
+  "date": "n/a",
+  "flags": [
+   "vendor-marketing"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.rhino3d.com/features/grasshopper/content-cache/",
+  "title": "Content Cache feature page",
+  "publisher": "Robert McNeel & Associates",
+  "date": "n/a",
+  "flags": [
+   "vendor-marketing"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.rhino3d.com/features/grasshopper/blocks/",
+  "title": "Grasshopper Blocks feature page",
+  "publisher": "Robert McNeel & Associates",
+  "date": "n/a",
+  "flags": [
+   "vendor-marketing"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.rhino3d.com/docs/guides/grasshopper/blocks/",
+  "title": "Grasshopper blocks guide",
+  "publisher": "Robert McNeel & Associates",
+  "date": "n/a",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://discourse.mcneel.com/t/egg-crate-makes-me-irate/181135?page=4",
+  "title": "Egg crate makes me irate (page 4)",
+  "publisher": "McNeel Forum",
+  "date": "2024-07-08 to 2024-07-09",
+  "flags": [
+   "forum"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://discourse.mcneel.com/t/grasshopper-objects/42624",
+  "title": "Grasshopper Objects?",
+  "publisher": "McNeel Forum",
+  "date": "2017-03-29 to 2017-04-10",
+  "flags": [
+   "forum",
+   "old:2017"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://stg.visualarq.com/tutorial/grasshopper-styles/get-started",
+  "title": "Grasshopper Styles tutorial: get started",
+  "publisher": "VisualARQ (Asuni)",
+  "date": "n/a",
+  "flags": [
+   "third-party",
+   "staging-site"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://developer.rhino3d.com/guides/compute/",
+  "title": "Rhino.Compute guides index",
+  "publisher": "Robert McNeel & Associates",
+  "date": "n/a",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://developer.rhino3d.com/guides/compute/hops-component/",
+  "title": "The Hops Component",
+  "publisher": "Robert McNeel & Associates",
+  "date": "n/a",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://developer.rhino3d.com/guides/compute/core-hour-billing/",
+  "title": "Core-hour billing",
+  "publisher": "Robert McNeel & Associates",
+  "date": "n/a",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://help.shapediver.com/doc/parameters",
+  "title": "Parameters (model view panel)",
+  "publisher": "ShapeDiver",
+  "date": "n/a",
+  "flags": [
+   "vendor-docs",
+   "third-party-to-Rhino"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://help.shapediver.com/doc/inputs-and-outputs",
+  "title": "Inputs and outputs",
+  "publisher": "ShapeDiver",
+  "date": "n/a",
+  "flags": [
+   "vendor-docs",
+   "third-party-to-Rhino"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://help.shapediver.com/doc/credits",
+  "title": "Credits",
+  "publisher": "ShapeDiver",
+  "date": "n/a",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://help.shapediver.com/doc/shapediver-app-builder",
+  "title": "ShapeDiver App Builder",
+  "publisher": "ShapeDiver",
+  "date": "n/a",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://help.shapediver.com/doc/build-apps-in-grasshopper",
+  "title": "Build apps in Grasshopper",
+  "publisher": "ShapeDiver",
+  "date": "n/a",
+  "flags": [
+   "vendor-docs",
+   "early-feature"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://shapediver.com/blog/what-we-got-wrong-about-shapediver-s-free-planand-how-we-fixed-it",
+  "title": "What we got wrong about ShapeDiver's free plan",
+  "publisher": "ShapeDiver blog",
+  "date": "2025-07-23",
+  "flags": [
+   "vendor-blog"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.sidefx.com/docs/houdini/assets/index.html",
+  "title": "Digital assets (index)",
+  "publisher": "SideFX",
+  "date": "current docs",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.sidefx.com/docs/houdini/assets/intro.html",
+  "title": "Introduction to digital assets",
+  "publisher": "SideFX",
+  "date": "current docs",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.sidefx.com/docs/houdini/assets/edit.html",
+  "title": "Editing digital assets",
+  "publisher": "SideFX",
+  "date": "current docs",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.sidefx.com/docs/houdini/assets/asset_ui.html",
+  "title": "Edit an asset's user interface",
+  "publisher": "SideFX",
+  "date": "current docs",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.sidefx.com/docs/houdini/ref/windows/optype.html",
+  "title": "Type properties window",
+  "publisher": "SideFX",
+  "date": "current docs",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.sidefx.com/docs/houdini/ref/windows/edit_parameter_interface.html",
+  "title": "Edit Parameter Interface window",
+  "publisher": "SideFX",
+  "date": "current docs",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.sidefx.com/docs/houdini/network/parms.html",
+  "title": "Parameters (presets, defaults, editor)",
+  "publisher": "SideFX",
+  "date": "current docs",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.sidefx.com/docs/houdini/hom/state_handles.html",
+  "title": "Python viewer state handles",
+  "publisher": "SideFX",
+  "date": "current docs",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.sidefx.com/docs/houdini/hom/python_states.html",
+  "title": "Python viewer states",
+  "publisher": "SideFX",
+  "date": "current docs",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.sidefx.com/forum/topic/11489/",
+  "title": "RFE : HDA folder switching",
+  "publisher": "SideFX Forum",
+  "date": "2008-03-11 to 2008-06-25",
+  "flags": [
+   "forum",
+   "old:2008"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.sidefx.com/products/houdini-engine/",
+  "title": "Houdini Engine",
+  "publisher": "SideFX",
+  "date": "current",
+  "flags": [
+   "vendor-marketing"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.sidefx.com/docs/houdini/unreal/index.html",
+  "title": "Houdini Engine for Unreal (index)",
+  "publisher": "SideFX",
+  "date": "current docs",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.sidefx.com/docs/houdini/unreal/intro.html",
+  "title": "Houdini Engine for Unreal: introduction",
+  "publisher": "SideFX",
+  "date": "current docs (UE5.8/5.7)",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.sidefx.com/docs/houdini/unreal/assets.html",
+  "title": "Houdini Engine for Unreal: assets",
+  "publisher": "SideFX",
+  "date": "current docs",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.sidefx.com/docs/houdini/unreal/parameters.html",
+  "title": "Houdini Engine for Unreal: parameters",
+  "publisher": "SideFX",
+  "date": "current docs",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.sidefx.com/docs/houdini/unreal/handles.html",
+  "title": "Houdini Engine for Unreal: handles",
+  "publisher": "SideFX",
+  "date": "current docs",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.sidefx.com/docs/houdini/unreal/outputs.html",
+  "title": "Houdini Engine for Unreal: outputs",
+  "publisher": "SideFX",
+  "date": "current docs",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.sidefx.com/docs/houdini/unreal/instancing.html",
+  "title": "Houdini Engine for Unreal: instancing",
+  "publisher": "SideFX",
+  "date": "current docs",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.sidefx.com/docs/maya/index.html",
+  "title": "Houdini Engine for Maya (index)",
+  "publisher": "SideFX",
+  "date": "current docs",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.sidefx.com/docs/maya/parameters.html",
+  "title": "Houdini Engine for Maya: parameters",
+  "publisher": "SideFX",
+  "date": "current docs",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.sidefx.com/docs/maya/bake.html",
+  "title": "Houdini Engine for Maya: bake",
+  "publisher": "SideFX",
+  "date": "current docs",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.sidefx.com/docs/unity/index.html",
+  "title": "Houdini Engine for Unity (index)",
+  "publisher": "SideFX",
+  "date": "Houdini 22.0 docs",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.sidefx.com/docs/unity/parameters.html",
+  "title": "Houdini Engine for Unity: parameters",
+  "publisher": "SideFX",
+  "date": "current docs",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.sidefx.com/docs/unity/handles.html",
+  "title": "Houdini Engine for Unity: handles",
+  "publisher": "SideFX",
+  "date": "current docs",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.blender.org/manual/en/latest/interface/controls/nodes/groups.html",
+  "title": "Node Groups",
+  "publisher": "Blender Foundation",
+  "date": "5.2 LTS manual",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.blender.org/manual/en/latest/modeling/modifiers/geometry_nodes.html",
+  "title": "Geometry Nodes Modifier",
+  "publisher": "Blender Foundation",
+  "date": "5.2 LTS manual",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/gizmos.html",
+  "title": "Gizmos",
+  "publisher": "Blender Foundation",
+  "date": "5.2 LTS manual",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/performance.html",
+  "title": "Geometry Nodes Performance",
+  "publisher": "Blender Foundation",
+  "date": "5.2 LTS manual",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/instances.html",
+  "title": "Instances",
+  "publisher": "Blender Foundation",
+  "date": "5.2 LTS manual",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/baking.html",
+  "title": "Baking",
+  "publisher": "Blender Foundation",
+  "date": "5.2 LTS manual",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/tools.html",
+  "title": "Node-Based Tools",
+  "publisher": "Blender Foundation",
+  "date": "5.2 LTS manual",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.blender.org/manual/en/latest/modeling/modifiers/introduction.html",
+  "title": "Modifiers introduction (Apply)",
+  "publisher": "Blender Foundation",
+  "date": "5.2 LTS manual",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.blender.org/manual/en/latest/editors/asset_browser.html",
+  "title": "Asset Browser",
+  "publisher": "Blender Foundation",
+  "date": "5.2 LTS manual",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.blender.org/manual/en/latest/files/asset_libraries/introduction.html",
+  "title": "Asset libraries introduction",
+  "publisher": "Blender Foundation",
+  "date": "5.2 LTS manual",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://developer.blender.org/docs/release_notes/4.1/nodes_physics/",
+  "title": "Blender 4.1 release notes: nodes and physics",
+  "publisher": "Blender Foundation",
+  "date": "2024",
+  "flags": [
+   "release-notes"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://developer.blender.org/docs/release_notes/4.2/geometry_nodes/",
+  "title": "Blender 4.2 release notes: geometry nodes",
+  "publisher": "Blender Foundation",
+  "date": "2024",
+  "flags": [
+   "release-notes"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://developer.blender.org/docs/release_notes/4.3/geometry_nodes/",
+  "title": "Blender 4.3 release notes: geometry nodes",
+  "publisher": "Blender Foundation",
+  "date": "2024",
+  "flags": [
+   "release-notes"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://developer.blender.org/docs/release_notes/4.4/geometry_nodes/",
+  "title": "Blender 4.4 release notes: geometry nodes",
+  "publisher": "Blender Foundation",
+  "date": "2025",
+  "flags": [
+   "release-notes"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://developer.blender.org/docs/release_notes/4.4/user_interface/",
+  "title": "Blender 4.4 release notes: user interface",
+  "publisher": "Blender Foundation",
+  "date": "2025",
+  "flags": [
+   "release-notes"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://developer.blender.org/docs/release_notes/4.5/geometry_nodes/",
+  "title": "Blender 4.5 release notes: geometry nodes",
+  "publisher": "Blender Foundation",
+  "date": "2025",
+  "flags": [
+   "release-notes"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://developer.blender.org/docs/release_notes/4.5/user_interface/",
+  "title": "Blender 4.5 release notes: user interface",
+  "publisher": "Blender Foundation",
+  "date": "2025",
+  "flags": [
+   "release-notes"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://developer.blender.org/docs/release_notes/5.0/geometry_nodes/",
+  "title": "Blender 5.0 release notes: geometry nodes",
+  "publisher": "Blender Foundation",
+  "date": "2025",
+  "flags": [
+   "release-notes"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://developer.blender.org/docs/release_notes/5.2/python_api/",
+  "title": "Blender 5.2 release notes: Python API",
+  "publisher": "Blender Foundation",
+  "date": "2026",
+  "flags": [
+   "release-notes"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://blenderartists.org/t/how-can-i-detect-that-a-gn-modifier-input-is-hidden-due-to-a-menu-switch-inside/1615122",
+  "title": "How can I detect that a GN modifier input is hidden due to a menu switch inside?",
+  "publisher": "Blender Artists",
+  "date": "2025-10-14 to 2026-09-12",
+  "flags": [
+   "forum",
+   "third-party"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://blenderartists.org/t/geometry-nodes-slowing-down-blender/1377460",
+  "title": "Geometry Nodes Slowing Down Blender",
+  "publisher": "Blender Artists",
+  "date": "2022-05-02 to 2022-06-25",
+  "flags": [
+   "forum",
+   "third-party"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/metadata-specifiers-in-unreal-engine",
+  "title": "Metadata specifiers",
+  "publisher": "Epic Games",
+  "date": "UE 5.x docs",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://unreal-garden.com/docs/uproperty/",
+  "title": "UPROPERTY specifiers",
+  "publisher": "Unreal Garden (benui)",
+  "date": "2024-11-24",
+  "flags": [
+   "third-party"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://dev.epicgames.com/documentation/unreal-engine/details-panel-quickstart-guide-for-unreal-engine",
+  "title": "Details panel quickstart guide",
+  "publisher": "Epic Games",
+  "date": "UE 5.x docs",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://unrealcommunity.wiki/customizing-detail-panels-g529msrd",
+  "title": "Customizing Detail Panels",
+  "publisher": "Unreal Community Wiki",
+  "date": "about 2021 (\"Updated almost 5 years ago\")",
+  "flags": [
+   "third-party",
+   "old:~2021",
+   "legacy"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/editor-utility-widgets-in-unreal-engine",
+  "title": "Editor Utility Widgets",
+  "publisher": "Epic Games",
+  "date": "UE docs (feature marked Beta)",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/widget-blueprints-in-umg-for-unreal-engine",
+  "title": "Widget Blueprints in UMG",
+  "publisher": "Epic Games",
+  "date": "UE docs",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/construction-script-in-unreal-engine",
+  "title": "Construction Script",
+  "publisher": "Epic Games",
+  "date": "UE docs",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://forums.unrealengine.com/t/feature-request-configurable-construction-script-preview-update-rate-throttling/2739648",
+  "title": "Feature Request: Configurable Construction Script Preview Update Rate / Throttling",
+  "publisher": "Epic Developer Community Forums",
+  "date": "2026-07-30",
+  "flags": [
+   "forum",
+   "third-party"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://forums.unrealengine.com/t/348530",
+  "title": "\"Run Construction Script on Drag\" with \"Show 3D Widget\"",
+  "publisher": "Epic Developer Community Forums",
+  "date": "2016-02-24",
+  "flags": [
+   "forum",
+   "old:2016"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/procedural-content-generation-framework-in-unreal-engine",
+  "title": "Procedural Content Generation Framework",
+  "publisher": "Epic Games",
+  "date": "UE docs",
+  "flags": [
+   "vendor-docs",
+   "landing-page"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/python-api/class/PCGComponentGenerationTrigger",
+  "title": "PCGComponentGenerationTrigger (Python API)",
+  "publisher": "Epic Games",
+  "date": "UE 5.x API",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/API/Plugins/PCG/UPCGComponent",
+  "title": "UPCGComponent (C++ API)",
+  "publisher": "Epic Games",
+  "date": "UE 5.x API",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/pcg-editor-mode-in-unreal-engine",
+  "title": "PCG Editor Mode",
+  "publisher": "Epic Games",
+  "date": "UE 5.7-era docs (Experimental)",
+  "flags": [
+   "vendor-docs",
+   "experimental"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://app-help.vectorworks.net/2026/eng/VW2026_Guide/Marionette/Using%20object_nodes.htm",
+  "title": "Using object nodes (Vectorworks 2026)",
+  "publisher": "Vectorworks",
+  "date": "2026 guide",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://app-help.vectorworks.net/2026/eng/VW2026_Guide/Marionette/Editing_Marionette_objects.htm",
+  "title": "Editing Marionette objects (Vectorworks 2026)",
+  "publisher": "Vectorworks",
+  "date": "2026 guide",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://app-help.vectorworks.net/2023/eng/VW2023_Guide/Marionette/Marionette_object_properties.htm",
+  "title": "Marionette object properties (Vectorworks 2023)",
+  "publisher": "Vectorworks",
+  "date": "2023 guide",
+  "flags": [
+   "vendor-docs"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://app-help.vectorworks.net/2017/eng/VW2017_Guide/Marionette/Marionette_Networks.htm",
+  "title": "Marionette Networks: naming nodes (Vectorworks 2017)",
+  "publisher": "Vectorworks",
+  "date": "2017 guide",
+  "flags": [
+   "vendor-docs",
+   "old:2017"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://app-help.vectorworks.net/2017/eng/VW2017_Guide/Marionette/Marionette_Wrapper_Nodes.htm",
+  "title": "Marionette Wrapper Nodes (Vectorworks 2017)",
+  "publisher": "Vectorworks",
+  "date": "2017 guide",
+  "flags": [
+   "vendor-docs",
+   "old:2017"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://app-help.vectorworks.net/2017/eng/VW2017_Guide/Marionette/Step_5_Create_a_Marionette_Object.htm",
+  "title": "Step 5: Create a Marionette Object (Vectorworks 2017)",
+  "publisher": "Vectorworks",
+  "date": "2017 guide",
+  "flags": [
+   "vendor-docs",
+   "old:2017"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://aecbytes.com/tipsandtricks/2017/issue78-marionette.html",
+  "title": "The Many Marvels of Marionette and How to Make the Most of It",
+  "publisher": "AECbytes (Alan Woodwell)",
+  "date": "2017-07-25",
+  "flags": [
+   "third-party",
+   "old:2017"
+  ],
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://help.autodesk.com/cloudhelp/2023/ENU/Revit-GetStarted/files/GUID-7AEC5D66-C2E0-40E2-9504-3CC13781B87A.htm",
+  "title": "Families - Essential Skill (Revit 2023 help)",
+  "publisher": "Autodesk",
+  "date": "2022",
+  "flags": "official",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://help.autodesk.com/cloudhelp/2016/ENU/Revit-Model/files/GUID-403FFEAE-BFF6-464D-BAC2-85BF3DAB3BA2.htm",
+  "title": "About the Different Kinds of Families (Revit 2016 help)",
+  "publisher": "Autodesk",
+  "date": "2015",
+  "flags": "official; old (about 2015)",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://help.autodesk.com/cloudhelp/2024/ENU/Revit-Customize/files/GUID-921F7A15-D191-4F75-8243-4989C482E253.htm",
+  "title": "Create Family Parameters (Revit 2024 help)",
+  "publisher": "Autodesk",
+  "date": "2023",
+  "flags": "official",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://help.autodesk.com/cloudhelp/2024/ENU/Revit-Customize/files/GUID-24CB6E69-9C0F-4222-B079-6D98B9B78627.htm",
+  "title": "Create Instance Parameters (Revit 2024 help)",
+  "publisher": "Autodesk",
+  "date": "2023",
+  "flags": "official",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://help.autodesk.com/cloudhelp/2014/ENU/Revit/files/GUID-EEC4A03D-1EE8-49C0-8390-91C0BF649AE4.htm",
+  "title": "Using Formulas in the Family Editor (Revit 2014 help)",
+  "publisher": "Autodesk",
+  "date": "2013",
+  "flags": "official; old (about 2013)",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://help.autodesk.com/cloudhelp/2024/ENU/Revit-Customize/files/GUID-C30A7EFC-3030-4E9D-A305-C66B50E1DF75.htm",
+  "title": "Add Shape Handles to a Loadable Family (Revit 2024 help)",
+  "publisher": "Autodesk",
+  "date": "2023",
+  "flags": "official",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://help.autodesk.com/cloudhelp/2024/ENU/Revit-Customize/files/GUID-4AF18AA1-E16F-46A6-81B9-3CA1E8094F46.htm",
+  "title": "Add a Flip Control to a Family (Revit 2024 help)",
+  "publisher": "Autodesk",
+  "date": "2023",
+  "flags": "official",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://help.autodesk.com/cloudhelp/2024/ENU/Revit-Customize/files/GUID-253B2300-35C2-4024-AB70-43E576CEA49C.htm",
+  "title": "Family Editor Tools (Revit 2024 help)",
+  "publisher": "Autodesk",
+  "date": "2023",
+  "flags": "official",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://help.autodesk.com/cloudhelp/2023/ENU/Revit-Model/files/GUID-E7D12B71-C50D-46D8-886B-8E0C2B285988.htm",
+  "title": "Shared Parameters (Revit 2023 help)",
+  "publisher": "Autodesk",
+  "date": "2022",
+  "flags": "official",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://help.autodesk.com/cloudhelp/2025/ENU/Revit-Customize/files/GUID-18097131-E15B-4AAD-9414-505656EF8D7C.htm",
+  "title": "Flex the Family Framework (Revit 2025 help)",
+  "publisher": "Autodesk",
+  "date": "2024",
+  "flags": "official",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://novedge.com/blogs/design-news/revit-tip-revit-reference-plane-best-practices",
+  "title": "Revit Tip: Revit Reference Plane Best Practices",
+  "publisher": "NOVEDGE",
+  "date": "2026-04-23",
+  "flags": "third party; reseller blog",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://help.autodesk.com/cloudhelp/2026/ENU/Revit-HaveYouTried/files/GUID-E8205058-9CA4-4CFF-95F5-A6AA1CDA7346.htm",
+  "title": "Dynamo Player (Revit 2026 help)",
+  "publisher": "Autodesk",
+  "date": "2025",
+  "flags": "official",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://primer2.dynamobim.org/dynamo-in-forma-beta/run-graphs-in-dynamo-player",
+  "title": "Run graphs in Dynamo Player (Dynamo Primer, Forma)",
+  "publisher": "Dynamo / Autodesk",
+  "date": "undated",
+  "flags": "official; Forma host, not Revit",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://help.autodesk.com/cloudhelp/2022/ENU/Alias-NURBS-Modeling/files/Generate-designs-with-Dynamo/Alias-Dynamo-Player/GUID-7C9864A5-5738-44F2-A455-F989863043F9.html",
+  "title": "Customize scripts for Dynamo Player (Alias 2022 help)",
+  "publisher": "Autodesk",
+  "date": "2021",
+  "flags": "official; Alias host, not Revit",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://forum.dynamobim.com/t/dynamo-player-input-order/13471",
+  "title": "Dynamo Player Input Order",
+  "publisher": "Dynamo forum",
+  "date": "2017-07-26",
+  "flags": "forum; user posts; read via Discourse JSON",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://forum.dynamobim.com/t/dynamo-player-order-of-inputs/49118",
+  "title": "Dynamo Player - order of inputs",
+  "publisher": "Dynamo forum",
+  "date": "2020-04-09",
+  "flags": "forum; read via Discourse JSON",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://forum.dynamobim.com/t/input-order-for-dynamo-player-2024-civil-3d/99923",
+  "title": "Input Order for Dynamo Player (2024 Civil 3D)",
+  "publisher": "Dynamo forum",
+  "date": "2024-04-10",
+  "flags": "forum; includes Autodesk staff reply; read via Discourse JSON",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://forum.dynamobim.com/t/selecting-excel-worksheet-to-use-in-dynamo-player/102362",
+  "title": "Selecting Excel Worksheet to use in Dynamo Player",
+  "publisher": "Dynamo forum",
+  "date": "2024-07-01",
+  "flags": "forum; read via Discourse JSON",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://forum.dynamobim.com/t/revit-2024-2-dynamo-2-19-inputs-not-showing-in-player/95556",
+  "title": "Revit 2024.2 / Dynamo 2.19 - Inputs not showing in Player",
+  "publisher": "Dynamo forum",
+  "date": "2023-11-16",
+  "flags": "forum; read via Discourse JSON",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://forum.dynamobim.com/t/dynamo-player-in-revit-2023-show-necessity-of-input/88689",
+  "title": "Dynamo Player in Revit 2023 - Show necessity of input",
+  "publisher": "Dynamo forum",
+  "date": "2023-04-19",
+  "flags": "forum; read via Discourse JSON",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://forum.dynamobim.com/search.json?q=dynamo%20player%20input%20order",
+  "title": "Dynamo forum search: player input order",
+  "publisher": "Dynamo forum",
+  "date": "2026-11-01",
+  "flags": "forum search API; used to count threads",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://gdl.graphisoft.com/reference-guide/the-user-interface-script",
+  "title": "The User Interface Script (GDL Reference Guide)",
+  "publisher": "Graphisoft",
+  "date": "undated",
+  "flags": "official",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://gdl.graphisoft.com/gdl-basics/graphical-ui/",
+  "title": "13. Graphical User Interface (GDL Basics)",
+  "publisher": "Graphisoft",
+  "date": "undated",
+  "flags": "official",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://gdl.graphisoft.com/gdl-basics/parameter-logic/",
+  "title": "09. Parameter logic (GDL Basics)",
+  "publisher": "Graphisoft",
+  "date": "undated",
+  "flags": "official",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://gdl.graphisoft.com/gdl-basics/hotspots-graphical-editing",
+  "title": "12. Hotspots, graphical editing (GDL Basics)",
+  "publisher": "Graphisoft",
+  "date": "undated",
+  "flags": "official",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://gdl.graphisoft.com/new-features-guide/new-gdl-features-in-archicad-29/",
+  "title": "New GDL Features in Archicad 29",
+  "publisher": "Graphisoft",
+  "date": "2025",
+  "flags": "official",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://shoegnome.com/2011/08/28/adventures-in-gdl",
+  "title": "Adventures in GDL (guest post)",
+  "publisher": "Shoegnome",
+  "date": "2011-08-28",
+  "flags": "third party; old (2011)",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://help.graphisoft.com/AC/27/INT/_AC27_Help/065_PARAM-O/065_PARAM-O-1.htm",
+  "title": "PARAM-O Reference Guide (Archicad 27 help)",
+  "publisher": "Graphisoft",
+  "date": "2023",
+  "flags": "official",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://help.graphisoft.com/AC/27/INT/_AC27_Help/065_PARAM-O/065_PARAM-O-5.htm",
+  "title": "PARAM-O Editor (Archicad 27 help)",
+  "publisher": "Graphisoft",
+  "date": "2023",
+  "flags": "official",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://help.graphisoft.com/AC/27/INT/_AC27_Help/065_PARAM-O/065_PARAM-O-7.htm",
+  "title": "Making an Object Parametric (PARAM-O, Archicad 27 help)",
+  "publisher": "Graphisoft",
+  "date": "2023",
+  "flags": "official",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://help.graphisoft.com/AC/29/INT/_AC29_Help/046_LibraryPartMaker/046_LibraryPartMaker-1.htm",
+  "title": "Library Part Maker (Archicad 29 help)",
+  "publisher": "Graphisoft",
+  "date": "2025",
+  "flags": "official",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.mynewsdesk.com/graphisoft/pressreleases/architects-and-engineers-can-now-create-building-component-libraries-parametrically-with-new-built-in-parametric-object-design-tool-for-archicad-dot-dot-dot-3083614",
+  "title": "PARAM-O release press release",
+  "publisher": "Graphisoft",
+  "date": "2021-03-22",
+  "flags": "official; press release",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://help.sketchup.com/en/sketchup/adding-attributes",
+  "title": "Adding Attributes",
+  "publisher": "Trimble SketchUp",
+  "date": "2026-09-29",
+  "flags": "official",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://help.sketchup.com/hu/sketchup/defining-attribute-values",
+  "title": "Defining Attribute Values",
+  "publisher": "Trimble SketchUp",
+  "date": "2026-09-29",
+  "flags": "official; Hungarian locale URL, English text",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://help.sketchup.com/en/sketchup/dynamic-components-sketchup-function-examples",
+  "title": "Dynamic Components SketchUp function examples",
+  "publisher": "Trimble SketchUp",
+  "date": "2026-09-29",
+  "flags": "official",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://help.sketchup.com/en/sketchup/interacting-dynamic-components",
+  "title": "Interacting with Dynamic Components",
+  "publisher": "Trimble SketchUp",
+  "date": "2026-09-29",
+  "flags": "official",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://help.sketchup.com/sketchup/hiding-scale-handles-dynamic-component",
+  "title": "Hiding scale handles on a Dynamic Component",
+  "publisher": "Trimble SketchUp",
+  "date": "2026-09-29",
+  "flags": "official",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://help.sketchup.com/en/sketchup/constraining-attributes-dynamic-component",
+  "title": "Constraining Attributes of a Dynamic Component",
+  "publisher": "Trimble SketchUp",
+  "date": "2026-09-29",
+  "flags": "official",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://help.sketchup.com/en/sketchup-live-components/frequently-asked-questions",
+  "title": "Live Components FAQ",
+  "publisher": "Trimble SketchUp",
+  "date": "2026-09-29",
+  "flags": "official",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://forums.sketchup.com/t/30-second-lag-when-updating-a-formula-in-a-dc-why/100838",
+  "title": "30 second lag when updating a formula in a DC? WHY?!",
+  "publisher": "SketchUp forum",
+  "date": "2019-08-12",
+  "flags": "forum; read via Discourse JSON",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://forums.sketchup.com/t/errors-referencing-custom-atributes/53067",
+  "title": "Errors referencing custom atributes",
+  "publisher": "SketchUp forum",
+  "date": "2017-10-11",
+  "flags": "forum; read via Discourse JSON",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://forums.sketchup.com/t/dynamic-component-error-automatic-re-scaling/122582",
+  "title": "Dynamic Component Error - Automatic re-scaling",
+  "publisher": "SketchUp forum",
+  "date": "2020-04-20",
+  "flags": "forum; read via Discourse JSON",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://forums.sketchup.com/t/live-components-news-updates/175309",
+  "title": "Live Components - News & Updates",
+  "publisher": "SketchUp forum",
+  "date": "2021-09-13",
+  "flags": "forum; quoted post dated 2022-04-27; read via Discourse JSON",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://forums.sketchup.com/t/is-trimble-creator-active/317454",
+  "title": "Is Trimble Creator active?",
+  "publisher": "SketchUp forum",
+  "date": "2025-03-04",
+  "flags": "forum; read via Discourse JSON",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://help.autodesk.com/cloudhelp/ENU/Fusion-Model/files/SLD-MODIFY-PARAMETERS.htm",
+  "title": "Parameters in Fusion",
+  "publisher": "Autodesk",
+  "date": "undated (current)",
+  "flags": "official",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://help.autodesk.com/cloudhelp/ENU/Fusion-Model/files/SLD-MODIFY-CHANGE-PARAMETERS.htm",
+  "title": "Create or edit parameters (Fusion)",
+  "publisher": "Autodesk",
+  "date": "undated (current)",
+  "flags": "official",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://help.autodesk.com/cloudhelp/ENU/Fusion-Configurations/files/CFG-CONFIGURATIONS.htm",
+  "title": "Configuration Table (Fusion)",
+  "publisher": "Autodesk",
+  "date": "undated (current)",
+  "flags": "official",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://help.autodesk.com/cloudhelp/ENU/Fusion-Configurations/files/CFG-OVERVIEW.htm",
+  "title": "Configurations overview (Fusion)",
+  "publisher": "Autodesk",
+  "date": "undated (current)",
+  "flags": "official",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://help.figma.com/hc/en-us/articles/5579474826519-Explore-component-properties",
+  "title": "Explore component properties",
+  "publisher": "Figma",
+  "date": "undated (mentions March 2026)",
+  "flags": "official",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://forum.figma.com/ask-the-community-7/unable-to-reorder-boolean-and-variant-properties-49701",
+  "title": "Unable to reorder boolean and variant properties",
+  "publisher": "Figma forum",
+  "date": "2026-01-15",
+  "flags": "forum; answer from Figma Community Support 2026-04-10",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://help.figma.com/hc/en-us/articles/360040451373-Guide-to-auto-layout",
+  "title": "Guide to auto layout in Figma",
+  "publisher": "Figma",
+  "date": "undated",
+  "flags": "official",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://help.shapediver.com/doc/parameter-settings",
+  "title": "Parameter settings",
+  "publisher": "ShapeDiver",
+  "date": "undated",
+  "flags": "official",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://help.shapediver.com/doc/app-builder-release-notes",
+  "title": "App Builder Release Notes (pointer)",
+  "publisher": "ShapeDiver",
+  "date": "undated",
+  "flags": "official",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/shapediver/AppBuilderSdk/releases",
+  "title": "AppBuilderSdk releases",
+  "publisher": "ShapeDiver (GitHub)",
+  "date": "2026 (year not shown on page)",
+  "flags": "official; source releases",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://discourse.mcneel.com/t/shapediver-whats-the-logic-behind-sliders-order/84336",
+  "title": "ShapeDiver: What's the logic behind sliders' order?",
+  "publisher": "McNeel forum",
+  "date": "2019-06-05",
+  "flags": "forum; includes ShapeDiver staff replies; read via Discourse JSON",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://discourse.mcneel.com/t/pros-cons-shapediver-speckle-packhunt-viktor/195738",
+  "title": "Pros & cons Shapediver / Speckle / Packhunt / Viktor",
+  "publisher": "McNeel forum",
+  "date": "2024-11-29",
+  "flags": "forum; third party plus vendor posts; read via Discourse JSON",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/hypar-io/HyparSpace/blob/master/LayoutFunctions/OpenOfficeLayout/hypar.json",
+  "title": "OpenOfficeLayout hypar.json",
+  "publisher": "Hypar (GitHub)",
+  "date": "undated",
+  "flags": "source code; read via raw.githubusercontent.com",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://github.com/hypar-io/HyparSpace/tree/master/LayoutFunctions",
+  "title": "HyparSpace LayoutFunctions folder",
+  "publisher": "Hypar (GitHub)",
+  "date": "undated",
+  "flags": "source code",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://hypar.io/Schemas/Function.json",
+  "title": "Hypar Function schema",
+  "publisher": "Hypar",
+  "date": "undated",
+  "flags": "official schema file",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://hypar.io/Schemas/InputSchemaProperty.json",
+  "title": "Hypar Function Input schema meta-schema",
+  "publisher": "Hypar",
+  "date": "undated",
+  "flags": "official schema file; measured keyword counts",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://hypar.io/",
+  "title": "Hypar home page",
+  "publisher": "Hypar",
+  "date": "2026",
+  "flags": "official; page shows only title text",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.vizcom.com/styles-overview",
+  "title": "Styles overview",
+  "publisher": "Vizcom",
+  "date": "undated",
+  "flags": "official",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.vizcom.com/drawing-influence",
+  "title": "Drawing Influence (Legacy)",
+  "publisher": "Vizcom",
+  "date": "undated",
+  "flags": "official; page body empty, title only",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://cad.onshape.com/help/Content/configurations.htm",
+  "title": "Configurations",
+  "publisher": "Onshape (PTC)",
+  "date": "undated (current)",
+  "flags": "official",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://cad.onshape.com/help/Content/PartStudio/visibility_conditions.htm",
+  "title": "Visibility conditions",
+  "publisher": "Onshape (PTC)",
+  "date": "undated (current)",
+  "flags": "official",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.retool.com/classic-apps/concepts/ide",
+  "title": "Classic app IDE",
+  "publisher": "Retool",
+  "date": "undated (current)",
+  "flags": "official",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.retool.com/classic-apps/guides/layout-structure/",
+  "title": "Layout and structure (classic apps)",
+  "publisher": "Retool",
+  "date": "undated (current)",
+  "flags": "official",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://docs.retool.com/llms.txt",
+  "title": "Retool docs index",
+  "publisher": "Retool",
+  "date": "2026-11-01",
+  "flags": "official; used to find pages",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://doc.qt.io/qt-6/designer-layouts.html",
+  "title": "Using Layouts in Qt Widgets Designer",
+  "publisher": "The Qt Company",
+  "date": "Qt 6.12 docs",
+  "flags": "official",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://doc.qt.io/qt-6/designer-widget-mode.html",
+  "title": "Qt Widgets Designer's Widget Editing Mode",
+  "publisher": "The Qt Company",
+  "date": "Qt 6.12 docs",
+  "flags": "official",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://learn.microsoft.com/en-us/visualstudio/xaml-tools/creating-a-ui-by-using-xaml-designer-in-visual-studio",
+  "title": "Create UIs with Visual Studio XAML Designer",
+  "publisher": "Microsoft",
+  "date": "2026-02-24",
+  "flags": "official",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://forums.autodesk.com/t5/revit-ideas/formula-text-editor-window/idi-p/13785405",
+  "title": "Revit Ideas: Formula Text Editor Window",
+  "publisher": "Autodesk forums",
+  "date": "unknown",
+  "flags": "not verified (HTTP 403)",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://forums.autodesk.com/t5/revit-ideas/dynamo-player-edit-input/idi-p/8612565",
+  "title": "Revit Ideas: Dynamo Player edit input",
+  "publisher": "Autodesk forums",
+  "date": "unknown",
+  "flags": "not verified (HTTP 403)",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.autodesk.com/blogs/aec/2018/03/01/using-inputs-in-the-dynamo-player/",
+  "title": "Do more with Inputs in Dynamo and the Dynamo Player",
+  "publisher": "Autodesk",
+  "date": "2018-03-01",
+  "flags": "not verified (HTTP 403)",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://community.graphisoft.com/t5/Wishlist/Easier-Parametric-Object-Creation/idi-p/359249",
+  "title": "Easier Parametric Object Creation (wish)",
+  "publisher": "Graphisoft community",
+  "date": "unknown",
+  "flags": "not verified (HTTP 403)",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://community.graphisoft.com/t5/Design-articles/Create-Custom-Objects-on-Windows-and-macOS-with-PARAM-O/ta-p/304129",
+  "title": "Create Custom Objects with PARAM-O",
+  "publisher": "Graphisoft community",
+  "date": "unknown",
+  "flags": "not verified (HTTP 403)",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://forums.augi.com/archive/index.php/t-176449.html",
+  "title": "AUGI thread on Constraints are not satisfied",
+  "publisher": "AUGI",
+  "date": "unknown",
+  "flags": "not verified (HTTP 403)",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://www.autodesk.com/products/fusion-360/blog/how-to-use-configurations-autodesk-fusion-faq/",
+  "title": "How To Use Configurations in Autodesk Fusion FAQ",
+  "publisher": "Autodesk",
+  "date": "unknown",
+  "flags": "not verified (HTTP 403)",
+  "read": "2026-11-01"
+ },
+ {
+  "url": "https://prod-aws-help.sketchup.com/article/114559",
+  "title": "Constraining attributes (prod-aws mirror)",
+  "publisher": "Trimble SketchUp",
+  "date": "unknown",
+  "flags": "not verified (host not allowed); official page used instead",
+  "read": "2026-11-01"
+ }
+]
