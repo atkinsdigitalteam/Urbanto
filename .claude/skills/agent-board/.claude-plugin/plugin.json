@@ -1,0 +1,6 @@
+{
+  "name": "agent-board",
+  "version": "0.1.0",
+  "description": "A live side panel of every helper agent: its role, its progress and what it is doing right now. Uses no model calls.",
+  "types": "./types/index.d.ts"
+}
