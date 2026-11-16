@@ -1,0 +1,18 @@
+file: 2000 rows x 10 cols, 96 KiB
+  OpenXml DOM (Worksheet.Descendants<Cell>)          median     173 ms  (min 130, max 285)  cells=20010
+  OpenXml SAX (OpenXmlReader)                        median     101 ms  (min 40, max 118)  cells=20010
+  ClosedXML (load workbook, enumerate used cells)    median     142 ms  (min 111, max 198)  cells=20010
+  ExcelDataReader (stream rows)                      median      28 ms  (min 25, max 32)  cells=20010
+  MiniExcel (Query, stream rows)                     median     134 ms  (min 87, max 228)  cells=20010
+file: 20000 rows x 10 cols, 959 KiB
+  OpenXml DOM (Worksheet.Descendants<Cell>)          median     583 ms  (min 281, max 659)  cells=200010
+  OpenXml SAX (OpenXmlReader)                        median     247 ms  (min 225, max 264)  cells=200010
+  ClosedXML (load workbook, enumerate used cells)    median     826 ms  (min 702, max 1017)  cells=200010
+  ExcelDataReader (stream rows)                      median     178 ms  (min 161, max 211)  cells=200010
+  MiniExcel (Query, stream rows)                     median     449 ms  (min 404, max 626)  cells=200010
+file: 100000 rows x 10 cols, 4825 KiB
+  OpenXml DOM (Worksheet.Descendants<Cell>)          median    5384 ms  (min 4518, max 6154)  cells=1000010
+  OpenXml SAX (OpenXmlReader)                        median    1297 ms  (min 1117, max 1456)  cells=1000010
+  ClosedXML (load workbook, enumerate used cells)    median    4404 ms  (min 3767, max 5678)  cells=1000010
+  ExcelDataReader (stream rows)                      median     972 ms  (min 737, max 1105)  cells=1000010
+  MiniExcel (Query, stream rows)                     median    2178 ms  (min 2121, max 2242)  cells=1000010

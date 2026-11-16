@@ -1,0 +1,247 @@
+ezdxf 1.4.5
+
+samples/01-minimum-ezdxf-R2000.dxf
+  readfile        : ok
+  audit errors    : 0  none
+  audit fixes     : 0  none
+  readfile log    : none
+  recover errors  : 0  none
+  recover fixes   : 0  none
+
+samples/02-lwpolyline-bulges.dxf
+  readfile        : ok
+  audit errors    : 0  none
+  audit fixes     : 0  none
+  readfile log    : none
+  recover errors  : 0  none
+  recover fixes   : 0  none
+
+samples/03-hatch.dxf
+  readfile        : ok
+  audit errors    : 0  none
+  audit fixes     : 0  none
+  readfile log    : none
+  recover errors  : 0  none
+  recover fixes   : 0  none
+
+samples/04-dimensions.dxf
+  readfile        : ok
+  audit errors    : 0  none
+  audit fixes     : 0  none
+  readfile log    : none
+  recover errors  : 0  none
+  recover fixes   : 0  none
+
+samples/04b-dimension-without-block.dxf
+  readfile        : ok
+  audit errors    : 0  none
+  audit fixes     : 1  103: Removed DIMENSION(#30) without valid geometry block.
+  readfile log    : none
+  recover errors  : 0  none
+  recover fixes   : 1  103: Removed DIMENSION(#30) without valid geometry block.
+
+samples/05a-arabic-ansi1256.dxf
+  readfile        : ok
+  audit errors    : 0  none
+  audit fixes     : 0  none
+  readfile log    : none
+  recover errors  : 0  none
+  recover fixes   : 0  none
+
+samples/05b-arabic-ansi1252-uplus.dxf
+  readfile        : ok
+  audit errors    : 0  none
+  audit fixes     : 0  none
+  readfile log    : none
+  recover errors  : 0  none
+  recover fixes   : 0  none
+
+samples/05c-arabic-preshaped-visual.dxf
+  readfile        : ok
+  audit errors    : 0  none
+  audit fixes     : 0  none
+  readfile log    : none
+  recover errors  : 0  none
+  recover fixes   : 0  none
+
+samples/05d-arabic-R2007-utf8.dxf
+  readfile        : ok
+  audit errors    : 0  none
+  audit fixes     : 0  none
+  readfile log    : none
+  recover errors  : 0  none
+  recover fixes   : 0  none
+
+samples/06a-plotstyles-ctb.dxf
+  readfile        : ok
+  audit errors    : 0  none
+  audit fixes     : 0  none
+  readfile log    : none
+  recover errors  : 0  none
+  recover fixes   : 0  none
+
+samples/06b-plotstyles-stb.dxf
+  readfile        : ok
+  audit errors    : 0  none
+  audit fixes     : 0  none
+  readfile log    : none
+  recover errors  : 0  none
+  recover fixes   : 0  none
+
+samples/06c-plotstyles-stb-entity390-R2007.dxf
+  readfile        : ok
+  audit errors    : 0  none
+  audit fixes     : 0  none
+  readfile log    : none
+  recover errors  : 0  none
+  recover fixes   : 0  none
+
+minimal/00-full-minimum.dxf
+  readfile        : ok
+  audit errors    : 0  none
+  audit fixes     : 0  none
+  readfile log    : INFO: creating ACAD_COLOR dictionary; INFO: creating ACAD_LAYOUT dictionary; INFO: creating ACAD_MATERIAL dictionary (+7 more)
+  recover errors  : 0  none
+  recover fixes   : 0  none
+
+minimal/01-no-objects-section.dxf
+  readfile        : ok
+  audit errors    : 0  none
+  audit fixes     : 0  none
+  readfile log    : INFO: creating ACAD_COLOR dictionary; INFO: creating ACAD_GROUP dictionary; INFO: creating ACAD_LAYOUT dictionary (+8 more)
+  recover errors  : 0  none
+  recover fixes   : 0  none
+
+minimal/02-no-acad-group-dict.dxf
+  readfile        : ok
+  audit errors    : 0  none
+  audit fixes     : 0  none
+  readfile log    : INFO: creating ACAD_COLOR dictionary; INFO: creating ACAD_GROUP dictionary; INFO: creating ACAD_LAYOUT dictionary (+8 more)
+  recover errors  : 0  none
+  recover fixes   : 0  none
+
+minimal/03-no-classes-section.dxf
+  readfile        : ok
+  audit errors    : 0  none
+  audit fixes     : 0  none
+  readfile log    : INFO: creating ACAD_COLOR dictionary; INFO: creating ACAD_LAYOUT dictionary; INFO: creating ACAD_MATERIAL dictionary (+7 more)
+  recover errors  : 0  none
+  recover fixes   : 0  none
+
+minimal/04-no-blocks-section.dxf
+  readfile        : ok
+  audit errors    : 0  none
+  audit fixes     : 0  none
+  readfile log    : INFO: creating ACAD_COLOR dictionary; INFO: creating ACAD_LAYOUT dictionary; INFO: creating ACAD_MATERIAL dictionary (+7 more)
+  recover errors  : 0  none
+  recover fixes   : 0  none
+
+minimal/05-no-block-record-table.dxf
+  readfile        : ok
+  audit errors    : 0  none
+  audit fixes     : 0  none
+  readfile log    : INFO: creating ACAD_COLOR dictionary; INFO: creating ACAD_LAYOUT dictionary; INFO: creating ACAD_MATERIAL dictionary (+7 more)
+  recover errors  : 0  none
+  recover fixes   : 0  none
+
+minimal/06-no-layer-0.dxf
+  readfile        : ok
+  audit errors    : 0  none
+  audit fixes     : 0  none
+  readfile log    : INFO: creating ACAD_COLOR dictionary; INFO: creating ACAD_LAYOUT dictionary; INFO: creating ACAD_MATERIAL dictionary (+7 more)
+  recover errors  : 0  none
+  recover fixes   : 0  none
+
+minimal/07-no-ltypes.dxf
+  readfile        : ok
+  audit errors    : 0  none
+  audit fixes     : 0  none
+  readfile log    : INFO: creating ACAD_COLOR dictionary; INFO: creating ACAD_LAYOUT dictionary; INFO: creating ACAD_MATERIAL dictionary (+7 more)
+  recover errors  : 0  none
+  recover fixes   : 0  none
+
+minimal/08-no-standard-style.dxf
+  readfile        : ok
+  audit errors    : 0  none
+  audit fixes     : 0  none
+  readfile log    : INFO: creating ACAD_COLOR dictionary; INFO: creating ACAD_LAYOUT dictionary; INFO: creating ACAD_MATERIAL dictionary (+7 more)
+  recover errors  : 0  none
+  recover fixes   : 0  none
+
+minimal/09-no-appid-acad.dxf
+  readfile        : ok
+  audit errors    : 0  none
+  audit fixes     : 0  none
+  readfile log    : INFO: creating ACAD_COLOR dictionary; INFO: creating ACAD_LAYOUT dictionary; INFO: creating ACAD_MATERIAL dictionary (+7 more)
+  recover errors  : 0  none
+  recover fixes   : 0  none
+
+minimal/10-no-standard-dimstyle.dxf
+  readfile        : ok
+  audit errors    : 0  none
+  audit fixes     : 0  none
+  readfile log    : INFO: creating ACAD_COLOR dictionary; INFO: creating ACAD_LAYOUT dictionary; INFO: creating ACAD_MATERIAL dictionary (+7 more)
+  recover errors  : 0  none
+  recover fixes   : 0  none
+
+minimal/11-no-handseed.dxf
+  readfile        : ok
+  audit errors    : 0  none
+  audit fixes     : 0  none
+  readfile log    : INFO: creating ACAD_COLOR dictionary; INFO: creating ACAD_LAYOUT dictionary; INFO: creating ACAD_MATERIAL dictionary (+7 more)
+  recover errors  : 0  none
+  recover fixes   : 0  none
+
+minimal/12-handseed-too-low.dxf
+  readfile        : ok
+  audit errors    : 0  none
+  audit fixes     : 0  none
+  readfile log    : INFO: creating ACAD_COLOR dictionary; INFO: creating ACAD_LAYOUT dictionary; INFO: creating ACAD_MATERIAL dictionary (+7 more)
+  recover errors  : 0  none
+  recover fixes   : 0  none
+
+minimal/13-line-without-handle.dxf
+  readfile        : ok
+  audit errors    : 0  none
+  audit fixes     : 0  none
+  readfile log    : INFO: creating ACAD_COLOR dictionary; INFO: creating ACAD_LAYOUT dictionary; INFO: creating ACAD_MATERIAL dictionary (+7 more)
+  recover errors  : 0  none
+  recover fixes   : 0  none
+
+minimal/14-line-without-owner.dxf
+  readfile        : ok
+  audit errors    : 0  none
+  audit fixes     : 0  none
+  readfile log    : INFO: creating ACAD_COLOR dictionary; INFO: creating ACAD_LAYOUT dictionary; INFO: creating ACAD_MATERIAL dictionary (+7 more)
+  recover errors  : 0  none
+  recover fixes   : 0  none
+
+minimal/15-line-without-subclass-markers.dxf
+  readfile        : ok
+  audit errors    : 0  none
+  audit fixes     : 0  none
+  readfile log    : INFO: creating ACAD_COLOR dictionary; INFO: creating ACAD_LAYOUT dictionary; INFO: creating ACAD_MATERIAL dictionary (+7 more)
+  recover errors  : 0  none
+  recover fixes   : 0  none
+
+minimal/16-line-duplicate-handle.dxf
+  readfile        : ok
+  audit errors    : 0  none
+  audit fixes     : 1  12: Removed entity LINE(#1E) with a conflicting handle and without a database entry.
+  readfile log    : WARNING: Found non-unique entity handle #1E, data validation is required.; INFO: creating ACAD_COLOR dictionary; INFO: creating ACAD_LAYOUT dictionary (+8 more)
+  recover errors  : 0  none
+  recover fixes   : 1  12: Removed entity LINE(#1E) with a conflicting handle and without a database entry.
+
+minimal/17-no-header-section.dxf
+  readfile        : DXFTypeError: name has to be a string, got <class 'NoneType'>
+  readfile log    : none
+  recover errors  : 0  none
+  recover fixes   : 3  9: Removed unsupported CLASSES section for DXF R12.; 9: Removed unsupported OBJECTS section for DXF R12.; 10: Removed unsupported BLOCK_RECORD table for DXF R12.
+
+minimal/18-entities-only-ac1015.dxf
+  readfile        : ok
+  audit errors    : 0  none
+  audit fixes     : 0  none
+  readfile log    : INFO: creating ACAD_COLOR dictionary; INFO: creating ACAD_GROUP dictionary; INFO: creating ACAD_LAYOUT dictionary (+8 more)
+  recover errors  : 0  none
+  recover fixes   : 0  none

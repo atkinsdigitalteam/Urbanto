@@ -1,0 +1,31 @@
+01-minimum-ezdxf-R2000.dxf: OK
+02-lwpolyline-bulges.dxf: OK
+03-hatch.dxf: OK
+04-dimensions.dxf: OK
+04b-dimension-without-block.dxf: ENTITIES: DIMENSION 30 has no geometry block (group 2 missing); AutoCAD refuses such files
+05a-arabic-ansi1256.dxf: OK
+05b-arabic-ansi1252-uplus.dxf: OK
+05c-arabic-preshaped-visual.dxf: OK
+05d-arabic-R2007-utf8.dxf: $ACADVER is 'AC1021', expected 'AC1015'
+06a-plotstyles-ctb.dxf: OK
+06b-plotstyles-stb.dxf: OK
+06c-plotstyles-stb-entity390-R2007.dxf: $ACADVER is 'AC1021', expected 'AC1015'
+00-full-minimum.dxf: OK
+01-no-objects-section.dxf: missing section OBJECTS
+02-no-acad-group-dict.dxf: root DICTIONARY lacks ACAD_GROUP
+03-no-classes-section.dxf: missing section CLASSES
+04-no-blocks-section.dxf: missing section BLOCKS; BLOCKS lacks *MODEL_SPACE; BLOCKS lacks *PAPER_SPACE
+05-no-block-record-table.dxf: missing table BLOCK_RECORD
+06-no-layer-0.dxf: table LAYER lacks entry 0
+07-no-ltypes.dxf: table LTYPE lacks entry BYBLOCK; table LTYPE lacks entry BYLAYER; table LTYPE lacks entry CONTINUOUS
+08-no-standard-style.dxf: table STYLE lacks entry STANDARD
+09-no-appid-acad.dxf: table APPID lacks entry ACAD
+10-no-standard-dimstyle.dxf: table DIMSTYLE lacks entry STANDARD
+11-no-handseed.dxf: missing $HANDSEED
+12-handseed-too-low.dxf: $HANDSEED 1A is not above the largest handle 1F
+13-line-without-handle.dxf: ENTITIES: LINE without handle (group 5)
+14-line-without-owner.dxf: ENTITIES: LINE 1D without owner (330)
+15-line-without-subclass-markers.dxf: ENTITIES: LINE 1D without subclass marker AcDbEntity
+16-line-duplicate-handle.dxf: OBJECTS: duplicate handle 1E (DICTIONARY and LINE)
+17-no-header-section.dxf: missing section HEADER; $ACADVER is None, expected 'AC1015'; missing $HANDSEED
+18-entities-only-ac1015.dxf: missing section HEADER; missing section CLASSES; missing section TABLES; missing section BLOCKS; missing section OBJECTS; $ACADVER is None, expected 'AC1015'; missing $HANDSEED; missing table VPORT; missing table VIEW; missing table UCS; missing table LTYPE; missing table LAYER; missing table STYLE; missing table APPID; missing table DIMSTYLE; missing table BLOCK_RECORD; BLOCKS lacks *MODEL_SPACE; BLOCKS lacks *PAPER_SPACE

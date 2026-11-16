@@ -1,0 +1,199 @@
+pyproj 3.8.0 PROJ 9.8.1 EPSG db v12.029 2025-10-02
+
+EPSG:4326 | WGS 84 | type=Geographic 2D CRS | deprecated=False
+  datum=World Geodetic System 1984 ensemble | ellipsoid=WGS 84 | units=degree | axes=Lat(north),Lon(east)
+  area=World. | bounds W-180.0 S-90.0 E180.0 N90.0
+
+EPSG:32636 | WGS 84 / UTM zone 36N | type=Projected CRS | deprecated=False
+  datum=World Geodetic System 1984 ensemble | ellipsoid=WGS 84 | units=metre | axes=E(east),N(north)
+  projection=Transverse Mercator {'Latitude of natural origin': 0.0, 'Longitude of natural origin': 33.0, 'Scale factor at natural origin': 0.9996, 'False easting': 500000.0, 'False northing': 0.0}
+  area=Between 30°E and 36°E, northern hemisphere between equator and 84°N, onshore and offshore. Belarus. Cyprus. Egypt. Ethiopia. Finland. Israel. Jordan. Kenya. Lebanon. Moldova. Norway. Palestine. Russian Federation. Saudi Arabia. Sudan. Syria. Türkiye (Turkey). Uganda. Ukraine. | bounds W30.0 S0.0 E36.0 N84.0
+
+EPSG:32637 | WGS 84 / UTM zone 37N | type=Projected CRS | deprecated=False
+  datum=World Geodetic System 1984 ensemble | ellipsoid=WGS 84 | units=metre | axes=E(east),N(north)
+  projection=Transverse Mercator {'Latitude of natural origin': 0.0, 'Longitude of natural origin': 39.0, 'Scale factor at natural origin': 0.9996, 'False easting': 500000.0, 'False northing': 0.0}
+  area=Between 36°E and 42°E, northern hemisphere between equator and 84°N, onshore and offshore. Djibouti. Egypt. Eritrea. Ethiopia. Georgia. Iraq. Jordan. Kenya. Lebanon. Russian Federation. Saudi Arabia. Somalia. Sudan. Syria. Türkiye (Turkey). Ukraine. | bounds W36.0 S0.0 E42.0 N84.0
+
+EPSG:32638 | WGS 84 / UTM zone 38N | type=Projected CRS | deprecated=False
+  datum=World Geodetic System 1984 ensemble | ellipsoid=WGS 84 | units=metre | axes=E(east),N(north)
+  projection=Transverse Mercator {'Latitude of natural origin': 0.0, 'Longitude of natural origin': 45.0, 'Scale factor at natural origin': 0.9996, 'False easting': 500000.0, 'False northing': 0.0}
+  area=Between 42°E and 48°E, northern hemisphere between equator and 84°N, onshore and offshore. Armenia. Azerbaijan. Djibouti. Eritrea. Ethiopia. Georgia. Islamic Republic of Iran. Iraq. kazakhstan. Kuwait. Russian Federation. Saudi Arabia. Somalia. Türkiye (Turkey). Yemen. | bounds W42.0 S0.0 E48.0 N84.0
+
+EPSG:32639 | WGS 84 / UTM zone 39N | type=Projected CRS | deprecated=False
+  datum=World Geodetic System 1984 ensemble | ellipsoid=WGS 84 | units=metre | axes=E(east),N(north)
+  projection=Transverse Mercator {'Latitude of natural origin': 0.0, 'Longitude of natural origin': 51.0, 'Scale factor at natural origin': 0.9996, 'False easting': 500000.0, 'False northing': 0.0}
+  area=Between 48°E and 54°E, northern hemisphere between equator and 84°N, onshore and offshore. Azerbaijan. Bahrain. Islamic Republic of Iran. Iraq. Kazakhstan. Kuwait. Oman. Qatar. Russian Federation. Saudi Arabia. Somalia. Turkmenistan. United Arab Emirates. Yemen. | bounds W48.0 S0.0 E54.0 N84.0
+
+EPSG:32640 | WGS 84 / UTM zone 40N | type=Projected CRS | deprecated=False
+  datum=World Geodetic System 1984 ensemble | ellipsoid=WGS 84 | units=metre | axes=E(east),N(north)
+  projection=Transverse Mercator {'Latitude of natural origin': 0.0, 'Longitude of natural origin': 57.0, 'Scale factor at natural origin': 0.9996, 'False easting': 500000.0, 'False northing': 0.0}
+  area=Between 54°E and 60°E, northern hemisphere between equator and 84°N, onshore and offshore. Islamic Republic of Iran. kazakhstan. Oman. Russian Federation. Saudi Arabia. Turkmenistan. United Arab Emirates. Uzbekistan. | bounds W54.0 S0.0 E60.0 N84.0
+
+EPSG:3997 | WGS 84 / Dubai Local TM | type=Projected CRS | deprecated=False
+  datum=World Geodetic System 1984 ensemble | ellipsoid=WGS 84 | units=metre | axes=E(east),N(north)
+  projection=Transverse Mercator {'Latitude of natural origin': 0.0, 'Longitude of natural origin': 55.333333333, 'Scale factor at natural origin': 1.0, 'False easting': 500000.0, 'False northing': 0.0}
+  area=United Arab Emirates (UAE) - Dubai municipality. | bounds W54.84 S24.85 E55.55 N25.34
+
+EPSG:4270 | Nahrwan 1967 | type=Geographic 2D CRS | deprecated=False
+  datum=Nahrwan 1967 | ellipsoid=Clarke 1880 (RGS) | units=degree | axes=Lat(north),Lon(east)
+  area=Arabian Gulf; Qatar - offshore; United Arab Emirates (UAE) - Abu Dhabi; Dubai; Sharjah; Ajman; Fujairah; Ras Al Kaimah; Umm Al Qaiwain - onshore and offshore. | bounds W50.55 S22.63 E57.13 N27.05
+
+EPSG:27039 | Nahrwan 1967 / UTM zone 39N | type=Projected CRS | deprecated=False
+  datum=Nahrwan 1967 | ellipsoid=Clarke 1880 (RGS) | units=metre | axes=E(east),N(north)
+  projection=Transverse Mercator {'Latitude of natural origin': 0.0, 'Longitude of natural origin': 51.0, 'Scale factor at natural origin': 0.9996, 'False easting': 500000.0, 'False northing': 0.0}
+  area=Qatar - offshore. United Arab Emirates (UAE) - Abu Dhabi - onshore and offshore west of 54°E. | bounds W50.55 S22.76 E54.01 N27.05
+
+EPSG:27040 | Nahrwan 1967 / UTM zone 40N | type=Projected CRS | deprecated=False
+  datum=Nahrwan 1967 | ellipsoid=Clarke 1880 (RGS) | units=metre | axes=E(east),N(north)
+  projection=Transverse Mercator {'Latitude of natural origin': 0.0, 'Longitude of natural origin': 57.0, 'Scale factor at natural origin': 0.9996, 'False easting': 500000.0, 'False northing': 0.0}
+  area=United Arab Emirates (UAE) onshore and offshore east of 54°E - Abu Dhabi; Dubai; Sharjah; Ajman; Fujairah; Ras Al Kaimah; Umm Al Qaiwain. | bounds W54.0 S22.63 E57.13 N26.27
+
+EPSG:4303 | TC(1948) | type=Geographic 2D CRS | deprecated=False
+  datum=Trucial Coast 1948 | ellipsoid=Helmert 1906 | units=degree | axes=Lat(north),Lon(east)
+  area=United Arab Emirates (UAE) - Abu Dhabi onshore and Dubai onshore. | bounds W51.56 S22.63 E56.03 N25.34
+
+EPSG:30339 | TC(1948) / UTM zone 39N | type=Projected CRS | deprecated=False
+  datum=Trucial Coast 1948 | ellipsoid=Helmert 1906 | units=metre | axes=E(east),N(north)
+  projection=Transverse Mercator {'Latitude of natural origin': 0.0, 'Longitude of natural origin': 51.0, 'Scale factor at natural origin': 0.9996, 'False easting': 500000.0, 'False northing': 0.0}
+  area=United Arab Emirates (UAE) - Abu Dhabi onshore west of 54°E. | bounds W51.56 S22.76 E54.01 N24.32
+
+EPSG:30340 | TC(1948) / UTM zone 40N | type=Projected CRS | deprecated=False
+  datum=Trucial Coast 1948 | ellipsoid=Helmert 1906 | units=metre | axes=E(east),N(north)
+  projection=Transverse Mercator {'Latitude of natural origin': 0.0, 'Longitude of natural origin': 57.0, 'Scale factor at natural origin': 0.9996, 'False easting': 500000.0, 'False northing': 0.0}
+  area=United Arab Emirates (UAE) - Abu Dhabi onshore east of 54°E; Dubai onshore. | bounds W53.99 S22.63 E56.03 N25.34
+
+EPSG:5843 | Ras Ghumays height | type=Vertical CRS | deprecated=False
+  datum=Ras Ghumays | ellipsoid= | units=metre | axes=H(up)
+  area=United Arab Emirates (UAE) - Abu Dhabi onshore. | bounds W51.56 S22.63 E56.03 N24.95
+
+EPSG:4204 | Ain el Abd | type=Geographic 2D CRS | deprecated=False
+  datum=Ain el Abd 1970 | ellipsoid=International 1924 | units=degree | axes=Lat(north),Lon(east)
+  area=Bahrain, Kuwait and Saudi Arabia - onshore. | bounds W34.51 S16.37 E55.67 N32.16
+
+EPSG:2318 | Ain el Abd / Aramco Lambert | type=Projected CRS | deprecated=False
+  datum=Ain el Abd 1970 | ellipsoid=International 1924 | units=metre | axes=E(east),N(north)
+  projection=Lambert Conic Conformal (2SP) {'Latitude of false origin': 25.08951, 'Longitude of false origin': 48.0, 'Latitude of 1st standard parallel': 17.0, 'Latitude of 2nd standard parallel': 33.0, 'Easting at false origin': 0.0, 'Northing at false origin': 0.0}
+  area=Saudi Arabia - onshore. | bounds W34.51 S16.37 E55.67 N32.16
+
+EPSG:20436 | Ain el Abd / UTM zone 36N | type=Projected CRS | deprecated=False
+  datum=Ain el Abd 1970 | ellipsoid=International 1924 | units=metre | axes=E(east),N(north)
+  projection=Transverse Mercator {'Latitude of natural origin': 0.0, 'Longitude of natural origin': 33.0, 'Scale factor at natural origin': 0.9996, 'False easting': 500000.0, 'False northing': 0.0}
+  area=Saudi Arabia - onshore west of 36°E. | bounds W34.51 S26.82 E36.0 N29.38
+
+EPSG:20437 | Ain el Abd / UTM zone 37N | type=Projected CRS | deprecated=False
+  datum=Ain el Abd 1970 | ellipsoid=International 1924 | units=metre | axes=E(east),N(north)
+  projection=Transverse Mercator {'Latitude of natural origin': 0.0, 'Longitude of natural origin': 39.0, 'Scale factor at natural origin': 0.9996, 'False easting': 500000.0, 'False northing': 0.0}
+  area=Saudi Arabia - onshore between 36°E and 42°E. | bounds W36.0 S16.59 E42.0 N32.16
+
+EPSG:20438 | Ain el Abd / UTM zone 38N | type=Projected CRS | deprecated=False
+  datum=Ain el Abd 1970 | ellipsoid=International 1924 | units=metre | axes=E(east),N(north)
+  projection=Transverse Mercator {'Latitude of natural origin': 0.0, 'Longitude of natural origin': 45.0, 'Scale factor at natural origin': 0.9996, 'False easting': 500000.0, 'False northing': 0.0}
+  area=Kuwait - west of 48°E. Saudi Arabia - between of 42°E and 48°E. | bounds W42.0 S16.37 E48.01 N31.15
+
+EPSG:20439 | Ain el Abd / UTM zone 39N | type=Projected CRS | deprecated=False
+  datum=Ain el Abd 1970 | ellipsoid=International 1924 | units=metre | axes=E(east),N(north)
+  projection=Transverse Mercator {'Latitude of natural origin': 0.0, 'Longitude of natural origin': 51.0, 'Scale factor at natural origin': 0.9996, 'False easting': 500000.0, 'False northing': 0.0}
+  area=Kuwait - onshore east of 48°E. Saudi Arabia - onshore between 48°E and 54°E. | bounds W47.99 S17.94 E54.01 N30.04
+
+EPSG:20440 | Ain el Abd / UTM zone 40N | type=Projected CRS | deprecated=False
+  datum=Ain el Abd 1970 | ellipsoid=International 1924 | units=metre | axes=E(east),N(north)
+  projection=Transverse Mercator {'Latitude of natural origin': 0.0, 'Longitude of natural origin': 57.0, 'Scale factor at natural origin': 0.9996, 'False easting': 500000.0, 'False northing': 0.0}
+  area=Saudi Arabia - east of 54°E. | bounds W54.0 S19.66 E55.67 N22.77
+
+EPSG:8818 | MTRF-2000 | type=Geographic 2D CRS | deprecated=False
+  datum=MOMRA Terrestrial Reference Frame 2000 | ellipsoid=GRS 1980 | units=degree | axes=Lat(north),Lon(east)
+  area=Saudi Arabia - onshore and offshore. | bounds W34.44 S16.29 E55.67 N32.16
+
+EPSG:8836 | MTRF-2000 / UTM zone 36N | type=Projected CRS | deprecated=False
+  datum=MOMRA Terrestrial Reference Frame 2000 | ellipsoid=GRS 1980 | units=metre | axes=E(east),N(north)
+  projection=Transverse Mercator {'Latitude of natural origin': 0.0, 'Longitude of natural origin': 33.0, 'Scale factor at natural origin': 0.9996, 'False easting': 500000.0, 'False northing': 0.0}
+  area=Saudi Arabia - onshore and offshore - west of 36°E. | bounds W34.44 S24.92 E36.01 N29.38
+
+EPSG:8837 | MTRF-2000 / UTM zone 37N | type=Projected CRS | deprecated=False
+  datum=MOMRA Terrestrial Reference Frame 2000 | ellipsoid=GRS 1980 | units=metre | axes=E(east),N(north)
+  projection=Transverse Mercator {'Latitude of natural origin': 0.0, 'Longitude of natural origin': 39.0, 'Scale factor at natural origin': 0.9996, 'False easting': 500000.0, 'False northing': 0.0}
+  area=Saudi Arabia - onshore and offshore - between 36°E and 42°E. | bounds W36.0 S16.29 E42.0 N32.16
+
+EPSG:8838 | MTRF-2000 / UTM zone 38N | type=Projected CRS | deprecated=False
+  datum=MOMRA Terrestrial Reference Frame 2000 | ellipsoid=GRS 1980 | units=metre | axes=E(east),N(north)
+  projection=Transverse Mercator {'Latitude of natural origin': 0.0, 'Longitude of natural origin': 45.0, 'Scale factor at natural origin': 0.9996, 'False easting': 500000.0, 'False northing': 0.0}
+  area=Saudi Arabia - onshore and offshore - between of 42°E and 48°E. | bounds W41.99 S16.35 E48.0 N31.15
+
+EPSG:8839 | MTRF-2000 / UTM zone 39N | type=Projected CRS | deprecated=False
+  datum=MOMRA Terrestrial Reference Frame 2000 | ellipsoid=GRS 1980 | units=metre | axes=E(east),N(north)
+  projection=Transverse Mercator {'Latitude of natural origin': 0.0, 'Longitude of natural origin': 51.0, 'Scale factor at natural origin': 0.9996, 'False easting': 500000.0, 'False northing': 0.0}
+  area=Saudi Arabia - onshore and offshore - between 48°E and 54°E. | bounds W47.99 S17.94 E54.01 N28.94
+
+EPSG:8840 | MTRF-2000 / UTM zone 40N | type=Projected CRS | deprecated=False
+  datum=MOMRA Terrestrial Reference Frame 2000 | ellipsoid=GRS 1980 | units=metre | axes=E(east),N(north)
+  projection=Transverse Mercator {'Latitude of natural origin': 0.0, 'Longitude of natural origin': 57.0, 'Scale factor at natural origin': 0.9996, 'False easting': 500000.0, 'False northing': 0.0}
+  area=Saudi Arabia - east of 54°E. | bounds W54.0 S19.66 E55.67 N22.77
+
+EPSG:9333 | KSA-GRF17 | type=Geographic 2D CRS | deprecated=False
+  datum=Kingdom of Saudi Arabia Geodetic Reference Frame 2017 | ellipsoid=GRS 1980 | units=degree | axes=Lat(north),Lon(east)
+  area=Saudi Arabia - onshore and offshore. | bounds W34.44 S16.29 E55.67 N32.16
+
+EPSG:9356 | KSA-GRF17 / UTM zone 36N | type=Projected CRS | deprecated=False
+  datum=Kingdom of Saudi Arabia Geodetic Reference Frame 2017 | ellipsoid=GRS 1980 | units=metre | axes=E(east),N(north)
+  projection=Transverse Mercator {'Latitude of natural origin': 0.0, 'Longitude of natural origin': 33.0, 'Scale factor at natural origin': 0.9996, 'False easting': 500000.0, 'False northing': 0.0}
+  area=Saudi Arabia - onshore and offshore - west of 36°E. | bounds W34.44 S24.92 E36.01 N29.38
+
+EPSG:9357 | KSA-GRF17 / UTM zone 37N | type=Projected CRS | deprecated=False
+  datum=Kingdom of Saudi Arabia Geodetic Reference Frame 2017 | ellipsoid=GRS 1980 | units=metre | axes=E(east),N(north)
+  projection=Transverse Mercator {'Latitude of natural origin': 0.0, 'Longitude of natural origin': 39.0, 'Scale factor at natural origin': 0.9996, 'False easting': 500000.0, 'False northing': 0.0}
+  area=Saudi Arabia - onshore and offshore - between 36°E and 42°E. | bounds W36.0 S16.29 E42.0 N32.16
+
+EPSG:9358 | KSA-GRF17 / UTM zone 38N | type=Projected CRS | deprecated=False
+  datum=Kingdom of Saudi Arabia Geodetic Reference Frame 2017 | ellipsoid=GRS 1980 | units=metre | axes=E(east),N(north)
+  projection=Transverse Mercator {'Latitude of natural origin': 0.0, 'Longitude of natural origin': 45.0, 'Scale factor at natural origin': 0.9996, 'False easting': 500000.0, 'False northing': 0.0}
+  area=Saudi Arabia - onshore and offshore - between of 42°E and 48°E. | bounds W41.99 S16.35 E48.0 N31.15
+
+EPSG:9359 | KSA-GRF17 / UTM zone 39N | type=Projected CRS | deprecated=False
+  datum=Kingdom of Saudi Arabia Geodetic Reference Frame 2017 | ellipsoid=GRS 1980 | units=metre | axes=E(east),N(north)
+  projection=Transverse Mercator {'Latitude of natural origin': 0.0, 'Longitude of natural origin': 51.0, 'Scale factor at natural origin': 0.9996, 'False easting': 500000.0, 'False northing': 0.0}
+  area=Saudi Arabia - onshore and offshore - between 48°E and 54°E. | bounds W47.99 S17.94 E54.01 N28.94
+
+EPSG:9360 | KSA-GRF17 / UTM zone 40N | type=Projected CRS | deprecated=False
+  datum=Kingdom of Saudi Arabia Geodetic Reference Frame 2017 | ellipsoid=GRS 1980 | units=metre | axes=E(east),N(north)
+  projection=Transverse Mercator {'Latitude of natural origin': 0.0, 'Longitude of natural origin': 57.0, 'Scale factor at natural origin': 0.9996, 'False easting': 500000.0, 'False northing': 0.0}
+  area=Saudi Arabia - east of 54°E. | bounds W54.0 S19.66 E55.67 N22.77
+
+EPSG:9335 | KSA-VRF14 height | type=Vertical CRS | deprecated=False
+  datum=Kingdom of Saudi Arabia Vertical Reference Frame Jeddah 2014 | ellipsoid= | units=metre | axes=H(up)
+  area=Saudi Arabia - onshore. | bounds W34.51 S16.37 E55.67 N32.16
+
+EPSG:9520 | KSA-GRF17 + KSA-VRF14 height | type=Compound CRS | deprecated=False
+  datum=Kingdom of Saudi Arabia Geodetic Reference Frame 2017 | ellipsoid=GRS 1980 | units=degree,metre | axes=Lat(north),Lon(east),H(up)
+  area=Saudi Arabia - onshore. | bounds W34.51 S16.37 E55.67 N32.16
+
+EPSG:4614 | QND95 | type=Geographic 2D CRS | deprecated=False
+  datum=Qatar National Datum 1995 | ellipsoid=International 1924 | units=degree | axes=Lat(north),Lon(east)
+  area=Qatar - onshore. | bounds W50.69 S24.55 E51.68 N26.2
+
+EPSG:2932 | QND95 / Qatar National Grid | type=Projected CRS | deprecated=False
+  datum=Qatar National Datum 1995 | ellipsoid=International 1924 | units=metre | axes=E(east),N(north)
+  projection=Transverse Mercator {'Latitude of natural origin': 24.45, 'Longitude of natural origin': 51.216666667, 'Scale factor at natural origin': 0.99999, 'False easting': 200000.0, 'False northing': 300000.0}
+  area=Qatar - onshore. | bounds W50.69 S24.55 E51.68 N26.2
+
+EPSG:4285 | Qatar 1974 | type=Geographic 2D CRS | deprecated=False
+  datum=Qatar 1974 | ellipsoid=International 1924 | units=degree | axes=Lat(north),Lon(east)
+  area=Qatar - onshore and offshore. | bounds W50.55 S24.55 E53.04 N27.05
+
+EPSG:28600 | Qatar 1974 / Qatar National Grid | type=Projected CRS | deprecated=False
+  datum=Qatar 1974 | ellipsoid=International 1924 | units=metre | axes=E(east),N(north)
+  projection=Transverse Mercator {'Latitude of natural origin': 24.45, 'Longitude of natural origin': 51.216666667, 'Scale factor at natural origin': 0.99999, 'False easting': 200000.0, 'False northing': 300000.0}
+  area=Qatar - onshore. | bounds W50.69 S24.55 E51.68 N26.2
+
+EPSG:4286 | Qatar 1948 | type=Geographic 2D CRS | deprecated=False
+  datum=Qatar 1948 | ellipsoid=Helmert 1906 | units=degree | axes=Lat(north),Lon(east)
+  area=Qatar - onshore. | bounds W50.69 S24.55 E51.68 N26.2
+
+EPSG:2099 | Qatar 1948 / Qatar Grid | type=Projected CRS | deprecated=False
+  datum=Qatar 1948 | ellipsoid=Helmert 1906 | units=metre | axes=E(east),N(north)
+  projection=Cassini-Soldner {'Latitude of natural origin': 25.382361111, 'Longitude of natural origin': 50.761388889, 'False easting': 100000.0, 'False northing': 100000.0}
+  area=Qatar - onshore. | bounds W50.69 S24.55 E51.68 N26.2
+
+EPSG:3857 | WGS 84 / Pseudo-Mercator | type=Projected CRS | deprecated=False
+  datum=World Geodetic System 1984 ensemble | ellipsoid=WGS 84 | units=metre | axes=X(east),Y(north)
+  projection=Popular Visualisation Pseudo Mercator {'Latitude of natural origin': 0.0, 'Longitude of natural origin': 0.0, 'False easting': 0.0, 'False northing': 0.0}
+  area=World between 85.06°S and 85.06°N. | bounds W-180.0 S-85.06 E180.0 N85.06

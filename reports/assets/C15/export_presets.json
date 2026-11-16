@@ -1,0 +1,93 @@
+{
+  "_about": "Export presets per UAE authority (report C15, researched 2026-10-30). Each value has a 'src' (report source number, see reports/C15-municipal-submission-and-drawing-standards.md#sources) or 'src': 'choice' when the authority publishes nothing and the value is a Choices made default. Nothing here is an authority-approved template.",
+  "_schemaVersion": 1,
+  "common": {
+    "lineWeightsMm": {"value": [0.13, 0.18, 0.25, 0.35, 0.5, 0.7, 1.0, 1.4, 2.0], "src": "[24]"},
+    "penMap": {"value": {"thin": 0.25, "medium": 0.35, "wide": 0.5, "extraWide": 0.7}, "src": "choice"},
+    "layeredPdf": {"value": {"pdfA": "PDF/A-2b", "ocDefaultConfigName": "Default (plot set)", "orderListsAllOcgs": true, "nonPlotLayers": "Usage /Print /PrintState /OFF"}, "src": "[32][35][38] + measured (assets/C15/measurements.txt)"},
+    "dwgVersionWhenUnstated": {"value": "AC1024 (AutoCAD 2010-2012 format)", "src": "choice"}
+  },
+  "presets": [
+    {
+      "id": "dubai-dm-bps",
+      "authority": "Dubai Municipality (building permit, Dubai BPS)",
+      "portal": {"value": "Dubai BPS", "src": "[9][10]"},
+      "drawingFormat": {"value": "DWF (only DWF accepted in the Drawings attachment category; Documents accept any format)", "src": "[9]"},
+      "dwfIncludeLayers": {"value": true, "src": "choice (AutoCAD default is Don't include [40])"},
+      "sheetSize": {"value": "A1", "src": "choice"},
+      "scaleNote": {"value": "one 'scale size' is selected per drawings attachment set and should be the same for all drawings", "src": "[9]"},
+      "units": {"value": "m", "src": "choice"},
+      "crs": {"value": "EPSG:3997 (WGS 84 / Dubai Local TM) for any georeferenced CAD", "src": "[8][12]"},
+      "layerMap": {"value": "AIA/NCS names (A-WALL, A-AREA-PATT, C-PROP-LINE, G-ANNO-TTLB ...)", "src": "choice"},
+      "colour": {"value": "monochrome sheets", "src": "choice"},
+      "fileNaming": {"value": "{discipline}-{group:00}-{seq:000} {title}.dwf", "src": "choice (mirrors DDA [2])"},
+      "pdf": {"value": "PDF/A-2b layered review copy (not a DM requirement)", "src": "choice"}
+    },
+    {
+      "id": "dubai-dm-masterplan",
+      "authority": "Dubai Municipality (master plan approval, Planning Department)",
+      "portal": {"value": "dm.gov.ae e-application (electronic lodgement since 1 June 2013)", "src": "[8]"},
+      "drawingFormat": {"value": "MicroStation V7 DGN, 2D, DLTM, prepared to 'DM Digital Data Delivery - General Standards' (copy from the DM project coordinator)", "src": "[8]"},
+      "crs": {"value": "EPSG:3997 (DLTM)", "src": "[8][12]"},
+      "tables": {"value": "development control tables (use, allotment area, GFA, envelope, parking) + Excel file of the formulas used", "src": "[8]"},
+      "layerMap": {"value": "per DM Digital Data Delivery standard (not public)", "src": "[8]"}
+    },
+    {
+      "id": "dubai-dda-building",
+      "authority": "Dubai Development Authority (preliminary / final design, building permit)",
+      "portal": {"value": "Zoning eServices (webzoning.dda.gov.ae)", "src": "[6]"},
+      "drawingFormat": {"value": "DWF, one sheet per file (combined files rejected)", "src": "[1]"},
+      "sheetSize": {"value": "A1", "src": "[1]"},
+      "colour": {"value": "black and white / monochrome, except perspectives and Shaded Area Diagrams", "src": "[1]"},
+      "tabs": {"value": ["Architecture", "Structural", "Mechanical", "Fit out"], "src": "[1]"},
+      "fileNaming": {"value": "{A|S|M|D|P|F}-{group:00}-{seq:000} {Name}; revisions add 'As Approved' / 'As Proposed'", "src": "[1][2]"},
+      "revisionClouds": {"value": {"approved": "yellow", "proposed": "red"}, "src": "[1]"},
+      "areaSheet": {"value": "A-03-XXX Shaded Area Diagram (Area Calculation Sheet), coloured; third-party survey adds AutoCAD + polyline diagram", "src": "[1][2]"},
+      "dwfIncludeLayers": {"value": true, "src": "choice"},
+      "dwgVersion": {"value": "AC1024 for the AutoCAD polyline file", "src": "choice"},
+      "units": {"value": "m", "src": "choice"},
+      "crs": {"value": "EPSG:3997", "src": "choice (DDA states DLTM for master-plan GIS data [3])"},
+      "layerMap": {"value": "AIA/NCS names", "src": "choice"}
+    },
+    {
+      "id": "dubai-dda-masterplan",
+      "authority": "Dubai Development Authority (master plan PMP / SOS / FMP)",
+      "portal": {"value": "Master Planning eServices (mpeservices.dda.gov.ae)", "src": "[4]"},
+      "reportFormat": {"value": "single PDF ('version 7 or later'), colour, legible at A4, no password or restrictions, uncompressed files", "src": "[3]"},
+      "gisFormat": {"value": "MicroStation DGN, real coordinates in metres, WGS 1984 Dubai Local TM (DLTM)", "src": "[3]"},
+      "gisLayers": {"value": ["plot boundaries", "plot numbers"], "src": "[3]"},
+      "plotNumbering": {"value": "{ProjectInitial}-{Zone}-{000} (e.g. MU-A-001); FC / UT / OS for facility, utility, open-space plots", "src": "[3]"},
+      "tables": {"value": "Land Use Budget sheet in Excel (DDA template)", "src": "[3]"},
+      "plans": {"value": "scale bar, north arrow with Qibla direction, site boundary, dimensions in metres", "src": "[3]"}
+    },
+    {
+      "id": "abudhabi-adm-sdd",
+      "authority": "Abu Dhabi DMT / ADM Spatial Data Division (planning data: plot, roads, service corridors)",
+      "portal": {"value": "submission to UPD/SDD; ADM QC tool (.fas) checks before upload", "src": "[13]"},
+      "drawingFormat": {"value": "DWG, AutoCAD 2012 or earlier", "src": "[13]"},
+      "dwgVersion": {"value": "AC1024 (2010-2012) or older", "src": "[13] + measured (ezdxf header)"},
+      "files": {"value": ["Plot", "Roads", "Services", "additional (optional)"], "src": "[13]"},
+      "units": {"value": "1 drawing unit = 1 m, full scale", "src": "[13]"},
+      "crs": {"value": "WGS 84 / UTM zone 40N (EPSG:32640); zone 39 parameters also listed", "src": "[13]"},
+      "fileNaming": {"value": "{ProjectID}_{YYYYMMDD}_{AP|MP}_{Plot|Roads|Services|additional}_{ADM|DOT}.dwg", "src": "[13]"},
+      "layerMap": {"value": {"Plot": [51, 0.25], "PlotDetail": [51, 0.25], "Sector": [3, 0.30], "SectorDetail": [3, 0.25], "Zone": [7, 0.40], "ZoneDetail": [7, 0.25], "DimensionLine": [7, 0.25], "Title": [7, 0.25]}, "note": "[ACI colour, lineweight mm]; Roads and Services files have their own tables", "src": "[13]"},
+      "geometry": {"value": "closed LWPOLYLINE only; no arcs, splines, ellipses, hatches, solids, xrefs, lines; no elevation, width or 3D; attribute block inside its polygon", "src": "[13]"},
+      "titleBlock": {"value": "'Title' attribute block, consultant and/or contractor name in English (one is mandatory)", "src": "[13]"},
+      "pdf": {"value": "not required by SDD", "src": "[13]"}
+    },
+    {
+      "id": "trakhees-bp",
+      "authority": "Trakhees (PCFC) Civil Engineering Department (concept design, building permit, master plan NOC)",
+      "portal": {"value": "online.trakhees.ae; CPR system for master plans", "src": "[19][20]"},
+      "documentFormat": {"value": "all documents in PDF, uploaded into folder codes GD, STR, ARCH, HVAC, GB, FP", "src": "[18]"},
+      "areaSheet": {"value": "area calculation sheet in DWF including floor polylines", "src": "[18]"},
+      "cadFormat": {"value": "PDF and AutoCAD in DLTM coordinates (utilities route NOC)", "src": "[21]"},
+      "crs": {"value": "EPSG:3997 (DLTM)", "src": "[21]"},
+      "dwgVersion": {"value": "AC1024", "src": "choice"},
+      "sheetSize": {"value": "A1", "src": "choice"},
+      "layerMap": {"value": "AIA/NCS names; approved vs revised utilities on separate layers", "src": "choice + [21]"},
+      "fileNaming": {"value": "P-{ProjectID}_{FolderCode}_{discipline}-{group:00}-{seq:000}_{title}.pdf", "src": "choice"},
+      "pdf": {"value": "PDF/A-2b, layered", "src": "choice (Trakhees states only 'PDF')"}
+    }
+  ]
+}

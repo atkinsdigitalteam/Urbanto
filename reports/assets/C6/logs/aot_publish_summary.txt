@@ -1,0 +1,15 @@
+# Native AOT publish summary. Linux x64 (Ubuntu 24.04), .NET SDK 8.0.427, clang/lld. Run 2026-10-30.
+# command: dotnet publish -c Release -r linux-x64 -p:PublishAot=true -p:TrimmerSingleWarn=false
+# size = stripped native executable (the separate .dbg symbol file is not counted)
+HelloAot: size_bytes=1576440 unique_warnings=0 [] publish_seconds 13
+AcadSharpAot: size_bytes=8085704 unique_warnings=7 [IL2070 x2, IL2072 x1, IL2075 x1, IL2087 x2, IL2090 x1, ] publish_seconds 25
+AcadSharpRooted: size_bytes=12141320 unique_warnings=19 [IL2026 x2, IL2070 x4, IL2072 x1, IL2075 x3, IL2087 x5, IL2090 x3, IL3050 x1, ] publish_seconds 30
+IxMiliaAot: size_bytes=5921384 unique_warnings=0 [] publish_seconds 16
+NetDxfAot: size_bytes=5182248 unique_warnings=2 [IL2075 x1, IL2090 x1, ] publish_seconds 15
+NetDxfRooted: size_bytes=6243224 unique_warnings=4 [IL2075 x1, IL2080 x2, IL2090 x1, ] publish_seconds 11
+AsposeAot: size_bytes=11166320 unique_warnings=58 [IL2026 x17, IL2055 x1, IL2057 x2, IL2059 x1, IL2060 x1, IL2067 x2, IL2072 x4, IL2075 x13, IL2080 x2, IL3000 x2, IL3050 x13, ] publish_seconds 12
+CadLibAot: size_bytes=24940352 unique_warnings=10 [IL2026 x4, IL2070 x1, IL3000 x1, IL3002 x4, ] publish_seconds 63
+
+# CadLibAot ILC/assembler errors (publish still exited 0; binary segfaults, exit 139):
+  /usr/bin/ld.bfd: error in obj/Release/net8.0/linux-x64/native/CadLibAot.o(.eh_frame); no .eh_frame_hdr table will be created
+  <unknown>:0: error: symbol 'WW_Cad_____' is already defined

@@ -1,0 +1,13 @@
+network enabled: True endpoint: 
+EGM96    Burj Khalifa     ellipsoid h=0 -> orthometric H=  33.725 m  (N = -33.725 m) | op: WGS 84 to EGM96 height (1) (with axis order normalized for visualization)
+EGM96    SZ Grand Mosque  ellipsoid h=0 -> orthometric H=  33.467 m  (N = -33.467 m) | op: WGS 84 to EGM96 height (1) (with axis order normalized for visualization)
+EGM96    Kingdom Centre   ellipsoid h=0 -> orthometric H=   7.602 m  (N =  -7.602 m) | op: WGS 84 to EGM96 height (1) (with axis order normalized for visualization)
+EGM96    MIA Doha         ellipsoid h=0 -> orthometric H=  29.942 m  (N = -29.942 m) | op: WGS 84 to EGM96 height (1) (with axis order normalized for visualization)
+EGM2008  Burj Khalifa     ellipsoid h=0 -> orthometric H=  34.120 m  (N = -34.120 m) | op: WGS 84 to EGM2008 height (1) (with axis order normalized for visualization)
+EGM2008  SZ Grand Mosque  ellipsoid h=0 -> orthometric H=  33.249 m  (N = -33.249 m) | op: WGS 84 to EGM2008 height (1) (with axis order normalized for visualization)
+EGM2008  Kingdom Centre   ellipsoid h=0 -> orthometric H=   7.353 m  (N =  -7.353 m) | op: WGS 84 to EGM2008 height (1) (with axis order normalized for visualization)
+EGM2008  MIA Doha         ellipsoid h=0 -> orthometric H=  29.843 m  (N = -29.843 m) | op: WGS 84 to EGM2008 height (1) (with axis order normalized for visualization)
+/usr/local/lib/python3.13/dist-packages/pyproj/transformer.py:319: UserWarning: Best transformation is not available due to missing Grid(short_name=KSA-GEOID21.gra, full_name=, package_name=, url=, direct_download=False, open_license=False, available=False)
+  super().__init__(
+EPSG:9520 usable: ['Inverse of Transformation from KSA-VRF14 height to KSA-GRF17 (ballpark vertical transforma'] unavailable: ['KSA-GRF17 to KSA-VRF14 height (2)', 'KSA-GRF17 to KSA-VRF14 height (1)']
+EPSG:4326+5843 usable: ['Inverse of Transformation from Ras Ghumays height to WGS 84 (ballpark vertical transformat'] unavailable: []

@@ -1,0 +1,29 @@
+openpyxl warnings on load: ['Sparkline Group extension is not supported and will be removed']
+load_workbook(src)['Plots']['E2'].value -> '=B2*C2'
+load_workbook(src, data_only=True)['Plots']['E2'].value -> 3000
+after openpyxl save, reload data_only=True E2 -> None
+after data_only save, E2 value -> 3000
+
+| Feature | source (Excel-like) | openpyxl load+save | openpyxl data_only load+save | rt_openxml_sdk | rt_closedxml |
+|---|---|---|---|---|---|
+| formula cells | 5 | 5 | 0 | 5 | 5 |
+| formula cells with a non-empty cached <v> | 5 | 0 | 0 | 5 | 0 |
+| cellXfs (cell styles) | 4 | 4 | 4 | 4 | 5 |
+| custom number formats | 1 | 1 | 1 | 1 | 3 |
+| merged ranges | 1 | 1 | 1 | 1 | 1 |
+| data validations | 1 | 1 | 1 | 1 | 1 |
+| conditional formats | 2 | 2 | 2 | 2 | 2 |
+| freeze pane | True | True | True | True | True |
+| sheet protection | True | True | True | True | True |
+| hyperlinks | 1 | 1 | 1 | 1 | 1 |
+| defined names | 1 | 1 | 1 | 1 | 1 |
+| table part | True | True | True | True | True |
+| comments part | True | True | True | True | True |
+| chart part | True | True | True | True | True |
+| image (xl/media) | True | True | True | True | True |
+| x14 sparklines (extLst) | True | False | False | True | True |
+| calcChain part | True | False | False | True | True |
+| customXml part | True | False | False | True | True |
+| custom doc props | True | True | True | True | True |
+| calcPr fullCalcOnLoad | False | True | True | False | False |
+| zip parts | 22 | 18 | 18 | 22 | 23 |

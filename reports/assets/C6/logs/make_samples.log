@@ -1,0 +1,72 @@
+ezdxf 1.4.5
+01 minimum file written by ezdxf.new('R2000')
+  ezdxf.new('R2000') defaults: $DIMSTYLE = 'ISO-25', DIMSTYLE table = ['Standard']
+  wrote 01-minimum-ezdxf-R2000.dxf (13,995 bytes, AC1015)
+  tables: {'layers': 2, 'linetypes': 3, 'styles': 1, 'dimstyles': 1, 'appids': 3, 'ucs': 0, 'views': 0, 'viewports': 1, 'block_records': 2}
+  root dictionary keys: ['ACAD_COLOR', 'ACAD_GROUP', 'ACAD_LAYOUT', 'ACAD_MATERIAL', 'ACAD_MLEADERSTYLE', 'ACAD_MLINESTYLE', 'ACAD_PLOTSETTINGS', 'ACAD_PLOTSTYLENAME', 'ACAD_SCALELIST', 'ACAD_TABLESTYLE', 'ACAD_VISUALSTYLE', 'EZDXF_META']
+  header variables written: 259
+02 LWPOLYLINE bulges
+  bulge = tan(90 deg / 4) = tan(22.5 deg) = 0.414213562
+  bulge_to_arc -> centre (-1.7763568394002505e-15, 1.2246467991473535e-15), start -0.000 deg, end 90.000 deg, radius 10.000000
+  check via sagitta: chord 14.142136, sagitta 2.928932, 2*s/c = 0.414213562
+  arc_to_bulge(centre (0,0), 0..90 deg, r 10) -> (10.0, 0.0), (6.123233995736766e-16, 10.0), bulge 0.414213562
+  bulge +1 from (40,0) to (50,0): centre (45.0, 0.0), r 5.0, arc passes through (45.0, -5.0)
+  bulge -1 from (40,0) to (50,0): centre (45.0, -0.0), r 5.0, arc passes through (45.0, 5.0)
+  wrote 02-lwpolyline-bulges.dxf (14,744 bytes, AC1015)
+  plot area analytic 600 - (36 - 9*pi) = 592.2743 m2; flattened (71 pts, 0.5 mm sagitta) = 592.2795 m2
+03 HATCH
+  wrote 03-hatch.dxf (15,014 bytes, AC1015)
+  plaza net area analytic 20*10 + pi*10^2/2 - pi*3^2 = 328.8053 m2
+  ANSI31 pattern definition lines written: 1
+04 DIMENSION
+  linear horizontal (frontage)     code70= 32 measurement=        30.0 block=*D1 {'LINE': 3, 'INSERT': 2, 'MTEXT': 1, 'POINT': 3} text='30.00'
+  linear vertical (depth)          code70= 32 measurement=        20.0 block=*D2 {'LINE': 3, 'INSERT': 2, 'MTEXT': 1, 'POINT': 3} text='20.00'
+  aligned (12 m by 9 m boundary)   code70= 32 measurement=        15.0 block=*D3 {'LINE': 3, 'INSERT': 2, 'MTEXT': 1, 'POINT': 3} text='15.00'
+  radius (corner splay)            code70= 36 measurement=5.999999999999998 block=*D4 {'INSERT': 1, 'LINE': 2, 'MTEXT': 1, 'POINT': 2} text='R6.00'
+  diameter (fountain)              code70= 35 measurement=         6.0 block=*D5 {'INSERT': 2, 'LINE': 2, 'MTEXT': 1, 'POINT': 2} text='%%c6.00'
+  angular 2-line                   code70= 34 measurement=323.13010235415595 block=*D6 {'LINE': 2, 'INSERT': 2, 'MTEXT': 1, 'ARC': 3, 'POINT': 5} text='36.87°'
+  angular 3-point                  code70= 37 measurement=        90.0 block=*D7 {'LINE': 2, 'INSERT': 2, 'MTEXT': 1, 'ARC': 1, 'POINT': 4} text='90°'
+  aligned defpoint 10 = (38.2, 2.4) (hand: p1 + 3*(-0.6,0.8) = (38.2, 2.4)); 13 = (40.0, 0.0), 14 = (52.0, 9.0); length sqrt(12^2+9^2) = 15.0
+  angular 2-line: atan2(9,12) = 36.8699 deg; block ARC 0.00..36.87 deg r 8.000; get_measurement() = 323.1301 (ezdxf API quirk, see report)
+    angular code 10: (55.0, 0.0)
+    angular code 13: (40.0, 0.0)
+    angular code 14: (52.0, 9.0)
+    angular code 15: (40.0, 0.0)
+    angular code 16: (47.608, 2.472)
+  wrote 04-dimensions.dxf (27,508 bytes, AC1015)
+  unrendered dimension: geometry block name = None
+  wrote 04b-dimension-without-block.dxf (14,637 bytes, AC1015)
+05 Arabic TEXT / MTEXT
+  wrote 05a-arabic-ansi1256.dxf (14,410 bytes, AC1015)
+    $DWGCODEPAGE=ANSI_1256; TEXT code 1 raw bytes: b'\xe3\xce\xd8\xd8 \xd1\xc6\xed\xd3\xed - \xde\xd8\xda\xc9 12'
+    $DWGCODEPAGE in file: b'ANSI_1256'
+    readfile         TEXT equals written: True; first code points: U+0645 U+062E U+0637 U+0637
+    recover.readfile TEXT equals written: True; first code points: U+0645 U+062E U+0637 U+0637
+  wrote 05b-arabic-ansi1252-uplus.dxf (14,644 bytes, AC1015)
+    $DWGCODEPAGE=ANSI_1252; TEXT code 1 raw bytes: b'\\U+0645\\U+062e\\U+0637\\U+0637 \\U+0631\\U+0626\\U+064a\\U+0633\\U+'...
+    $DWGCODEPAGE in file: b'ANSI_1252'
+    readfile         TEXT equals written: False; first code points: U+005C U+0055 U+002B U+0030
+    recover.readfile TEXT equals written: True; first code points: U+0645 U+062E U+0637 U+0637
+  wrote 05c-arabic-preshaped-visual.dxf (14,488 bytes, AC1015)
+    $DWGCODEPAGE=ANSI_1256; TEXT code 1 raw bytes: b'12 \\U+fe94\\U+fecc\\U+fec4\\U+fed7 - \\U+fef2\\U+feb4\\U+fef4\\U+fe'...
+    $DWGCODEPAGE in file: b'ANSI_1256'
+    readfile         TEXT equals written: False; first code points: U+0031 U+0032 U+0020 U+005C
+    recover.readfile TEXT equals written: True; first code points: U+0031 U+0032 U+0020 U+FE94
+  wrote 05d-arabic-R2007-utf8.dxf (15,804 bytes, AC1021)
+    $DWGCODEPAGE=ANSI_1256; TEXT code 1 raw bytes: b'\xd9\x85\xd8\xae\xd8\xb7\xd8\xb7 \xd8\xb1\xd8\xa6\xd9\x8a\xd8\xb3\xd9\x8a - \xd9\x82\xd8\xb7\xd8\xb9\xd8\xa9 12'
+    $DWGCODEPAGE in file: b'ANSI_1256'
+    readfile         TEXT equals written: True; first code points: U+0645 U+062E U+0637 U+0637
+    recover.readfile TEXT equals written: True; first code points: U+0645 U+062E U+0637 U+0637
+  logical order (stored):  U+0645 U+062E U+0637 U+0637 U+0020 ...
+  pre-shaped visual order: U+0031 U+0032 U+0020 U+FE94 U+FECC ...
+  presentation forms fit cp1256: no (character maps to <undefined> at U+FE94)
+  logical Arabic fits cp1256: True
+06 plot styles
+  wrote 06a-plotstyles-ctb.dxf (14,614 bytes, AC1015)
+  wrote 06b-plotstyles-stb.dxf (14,716 bytes, AC1015)
+  ACAD_PLOTSTYLENAME entries: {'Normal': '13', 'Road-Edge': '34', 'Plot-Boundary': '35'}, default -> 13
+    layer '0'              code 390 -> 13
+    layer 'Defpoints'      code 390 -> 13
+    layer 'PLOT-BOUNDARY'  code 390 -> 35
+    layer 'ROADS'          code 390 -> 34
+  wrote 06c-plotstyles-stb-entity390-R2007.dxf (16,097 bytes, AC1021)

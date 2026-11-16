@@ -1,0 +1,29 @@
+auditing file: 01-minimum-ezdxf-R2000.dxf
+No errors found.
+auditing file: 02-lwpolyline-bulges.dxf
+No errors found.
+auditing file: 03-hatch.dxf
+No errors found.
+auditing file: 04-dimensions.dxf
+No errors found.
+auditing file: 04b-dimension-without-block.dxf
+1 issues fixed.
+
+   1. Issue [103] fixed.
+   Removed DIMENSION(#30) without valid geometry block.
+
+Found 0 errors, applied 1 fixes
+auditing file: 05a-arabic-ansi1256.dxf
+No errors found.
+auditing file: 05b-arabic-ansi1252-uplus.dxf
+No errors found.
+auditing file: 05c-arabic-preshaped-visual.dxf
+No errors found.
+auditing file: 05d-arabic-R2007-utf8.dxf
+No errors found.
+auditing file: 06a-plotstyles-ctb.dxf
+No errors found.
+auditing file: 06b-plotstyles-stb.dxf
+No errors found.
+auditing file: 06c-plotstyles-stb-entity390-R2007.dxf
+No errors found.

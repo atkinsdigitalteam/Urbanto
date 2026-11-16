@@ -1,0 +1,13 @@
+project         native_bytes  il_warn extra_native_files_beside_exe
+hello                1420016        0 
+httpbase             6961384        0 
+velo                10684416        0 
+sentryapp           11851464        0 
+sentrydefaults      11851400        0 
+stdlic              10819744        0 
+lexact               1444880        0 libLexActivator.so 
+lspring             18995632      170 libhardware_id_generator.so 
+ecdsalic             3398352        0 
+stack               15985344        0 
+sentryapp(SentryNative=false)     11426040        0 
+sentryconsent       11851464        0 

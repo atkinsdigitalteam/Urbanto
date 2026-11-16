@@ -1,0 +1,52 @@
+
+== EPSG:4270 Nahrwan 1967 -> WGS 84: 13 usable, 0 unavailable
+   acc=44.0 m | Nahrwan 1967 to WGS 84 (3) (with axis order normalized for visualization)
+   acc=5.0 m | Nahrwan 1967 to WGS 84 (11) (with axis order normalized for visualization)
+   acc=0.15 m | Nahrwan 1967 to WGS 84 (12) (with axis order normalized for visualization)
+   acc=1.0 m | Nahrwan 1967 to WGS 84 (5) (with axis order normalized for visualization)
+   acc=2.0 m | Nahrwan 1967 to WGS 84 (7) (with axis order normalized for visualization)
+   acc=1.0 m | Nahrwan 1967 to WGS 84 (15) (with axis order normalized for visualization)
+   acc=1.0 m | Nahrwan 1967 to WGS 84 (14) (with axis order normalized for visualization)
+   acc=5.0 m | Nahrwan 1967 to WGS 84 (9) (with axis order normalized for visualization)
+   acc=35.0 m | Nahrwan 1967 to WGS 84 (2) (with axis order normalized for visualization)
+   acc=5.0 m | Nahrwan 1967 to WGS 84 (10) (with axis order normalized for visualization)
+   acc=1.0 m | Nahrwan 1967 to WGS 84 (13) (with axis order normalized for visualization)
+   acc=0.5 m | Nahrwan 1967 to WGS 84 (4) (with axis order normalized for visualization)
+   acc=-1.0 m | Ballpark geographic offset from Nahrwan 1967 to WGS 84 (with axis order normalized for visualization)
+   from_crs picks: unavailable until proj_trans is called (acc=-1.0)
+
+== EPSG:4303 TC(1948) -> WGS 84: 1 usable, 0 unavailable
+   acc=-1.0 m | Ballpark geographic offset from TC(1948) to WGS 84 (with axis order normalized for visualization)
+   from_crs picks: Ballpark geographic offset from TC(1948) to WGS 84 (with axis order normalized for visualization) (acc=-1.0)
+
+== EPSG:4204 Ain el Abd -> WGS 84: 6 usable, 0 unavailable
+   acc=18.0 m | Ain el Abd to WGS 84 (2) (with axis order normalized for visualization)
+   acc=1.0 m | Ain el Abd to WGS 84 (4) (with axis order normalized for visualization)
+   acc=1.0 m | Ain el Abd to WGS 84 (3) (with axis order normalized for visualization)
+   acc=1.0 m | Ain el Abd to WGS 84 (5) (with axis order normalized for visualization)
+   acc=1.0 m | Ain el Abd to WGS 84 (6) (with axis order normalized for visualization)
+   acc=44.0 m | Ain el Abd to WGS 84 (1) (with axis order normalized for visualization)
+   from_crs picks: unavailable until proj_trans is called (acc=-1.0)
+
+== EPSG:8818 MTRF-2000 -> WGS 84: 1 usable, 0 unavailable
+   acc=1.0 m | MTRF-2000 to WGS 84 (1) (with axis order normalized for visualization)
+   from_crs picks: MTRF-2000 to WGS 84 (1) (with axis order normalized for visualization) (acc=1.0)
+
+== EPSG:9333 KSA-GRF17 -> WGS 84: 1 usable, 0 unavailable
+   acc=1.0 m | KSA-GRF17 to WGS 84 (1) (with axis order normalized for visualization)
+   from_crs picks: KSA-GRF17 to WGS 84 (1) (with axis order normalized for visualization) (acc=1.0)
+
+== EPSG:4614 QND95 -> WGS 84: 1 usable, 0 unavailable
+   acc=0.0 m | QND95 to WGS 84 (1) (with axis order normalized for visualization)
+   from_crs picks: QND95 to WGS 84 (1) (with axis order normalized for visualization) (acc=0.0)
+
+== EPSG:4285 Qatar 1974 -> WGS 84: 4 usable, 0 unavailable
+   acc=1.0 m | Qatar 1974 to WGS 84 (2) (with axis order normalized for visualization)
+   acc=1.0 m | Qatar 1974 to WGS 84 (3) (with axis order normalized for visualization)
+   acc=35.0 m | Qatar 1974 to WGS 84 (1) (with axis order normalized for visualization)
+   acc=-1.0 m | Ballpark geographic offset from Qatar 1974 to WGS 84 (with axis order normalized for visualization)
+   from_crs picks: unavailable until proj_trans is called (acc=-1.0)
+
+== EPSG:4286 Qatar 1948 -> WGS 84: 1 usable, 0 unavailable
+   acc=-1.0 m | Ballpark geographic offset from Qatar 1948 to WGS 84 (with axis order normalized for visualization)
+   from_crs picks: Ballpark geographic offset from Qatar 1948 to WGS 84 (with axis order normalized for visualization) (acc=-1.0)

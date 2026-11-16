@@ -1,0 +1,55 @@
+auditing file: 00-full-minimum.dxf
+No errors found.
+auditing file: 01-no-objects-section.dxf
+No errors found.
+auditing file: 02-no-acad-group-dict.dxf
+No errors found.
+auditing file: 03-no-classes-section.dxf
+No errors found.
+auditing file: 04-no-blocks-section.dxf
+No errors found.
+auditing file: 05-no-block-record-table.dxf
+No errors found.
+auditing file: 06-no-layer-0.dxf
+No errors found.
+auditing file: 07-no-ltypes.dxf
+No errors found.
+auditing file: 08-no-standard-style.dxf
+No errors found.
+auditing file: 09-no-appid-acad.dxf
+No errors found.
+auditing file: 10-no-standard-dimstyle.dxf
+No errors found.
+auditing file: 11-no-handseed.dxf
+No errors found.
+auditing file: 12-handseed-too-low.dxf
+No errors found.
+auditing file: 13-line-without-handle.dxf
+No errors found.
+auditing file: 14-line-without-owner.dxf
+No errors found.
+auditing file: 15-line-without-subclass-markers.dxf
+No errors found.
+auditing file: 16-line-duplicate-handle.dxf
+Found non-unique entity handle #1E, data validation is required.
+1 issues fixed.
+
+   1. Issue [12] fixed.
+   Removed entity LINE(#1E) with a conflicting handle and without a database entry.
+
+Found 0 errors, applied 1 fixes
+auditing file: 17-no-header-section.dxf
+3 issues fixed.
+
+   1. Issue [9] fixed.
+   Removed unsupported CLASSES section for DXF R12.
+
+   2. Issue [9] fixed.
+   Removed unsupported OBJECTS section for DXF R12.
+
+   3. Issue [10] fixed.
+   Removed unsupported BLOCK_RECORD table for DXF R12.
+
+Found 0 errors, applied 3 fixes
+auditing file: 18-entities-only-ac1015.dxf
+No errors found.

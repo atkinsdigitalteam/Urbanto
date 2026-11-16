@@ -1,0 +1,428 @@
+# Linux x64, .NET SDK 8.0.427, run 2026-10-30T22:54:37Z. Native AOT binaries built with dotnet publish -r linux-x64 -p:PublishAot=true
+
+######## AcadSharpAot (aot) on samples
+FAIL  01-minimum-ezdxf-R2000: KeyNotFoundException: The given key '5' was not present in the dictionary.
+FAIL  02-lwpolyline-bulges: KeyNotFoundException: The given key '5' was not present in the dictionary.
+FAIL  03-hatch: KeyNotFoundException: The given key '5' was not present in the dictionary.
+FAIL  04-dimensions: KeyNotFoundException: The given key '5' was not present in the dictionary.
+FAIL  04b-dimension-without-block: KeyNotFoundException: The given key '5' was not present in the dictionary.
+FAIL  05a-arabic-ansi1256: KeyNotFoundException: The given key '5' was not present in the dictionary.
+FAIL  05b-arabic-ansi1252-uplus: KeyNotFoundException: The given key '5' was not present in the dictionary.
+FAIL  05c-arabic-preshaped-visual: KeyNotFoundException: The given key '5' was not present in the dictionary.
+FAIL  05d-arabic-R2007-utf8: KeyNotFoundException: The given key '5' was not present in the dictionary.
+FAIL  06a-plotstyles-ctb: KeyNotFoundException: The given key '5' was not present in the dictionary.
+FAIL  06b-plotstyles-stb: KeyNotFoundException: The given key '5' was not present in the dictionary.
+FAIL  06c-plotstyles-stb-entity390-R2007: KeyNotFoundException: The given key '5' was not present in the dictionary.
+FAIL  new AC1015 ANSI_1252: MissingMethodException: No parameterless constructor defined for type 'ACadSharp.Tables.AppId'.
+FAIL  new AC1015 ANSI_1256: MissingMethodException: No parameterless constructor defined for type 'ACadSharp.Tables.AppId'.
+FAIL  new AC1018 ANSI_1256: MissingMethodException: No parameterless constructor defined for type 'ACadSharp.Tables.AppId'.
+FAIL  new AC1024 ANSI_1252: MissingMethodException: No parameterless constructor defined for type 'ACadSharp.Tables.AppId'.
+exit=0
+
+######## AcadSharpAot (aot) on minimal
+FAIL  00-full-minimum: KeyNotFoundException: The given key '5' was not present in the dictionary.
+FAIL  01-no-objects-section: KeyNotFoundException: The given key '5' was not present in the dictionary.
+FAIL  02-no-acad-group-dict: KeyNotFoundException: The given key '5' was not present in the dictionary.
+FAIL  03-no-classes-section: KeyNotFoundException: The given key '5' was not present in the dictionary.
+FAIL  04-no-blocks-section: KeyNotFoundException: The given key '5' was not present in the dictionary.
+FAIL  05-no-block-record-table: KeyNotFoundException: The given key '5' was not present in the dictionary.
+FAIL  06-no-layer-0: KeyNotFoundException: The given key '5' was not present in the dictionary.
+FAIL  07-no-ltypes: KeyNotFoundException: The given key '5' was not present in the dictionary.
+FAIL  08-no-standard-style: KeyNotFoundException: The given key '5' was not present in the dictionary.
+FAIL  09-no-appid-acad: KeyNotFoundException: The given key '5' was not present in the dictionary.
+READ  10-no-standard-dimstyle.dxf  ver=AC1015  [LINE=1]  warnings=0  2 ms
+FAIL  10-no-standard-dimstyle: KeyNotFoundException: The given key 'Standard' was not present in the dictionary.
+FAIL  11-no-handseed: KeyNotFoundException: The given key '5' was not present in the dictionary.
+FAIL  12-handseed-too-low: KeyNotFoundException: The given key '5' was not present in the dictionary.
+FAIL  13-line-without-handle: KeyNotFoundException: The given key '5' was not present in the dictionary.
+FAIL  14-line-without-owner: KeyNotFoundException: The given key '5' was not present in the dictionary.
+FAIL  15-line-without-subclass-markers: KeyNotFoundException: The given key '5' was not present in the dictionary.
+FAIL  16-line-duplicate-handle: KeyNotFoundException: The given key '5' was not present in the dictionary.
+FAIL  17-no-header-section: KeyNotFoundException: The given key '5' was not present in the dictionary.
+READ  18-entities-only-ac1015.dxf  ver=AC1032  []  warnings=12  0 ms
+      Warning: Header section not found, using a generic reader.
+      Warning: Table APPID not found in the document
+      Warning: Table STYLE not found in the document
+      Warning: Table LTYPE not found in the document
+FAIL  18-entities-only-ac1015: KeyNotFoundException: The given key 'Standard' was not present in the dictionary.
+FAIL  new AC1015 ANSI_1252: MissingMethodException: No parameterless constructor defined for type 'ACadSharp.Tables.AppId'.
+FAIL  new AC1015 ANSI_1256: MissingMethodException: No parameterless constructor defined for type 'ACadSharp.Tables.AppId'.
+FAIL  new AC1018 ANSI_1256: MissingMethodException: No parameterless constructor defined for type 'ACadSharp.Tables.AppId'.
+FAIL  new AC1024 ANSI_1252: MissingMethodException: No parameterless constructor defined for type 'ACadSharp.Tables.AppId'.
+exit=0
+
+######## AcadSharpRooted (aot) on samples
+READ  01-minimum-ezdxf-R2000.dxf  ver=AC1015  [LINE=1]  warnings=0  29 ms
+DWG   01-minimum-ezdxf-R2000.dwg  5256 bytes, read back [LINE=1]  warnings=0
+READ  02-lwpolyline-bulges.dxf  ver=AC1015  [LWPOLYLINE=4]  warnings=0  7 ms
+DWG   02-lwpolyline-bulges.dwg  5551 bytes, read back [LWPOLYLINE=4]  warnings=0
+READ  03-hatch.dxf  ver=AC1015  [HATCH=2]  warnings=0  7 ms
+DWG   03-hatch.dwg  5706 bytes, read back [HATCH=2]  warnings=0
+READ  04-dimensions.dxf  ver=AC1015  [CIRCLE=1, DIMENSION=7, LINE=2, LWPOLYLINE=1]  warnings=0  14 ms
+      DIM DIMENSION measurement=30 block=*D1
+      DIM DIMENSION measurement=20 block=*D2
+      DIM DIMENSION measurement=15 block=*D3
+      DIM DIMENSION measurement=6 block=*D4
+      DIM DIMENSION measurement=6 block=*D5
+      DIM DIMENSION measurement=0.644 block=*D6
+      DIM DIMENSION measurement=1.571 block=*D7
+DWG   04-dimensions.dwg  10541 bytes, read back [CIRCLE=1, DIMENSION=7, LINE=2, LWPOLYLINE=1]  warnings=0
+READ  04b-dimension-without-block.dxf  ver=AC1015  [DIMENSION=1]  warnings=0  7 ms
+      DIM DIMENSION measurement=30 block=null
+DWG   04b-dimension-without-block.dwg  5445 bytes, read back [DIMENSION=1]  warnings=0
+READ  05a-arabic-ansi1256.dxf  ver=AC1015  [MTEXT=1, TEXT=1]  warnings=0  8 ms
+      TEXT  first chars U+0645 U+062E U+0637 U+0637 U+0020 U+0631
+      MTEXT first chars U+0627 U+0644 U+0645 U+0646 U+0637 U+0642
+DWG   05a-arabic-ansi1256.dwg  5457 bytes, read back [MTEXT=1, TEXT=1]  warnings=0
+READ  05b-arabic-ansi1252-uplus.dxf  ver=AC1015  [MTEXT=1, TEXT=1]  warnings=0  7 ms
+      TEXT  first chars U+005C U+0055 U+002B U+0030 U+0036 U+0034
+      MTEXT first chars U+005C U+0055 U+002B U+0030 U+0036 U+0032
+DWG   05b-arabic-ansi1252-uplus.dwg  5691 bytes, read back [MTEXT=1, TEXT=1]  warnings=0
+READ  05c-arabic-preshaped-visual.dxf  ver=AC1015  [MTEXT=1, TEXT=1]  warnings=0  7 ms
+      TEXT  first chars U+0031 U+0032 U+0020 U+005C U+0055 U+002B
+      MTEXT first chars U+0627 U+0644 U+0645 U+0646 U+0637 U+0642
+DWG   05c-arabic-preshaped-visual.dwg  5535 bytes, read back [MTEXT=1, TEXT=1]  warnings=0
+READ  05d-arabic-R2007-utf8.dxf  ver=AC1021  [MTEXT=1, TEXT=1]  warnings=0  8 ms
+      TEXT  first chars U+0645 U+062E U+0637 U+0637 U+0020 U+0631
+      MTEXT first chars U+0627 U+0644 U+0645 U+0646 U+0637 U+0642
+DWG   05d-arabic-R2007-utf8.dwg  5457 bytes, read back [MTEXT=1, TEXT=1]  warnings=0
+READ  06a-plotstyles-ctb.dxf  ver=AC1015  [LINE=2, LWPOLYLINE=1]  warnings=0  8 ms
+DWG   06a-plotstyles-ctb.dwg  5504 bytes, read back [LINE=2, LWPOLYLINE=1]  warnings=0
+READ  06b-plotstyles-stb.dxf  ver=AC1015  [LINE=2, LWPOLYLINE=1]  warnings=0  7 ms
+DWG   06b-plotstyles-stb.dwg  5555 bytes, read back [LINE=2, LWPOLYLINE=1]  warnings=0
+READ  06c-plotstyles-stb-entity390-R2007.dxf  ver=AC1021  [LINE=2, LWPOLYLINE=1]  warnings=0  7 ms
+DWG   06c-plotstyles-stb-entity390-R2007.dwg  5555 bytes, read back [LINE=2, LWPOLYLINE=1]  warnings=0
+NEW   acadsharp-new-AC1015-ANSI_1252.dwg 5599 bytes -> [LINE=1, LWPOLYLINE=1, TEXT=1]; DWG text U+003F U+003F U+003F U+003F U+0020 U+003F; DXF text U+003F U+003F U+003F U+003F U+0020 U+003F; bulge 0.41421356
+NEW   acadsharp-new-AC1015-ANSI_1256.dwg 5599 bytes -> [LINE=1, LWPOLYLINE=1, TEXT=1]; DWG text U+0645 U+062E U+0637 U+0637 U+0020 U+0631; DXF text U+0645 U+062E U+0637 U+0637 U+0020 U+0631; bulge 0.41421356
+NEW   acadsharp-new-AC1018-ANSI_1256.dwg 7689 bytes -> [LINE=1, LWPOLYLINE=1, TEXT=1]; DWG text U+0645 U+062E U+0637 U+0637 U+0020 U+0631; DXF text U+0645 U+062E U+0637 U+0637 U+0020 U+0631; bulge 0.41421356
+NEW   acadsharp-new-AC1024-ANSI_1252.dwg 8428 bytes -> [LINE=1, LWPOLYLINE=1, TEXT=1]; DWG text U+0645 U+062E U+0637 U+0637 U+0020 U+0631; DXF text U+0645 U+062E U+0637 U+0637 U+0020 U+0631; bulge 0.41421356
+exit=0
+
+######## AcadSharpRooted (aot) on minimal
+READ  00-full-minimum.dxf  ver=AC1015  [LINE=1]  warnings=0  20 ms
+FAIL  00-full-minimum: KeyNotFoundException: The given key 'Standard' was not present in the dictionary.
+READ  01-no-objects-section.dxf  ver=AC1015  [LINE=1]  warnings=1  3 ms
+      Warning: The root dictionary could not be found.
+FAIL  01-no-objects-section: KeyNotFoundException: The given key 'Standard' was not present in the dictionary.
+READ  02-no-acad-group-dict.dxf  ver=AC1015  [LINE=1]  warnings=0  3 ms
+FAIL  02-no-acad-group-dict: KeyNotFoundException: The given key 'Standard' was not present in the dictionary.
+READ  03-no-classes-section.dxf  ver=AC1015  [LINE=1]  warnings=0  3 ms
+FAIL  03-no-classes-section: KeyNotFoundException: The given key 'Standard' was not present in the dictionary.
+READ  04-no-blocks-section.dxf  ver=AC1015  [LINE=1]  warnings=0  3 ms
+FAIL  04-no-blocks-section: KeyNotFoundException: The given key 'Standard' was not present in the dictionary.
+READ  05-no-block-record-table.dxf  ver=AC1015  []  warnings=8  3 ms
+      Warning: Block record with handle [23] not found at line 292
+      Warning: Block record [*Model_Space] not found at line 300
+      Warning: Block record [*Model_Space] not found at line 310
+      Warning: Block record with handle [24] not found at line 330
+FAIL  05-no-block-record-table: KeyNotFoundException: The given key 'Standard' was not present in the dictionary.
+READ  06-no-layer-0.dxf  ver=AC1015  [LINE=1]  warnings=0  3 ms
+FAIL  06-no-layer-0: KeyNotFoundException: The given key 'Standard' was not present in the dictionary.
+READ  07-no-ltypes.dxf  ver=AC1015  [LINE=1]  warnings=0  4 ms
+FAIL  07-no-ltypes: KeyNotFoundException: The given key 'Standard' was not present in the dictionary.
+READ  08-no-standard-style.dxf  ver=AC1015  [LINE=1]  warnings=0  3 ms
+FAIL  08-no-standard-style: KeyNotFoundException: The given key 'Standard' was not present in the dictionary.
+READ  09-no-appid-acad.dxf  ver=AC1015  [LINE=1]  warnings=0  3 ms
+FAIL  09-no-appid-acad: KeyNotFoundException: The given key 'Standard' was not present in the dictionary.
+READ  10-no-standard-dimstyle.dxf  ver=AC1015  [LINE=1]  warnings=0  3 ms
+FAIL  10-no-standard-dimstyle: KeyNotFoundException: The given key 'Standard' was not present in the dictionary.
+READ  11-no-handseed.dxf  ver=AC1015  [LINE=1]  warnings=0  4 ms
+FAIL  11-no-handseed: KeyNotFoundException: The given key 'Standard' was not present in the dictionary.
+READ  12-handseed-too-low.dxf  ver=AC1015  [LINE=1]  warnings=0  3 ms
+FAIL  12-handseed-too-low: KeyNotFoundException: The given key 'Standard' was not present in the dictionary.
+READ  13-line-without-handle.dxf  ver=AC1015  []  warnings=0  3 ms
+FAIL  13-line-without-handle: KeyNotFoundException: The given key 'Standard' was not present in the dictionary.
+READ  14-line-without-owner.dxf  ver=AC1015  [LINE=1]  warnings=0  3 ms
+FAIL  14-line-without-owner: KeyNotFoundException: The given key 'Standard' was not present in the dictionary.
+READ  15-line-without-subclass-markers.dxf  ver=AC1015  [LINE=1]  warnings=0  4 ms
+FAIL  15-line-without-subclass-markers: KeyNotFoundException: The given key 'Standard' was not present in the dictionary.
+READ  16-line-duplicate-handle.dxf  ver=AC1015  [LINE=1]  warnings=1  4 ms
+      Warning: Repeated handle found 30.
+FAIL  16-line-duplicate-handle: KeyNotFoundException: The given key 'Standard' was not present in the dictionary.
+READ  17-no-header-section.dxf  ver=AC1032  [LINE=1]  warnings=1  1 ms
+      Warning: Header section not found, using a generic reader.
+FAIL  17-no-header-section: KeyNotFoundException: The given key 'Standard' was not present in the dictionary.
+READ  18-entities-only-ac1015.dxf  ver=AC1032  []  warnings=12  0 ms
+      Warning: Header section not found, using a generic reader.
+      Warning: Table APPID not found in the document
+      Warning: Table STYLE not found in the document
+      Warning: Table LTYPE not found in the document
+FAIL  18-entities-only-ac1015: KeyNotFoundException: The given key 'Standard' was not present in the dictionary.
+NEW   acadsharp-new-AC1015-ANSI_1252.dwg 5599 bytes -> [LINE=1, LWPOLYLINE=1, TEXT=1]; DWG text U+003F U+003F U+003F U+003F U+0020 U+003F; DXF text U+003F U+003F U+003F U+003F U+0020 U+003F; bulge 0.41421356
+NEW   acadsharp-new-AC1015-ANSI_1256.dwg 5599 bytes -> [LINE=1, LWPOLYLINE=1, TEXT=1]; DWG text U+0645 U+062E U+0637 U+0637 U+0020 U+0631; DXF text U+0645 U+062E U+0637 U+0637 U+0020 U+0631; bulge 0.41421356
+NEW   acadsharp-new-AC1018-ANSI_1256.dwg 7689 bytes -> [LINE=1, LWPOLYLINE=1, TEXT=1]; DWG text U+0645 U+062E U+0637 U+0637 U+0020 U+0631; DXF text U+0645 U+062E U+0637 U+0637 U+0020 U+0631; bulge 0.41421356
+NEW   acadsharp-new-AC1024-ANSI_1252.dwg 8428 bytes -> [LINE=1, LWPOLYLINE=1, TEXT=1]; DWG text U+0645 U+062E U+0637 U+0637 U+0020 U+0631; DXF text U+0645 U+062E U+0637 U+0637 U+0020 U+0631; bulge 0.41421356
+exit=0
+
+######## IxMiliaAot (aot) on samples
+READ  01-minimum-ezdxf-R2000.dxf  ver=R2000  [LINE=1]  1 ms
+READ  02-lwpolyline-bulges.dxf  ver=R2000  [LWPOLYLINE=4]  1 ms
+READ  03-hatch.dxf  ver=R2000  [HATCH=2]  0 ms
+READ  04-dimensions.dxf  ver=R2000  [CIRCLE=1, DIMENSION=7, LINE=2, LWPOLYLINE=1]  1 ms
+READ  04b-dimension-without-block.dxf  ver=R2000  [DIMENSION=1]  0 ms
+READ  05a-arabic-ansi1256.dxf  ver=R2000  [MTEXT=1, TEXT=1]  0 ms
+      TEXT  first chars U+0645 U+062E U+0637 U+0637 U+0020 U+0631
+      MTEXT first chars U+0627 U+0644 U+0645 U+0646 U+0637 U+0642
+READ  05b-arabic-ansi1252-uplus.dxf  ver=R2000  [MTEXT=1, TEXT=1]  0 ms
+      TEXT  first chars U+005C U+0055 U+002B U+0030 U+0036 U+0034
+      MTEXT first chars U+005C U+0055 U+002B U+0030 U+0036 U+0032
+READ  05c-arabic-preshaped-visual.dxf  ver=R2000  [MTEXT=1, TEXT=1]  0 ms
+      TEXT  first chars U+0031 U+0032 U+0020 U+005C U+0055 U+002B
+      MTEXT first chars U+0627 U+0644 U+0645 U+0646 U+0637 U+0642
+READ  05d-arabic-R2007-utf8.dxf  ver=R2007  [MTEXT=1, TEXT=1]  0 ms
+      TEXT  first chars U+0645 U+062E U+0637 U+0637 U+0020 U+0631
+      MTEXT first chars U+0627 U+0644 U+0645 U+0646 U+0637 U+0642
+READ  06a-plotstyles-ctb.dxf  ver=R2000  [LINE=2, LWPOLYLINE=1]  0 ms
+READ  06b-plotstyles-stb.dxf  ver=R2000  [LINE=2, LWPOLYLINE=1]  0 ms
+READ  06c-plotstyles-stb-entity390-R2007.dxf  ver=R2007  [LINE=2, LWPOLYLINE=1]  0 ms
+NEW   ixmilia-new.dxf 12331 bytes -> 3 entities; text U+005C U+0055 U+002B U+0030 U+0036 U+0034
+exit=0
+
+######## IxMiliaAot (aot) on minimal
+READ  00-full-minimum.dxf  ver=R2000  [LINE=1]  0 ms
+READ  01-no-objects-section.dxf  ver=R2000  [LINE=1]  0 ms
+READ  02-no-acad-group-dict.dxf  ver=R2000  [LINE=1]  0 ms
+READ  03-no-classes-section.dxf  ver=R2000  [LINE=1]  0 ms
+READ  04-no-blocks-section.dxf  ver=R2000  [LINE=1]  0 ms
+READ  05-no-block-record-table.dxf  ver=R2000  [LINE=1]  0 ms
+READ  06-no-layer-0.dxf  ver=R2000  [LINE=1]  0 ms
+READ  07-no-ltypes.dxf  ver=R2000  [LINE=1]  0 ms
+READ  08-no-standard-style.dxf  ver=R2000  [LINE=1]  0 ms
+READ  09-no-appid-acad.dxf  ver=R2000  [LINE=1]  0 ms
+READ  10-no-standard-dimstyle.dxf  ver=R2000  [LINE=1]  0 ms
+READ  11-no-handseed.dxf  ver=R2000  [LINE=1]  0 ms
+READ  12-handseed-too-low.dxf  ver=R2000  [LINE=1]  0 ms
+READ  13-line-without-handle.dxf  ver=R2000  [LINE=1]  0 ms
+READ  14-line-without-owner.dxf  ver=R2000  [LINE=1]  0 ms
+READ  15-line-without-subclass-markers.dxf  ver=R2000  [LINE=1]  0 ms
+READ  16-line-duplicate-handle.dxf  ver=R2000  [LINE=1]  0 ms
+READ  17-no-header-section.dxf  ver=R12  [LINE=1]  0 ms
+READ  18-entities-only-ac1015.dxf  ver=R12  [LINE=1]  0 ms
+NEW   ixmilia-new.dxf 12339 bytes -> 3 entities; text U+005C U+0055 U+002B U+0030 U+0036 U+0034
+exit=0
+
+######## NetDxfAot (aot) on samples
+FAIL  01-minimum-ezdxf-R2000: DxfVersionNotSupportedException: DXF file version not supported : Unknown.
+FAIL  02-lwpolyline-bulges: DxfVersionNotSupportedException: DXF file version not supported : Unknown.
+FAIL  03-hatch: DxfVersionNotSupportedException: DXF file version not supported : Unknown.
+FAIL  04-dimensions: DxfVersionNotSupportedException: DXF file version not supported : Unknown.
+FAIL  04b-dimension-without-block: DxfVersionNotSupportedException: DXF file version not supported : Unknown.
+FAIL  05a-arabic-ansi1256: DxfVersionNotSupportedException: DXF file version not supported : Unknown.
+FAIL  05b-arabic-ansi1252-uplus: DxfVersionNotSupportedException: DXF file version not supported : Unknown.
+FAIL  05c-arabic-preshaped-visual: DxfVersionNotSupportedException: DXF file version not supported : Unknown.
+FAIL  05d-arabic-R2007-utf8: DxfVersionNotSupportedException: DXF file version not supported : Unknown.
+FAIL  06a-plotstyles-ctb: DxfVersionNotSupportedException: DXF file version not supported : Unknown.
+FAIL  06b-plotstyles-stb: DxfVersionNotSupportedException: DXF file version not supported : Unknown.
+FAIL  06c-plotstyles-stb-entity390-R2007: DxfVersionNotSupportedException: DXF file version not supported : Unknown.
+Unhandled Exception: netDxf.IO.DxfVersionNotSupportedException: DXF file version not supported : Unknown.
+   at netDxf.IO.DxfReader.Read(Stream, SupportFolders) + 0xec8
+   at netDxf.DxfDocument.Load(String, IEnumerable`1) + 0x127
+   at Program.<Main>$(String[] args) + 0xb27
+   at NetDxfAot!<BaseAddress>+0x25256c
+exit=0
+
+######## NetDxfAot (aot) on minimal
+FAIL  00-full-minimum: DxfVersionNotSupportedException: DXF file version not supported : Unknown.
+FAIL  01-no-objects-section: DxfVersionNotSupportedException: DXF file version not supported : Unknown.
+FAIL  02-no-acad-group-dict: DxfVersionNotSupportedException: DXF file version not supported : Unknown.
+FAIL  03-no-classes-section: DxfVersionNotSupportedException: DXF file version not supported : Unknown.
+FAIL  04-no-blocks-section: DxfVersionNotSupportedException: DXF file version not supported : Unknown.
+FAIL  05-no-block-record-table: DxfVersionNotSupportedException: DXF file version not supported : Unknown.
+FAIL  06-no-layer-0: DxfVersionNotSupportedException: DXF file version not supported : Unknown.
+FAIL  07-no-ltypes: DxfVersionNotSupportedException: DXF file version not supported : Unknown.
+FAIL  08-no-standard-style: DxfVersionNotSupportedException: DXF file version not supported : Unknown.
+FAIL  09-no-appid-acad: DxfVersionNotSupportedException: DXF file version not supported : Unknown.
+FAIL  10-no-standard-dimstyle: DxfVersionNotSupportedException: DXF file version not supported : Unknown.
+FAIL  11-no-handseed: DxfVersionNotSupportedException: DXF file version not supported : Unknown.
+FAIL  12-handseed-too-low: DxfVersionNotSupportedException: DXF file version not supported : Unknown.
+FAIL  13-line-without-handle: DxfVersionNotSupportedException: DXF file version not supported : Unknown.
+FAIL  14-line-without-owner: DxfVersionNotSupportedException: DXF file version not supported : Unknown.
+FAIL  15-line-without-subclass-markers: DxfVersionNotSupportedException: DXF file version not supported : Unknown.
+FAIL  16-line-duplicate-handle: DxfVersionNotSupportedException: DXF file version not supported : Unknown.
+FAIL  17-no-header-section: DxfVersionNotSupportedException: DXF file version not supported : Unknown.
+FAIL  18-entities-only-ac1015: DxfVersionNotSupportedException: DXF file version not supported : Unknown.
+Unhandled Exception: netDxf.IO.DxfVersionNotSupportedException: DXF file version not supported : Unknown.
+   at netDxf.IO.DxfReader.Read(Stream, SupportFolders) + 0xec8
+   at netDxf.DxfDocument.Load(String, IEnumerable`1) + 0x127
+   at Program.<Main>$(String[] args) + 0xb27
+   at NetDxfAot!<BaseAddress>+0x25256c
+exit=0
+
+######## NetDxfAot (jit) on samples
+READ  01-minimum-ezdxf-R2000.dxf  ver=AutoCad2000  [LINE=1]  168 ms
+READ  02-lwpolyline-bulges.dxf  ver=AutoCad2000  [LWPOLYLINE=4]  2 ms
+READ  03-hatch.dxf  ver=AutoCad2000  [HATCH=2]  7 ms
+READ  04-dimensions.dxf  ver=AutoCad2000  [CIRCLE=1, DIMENSION=7, LINE=2, LWPOLYLINE=1]  21 ms
+READ  04b-dimension-without-block.dxf  ver=AutoCad2000  [DIMENSION=1]  1 ms
+READ  05a-arabic-ansi1256.dxf  ver=AutoCad2000  [MTEXT=1, TEXT=1]  3 ms
+      TEXT  first chars U+0645 U+062E U+0637 U+0637 U+0020 U+0631
+      MTEXT first chars U+0627 U+0644 U+0645 U+0646 U+0637 U+0642
+READ  05b-arabic-ansi1252-uplus.dxf  ver=AutoCad2000  [MTEXT=1, TEXT=1]  1 ms
+      TEXT  first chars U+0645 U+062E U+0637 U+0637 U+0020 U+0631
+      MTEXT first chars U+0627 U+0644 U+0645 U+0646 U+0637 U+0642
+READ  05c-arabic-preshaped-visual.dxf  ver=AutoCad2000  [MTEXT=1, TEXT=1]  1 ms
+      TEXT  first chars U+0031 U+0032 U+0020 U+FE94 U+FECC U+FEC4
+      MTEXT first chars U+0627 U+0644 U+0645 U+0646 U+0637 U+0642
+READ  05d-arabic-R2007-utf8.dxf  ver=AutoCad2007  [MTEXT=1, TEXT=1]  1 ms
+      TEXT  first chars U+0645 U+062E U+0637 U+0637 U+0020 U+0631
+      MTEXT first chars U+0627 U+0644 U+0645 U+0646 U+0637 U+0642
+READ  06a-plotstyles-ctb.dxf  ver=AutoCad2000  [LINE=2, LWPOLYLINE=1]  1 ms
+READ  06b-plotstyles-stb.dxf  ver=AutoCad2000  [LINE=2, LWPOLYLINE=1]  1 ms
+READ  06c-plotstyles-stb-entity390-R2007.dxf  ver=AutoCad2007  [LINE=2, LWPOLYLINE=1]  1 ms
+NEW   netdxf-new.dxf 8367 bytes -> 3 entities; text U+0645 U+062E U+0637 U+0637 U+0020 U+0631
+
+######## NetDxfAot (jit) on minimal
+READ  00-full-minimum.dxf  ver=AutoCad2000  [LINE=1]  91 ms
+FAIL  01-no-objects-section: Load returned null
+READ  02-no-acad-group-dict.dxf  ver=AutoCad2000  [LINE=1]  0 ms
+READ  03-no-classes-section.dxf  ver=AutoCad2000  [LINE=1]  0 ms
+FAIL  04-no-blocks-section: Load returned null
+FAIL  05-no-block-record-table: Load returned null
+READ  06-no-layer-0.dxf  ver=AutoCad2000  [LINE=1]  0 ms
+READ  07-no-ltypes.dxf  ver=AutoCad2000  [LINE=1]  0 ms
+READ  08-no-standard-style.dxf  ver=AutoCad2000  [LINE=1]  0 ms
+READ  09-no-appid-acad.dxf  ver=AutoCad2000  [LINE=1]  0 ms
+READ  10-no-standard-dimstyle.dxf  ver=AutoCad2000  [LINE=1]  0 ms
+FAIL  11-no-handseed: Load returned null
+FAIL  12-handseed-too-low: Load returned null
+READ  13-line-without-handle.dxf  ver=AutoCad2000  [LINE=1]  0 ms
+READ  14-line-without-owner.dxf  ver=AutoCad2000  [LINE=1]  0 ms
+FAIL  15-line-without-subclass-markers: Load returned null
+READ  16-line-duplicate-handle.dxf  ver=AutoCad2000  [LINE=1]  0 ms
+FAIL  17-no-header-section: DxfVersionNotSupportedException: DXF file version not supported : Unknown.
+FAIL  18-entities-only-ac1015: DxfVersionNotSupportedException: DXF file version not supported : Unknown.
+NEW   netdxf-new.dxf 8367 bytes -> 3 entities; text U+0645 U+062E U+0637 U+0637 U+0020 U+0631
+
+######## AsposeAot (aot) on samples
+FAIL  01-minimum-ezdxf-R2000: TypeInitializationException: A type initializer threw an exception. To determine which type, inspect the InnerException's StackTrace property.
+FAIL  02-lwpolyline-bulges: TypeInitializationException: A type initializer threw an exception. To determine which type, inspect the InnerException's StackTrace property.
+FAIL  03-hatch: TypeInitializationException: A type initializer threw an exception. To determine which type, inspect the InnerException's StackTrace property.
+FAIL  04-dimensions: TypeInitializationException: A type initializer threw an exception. To determine which type, inspect the InnerException's StackTrace property.
+FAIL  04b-dimension-without-block: TypeInitializationException: A type initializer threw an exception. To determine which type, inspect the InnerException's StackTrace property.
+FAIL  05a-arabic-ansi1256: TypeInitializationException: A type initializer threw an exception. To determine which type, inspect the InnerException's StackTrace property.
+FAIL  05b-arabic-ansi1252-uplus: TypeInitializationException: A type initializer threw an exception. To determine which type, inspect the InnerException's StackTrace property.
+FAIL  05c-arabic-preshaped-visual: TypeInitializationException: A type initializer threw an exception. To determine which type, inspect the InnerException's StackTrace property.
+FAIL  05d-arabic-R2007-utf8: TypeInitializationException: A type initializer threw an exception. To determine which type, inspect the InnerException's StackTrace property.
+FAIL  06a-plotstyles-ctb: TypeInitializationException: A type initializer threw an exception. To determine which type, inspect the InnerException's StackTrace property.
+FAIL  06b-plotstyles-stb: TypeInitializationException: A type initializer threw an exception. To determine which type, inspect the InnerException's StackTrace property.
+FAIL  06c-plotstyles-stb-entity390-R2007: TypeInitializationException: A type initializer threw an exception. To determine which type, inspect the InnerException's StackTrace property.
+exit=0
+
+######## AsposeAot (aot) on minimal
+FAIL  00-full-minimum: TypeInitializationException: A type initializer threw an exception. To determine which type, inspect the InnerException's StackTrace property.
+FAIL  01-no-objects-section: TypeInitializationException: A type initializer threw an exception. To determine which type, inspect the InnerException's StackTrace property.
+FAIL  02-no-acad-group-dict: TypeInitializationException: A type initializer threw an exception. To determine which type, inspect the InnerException's StackTrace property.
+FAIL  03-no-classes-section: TypeInitializationException: A type initializer threw an exception. To determine which type, inspect the InnerException's StackTrace property.
+FAIL  04-no-blocks-section: TypeInitializationException: A type initializer threw an exception. To determine which type, inspect the InnerException's StackTrace property.
+FAIL  05-no-block-record-table: TypeInitializationException: A type initializer threw an exception. To determine which type, inspect the InnerException's StackTrace property.
+FAIL  06-no-layer-0: TypeInitializationException: A type initializer threw an exception. To determine which type, inspect the InnerException's StackTrace property.
+FAIL  07-no-ltypes: TypeInitializationException: A type initializer threw an exception. To determine which type, inspect the InnerException's StackTrace property.
+FAIL  08-no-standard-style: TypeInitializationException: A type initializer threw an exception. To determine which type, inspect the InnerException's StackTrace property.
+FAIL  09-no-appid-acad: TypeInitializationException: A type initializer threw an exception. To determine which type, inspect the InnerException's StackTrace property.
+FAIL  10-no-standard-dimstyle: TypeInitializationException: A type initializer threw an exception. To determine which type, inspect the InnerException's StackTrace property.
+FAIL  11-no-handseed: TypeInitializationException: A type initializer threw an exception. To determine which type, inspect the InnerException's StackTrace property.
+FAIL  12-handseed-too-low: TypeInitializationException: A type initializer threw an exception. To determine which type, inspect the InnerException's StackTrace property.
+FAIL  13-line-without-handle: TypeInitializationException: A type initializer threw an exception. To determine which type, inspect the InnerException's StackTrace property.
+FAIL  14-line-without-owner: TypeInitializationException: A type initializer threw an exception. To determine which type, inspect the InnerException's StackTrace property.
+FAIL  15-line-without-subclass-markers: TypeInitializationException: A type initializer threw an exception. To determine which type, inspect the InnerException's StackTrace property.
+FAIL  16-line-duplicate-handle: TypeInitializationException: A type initializer threw an exception. To determine which type, inspect the InnerException's StackTrace property.
+FAIL  17-no-header-section: TypeInitializationException: A type initializer threw an exception. To determine which type, inspect the InnerException's StackTrace property.
+FAIL  18-entities-only-ac1015: TypeInitializationException: A type initializer threw an exception. To determine which type, inspect the InnerException's StackTrace property.
+exit=0
+
+######## CadLibAot (aot) on samples
+exit=0
+
+######## CadLibAot (aot) on minimal
+exit=0
+
+######## AcadSharp (jit) on samples
+READ  01-minimum-ezdxf-R2000.dxf  ver=AC1015  [LINE=1]  warnings=0  212 ms
+DWG   01-minimum-ezdxf-R2000.dwg  5256 bytes, read back [LINE=1]  warnings=0
+READ  02-lwpolyline-bulges.dxf  ver=AC1015  [LWPOLYLINE=4]  warnings=0  8 ms
+DWG   02-lwpolyline-bulges.dwg  5551 bytes, read back [LWPOLYLINE=4]  warnings=0
+READ  03-hatch.dxf  ver=AC1015  [HATCH=2]  warnings=0  18 ms
+DWG   03-hatch.dwg  5706 bytes, read back [HATCH=2]  warnings=0
+READ  04-dimensions.dxf  ver=AC1015  [CIRCLE=1, DIMENSION=7, LINE=2, LWPOLYLINE=1]  warnings=0  19 ms
+      DIM DIMENSION measurement=30 block=*D1
+      DIM DIMENSION measurement=20 block=*D2
+      DIM DIMENSION measurement=15 block=*D3
+      DIM DIMENSION measurement=6 block=*D4
+      DIM DIMENSION measurement=6 block=*D5
+      DIM DIMENSION measurement=0.644 block=*D6
+      DIM DIMENSION measurement=1.571 block=*D7
+DWG   04-dimensions.dwg  10541 bytes, read back [CIRCLE=1, DIMENSION=7, LINE=2, LWPOLYLINE=1]  warnings=0
+READ  04b-dimension-without-block.dxf  ver=AC1015  [DIMENSION=1]  warnings=0  3 ms
+      DIM DIMENSION measurement=30 block=null
+DWG   04b-dimension-without-block.dwg  5445 bytes, read back [DIMENSION=1]  warnings=0
+READ  05a-arabic-ansi1256.dxf  ver=AC1015  [MTEXT=1, TEXT=1]  warnings=0  6 ms
+      TEXT  first chars U+0645 U+062E U+0637 U+0637 U+0020 U+0631
+      MTEXT first chars U+0627 U+0644 U+0645 U+0646 U+0637 U+0642
+DWG   05a-arabic-ansi1256.dwg  5457 bytes, read back [MTEXT=1, TEXT=1]  warnings=0
+READ  05b-arabic-ansi1252-uplus.dxf  ver=AC1015  [MTEXT=1, TEXT=1]  warnings=0  3 ms
+      TEXT  first chars U+005C U+0055 U+002B U+0030 U+0036 U+0034
+      MTEXT first chars U+005C U+0055 U+002B U+0030 U+0036 U+0032
+DWG   05b-arabic-ansi1252-uplus.dwg  5691 bytes, read back [MTEXT=1, TEXT=1]  warnings=0
+READ  05c-arabic-preshaped-visual.dxf  ver=AC1015  [MTEXT=1, TEXT=1]  warnings=0  4 ms
+      TEXT  first chars U+0031 U+0032 U+0020 U+005C U+0055 U+002B
+      MTEXT first chars U+0627 U+0644 U+0645 U+0646 U+0637 U+0642
+DWG   05c-arabic-preshaped-visual.dwg  5535 bytes, read back [MTEXT=1, TEXT=1]  warnings=0
+READ  05d-arabic-R2007-utf8.dxf  ver=AC1021  [MTEXT=1, TEXT=1]  warnings=0  4 ms
+      TEXT  first chars U+0645 U+062E U+0637 U+0637 U+0020 U+0631
+      MTEXT first chars U+0627 U+0644 U+0645 U+0646 U+0637 U+0642
+DWG   05d-arabic-R2007-utf8.dwg  5457 bytes, read back [MTEXT=1, TEXT=1]  warnings=0
+READ  06a-plotstyles-ctb.dxf  ver=AC1015  [LINE=2, LWPOLYLINE=1]  warnings=0  3 ms
+DWG   06a-plotstyles-ctb.dwg  5504 bytes, read back [LINE=2, LWPOLYLINE=1]  warnings=0
+READ  06b-plotstyles-stb.dxf  ver=AC1015  [LINE=2, LWPOLYLINE=1]  warnings=0  3 ms
+DWG   06b-plotstyles-stb.dwg  5555 bytes, read back [LINE=2, LWPOLYLINE=1]  warnings=0
+READ  06c-plotstyles-stb-entity390-R2007.dxf  ver=AC1021  [LINE=2, LWPOLYLINE=1]  warnings=0  3 ms
+DWG   06c-plotstyles-stb-entity390-R2007.dwg  5555 bytes, read back [LINE=2, LWPOLYLINE=1]  warnings=0
+NEW   acadsharp-new-AC1015-ANSI_1252.dwg 5599 bytes -> [LINE=1, LWPOLYLINE=1, TEXT=1]; DWG text U+003F U+003F U+003F U+003F U+0020 U+003F; DXF text U+003F U+003F U+003F U+003F U+0020 U+003F; bulge 0.41421356
+NEW   acadsharp-new-AC1015-ANSI_1256.dwg 5599 bytes -> [LINE=1, LWPOLYLINE=1, TEXT=1]; DWG text U+0645 U+062E U+0637 U+0637 U+0020 U+0631; DXF text U+0645 U+062E U+0637 U+0637 U+0020 U+0631; bulge 0.41421356
+NEW   acadsharp-new-AC1018-ANSI_1256.dwg 7689 bytes -> [LINE=1, LWPOLYLINE=1, TEXT=1]; DWG text U+0645 U+062E U+0637 U+0637 U+0020 U+0631; DXF text U+0645 U+062E U+0637 U+0637 U+0020 U+0631; bulge 0.41421356
+NEW   acadsharp-new-AC1024-ANSI_1252.dwg 8428 bytes -> [LINE=1, LWPOLYLINE=1, TEXT=1]; DWG text U+0645 U+062E U+0637 U+0637 U+0020 U+0631; DXF text U+0645 U+062E U+0637 U+0637 U+0020 U+0631; bulge 0.41421356
+
+######## Aspose (jit, evaluation mode) on samples
+READ  01-minimum-ezdxf-R2000.dxf  entities=1
+SAVE  01-minimum-ezdxf-R2000: dwg 76110 bytes
+READ  02-lwpolyline-bulges.dxf  entities=4
+SAVE  02-lwpolyline-bulges: dwg 77996 bytes
+READ  03-hatch.dxf  entities=2
+SAVE  03-hatch: dwg 77294 bytes
+READ  04-dimensions.dxf  entities=11
+SAVE  04-dimensions: dwg 101174 bytes
+READ  04b-dimension-without-block.dxf  entities=1
+SAVE  04b-dimension-without-block: dwg 78223 bytes
+READ  05a-arabic-ansi1256.dxf  entities=2
+SAVE  05a-arabic-ansi1256: dwg 110742 bytes
+READ  05b-arabic-ansi1252-uplus.dxf  entities=2
+SAVE  05b-arabic-ansi1252-uplus: dwg 110742 bytes
+READ  05c-arabic-preshaped-visual.dxf  entities=2
+SAVE  05c-arabic-preshaped-visual: dwg 109720 bytes
+READ  05d-arabic-R2007-utf8.dxf  entities=2
+SAVE  05d-arabic-R2007-utf8: dwg 110742 bytes
+READ  06a-plotstyles-ctb.dxf  entities=3
+SAVE  06a-plotstyles-ctb: dwg 76590 bytes
+READ  06b-plotstyles-stb.dxf  entities=3
+SAVE  06b-plotstyles-stb: dwg 76590 bytes
+READ  06c-plotstyles-stb-entity390-R2007.dxf  entities=3
+SAVE  06c-plotstyles-stb-entity390-R2007: dwg 76590 bytes
+
+######## ACadSharp DwgCheck (jit) reading Aspose-written DWG
+01-minimum-ezdxf-R2000.aspose.dwg: AC1032 [LWPOLYLINE=104] warnings=1
+02-lwpolyline-bulges.aspose.dwg: AC1032 [LWPOLYLINE=109] warnings=1
+03-hatch.aspose.dwg: AC1032 [LWPOLYLINE=123] warnings=1
+04-dimensions.aspose.dwg: AC1032 [LWPOLYLINE=201] warnings=1
+04b-dimension-without-block.aspose.dwg: AC1032 [LWPOLYLINE=124] warnings=1
+05a-arabic-ansi1256.aspose.dwg: AC1032 [LWPOLYLINE=199] warnings=1
+05b-arabic-ansi1252-uplus.aspose.dwg: AC1032 [LWPOLYLINE=199] warnings=1
+05c-arabic-preshaped-visual.aspose.dwg: AC1032 [LWPOLYLINE=200] warnings=1
+05d-arabic-R2007-utf8.aspose.dwg: AC1032 [LWPOLYLINE=199] warnings=1
+06a-plotstyles-ctb.aspose.dwg: AC1032 [LWPOLYLINE=108] warnings=1
+06b-plotstyles-stb.aspose.dwg: AC1032 [LWPOLYLINE=108] warnings=1
+06c-plotstyles-stb-entity390-R2007.aspose.dwg: AC1032 [LWPOLYLINE=108] warnings=1
+
+######## CadLib (jit, no licence key) on samples
+FAIL  01-minimum-ezdxf-R2000: Exception: License has not been set. Call method WW.WWLicense.SetLicense("<license string>") to set the license. See one of the example applications for how to obtain a trial license.
+FAIL  02-lwpolyline-bulges: Exception: License has not been set. Call method WW.WWLicense.SetLicense("<license string>") to set the license. See one of the example applications for how to obtain a trial license.
+FAIL  03-hatch: Exception: License has not been set. Call method WW.WWLicense.SetLicense("<license string>") to set the license. See one of the example applications for how to obtain a trial license.

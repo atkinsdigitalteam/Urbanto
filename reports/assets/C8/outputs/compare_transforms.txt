@@ -1,0 +1,10 @@
+SZ Grand Mosque: (12) vs Nahrwan 1967 to WGS 84 (13): 0.06 m
+SZ Grand Mosque: (12) vs Nahrwan 1967 to WGS 84 (14): 0.58 m
+SZ Grand Mosque: (12) vs Nahrwan 1967 to WGS 84 (15): 0.13 m
+SZ Grand Mosque: (12) vs Nahrwan 1967 to WGS 84 (10): 1.04 m
+EPSG:4204 -> EPSG:9333: usable [('Ain el Abd to KSA-GRF17 (1)', 2.0)]; unavailable [('Ain el Abd to KSA-GRF17 (2)', ['ARAMCO_AAA-KSAGRF_6.tac'])]
+EPSG:8818 -> EPSG:9333: usable [('MTRF-2000 to KSA-GRF17 (1)', 0.1)]; unavailable []
+EPSG:4204 -> EPSG:8818: usable [('Ain el Abd to MTRF-2000 (1)', 5.0)]; unavailable []
+Riyadh WGS 84/UTM 38N vs KSA-GRF17/UTM 38N: dE=0.219 dN=0.207 (0.302 m)
+Riyadh MTRF-2000 -> KSA-GRF17 (UTM 38N): dE=0.414 dN=0.388 via UTM zone 38N + MTRF-2000 to KSA-GRF17 (1) + UTM zone 38N
+Riyadh Ain el Abd -> KSA-GRF17 direct (EPSG:9362) vs via WGS 84 (EPSG:1111): 11.40 m apart

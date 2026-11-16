@@ -1,0 +1,270 @@
+# Example rule set for a street-section and junction engine (C11, researched 2026-10-30).
+# Every value carries a source key (see `sources`). Values are quoted, not invented; where a
+# standard gives no value the element is omitted for that profile. Units: metres, km/h.
+# Profiles conflict (for example corner radius), so a project picks ONE governing profile and
+# the engine may run the others as advisory checks.
+schema: urbanto.street-rules/0.1
+units: {length: m, speed: km/h}
+traffic_side: right            # UAE / GCC. DMRB geometry is drawn for left-hand traffic: mirror it.
+
+sources:
+  USDM-5:   {title: "Abu Dhabi Urban Street Design Manual, Chapter 5 (v1 excerpt)", publisher: "Abu Dhabi UPC",
+             url: "https://dragonfly-antelope-g8zd.squarespace.com/s/AbuDhabi-USDM-v1-excerpts-compressed2.pdf"}
+  USDM-T52: {title: "USDM Table 5.2 as reproduced in Abu Dhabi Outdoor Seating Areas Manual v2.0 (2020)", publisher: "Abu Dhabi DMT",
+             url: "https://www.dmt.gov.ae/-/media/Project/DMT/DMT/E-Library/0001-Manuals/ADODSM/EN/Abu-Dhabi-Outdoor-Seating-Areas-Manual-Version-20.pdf"}
+  DM-TOD:   {title: "Dubai Transit Oriented Development Manual (2025)", publisher: "Dubai Municipality",
+             url: "https://dmpmedia.dm.gov.ae/uploads/2025/11/Dubai-Transit-Oriented-Development-Manual.pdf"}
+  CD109:    {title: "DMRB CD 109 Highway link design, Revision 1", url: "https://www.milton-keynes.gov.uk/sites/default/files/2022-04/CD13j%20Highway%20link%20design.PDF"}
+  CD123:    {title: "DMRB CD 123 v2.1.0", url: "https://www.standardsforhighways.co.uk/tses/attachments/962a81c1-abda-4424-96c9-fe4c2287308c"}
+  CD116:    {title: "DMRB CD 116 v2.1.0", url: "https://www.standardsforhighways.co.uk/tses/attachments/7b5ea157-9b3e-4774-9781-7d1656e83338"}
+  CD127:    {title: "DMRB CD 127 v1.0.1", url: "https://www.standardsforhighways.co.uk/tses/attachments/10442706-b592-42c8-85f8-2a0c779a8e37"}
+  GSDG:     {title: "Global Street Design Guide (web edition)", publisher: "GDCI / NACTO",
+             url: "https://globaldesigningcities.org/publication/global-street-design-guide/"}
+  TXDOT:    {title: "TxDOT Roadway Design Manual (secondary: summarises AASHTO Green Book)",
+             url: "https://www.txdot.gov/manuals/des/rdw/chapter-4--basic-design-criteria.html"}
+
+# ------------------------------------------------------------------------------------------
+# 1. Element catalogue. An element is a strip in the cross-section with a width range.
+# ------------------------------------------------------------------------------------------
+element_types: [frontage_zone, through_zone, furnishing_zone, edge_zone, cycle_track, cycle_lane,
+                parking_lane, kerb_extension, frontage_lane, side_median, kerb_lane, travel_lane,
+                bus_lane, turn_lane, centre_median, refuge]
+
+# ------------------------------------------------------------------------------------------
+# 2. Street types with width ranges per element (USDM Table 5.2, City context shown; the
+#    engine loads Town, Commercial, Residential and Industrial rows the same way).
+#    USDM note: Table 5.2 is for atypical streets; typical sections are in USDM 5.3.
+# ------------------------------------------------------------------------------------------
+street_types:
+  usdm.boulevard.city:
+    profile: USDM
+    elements:
+      frontage_zone:   {min: 0.5, max: 1.5, src: USDM-T52}
+      through_zone:    {min: 2.8, max: 4.0, src: USDM-T52}
+      furnishing_zone: {min: 1.2, max: 3.5, src: USDM-T52}
+      cycle_track:     {min: 1.5, max: 2.5, src: USDM-T52}
+      edge_zone:       {min: 0.2, max: 2.0, src: USDM-T52}
+      frontage_lane:   {min: 4.0, max: 4.5, abs_min: 3.0, abs_min_needs_approval: true, src: USDM-T52}
+      side_median:     {min: 0.5, max: 4.0, src: USDM-T52}
+      kerb_lane:       {min: 3.3, max: 3.5, bus_route: 3.5, src: USDM-T52}
+      travel_lane:     {min: 3.3, max: 3.3, src: USDM-T52}
+      centre_median:   {min: 2.0, max: 6.0, src: USDM-T52}
+    on_street_parking: frontage_lane_only          # USDM 5.9.5
+    design_vehicle: WB-15M                         # USDM Table 5.9
+    control_vehicle: WB-33DM
+  usdm.avenue.city:
+    profile: USDM
+    elements:
+      frontage_zone:   {min: 0.5, max: 1.5, src: USDM-T52}
+      through_zone:    {min: 2.4, max: 4.0, src: USDM-T52}
+      furnishing_zone: {min: 1.0, max: 3.0, src: USDM-T52}
+      cycle_track:     {min: 1.5, max: 2.5, src: USDM-T52}
+      edge_zone:       {min: 0.2, max: 2.0, src: USDM-T52}
+      parking_lane:    {min: 2.7, max: 2.7, abs_min: 2.5, abs_min_needs_approval: true, src: USDM-T52}
+      cycle_lane:      {min: 1.5, max: 2.5, src: USDM-T52}
+      kerb_lane:       {min: 3.3, max: 3.5, bus_route: 3.5, src: USDM-T52}
+      travel_lane:     {min: 3.3, max: 3.3, src: USDM-T52}
+      centre_median:   {min: 2.0, max: 6.0, src: USDM-T52}
+    design_vehicle: WB-15M
+    control_vehicle: WB-33DM
+  usdm.street.city:
+    profile: USDM
+    elements:
+      frontage_zone:   {min: 0.5, max: 1.5, src: USDM-T52}
+      through_zone:    {min: 2.4, max: 3.0, src: USDM-T52}
+      furnishing_zone: {min: 1.0, max: 2.4, src: USDM-T52}
+      cycle_track:     {min: 1.5, max: 2.5, src: USDM-T52}
+      edge_zone:       {min: 0.2, max: 2.0, src: USDM-T52}
+      parking_lane:    {min: 2.7, max: 2.7, src: USDM-T52}
+      cycle_lane:      {min: 1.5, max: 2.5, src: USDM-T52}
+      kerb_lane:       {min: 3.0, max: 3.5, src: USDM-T52}
+    design_vehicle: CITY-BUS-M
+    control_vehicle: AERIAL-FIRE-TRUCK
+  usdm.access_lane.city:
+    profile: USDM
+    elements:
+      through_zone:    {min: 1.8, max: 2.5, src: USDM-T52}
+      edge_zone:       {min: 0.2, max: 1.5, src: USDM-T52}
+      parking_lane:    {min: 2.7, max: 2.7, src: USDM-T52}
+      kerb_lane:       {min: 3.0, max: 3.3, src: USDM-T52}
+    design_vehicle: SU-M
+    control_vehicle: SU-M
+  dmrb.urban_dual_2lane:                           # trunk-road profile, CD 127 Figure 2.1.1N1g
+    profile: DMRB
+    elements:
+      travel_lane:     {min: 3.65, max: 3.65, src: CD127}
+      centre_median:   {min: 1.80, src: CD127}
+  gsdg.default:
+    profile: GSDG
+    elements:
+      travel_lane:     {recommended: 3.0, min: 2.7, min_condition: "speed <= 30", src: GSDG}
+      kerb_lane:       {min: 3.0, max: 3.3, src: GSDG}
+      turn_lane:       {recommended: 3.0, src: GSDG}
+      bus_lane:        {min: 3.0, max: 3.3, src: GSDG}
+      parking_lane:    {min: 1.8, max: 2.5, transit_or_high_volume: 2.5, src: GSDG}
+      cycle_lane:      {min: 1.8, src: GSDG}
+      through_zone:    {abs_min: 1.8, min: 2.4, commercial_min: 3.0, src: GSDG}
+      refuge:          {min: 1.8, preferred: 2.4, src: GSDG}
+
+# ------------------------------------------------------------------------------------------
+# 3. Validation rules. `check` is pseudo-code over the section model; severity error|warning.
+# ------------------------------------------------------------------------------------------
+rules:
+  # --- cross-section -----------------------------------------------------------------------
+  - id: element.width.range
+    check: "for e in section.elements: street_type.elements[e.type].min <= e.width <= .max"
+    severity: error
+    src: [USDM-T52, CD127, GSDG]
+  - id: element.width.absolute_minimum_needs_approval
+    check: "e.width < min and e.width >= abs_min -> require approval record"
+    severity: warning
+    src: [USDM-T52]
+  - id: kerb_lane.bus_route
+    check: "if e.type == kerb_lane and section.bus_route: e.width >= 3.5"
+    severity: error
+    src: [USDM-T52]
+  - id: edge_zone.next_to_parking_or_cycle_track
+    check: "edge_zone.width >= 1.5 if adjacent(parking_lane|cycle_track|ev_charging) else >= 0.2"
+    severity: error
+    src: [USDM-T52]
+  - id: parking.door_clearance
+    check: "edge zone clearance >= 0.5 (parallel) or 0.7 (angled)"
+    severity: error
+    src: [USDM-5]          # 5.9.5
+  - id: boulevard.parking_only_on_frontage_lane
+    check: "street_type == boulevard -> no parking_lane in traveled way"
+    severity: error
+    src: [USDM-5]
+  - id: cycle.width.dubai
+    check: "one-way cycle lane/track >= 1.5; two-way >= 3.0 (4.0 where space allows)"
+    severity: error
+    src: [DM-TOD]
+  - id: cycle.separation_by_speed
+    check: "speed > 30 -> cycle facility physically separated"
+    severity: warning
+    src: [DM-TOD]
+  # --- medians, refuges, crossings -------------------------------------------------------
+  - id: median.refuge_min
+    check: "median used as refuge -> width >= 2.0 (>= 3.0 where high pedestrian activity)"
+    severity: error
+    src: [USDM-T52, USDM-5]
+  - id: median.left_turn_pocket
+    check: "left turn lane in median -> median width >= refuge_min + 3.0; turn lane >= 3.0 wide, >= 24 long, taper 1:2"
+    severity: error
+    src: [USDM-5]           # 5.9.8, 5.10.8
+  - id: median.refuge_required_with_left_turn
+    check: "street_type in (boulevard, avenue) and left_turn_lane -> refuge >= 2.0 in median"
+    severity: error
+    src: [USDM-5]
+  - id: crossing.max_distance
+    check: "unbroken crossing length (kerb to kerb or kerb to refuge) <= 13.0"
+    severity: error
+    src: [USDM-5]           # 5.9.2
+  - id: crossing.width
+    check: "crossing width >= max(3.0, connected footway width)"
+    severity: warning
+    src: [GSDG]
+  - id: crossing.spacing
+    check: "gap between safe crossings 80 to 100, never > 200"
+    severity: warning
+    src: [GSDG]
+  - id: crossing.outside_kerb_radius
+    check: "crossing and refuge located beyond the tangent points of the kerb radii"
+    severity: warning
+    src: [CD123]           # 7.15.1
+  - id: refuge.nose_setback
+    check: "refuge / central reserve nose >= 1.5 from edge of intersecting carriageway"
+    severity: error
+    src: [CD123]           # 7.15
+  # --- corners and turning -------------------------------------------------------------------
+  - id: corner.radius.usdm
+    profile: USDM
+    check: "kerb radius 2 to 5 (0.5 where no turning movement); larger only for Civil Defence, minimum that works"
+    severity: error
+    src: [USDM-5]           # 5.10.7
+  - id: corner.radius.dmrb
+    profile: DMRB
+    check: "priority junction urban: >= 6 (no design vehicle) or 10 + 1:5 taper over 30 (design vehicle)"
+    severity: error
+    src: [CD123]           # 5.6.1, 5.6.2
+  - id: corner.radius.gsdg
+    profile: GSDG
+    check: "1.5 preferred; 3 to 5 standard; > 5 exceptional"
+    severity: warning
+    src: [GSDG]
+  - id: corner.effective_radius_vs_vehicle
+    check: "effective inner radius (lane offsets included) >= design vehicle min inside radius"
+    severity: error
+    src: [USDM-5, TXDOT]
+  - id: corner.swept_path_no_opposing_encroachment
+    check: "design vehicle swept path stays out of opposing lanes; control vehicle may encroach"
+    severity: error
+    src: [USDM-5, GSDG]
+  - id: corner.turn_speed
+    check: "turning speed <= 15 (USDM) or <= 10 (GSDG)"
+    severity: warning
+    src: [USDM-5, GSDG]
+  # --- network ------------------------------------------------------------------------------
+  - id: junction.spacing.usdm
+    check: "through-street spacing within USDM Table 5.7 for context and street type"
+    table: {city: {boulevard: [400, 750], avenue: [200, 375], street: [100, 175]},
+            town: {boulevard: [600, 1000], avenue: [300, 500], street: [140, 250]},
+            commercial: {boulevard: [1000, 1500], avenue: [400, 750], street: [125, 375]},
+            residential: {boulevard: [1000, 1500], avenue: [400, 750], street: [125, 375]},
+            industrial: {boulevard: [800, 1500], avenue: [400, 750], street: [null, 300]}}
+    severity: warning
+    src: [USDM-5]
+  - id: junction.stagger.dmrb
+    check: "right/left stagger >= 50 (no central treatment or ghost island), 40 (SLD), 60 (dual)"
+    severity: error
+    src: [CD123]           # 2.23
+  - id: driveway.distance_from_junction
+    check: "no driveway within 30 of major junctions or 15 of other junctions and crossings"
+    severity: warning
+    src: [USDM-5]           # 5.9.4
+  - id: sight.unsignalised_junction
+    check: "clear sight triangle 25.0 along major road from side-street centreline, 2.4 back from stop line"
+    severity: error
+    src: [USDM-5]           # 5.10.5
+  # --- roundabouts (DMRB CD 116 profile) ------------------------------------------------------
+  - id: rbt.icd
+    check: "ICD >= 28; compact <= 36; normal <= 100; mini < 28 with island not kerbed"
+    severity: error
+    src: [CD116]           # 3.5, definitions
+  - id: rbt.icd_vs_island
+    check: "ICD >= CD 116 Table 3.8 minimum for the central island diameter (4 m -> 28.0 ... 18 m -> 36.0)"
+    severity: error
+    src: [CD116]
+  - id: rbt.circulatory_width
+    check: "1.0 * max_entry_width <= circulatory width (excl. overrun) <= 1.2 * max_entry_width; compact <= 6; normal <= 15"
+    severity: error
+    src: [CD116]           # 3.6, 3.6.5, 3.6.7
+  - id: rbt.entry_lane_width
+    check: "3.0 <= lane width at give way <= 4.5; single-lane entry 4.5; multi-lane 3.0 to 3.5"
+    severity: error
+    src: [CD116]           # 3.14
+  - id: rbt.entry_kerb_radius
+    check: "10 <= entry kerb radius <= 100; >= 20 where regular HGV use (not compact)"
+    severity: error
+    src: [CD116]           # 3.19
+  - id: rbt.entry_angle
+    check: "20 deg <= entry angle <= 60 deg"
+    severity: error
+    src: [CD116]           # 3.18.1
+  - id: rbt.entry_path_radius
+    check: "fastest-path entry radius (25 m fit, path 1 m off kerbs, start 50 m upstream) <= 70 (compact, <= 40 mph) else <= 100"
+    severity: error
+    src: [CD116]           # 3.20 to 3.26, A1.2
+  - id: rbt.usdm_limits
+    profile: USDM
+    check: "1-lane: max entry 20 km/h, max outside diameter 20, max island 15, raised crossing; 2-lane: signalised crossing"
+    severity: warning
+    src: [USDM-5]           # Table 5.10
+  - id: rbt.crossing_position
+    check: "uncontrolled crossing island within 20 of give way; signal crossing at 20 or > 60 from give way"
+    severity: warning
+    src: [CD116]           # 8.2.4, 8.3
+  - id: rbt.splitter_refuge
+    check: "splitter used as refuge >= 3.0 (USDM); cycle crossing refuge >= 3.0 (CD 116 8.10)"
+    severity: error
+    src: [USDM-5, CD116]

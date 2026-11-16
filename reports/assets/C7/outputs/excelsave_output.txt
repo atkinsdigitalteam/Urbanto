@@ -1,0 +1,19 @@
+   5 ms Created A1B2C3D4
+   7 ms Changed A1B2C3D4
+ 153 ms Changed A1B2C3D4
+ 154 ms Changed A1B2C3D4
+ 154 ms Changed A1B2C3D4
+ 154 ms Changed A1B2C3D4
+ 154 ms Changed A1B2C3D4
+ 154 ms Changed A1B2C3D4
+ 154 ms Changed A1B2C3D4
+ 154 ms Changed A1B2C3D4
+ 154 ms Changed A1B2C3D4
+ 154 ms Changed A1B2C3D4
+ 154 ms Changed A1B2C3D4
+ 154 ms Changed A1B2C3D4
+ 155 ms --- temp written
+ 155 ms Deleted book.xlsx
+ 155 ms Renamed A1B2C3D4 -> book.xlsx
+ 155 ms --- original deleted, temp renamed
+old handle: length 1813 bytes, 4 rows; reopened by path: 51 rows
